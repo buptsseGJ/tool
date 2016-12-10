@@ -25,13 +25,15 @@ public class ManageSuitesFrame extends JFrame {
 	private String[] programName = { "nihao", "nihaoma", "1", "2", "3", "4",
 			"5", "6", "7", "8", "9" };
 	//
-	private JList jListLeft = new JList(programName);
+	private JList jListLeft = new JList();
 	private JTextArea jTextRight = new JTextArea();
 	private JScrollPane jscLeft = new JScrollPane(jListLeft);
 	private JScrollPane jscRight = new JScrollPane(jTextRight);
 
 	public ManageSuitesFrame() {
 		this.setLayout(null);
+		;
+		jListLeft.setListData(Reports.programNames.toArray());
 		jListLeft.setVisibleRowCount(15);
 		jTextRight.setLineWrap(true);
 		JPanel panelLeft = new JPanel();

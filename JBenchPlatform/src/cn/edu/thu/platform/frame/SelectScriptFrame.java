@@ -266,7 +266,7 @@ public class SelectScriptFrame extends JFrame {
 			BufferedInputStream in = new BufferedInputStream(proc.getErrorStream());//getInputStream());
 			BufferedReader inBr = new BufferedReader(new InputStreamReader(in));
 			String lineStr;
-			FileWriter writer = new FileWriter(filePath + "/result.txt", false);
+			FileWriter writer = new FileWriter(filePath + "/result.txt", true);
 			SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");// 设置日期格式
 			// System.out.println(df.format(new Date()));// new Date()为获取当前系统时间
 			writer.write("\n>>>>>start command " + command + " about "	+ programName + " on " + df.format(new Date()) + " <<<<<\n");

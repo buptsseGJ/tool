@@ -22,8 +22,8 @@ public class ParseXml {
 		}
 		builder.setErrorHandler(new MyErrorHandler());
 		try {
-			Document document = builder.parse("file/benchmarks.xml");
-			// Document document = builder.parse(fileAbsolutePath);
+//			Document document = builder.parse("file/benchmarks.xml");
+			 Document document = builder.parse(fileAbsolutePath);
 			System.out.println("ok,解析正确");
 			return document;
 		} catch (SAXException | IOException e) {

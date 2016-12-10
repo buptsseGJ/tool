@@ -103,6 +103,7 @@ public class DomToEntity {
 							.getAttributes();
 					String programName = reportAttributes.getNamedItem("name")
 							.getNodeValue().toString();
+					Reports.programNames.add(programName);
 					Report report = new Report(races, programName);
 					Report compareReport = new Report(compareRaces);// is a set,
 																	// all the

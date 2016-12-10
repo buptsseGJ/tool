@@ -1,6 +1,8 @@
 package cn.edu.thu.platform.entity;
 
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 public class Reports {
@@ -9,4 +11,6 @@ public class Reports {
 	public static Map<String, Report> compareReports = new HashMap<String, Report>();
 
 	public static Map<String, Report> userReports = new HashMap<String, Report>();
+	
+	public static List<String> programNames = new ArrayList<String>();
 }

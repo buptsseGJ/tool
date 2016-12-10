@@ -1,1 +1,1 @@
- java -javaagent:C:/AppData/Setup/RV-Predict/rv-predict.jar="--base-log-dir C:/AppData/Setup/RV-Predict/log/" -cp C:/AppData/Setup/RV-Predict/examples/examples.jar  account.Account
+rv-predict -cp E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\classes benchmarks.testcases.TestRace1

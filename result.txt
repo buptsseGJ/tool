@@ -1,92 +1,108 @@
 
->>>>>start command [CASE1] java -javaagent:C:/AppData/Setup/RV-Predict/rv-predict.jar="--base-log-dir C:/AppData/Setup/RV-Predict/log/" -cp C:/AppData/Setup/RV-Predict/examples/examples.jar  account.Account about CASE1 on 2017-03-10 04:11:58 <<<<<
+>>>>>start command [1]java -cp E:/courseResource/programResearch/benchmark/calfuzzer/calfuzzer2/calfuzzer/classes benchmarks.testcases.TestRace1 about 1 on 2016-12-10 17:31:17 <<<<<
+
+>>>>>end<<<<<
+
+>>>>>start command [2]E:\tsmart\source-of-key\apache-ant-1.9.6\bin\ant -f E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\run.xml test_race1 about 2 on 2016-12-10 17:31:17 <<<<<
+     [java] Java Result: 1
+
+BUILD FAILED
+E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\run.xml:339: The following error occurred while executing this line:
+E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\run.xml:260: The following error occurred while executing this line:
+E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\run.xml:174: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\error.list doesn't exist
+
+Total time: 1 second
+命令执行失败
+>>>>>end<<<<<
+
+>>>>>start command [3]rv-predict -cp E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\classes benchmarks.testcases.TestRace1 about 3 on 2016-12-10 17:31:19 <<<<<
 
 ----------------Instrumented execution to record the trace-----------------
-[RV-Predict] Log directory: C:\AppData\Setup\RV-Predict\log\rv-predict9040993361303362538
+[RV-Predict] Log directory: C:\Users\JIANGA~1\AppData\Local\Temp\rv-predict3677931889405842040
 [RV-Predict] Finished retransforming preloaded classes.
-Data race on field account.Account.Bank_Total: {{{
-    Concurrent write in thread T13 (locks held: {})
- ---->  at account.Account.Service(Account.java:98)
-        at account.BankAccount.Action(BankAccount.java:41)
-        at account.BankAccount.run(BankAccount.java:56)
-    T13 is created by T1
-        at account.Account.go(Account.java:46)
-
-    Concurrent read in thread T1 (locks held: {})
- ---->  at account.Account.checkResult(Account.java:75)
-        at account.Account.go(Account.java:70)
-        at account.Account.main(Account.java:30)
-    T1 is the main thread
-}}}
-
-Data race on field account.BankAccount.Balance: {{{
-    Concurrent write in thread T13 (locks held: {})
- ---->  at account.Account.Service(Account.java:97)
-        at account.BankAccount.Action(BankAccount.java:41)
-        at account.BankAccount.run(BankAccount.java:56)
-    T13 is created by T1
-        at account.Account.go(Account.java:46)
-
-    Concurrent read in thread T1 (locks held: {})
- ---->  at account.Account.go(Account.java:67)
-        at account.Account.main(Account.java:30)
-    T1 is the main thread
-}}}
-
-Data race on field account.Account.Bank_Total: {{{
-    Concurrent write in thread T13 (locks held: {})
- ---->  at account.Account.Service(Account.java:98)
-        at account.BankAccount.Action(BankAccount.java:41)
-        at account.BankAccount.run(BankAccount.java:56)
-    T13 is created by T1
-        at account.Account.go(Account.java:46)
-
+Data race on field benchmarks.testcases.TestRace1.x: {{{
     Concurrent read in thread T14 (locks held: {})
- ---->  at account.Account.Service(Account.java:98)
-        at account.BankAccount.Action(BankAccount.java:41)
-        at account.BankAccount.run(BankAccount.java:56)
+ ---->  at benchmarks.testcases.TestRace1$1.run(TestRace1.java:41)
     T14 is created by T1
-        at account.Account.go(Account.java:46)
-}}}
+        at benchmarks.testcases.TestRace1.main(TestRace1.java:51)
 
-Data race on field account.Account.Bank_Total: {{{
-    Concurrent write in thread T13 (locks held: {})
- ---->  at account.Account.Service(Account.java:98)
-        at account.BankAccount.Action(BankAccount.java:41)
-        at account.BankAccount.run(BankAccount.java:56)
-    T13 is created by T1
-        at account.Account.go(Account.java:46)
-
-    Concurrent read in thread T1 (locks held: {})
- ---->  at account.Account.checkResult(Account.java:76)
-        at account.Account.go(Account.java:70)
-        at account.Account.main(Account.java:30)
-    T1 is the main thread
+    Concurrent write in thread T15 (locks held: {})
+ ---->  at benchmarks.testcases.TestRace1$2.run(TestRace1.java:47)
+    T15 is created by T1
+        at benchmarks.testcases.TestRace1.main(TestRace1.java:52)
 }}}
 
 
 >>>>>end<<<<<
 
-----------------------------------------
-----------------------------------------
-	2017-03-10 04:12:11
-----------------------------------------
-----------------------------------------
+>>>>>start command [1]java -cp E:/courseResource/programResearch/benchmark/calfuzzer/calfuzzer2/calfuzzer/classes benchmarks.testcases.TestRace1 about 1 on 2016-12-10 17:41:00 <<<<<
 
-----------------------------------------
-----------------------------------------
-	2017-03-10 04:15:46
-----------------------------------------
-----------------------------------------
+>>>>>end<<<<<
 
-----------------------------------------
-----------------------------------------
-	2017-03-10 04:17:07
-----------------------------------------
-----------------------------------------
+>>>>>start command [2]E:\tsmart\source-of-key\apache-ant-1.9.6\bin\ant -f E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\run.xml test_race1 about 2 on 2016-12-10 17:41:00 <<<<<
+     [java] Java Result: 1
 
-----------------------------------------
-----------------------------------------
-	2017-03-10 04:18:28
-----------------------------------------
-----------------------------------------
+BUILD FAILED
+E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\run.xml:339: The following error occurred while executing this line:
+E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\run.xml:260: The following error occurred while executing this line:
+E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\run.xml:174: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\error.list doesn't exist
+
+Total time: 1 second
+命令执行失败
+>>>>>end<<<<<
+
+>>>>>start command [3]rv-predict -cp E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\classes benchmarks.testcases.TestRace1 about 3 on 2016-12-10 17:41:02 <<<<<
+
+----------------Instrumented execution to record the trace-----------------
+[RV-Predict] Log directory: C:\Users\JIANGA~1\AppData\Local\Temp\rv-predict7944392419715900855
+[RV-Predict] Finished retransforming preloaded classes.
+Data race on field benchmarks.testcases.TestRace1.x: {{{
+    Concurrent read in thread T14 (locks held: {})
+ ---->  at benchmarks.testcases.TestRace1$1.run(TestRace1.java:41)
+    T14 is created by T1
+        at benchmarks.testcases.TestRace1.main(TestRace1.java:51)
+
+    Concurrent write in thread T15 (locks held: {})
+ ---->  at benchmarks.testcases.TestRace1$2.run(TestRace1.java:47)
+    T15 is created by T1
+        at benchmarks.testcases.TestRace1.main(TestRace1.java:52)
+}}}
+
+
+>>>>>end<<<<<
+
+>>>>>start command [1]java -cp E:/courseResource/programResearch/benchmark/calfuzzer/calfuzzer2/calfuzzer/classes benchmarks.testcases.TestRace1 about 1 on 2016-12-10 17:41:11 <<<<<
+
+>>>>>end<<<<<
+
+>>>>>start command [2]E:\tsmart\source-of-key\apache-ant-1.9.6\bin\ant -f E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\run.xml test_race1 about 2 on 2016-12-10 17:41:11 <<<<<
+     [java] Java Result: 1
+
+BUILD FAILED
+E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\run.xml:339: The following error occurred while executing this line:
+E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\run.xml:260: The following error occurred while executing this line:
+E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\run.xml:174: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\error.list doesn't exist
+
+Total time: 1 second
+命令执行失败
+>>>>>end<<<<<
+
+>>>>>start command [3]rv-predict -cp E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\classes benchmarks.testcases.TestRace1 about 3 on 2016-12-10 17:41:13 <<<<<
+
+----------------Instrumented execution to record the trace-----------------
+[RV-Predict] Log directory: C:\Users\JIANGA~1\AppData\Local\Temp\rv-predict2948492600941723705
+[RV-Predict] Finished retransforming preloaded classes.
+Data race on field benchmarks.testcases.TestRace1.x: {{{
+    Concurrent read in thread T14 (locks held: {})
+ ---->  at benchmarks.testcases.TestRace1$1.run(TestRace1.java:41)
+    T14 is created by T1
+        at benchmarks.testcases.TestRace1.main(TestRace1.java:51)
+
+    Concurrent write in thread T15 (locks held: {})
+ ---->  at benchmarks.testcases.TestRace1$2.run(TestRace1.java:47)
+    T15 is created by T1
+        at benchmarks.testcases.TestRace1.main(TestRace1.java:52)
+}}}
+
+
+>>>>>end<<<<<
