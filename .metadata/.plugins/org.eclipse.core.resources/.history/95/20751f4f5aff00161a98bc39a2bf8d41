@@ -1,0 +1,15 @@
+package cn.edu.thu.platform.comparison;
+
+import java.util.Set;
+
+import cn.edu.thu.platform.entity.Race;
+import cn.edu.thu.platform.entity.Report;
+
+public class CompareFalseNegative {
+	
+	public void compare(Report originalReport, Report newReport){
+		Set<Race> originalRaces = originalReport.getRaces();
+		Set<Race> newRaces = newReport.getRaces();
+		//去重
+	}
+}

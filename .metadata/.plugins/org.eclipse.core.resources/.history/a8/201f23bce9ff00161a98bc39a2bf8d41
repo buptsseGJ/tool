@@ -1,0 +1,30 @@
+package cn.edu.thu.platform.comparison;
+
+import java.util.Iterator;
+import java.util.Set;
+
+import cn.edu.thu.platform.entity.Race;
+import cn.edu.thu.platform.entity.Report;
+
+public class CompareFalseNegative {
+	
+	public void compare(Report originalReport, Report newReport){
+		Set<Race> originalRaces = originalReport.getRaces();
+		Set<Race> newRaces = newReport.getRaces();
+		//去重
+		
+	}
+	
+	public Set<Race> getUniqueRace(Set<Race> races){
+		Iterator<Race> it=races.iterator();
+		while(it.hasNext())
+		{
+			Race race1=(Race) it.next();
+			races.remove(race1);
+			if(!races.contains(race1)){
+				races.add(race1);
+			}
+		}
+		return races;
+	}
+}

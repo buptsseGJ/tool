@@ -1,0 +1,68 @@
+package cn.edu.thu.platform.frame;
+
+import java.awt.BorderLayout;
+import java.awt.Color;
+import java.awt.Font;
+import java.awt.Graphics;
+import java.awt.GridLayout;
+import java.awt.Rectangle;
+
+import javax.swing.DefaultListModel;
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JList;
+import javax.swing.JPanel;
+import javax.swing.JScrollBar;
+import javax.swing.JScrollPane;
+import javax.swing.ListSelectionModel;
+import javax.swing.event.ListSelectionEvent;
+import javax.swing.event.ListSelectionListener;
+
+public class ManageSuitesFrame extends JFrame {
+	private String[] programName = {"nihao","nihaoma","1","2","3","4","5","6","7","8","9"};
+//
+	private JList jListLeft = new JList(programName);
+	private JList jListRight = new JList();	
+	private JScrollPane jscLeft = new JScrollPane(jListLeft);
+	private JScrollPane jscRight = new JScrollPane(jListRight);
+	public ManageSuitesFrame(){
+		this.setLayout(null);
+		jListLeft.setVisibleRowCount(15);
+		jListRight.setVisibleRowCount(15);
+		JPanel panelLeft = new JPanel();
+		JPanel panelRight = new JPanel();
+		JPanel panelBottom = new JPanel();
+		jListLeft.setFixedCellWidth(350);
+		jListLeft.setFixedCellHeight(30);
+		jListLeft.setFont(new Font("Arial",Font.BOLD,25));
+		jListLeft.setSelectionMode(ListSelectionModel.SINGLE_SELECTION);
+		jListRight.setFixedCellWidth(350);
+		jListRight.setFixedCellHeight(30);
+		jListRight.setFont(new Font("Arial",Font.BOLD,25));
+		jListRight.setSelectionMode(ListSelectionModel.SINGLE_SELECTION);
+//		jscLeft.setPreferredSize(380);
+		panelLeft.setSize(400, 600);
+		panelRight.setSize(400, 600);
+		panelLeft.setBounds(new Rectangle(50,50,400,600));
+		panelRight.setBounds(new Rectangle(550,50,400,600));
+		panelLeft.add(jscLeft);
+		panelRight.add(jscRight);
+		panelLeft.setBackground(Color.blue);
+		JButton button = new JButton("nihao");
+		panelBottom.setSize(800, 150);
+		panelBottom.setBounds(new Rectangle(150,850,600,100));
+		panelBottom.add(button);
+//		this.add(panelCom);
+		this.add(panelLeft);
+		this.add(panelRight);
+		this.add(panelBottom);		
+		jListLeft.addListSelectionListener(new ListSelectionListener(){
+			@Override
+			public void valueChanged(ListSelectionEvent e) {
+				int indexSelected = jListLeft.getSelectedIndex();
+				String name = (String) jListLeft.getSelectedValue();
+				
+			}
+		});
+	}
+}

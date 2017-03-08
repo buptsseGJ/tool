@@ -1,0 +1,9 @@
+package cn.edu.thu.platform.entity;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class Reports {
+	public static Map<String,Report> reports = new HashMap<String,Report>();
+	
+}

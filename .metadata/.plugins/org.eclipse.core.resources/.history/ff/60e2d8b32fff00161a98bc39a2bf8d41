@@ -1,0 +1,11 @@
+package cn.edu.thu.platform.comparison;
+
+import java.util.Set;
+import cn.edu.thu.platform.entity.Report;
+
+public class CompareFalseNegative {
+	
+	public void compare(Set<Report> originalReport, Set<Report> newReport){
+		
+	}
+}

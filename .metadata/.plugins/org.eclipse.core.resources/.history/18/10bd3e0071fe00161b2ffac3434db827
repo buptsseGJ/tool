@@ -1,0 +1,20 @@
+package cn.edu.thu.platform.parser;
+
+import org.w3c.dom.Document;
+import org.w3c.dom.Element;
+import org.w3c.dom.Node;
+
+public class DomToEntity {
+	
+	public void startDom(Node node){
+		if(node == null){
+			return;
+		}
+		Element root = ((Document) node).getDocumentElement();
+		loopDom(root);
+	}
+	
+	public void loopDom(Node node){
+		if(node.hasChildNodes())
+	}
+}

@@ -1,0 +1,1848 @@
+
+>>>>>start command [1]java -cp E:/courseResource/programResearch/benchmark/calfuzzer/calfuzzer2/calfuzzer/classes benchmarks.testcases.TestRace1 about 1 on 2017-03-07 23:10:50 <<<<<
+
+E:\courseResource\programResearch\tool\JBenchPlatform>java -cp E:/courseResource/programResearch/benchmark/calfuzzer/calfuzzer2/calfuzzer/classes benchmarks.testcases.TestRace1 
+x = 22
+
+>>>>>end<<<<<
+
+>>>>>start command [2]ant -f E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\run.xml test_race1 about 2 on 2017-03-07 23:10:50 <<<<<
+
+E:\courseResource\programResearch\tool\JBenchPlatform>ant -f E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\run.xml test_race1 
+命令执行失败
+>>>>>end<<<<<
+
+>>>>>start command [3]ant -f E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\run.xml test_race2 about 3 on 2017-03-07 23:10:50 <<<<<
+
+E:\courseResource\programResearch\tool\JBenchPlatform>ant -f E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\run.xml test_race2 
+命令执行失败
+>>>>>end<<<<<
+
+>>>>>start command [4]ant -f E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\run.xml test_race3 about 4 on 2017-03-07 23:10:50 <<<<<
+
+E:\courseResource\programResearch\tool\JBenchPlatform>ant -f E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\run.xml test_race3 
+命令执行失败
+>>>>>end<<<<<
+
+>>>>>start command [5]ant -f E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\run.xml test_race4 about 5 on 2017-03-07 23:10:50 <<<<<
+
+E:\courseResource\programResearch\tool\JBenchPlatform>ant -f E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\run.xml test_race4 
+命令执行失败
+>>>>>end<<<<<
+
+>>>>>start command [1]java -cp E:/courseResource/programResearch/benchmark/calfuzzer/calfuzzer2/calfuzzer/classes benchmarks.testcases.TestRace1 about 1 on 2017-03-07 23:10:57 <<<<<
+
+E:\courseResource\programResearch\tool\JBenchPlatform>java -cp E:/courseResource/programResearch/benchmark/calfuzzer/calfuzzer2/calfuzzer/classes benchmarks.testcases.TestRace1 
+x = 22
+
+>>>>>end<<<<<
+
+>>>>>start command [2]ant -f E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\run.xml test_race1 about 2 on 2017-03-07 23:10:57 <<<<<
+
+E:\courseResource\programResearch\tool\JBenchPlatform>ant -f E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\run.xml test_race1 
+命令执行失败
+>>>>>end<<<<<
+
+>>>>>start command [3]ant -f E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\run.xml test_race2 about 3 on 2017-03-07 23:10:58 <<<<<
+
+E:\courseResource\programResearch\tool\JBenchPlatform>ant -f E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\run.xml test_race2 
+命令执行失败
+>>>>>end<<<<<
+
+>>>>>start command [4]ant -f E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\run.xml test_race3 about 4 on 2017-03-07 23:10:58 <<<<<
+
+E:\courseResource\programResearch\tool\JBenchPlatform>ant -f E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\run.xml test_race3 
+命令执行失败
+>>>>>end<<<<<
+
+>>>>>start command [5]ant -f E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\run.xml test_race4 about 5 on 2017-03-07 23:10:58 <<<<<
+
+E:\courseResource\programResearch\tool\JBenchPlatform>ant -f E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\run.xml test_race4 
+命令执行失败
+>>>>>end<<<<<
+
+>>>>>start command [1]java -cp E:/courseResource/programResearch/benchmark/calfuzzer/calfuzzer2/calfuzzer/classes benchmarks.testcases.TestRace1 about 1 on 2017-03-07 23:12:18 <<<<<
+
+E:\courseResource\programResearch\tool\JBenchPlatform>java -cp E:/courseResource/programResearch/benchmark/calfuzzer/calfuzzer2/calfuzzer/classes benchmarks.testcases.TestRace1 
+x = 22
+
+>>>>>end<<<<<
+
+>>>>>start command [2]ant -f E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\run.xml test_race1 about 2 on 2017-03-07 23:12:18 <<<<<
+
+E:\courseResource\programResearch\tool\JBenchPlatform>ant -f E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\run.xml test_race1 
+命令执行失败
+>>>>>end<<<<<
+
+>>>>>start command [3]ant -f E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\run.xml test_race2 about 3 on 2017-03-07 23:12:18 <<<<<
+
+E:\courseResource\programResearch\tool\JBenchPlatform>ant -f E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\run.xml test_race2 
+命令执行失败
+>>>>>end<<<<<
+
+>>>>>start command [4]ant -f E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\run.xml test_race3 about 4 on 2017-03-07 23:12:18 <<<<<
+
+E:\courseResource\programResearch\tool\JBenchPlatform>ant -f E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\run.xml test_race3 
+命令执行失败
+>>>>>end<<<<<
+
+>>>>>start command [5]ant -f E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\run.xml test_race4 about 5 on 2017-03-07 23:12:18 <<<<<
+
+E:\courseResource\programResearch\tool\JBenchPlatform>ant -f E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\run.xml test_race4 
+命令执行失败
+>>>>>end<<<<<
+
+>>>>>start command [1]E:\tsmart\source-of-key\apache-ant-1.9.6\bin\java -cp E:/courseResource/programResearch/benchmark/calfuzzer/calfuzzer2/calfuzzer/classes benchmarks.testcases.TestRace1 about 1 on 2017-03-07 23:12:18 <<<<<
+
+E:\courseResource\programResearch\tool\JBenchPlatform>E:\tsmart\source-of-key\apache-ant-1.9.6\bin\java -cp E:/courseResource/programResearch/benchmark/calfuzzer/calfuzzer2/calfuzzer/classes benchmarks.testcases.TestRace1 
+命令执行失败
+>>>>>end<<<<<
+
+>>>>>start command [2]E:\tsmart\source-of-key\apache-ant-1.9.6\bin\ant -f E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\run.xml test_race1 about 2 on 2017-03-07 23:12:18 <<<<<
+
+E:\courseResource\programResearch\tool\JBenchPlatform>E:\tsmart\source-of-key\apache-ant-1.9.6\bin\ant -f E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\run.xml test_race1 
+Buildfile: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\run.xml
+
+test_race1:
+     [echo] -------------------test_race1----------------------
+     [echo] 3 potential and 3 real races
+
+race-analysis:
+
+clean:
+   [delete] Deleting directory E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\tmp
+   [delete] Deleting directory E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\tmpclasses
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\javato.usedids
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\iidToLine.map
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\iidToLine.map.html
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\error.log
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\error.list
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\error.stat
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\error.time
+
+instr:
+    [mkdir] Created dir: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\tmp
+     [java] Soot started on Tue Mar 07 23:12:20 CST 2017
+     [java] Transforming benchmarks.testcases.TestRace1$2... 
+     [java] Transforming benchmarks.testcases.TestRace1... 
+     [java] Transforming benchmarks.testcases.TestRace1$1... 
+     [java] Writing to E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\tmpclasses\benchmarks\testcases\TestRace1$2.class
+     [java] Writing to E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\tmpclasses\benchmarks\testcases\TestRace1.class
+     [java] Writing to E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\tmpclasses\benchmarks\testcases\TestRace1$1.class
+     [java] Soot finished on Tue Mar 07 23:12:20 CST 2017
+     [java] Soot has run for 0 min. 0 sec.
+
+analysis-once:
+     [java] Analysis class javato.activetesting.HybridAnalysis
+     [java] Data race between benchmarks/testcases/TestRace1.java#47 and benchmarks/testcases/TestRace1.java#41
+     [java] Data race between benchmarks/testcases/TestRace1.java#47 and benchmarks/testcases/TestRace1.java#41
+     [java] Data race between benchmarks/testcases/TestRace1.java#47 and benchmarks/testcases/TestRace1.java#41
+     [java] x = 22
+     [java] benchmarks/testcases/TestRace1.java#47:0:true:benchmarks/testcases/TestRace1.java#41:0:false:false:false
+     [java] benchmarks/testcases/TestRace1.java#47:0:false:benchmarks/testcases/TestRace1.java#41:0:false:false:false
+     [java] benchmarks/testcases/TestRace1.java#47:0:false:benchmarks/testcases/TestRace1.java#41:0:true:false:false
+     [java] # of data races 3 and lock races 0
+[stopwatch] [timer: 0.177 sec]
+
+active-loop:
+     [echo] Iteration: 1
+     [echo] ------------------
+     [echo] Error:Iteration = 1:1
+     [echo] ------------------
+
+analysis-once:
+     [java] Analysis class javato.activetesting.RaceFuzzerAnalysis
+     [java] ***************************************** Real data race detected between benchmarks/testcases/TestRace1.java#47 and benchmarks/testcases/TestRace1.java#41
+     [java] x = 22
+[stopwatch] [timer: 0.247 sec]
+     [echo] Error:Iteration = 2:1
+     [echo] ------------------
+
+analysis-once:
+     [java] ***************************************** Real data race detected between benchmarks/testcases/TestRace1.java#47 and benchmarks/testcases/TestRace1.java#41Analysis class javato.activetesting.RaceFuzzerAnalysis
+     [java] 
+     [java] x = 17
+[stopwatch] [timer: 0.295 sec]
+     [echo] Error:Iteration = 3:1
+     [echo] ------------------
+
+analysis-once:
+     [java] Analysis class javato.activetesting.RaceFuzzerAnalysis
+     [java] ***************************************** Real data race detected between benchmarks/testcases/TestRace1.java#47 and benchmarks/testcases/TestRace1.java#41
+     [java] x = 17
+[stopwatch] [timer: 0.261 sec]
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+
+>>>>>end<<<<<
+
+>>>>>start command [3]E:\tsmart\source-of-key\apache-ant-1.9.6\bin\ant -f E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\run.xml test_race2 about 3 on 2017-03-07 23:12:22 <<<<<
+
+E:\courseResource\programResearch\tool\JBenchPlatform>E:\tsmart\source-of-key\apache-ant-1.9.6\bin\ant -f E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\run.xml test_race2 
+Buildfile: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\run.xml
+
+test_race2:
+     [echo] -------------------test_race2----------------------
+     [echo] 0 potential and 0 real race
+
+race-analysis:
+
+clean:
+   [delete] Deleting directory E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\tmp
+   [delete] Deleting directory E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\tmpclasses
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\javato.usedids
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\iidToLine.map
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\iidToLine.map.html
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\error.log
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\error.list
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\error.stat
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\error.time
+
+instr:
+    [mkdir] Created dir: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\tmp
+     [java] Soot started on Tue Mar 07 23:12:24 CST 2017
+     [java] Transforming benchmarks.testcases.TestRace2$1... 
+     [java] Transforming benchmarks.testcases.TestRace2... 
+     [java] Writing to E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\tmpclasses\benchmarks\testcases\TestRace2$1.class
+     [java] Writing to E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\tmpclasses\benchmarks\testcases\TestRace2.class
+     [java] Soot finished on Tue Mar 07 23:12:24 CST 2017
+     [java] Soot has run for 0 min. 0 sec.
+
+analysis-once:
+     [java] Analysis class javato.activetesting.HybridAnalysis
+     [java] x = 3
+     [java] # of data races 0 and lock races 0
+[stopwatch] [timer: 0.123 sec]
+
+active-loop:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+
+>>>>>end<<<<<
+
+>>>>>start command [4]E:\tsmart\source-of-key\apache-ant-1.9.6\bin\ant -f E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\run.xml test_race3 about 4 on 2017-03-07 23:12:24 <<<<<
+
+E:\courseResource\programResearch\tool\JBenchPlatform>E:\tsmart\source-of-key\apache-ant-1.9.6\bin\ant -f E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\run.xml test_race3 
+Buildfile: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\run.xml
+
+test_race3:
+     [echo] -------------------test_race3----------------------
+     [echo] 3 potential and 3 real races
+
+race-analysis:
+
+clean:
+   [delete] Deleting directory E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\tmp
+   [delete] Deleting directory E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\tmpclasses
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\javato.usedids
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\iidToLine.map
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\iidToLine.map.html
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\error.log
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\error.list
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\error.time
+
+instr:
+    [mkdir] Created dir: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\tmp
+     [java] Soot started on Tue Mar 07 23:12:26 CST 2017
+     [java] Transforming benchmarks.testcases.TestRace3$1... 
+     [java] Transforming benchmarks.testcases.TestRace3... 
+     [java] Writing to E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\tmpclasses\benchmarks\testcases\TestRace3$1.class
+     [java] Writing to E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\tmpclasses\benchmarks\testcases\TestRace3.class
+     [java] Soot finished on Tue Mar 07 23:12:27 CST 2017
+     [java] Soot has run for 0 min. 0 sec.
+
+analysis-once:
+     [java] Analysis class javato.activetesting.HybridAnalysis
+     [java] Data race between benchmarks/testcases/TestRace3.java#46 and benchmarks/testcases/TestRace3.java#42
+     [java] Data race between benchmarks/testcases/TestRace3.java#42 and benchmarks/testcases/TestRace3.java#46
+     [java] Data race between benchmarks/testcases/TestRace3.java#42 and benchmarks/testcases/TestRace3.java#46
+     [java] x = 1
+     [java] benchmarks/testcases/TestRace3.java#46:0:false:benchmarks/testcases/TestRace3.java#42:0:true:false:false
+     [java] benchmarks/testcases/TestRace3.java#42:0:false:benchmarks/testcases/TestRace3.java#46:0:false:false:false
+     [java] benchmarks/testcases/TestRace3.java#42:0:false:benchmarks/testcases/TestRace3.java#46:0:true:false:false
+     [java] # of data races 3 and lock races 0
+[stopwatch] [timer: 0.151 sec]
+
+active-loop:
+     [echo] Iteration: 1
+     [echo] ------------------
+     [echo] Error:Iteration = 1:1
+     [echo] ------------------
+
+analysis-once:
+     [java] Analysis class javato.activetesting.RaceFuzzerAnalysis***************************************** Real data race detected between benchmarks/testcases/TestRace3.java#46 and benchmarks/testcases/TestRace3.java#42
+     [java] 
+     [java] x = 1
+[stopwatch] [timer: 0.276 sec]
+     [echo] Error:Iteration = 2:1
+     [echo] ------------------
+
+analysis-once:
+     [java] Analysis class javato.activetesting.RaceFuzzerAnalysis
+     [java] ***************************************** Real data race detected between benchmarks/testcases/TestRace3.java#46 and benchmarks/testcases/TestRace3.java#42
+     [java] x = 1
+[stopwatch] [timer: 0.256 sec]
+     [echo] Error:Iteration = 3:1
+     [echo] ------------------
+
+analysis-once:
+     [java] Analysis class javato.activetesting.RaceFuzzerAnalysis
+     [java] ***************************************** Real data race detected between benchmarks/testcases/TestRace3.java#46 and benchmarks/testcases/TestRace3.java#42
+     [java] x = 2
+[stopwatch] [timer: 0.273 sec]
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+
+>>>>>end<<<<<
+
+>>>>>start command [5]E:\tsmart\source-of-key\apache-ant-1.9.6\bin\ant -f E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\run.xml test_race4 about 5 on 2017-03-07 23:12:28 <<<<<
+
+E:\courseResource\programResearch\tool\JBenchPlatform>E:\tsmart\source-of-key\apache-ant-1.9.6\bin\ant -f E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\run.xml test_race4 
+Buildfile: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\run.xml
+
+test_race4:
+     [echo] -------------------test_race4----------------------
+     [echo] 3 potential and 3 real races
+
+race-analysis:
+
+clean:
+   [delete] Deleting directory E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\tmp
+   [delete] Deleting directory E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\tmpclasses
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\javato.usedids
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\iidToLine.map
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\iidToLine.map.html
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\error.log
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\error.list
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\error.stat
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\error.time
+
+instr:
+    [mkdir] Created dir: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\tmp
+     [java] Soot started on Tue Mar 07 23:12:30 CST 2017
+     [java] Transforming benchmarks.testcases.TestRace4... 
+     [java] Transforming benchmarks.testcases.TestRace4$1... 
+     [java] Writing to E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\tmpclasses\benchmarks\testcases\TestRace4.class
+     [java] Writing to E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\tmpclasses\benchmarks\testcases\TestRace4$1.class
+     [java] Soot finished on Tue Mar 07 23:12:30 CST 2017
+     [java] Soot has run for 0 min. 0 sec.
+
+analysis-once:
+     [java] Analysis class javato.activetesting.HybridAnalysis
+     [java] Data race between benchmarks/testcases/TestRace4.java#43 and benchmarks/testcases/TestRace4.java#48
+     [java] Data race between benchmarks/testcases/TestRace4.java#43 and benchmarks/testcases/TestRace4.java#48
+     [java] Data race between benchmarks/testcases/TestRace4.java#43 and benchmarks/testcases/TestRace4.java#48
+     [java] x = 2
+     [java] benchmarks/testcases/TestRace4.java#43:0:true:benchmarks/testcases/TestRace4.java#48:0:false:false:false
+     [java] benchmarks/testcases/TestRace4.java#43:0:false:benchmarks/testcases/TestRace4.java#48:0:false:false:false
+     [java] benchmarks/testcases/TestRace4.java#43:0:false:benchmarks/testcases/TestRace4.java#48:0:true:false:false
+     [java] # of data races 3 and lock races 0
+[stopwatch] [timer: 0.134 sec]
+
+active-loop:
+     [echo] Iteration: 1
+     [echo] ------------------
+     [echo] Error:Iteration = 1:1
+     [echo] ------------------
+
+analysis-once:
+     [java] Analysis class javato.activetesting.RaceFuzzerAnalysis
+     [java] ***************************************** Real data race detected between benchmarks/testcases/TestRace4.java#48 and benchmarks/testcases/TestRace4.java#43
+     [java] x = 1
+[stopwatch] [timer: 0.255 sec]
+     [echo] Error:Iteration = 2:1
+     [echo] ------------------
+
+analysis-once:
+     [java] Analysis class javato.activetesting.RaceFuzzerAnalysis
+     [java] ***************************************** Real data race detected between benchmarks/testcases/TestRace4.java#48 and benchmarks/testcases/TestRace4.java#43
+     [java] x = 1
+[stopwatch] [timer: 0.262 sec]
+     [echo] Error:Iteration = 3:1
+     [echo] ------------------
+
+analysis-once:
+     [java] Analysis class javato.activetesting.RaceFuzzerAnalysis
+     [java] ***************************************** Real data race detected between benchmarks/testcases/TestRace4.java#48 and benchmarks/testcases/TestRace4.java#43
+     [java] x = 1
+[stopwatch] [timer: 0.259 sec]
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+
+>>>>>end<<<<<
+
+>>>>>start command [1]E:\tsmart\source-of-key\apache-ant-1.9.6\bin\java -cp E:/courseResource/programResearch/benchmark/calfuzzer/calfuzzer2/calfuzzer/classes benchmarks.testcases.TestRace1 about 1 on 2017-03-07 23:31:04 <<<<<
+
+E:\courseResource\programResearch\tool\JBenchPlatform>E:\tsmart\source-of-key\apache-ant-1.9.6\bin\java -cp E:/courseResource/programResearch/benchmark/calfuzzer/calfuzzer2/calfuzzer/classes benchmarks.testcases.TestRace1 
+命令执行失败
+>>>>>end<<<<<
+
+>>>>>start command [2]E:\tsmart\source-of-key\apache-ant-1.9.6\bin\ant -f E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\run.xml test_race1 about 2 on 2017-03-07 23:31:04 <<<<<
+
+E:\courseResource\programResearch\tool\JBenchPlatform>E:\tsmart\source-of-key\apache-ant-1.9.6\bin\ant -f E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\run.xml test_race1 
+Buildfile: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\run.xml
+
+test_race1:
+     [echo] -------------------test_race1----------------------
+     [echo] 3 potential and 3 real races
+
+race-analysis:
+
+clean:
+   [delete] Deleting directory E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\tmp
+   [delete] Deleting directory E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\tmpclasses
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\javato.usedids
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\iidToLine.map
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\iidToLine.map.html
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\error.log
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\error.list
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\error.stat
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\error.time
+
+instr:
+    [mkdir] Created dir: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\tmp
+     [java] Soot started on Tue Mar 07 23:31:06 CST 2017
+     [java] Transforming benchmarks.testcases.TestRace1$1... 
+     [java] Transforming benchmarks.testcases.TestRace1$2... 
+     [java] Transforming benchmarks.testcases.TestRace1... 
+     [java] Writing to E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\tmpclasses\benchmarks\testcases\TestRace1$1.class
+     [java] Writing to E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\tmpclasses\benchmarks\testcases\TestRace1$2.class
+     [java] Writing to E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\tmpclasses\benchmarks\testcases\TestRace1.class
+     [java] Soot finished on Tue Mar 07 23:31:06 CST 2017
+     [java] Soot has run for 0 min. 0 sec.
+
+analysis-once:
+     [java] Analysis class javato.activetesting.HybridAnalysis
+     [java] Data race between benchmarks/testcases/TestRace1.java#47 and benchmarks/testcases/TestRace1.java#41
+     [java] Data race between benchmarks/testcases/TestRace1.java#47 and benchmarks/testcases/TestRace1.java#41
+     [java] Data race between benchmarks/testcases/TestRace1.java#47 and benchmarks/testcases/TestRace1.java#41
+     [java] x = 22
+     [java] benchmarks/testcases/TestRace1.java#47:0:true:benchmarks/testcases/TestRace1.java#41:0:false:false:false
+     [java] benchmarks/testcases/TestRace1.java#47:0:false:benchmarks/testcases/TestRace1.java#41:0:false:false:false
+     [java] benchmarks/testcases/TestRace1.java#47:0:false:benchmarks/testcases/TestRace1.java#41:0:true:false:false
+     [java] # of data races 3 and lock races 0
+[stopwatch] [timer: 0.137 sec]
+
+active-loop:
+     [echo] Iteration: 1
+     [echo] ------------------
+     [echo] Error:Iteration = 1:1
+     [echo] ------------------
+
+analysis-once:
+     [java] Analysis class javato.activetesting.RaceFuzzerAnalysis
+     [java] ***************************************** Real data race detected between benchmarks/testcases/TestRace1.java#47 and benchmarks/testcases/TestRace1.java#41
+     [java] x = 22
+[stopwatch] [timer: 0.280 sec]
+     [echo] Error:Iteration = 2:1
+     [echo] ------------------
+
+analysis-once:
+     [java] ***************************************** Real data race detected between benchmarks/testcases/TestRace1.java#47 and benchmarks/testcases/TestRace1.java#41Analysis class javato.activetesting.RaceFuzzerAnalysis
+     [java] 
+     [java] x = 17
+[stopwatch] [timer: 0.274 sec]
+     [echo] Error:Iteration = 3:1
+     [echo] ------------------
+
+analysis-once:
+     [java] Analysis class javato.activetesting.RaceFuzzerAnalysis
+     [java] ***************************************** Real data race detected between benchmarks/testcases/TestRace1.java#47 and benchmarks/testcases/TestRace1.java#41
+     [java] x = 17
+[stopwatch] [timer: 0.256 sec]
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+
+>>>>>end<<<<<
+
+>>>>>start command [3]E:\tsmart\source-of-key\apache-ant-1.9.6\bin\ant -f E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\run.xml test_race2 about 3 on 2017-03-07 23:31:08 <<<<<
+
+E:\courseResource\programResearch\tool\JBenchPlatform>E:\tsmart\source-of-key\apache-ant-1.9.6\bin\ant -f E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\run.xml test_race2 
+Buildfile: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\run.xml
+
+test_race2:
+     [echo] -------------------test_race2----------------------
+     [echo] 0 potential and 0 real race
+
+race-analysis:
+
+clean:
+   [delete] Deleting directory E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\tmp
+   [delete] Deleting directory E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\tmpclasses
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\javato.usedids
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\iidToLine.map
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\iidToLine.map.html
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\error.log
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\error.list
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\error.stat
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\error.time
+
+instr:
+    [mkdir] Created dir: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\tmp
+     [java] Soot started on Tue Mar 07 23:31:09 CST 2017
+     [java] Transforming benchmarks.testcases.TestRace2... 
+     [java] Transforming benchmarks.testcases.TestRace2$1... 
+     [java] Writing to E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\tmpclasses\benchmarks\testcases\TestRace2.class
+     [java] Writing to E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\tmpclasses\benchmarks\testcases\TestRace2$1.class
+     [java] Soot finished on Tue Mar 07 23:31:10 CST 2017
+     [java] Soot has run for 0 min. 0 sec.
+
+analysis-once:
+     [java] Analysis class javato.activetesting.HybridAnalysis
+     [java] x = 3
+     [java] # of data races 0 and lock races 0
+[stopwatch] [timer: 0.146 sec]
+
+active-loop:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+
+>>>>>end<<<<<
+
+>>>>>start command [4]E:\tsmart\source-of-key\apache-ant-1.9.6\bin\ant -f E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\run.xml test_race3 about 4 on 2017-03-07 23:31:10 <<<<<
+
+E:\courseResource\programResearch\tool\JBenchPlatform>E:\tsmart\source-of-key\apache-ant-1.9.6\bin\ant -f E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\run.xml test_race3 
+Buildfile: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\run.xml
+
+test_race3:
+     [echo] -------------------test_race3----------------------
+     [echo] 3 potential and 3 real races
+
+race-analysis:
+
+clean:
+   [delete] Deleting directory E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\tmp
+   [delete] Deleting directory E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\tmpclasses
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\javato.usedids
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\iidToLine.map
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\iidToLine.map.html
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\error.log
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\error.list
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\error.time
+
+instr:
+    [mkdir] Created dir: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\tmp
+     [java] Soot started on Tue Mar 07 23:31:12 CST 2017
+     [java] Transforming benchmarks.testcases.TestRace3... 
+     [java] Transforming benchmarks.testcases.TestRace3$1... 
+     [java] Writing to E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\tmpclasses\benchmarks\testcases\TestRace3.class
+     [java] Writing to E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\tmpclasses\benchmarks\testcases\TestRace3$1.class
+     [java] Soot finished on Tue Mar 07 23:31:12 CST 2017
+     [java] Soot has run for 0 min. 0 sec.
+
+analysis-once:
+     [java] Analysis class javato.activetesting.HybridAnalysis
+     [java] Data race between benchmarks/testcases/TestRace3.java#42 and benchmarks/testcases/TestRace3.java#46
+     [java] Data race between benchmarks/testcases/TestRace3.java#42 and benchmarks/testcases/TestRace3.java#46
+     [java] Data race between benchmarks/testcases/TestRace3.java#42 and benchmarks/testcases/TestRace3.java#46
+     [java] x = 2
+     [java] benchmarks/testcases/TestRace3.java#42:0:true:benchmarks/testcases/TestRace3.java#46:0:false:false:false
+     [java] benchmarks/testcases/TestRace3.java#42:0:false:benchmarks/testcases/TestRace3.java#46:0:false:false:false
+     [java] benchmarks/testcases/TestRace3.java#42:0:false:benchmarks/testcases/TestRace3.java#46:0:true:false:false
+     [java] # of data races 3 and lock races 0
+[stopwatch] [timer: 0.147 sec]
+
+active-loop:
+     [echo] Iteration: 1
+     [echo] ------------------
+     [echo] Error:Iteration = 1:1
+     [echo] ------------------
+
+analysis-once:
+     [java] Analysis class javato.activetesting.RaceFuzzerAnalysis
+     [java] ***************************************** Real data race detected between benchmarks/testcases/TestRace3.java#46 and benchmarks/testcases/TestRace3.java#42
+     [java] x = 1
+[stopwatch] [timer: 0.278 sec]
+     [echo] Error:Iteration = 2:1
+     [echo] ------------------
+
+analysis-once:
+     [java] Analysis class javato.activetesting.RaceFuzzerAnalysis
+     [java] ***************************************** Real data race detected between benchmarks/testcases/TestRace3.java#46 and benchmarks/testcases/TestRace3.java#42
+     [java] x = 1
+[stopwatch] [timer: 0.255 sec]
+     [echo] Error:Iteration = 3:1
+     [echo] ------------------
+
+analysis-once:
+     [java] Analysis class javato.activetesting.RaceFuzzerAnalysis
+     [java] ***************************************** Real data race detected between benchmarks/testcases/TestRace3.java#46 and benchmarks/testcases/TestRace3.java#42
+     [java] x = 1
+[stopwatch] [timer: 0.260 sec]
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+
+>>>>>end<<<<<
+
+>>>>>start command [5]E:\tsmart\source-of-key\apache-ant-1.9.6\bin\ant -f E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\run.xml test_race4 about 5 on 2017-03-07 23:31:14 <<<<<
+
+E:\courseResource\programResearch\tool\JBenchPlatform>E:\tsmart\source-of-key\apache-ant-1.9.6\bin\ant -f E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\run.xml test_race4 
+Buildfile: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\run.xml
+
+test_race4:
+     [echo] -------------------test_race4----------------------
+     [echo] 3 potential and 3 real races
+
+race-analysis:
+
+clean:
+   [delete] Deleting directory E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\tmp
+   [delete] Deleting directory E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\tmpclasses
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\javato.usedids
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\iidToLine.map
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\iidToLine.map.html
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\error.log
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\error.list
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\error.stat
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\error.time
+
+instr:
+    [mkdir] Created dir: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\tmp
+     [java] Soot started on Tue Mar 07 23:31:15 CST 2017
+     [java] Transforming benchmarks.testcases.TestRace4$1... 
+     [java] Transforming benchmarks.testcases.TestRace4... 
+     [java] Writing to E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\tmpclasses\benchmarks\testcases\TestRace4$1.class
+     [java] Writing to E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\tmpclasses\benchmarks\testcases\TestRace4.class
+     [java] Soot finished on Tue Mar 07 23:31:16 CST 2017
+     [java] Soot has run for 0 min. 0 sec.
+
+analysis-once:
+     [java] Analysis class javato.activetesting.HybridAnalysis
+     [java] Data race between benchmarks/testcases/TestRace4.java#43 and benchmarks/testcases/TestRace4.java#48
+     [java] Data race between benchmarks/testcases/TestRace4.java#43 and benchmarks/testcases/TestRace4.java#48
+     [java] Data race between benchmarks/testcases/TestRace4.java#43 and benchmarks/testcases/TestRace4.java#48
+     [java] x = 2
+     [java] benchmarks/testcases/TestRace4.java#43:0:true:benchmarks/testcases/TestRace4.java#48:0:false:false:false
+     [java] benchmarks/testcases/TestRace4.java#43:0:false:benchmarks/testcases/TestRace4.java#48:0:false:false:false
+     [java] benchmarks/testcases/TestRace4.java#43:0:false:benchmarks/testcases/TestRace4.java#48:0:true:false:false
+     [java] # of data races 3 and lock races 0
+[stopwatch] [timer: 0.150 sec]
+
+active-loop:
+     [echo] Iteration: 1
+     [echo] ------------------
+     [echo] Error:Iteration = 1:1
+     [echo] ------------------
+
+analysis-once:
+     [java] Analysis class javato.activetesting.RaceFuzzerAnalysis
+     [java] ***************************************** Real data race detected between benchmarks/testcases/TestRace4.java#48 and benchmarks/testcases/TestRace4.java#43
+     [java] x = 1
+[stopwatch] [timer: 0.249 sec]
+     [echo] Error:Iteration = 2:1
+     [echo] ------------------
+
+analysis-once:
+     [java] Analysis class javato.activetesting.RaceFuzzerAnalysis
+     [java] ***************************************** Real data race detected between benchmarks/testcases/TestRace4.java#48 and benchmarks/testcases/TestRace4.java#43
+     [java] x = 1
+[stopwatch] [timer: 0.253 sec]
+     [echo] Error:Iteration = 3:1
+     [echo] ------------------
+
+analysis-once:
+     [java] Analysis class javato.activetesting.RaceFuzzerAnalysis
+     [java] ***************************************** Real data race detected between benchmarks/testcases/TestRace4.java#48 and benchmarks/testcases/TestRace4.java#43
+     [java] x = 1
+[stopwatch] [timer: 0.268 sec]
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+
+>>>>>end<<<<<
+
+>>>>>start command [1]E:\tsmart\source-of-key\apache-ant-1.9.6\bin\java -cp E:/courseResource/programResearch/benchmark/calfuzzer/calfuzzer2/calfuzzer/classes benchmarks.testcases.TestRace1 about 1 on 2017-03-07 23:32:06 <<<<<
+
+E:\courseResource\programResearch\tool\JBenchPlatform>E:\tsmart\source-of-key\apache-ant-1.9.6\bin\java -cp E:/courseResource/programResearch/benchmark/calfuzzer/calfuzzer2/calfuzzer/classes benchmarks.testcases.TestRace1 
+命令执行失败
+>>>>>end<<<<<
+
+>>>>>start command [2]E:\tsmart\source-of-key\apache-ant-1.9.6\bin\ant -f E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\run.xml test_race1 about 2 on 2017-03-07 23:32:06 <<<<<
+
+E:\courseResource\programResearch\tool\JBenchPlatform>E:\tsmart\source-of-key\apache-ant-1.9.6\bin\ant -f E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\run.xml test_race1 
+Buildfile: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\run.xml
+
+test_race1:
+     [echo] -------------------test_race1----------------------
+     [echo] 3 potential and 3 real races
+
+race-analysis:
+
+clean:
+   [delete] Deleting directory E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\tmp
+   [delete] Deleting directory E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\tmpclasses
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\javato.usedids
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\iidToLine.map
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\iidToLine.map.html
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\error.log
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\error.list
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\error.stat
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\error.time
+
+instr:
+    [mkdir] Created dir: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\tmp
+     [java] Soot started on Tue Mar 07 23:32:07 CST 2017
+     [java] Transforming benchmarks.testcases.TestRace1$1... 
+     [java] Transforming benchmarks.testcases.TestRace1$2... 
+     [java] Transforming benchmarks.testcases.TestRace1... 
+     [java] Writing to E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\tmpclasses\benchmarks\testcases\TestRace1$1.class
+     [java] Writing to E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\tmpclasses\benchmarks\testcases\TestRace1$2.class
+     [java] Writing to E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\tmpclasses\benchmarks\testcases\TestRace1.class
+     [java] Soot finished on Tue Mar 07 23:32:08 CST 2017
+     [java] Soot has run for 0 min. 0 sec.
+
+analysis-once:
+     [java] Analysis class javato.activetesting.HybridAnalysis
+     [java] Data race between benchmarks/testcases/TestRace1.java#47 and benchmarks/testcases/TestRace1.java#41
+     [java] Data race between benchmarks/testcases/TestRace1.java#47 and benchmarks/testcases/TestRace1.java#41
+     [java] Data race between benchmarks/testcases/TestRace1.java#47 and benchmarks/testcases/TestRace1.java#41
+     [java] x = 22
+     [java] benchmarks/testcases/TestRace1.java#47:0:true:benchmarks/testcases/TestRace1.java#41:0:false:false:false
+     [java] benchmarks/testcases/TestRace1.java#47:0:false:benchmarks/testcases/TestRace1.java#41:0:false:false:false
+     [java] benchmarks/testcases/TestRace1.java#47:0:false:benchmarks/testcases/TestRace1.java#41:0:true:false:false
+     [java] # of data races 3 and lock races 0
+[stopwatch] [timer: 0.199 sec]
+
+active-loop:
+     [echo] Iteration: 1
+     [echo] ------------------
+     [echo] Error:Iteration = 1:1
+     [echo] ------------------
+
+analysis-once:
+     [java] Analysis class javato.activetesting.RaceFuzzerAnalysis
+     [java] ***************************************** Real data race detected between benchmarks/testcases/TestRace1.java#47 and benchmarks/testcases/TestRace1.java#41
+     [java] x = 22
+[stopwatch] [timer: 0.258 sec]
+     [echo] Error:Iteration = 2:1
+     [echo] ------------------
+
+analysis-once:
+     [java] Analysis class javato.activetesting.RaceFuzzerAnalysis
+     [java] ***************************************** Real data race detected between benchmarks/testcases/TestRace1.java#47 and benchmarks/testcases/TestRace1.java#41
+     [java] x = 17
+[stopwatch] [timer: 0.248 sec]
+     [echo] Error:Iteration = 3:1
+     [echo] ------------------
+
+analysis-once:
+     [java] Analysis class javato.activetesting.RaceFuzzerAnalysis
+     [java] ***************************************** Real data race detected between benchmarks/testcases/TestRace1.java#47 and benchmarks/testcases/TestRace1.java#41
+     [java] x = 17
+[stopwatch] [timer: 0.254 sec]
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+
+>>>>>end<<<<<
+
+>>>>>start command [3]E:\tsmart\source-of-key\apache-ant-1.9.6\bin\ant -f E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\run.xml test_race2 about 3 on 2017-03-07 23:32:09 <<<<<
+
+E:\courseResource\programResearch\tool\JBenchPlatform>E:\tsmart\source-of-key\apache-ant-1.9.6\bin\ant -f E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\run.xml test_race2 
+Buildfile: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\run.xml
+
+test_race2:
+     [echo] -------------------test_race2----------------------
+     [echo] 0 potential and 0 real race
+
+race-analysis:
+
+clean:
+   [delete] Deleting directory E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\tmp
+   [delete] Deleting directory E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\tmpclasses
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\javato.usedids
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\iidToLine.map
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\iidToLine.map.html
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\error.log
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\error.list
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\error.stat
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\error.time
+
+instr:
+    [mkdir] Created dir: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\tmp
+     [java] Soot started on Tue Mar 07 23:32:11 CST 2017
+     [java] Transforming benchmarks.testcases.TestRace2$1... 
+     [java] Transforming benchmarks.testcases.TestRace2... 
+     [java] Writing to E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\tmpclasses\benchmarks\testcases\TestRace2$1.class
+     [java] Writing to E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\tmpclasses\benchmarks\testcases\TestRace2.class
+     [java] Soot finished on Tue Mar 07 23:32:11 CST 2017
+     [java] Soot has run for 0 min. 0 sec.
+
+analysis-once:
+     [java] Analysis class javato.activetesting.HybridAnalysis
+     [java] x = 3
+     [java] # of data races 0 and lock races 0
+[stopwatch] [timer: 0.123 sec]
+
+active-loop:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+
+>>>>>end<<<<<
+
+>>>>>start command [4]E:\tsmart\source-of-key\apache-ant-1.9.6\bin\ant -f E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\run.xml test_race3 about 4 on 2017-03-07 23:32:12 <<<<<
+
+E:\courseResource\programResearch\tool\JBenchPlatform>E:\tsmart\source-of-key\apache-ant-1.9.6\bin\ant -f E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\run.xml test_race3 
+Buildfile: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\run.xml
+
+test_race3:
+     [echo] -------------------test_race3----------------------
+     [echo] 3 potential and 3 real races
+
+race-analysis:
+
+clean:
+   [delete] Deleting directory E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\tmp
+   [delete] Deleting directory E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\tmpclasses
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\javato.usedids
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\iidToLine.map
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\iidToLine.map.html
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\error.log
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\error.list
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\error.time
+
+instr:
+    [mkdir] Created dir: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\tmp
+     [java] Soot started on Tue Mar 07 23:32:14 CST 2017
+     [java] Transforming benchmarks.testcases.TestRace3$1... 
+     [java] Transforming benchmarks.testcases.TestRace3... 
+     [java] Writing to E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\tmpclasses\benchmarks\testcases\TestRace3$1.class
+     [java] Writing to E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\tmpclasses\benchmarks\testcases\TestRace3.class
+     [java] Soot finished on Tue Mar 07 23:32:14 CST 2017
+     [java] Soot has run for 0 min. 0 sec.
+
+analysis-once:
+     [java] Analysis class javato.activetesting.HybridAnalysis
+     [java] Data race between benchmarks/testcases/TestRace3.java#42 and benchmarks/testcases/TestRace3.java#46
+     [java] Data race between benchmarks/testcases/TestRace3.java#42 and benchmarks/testcases/TestRace3.java#46
+     [java] Data race between benchmarks/testcases/TestRace3.java#42 and benchmarks/testcases/TestRace3.java#46
+     [java] x = 2
+     [java] benchmarks/testcases/TestRace3.java#42:0:true:benchmarks/testcases/TestRace3.java#46:0:false:false:false
+     [java] benchmarks/testcases/TestRace3.java#42:0:false:benchmarks/testcases/TestRace3.java#46:0:false:false:false
+     [java] benchmarks/testcases/TestRace3.java#42:0:false:benchmarks/testcases/TestRace3.java#46:0:true:false:false
+     [java] # of data races 3 and lock races 0
+[stopwatch] [timer: 0.147 sec]
+
+active-loop:
+     [echo] Iteration: 1
+     [echo] ------------------
+     [echo] Error:Iteration = 1:1
+     [echo] ------------------
+
+analysis-once:
+     [java] Analysis class javato.activetesting.RaceFuzzerAnalysis
+     [java] ***************************************** Real data race detected between benchmarks/testcases/TestRace3.java#46 and benchmarks/testcases/TestRace3.java#42
+     [java] x = 2
+[stopwatch] [timer: 0.255 sec]
+     [echo] Error:Iteration = 2:1
+     [echo] ------------------
+
+analysis-once:
+     [java] Analysis class javato.activetesting.RaceFuzzerAnalysis
+     [java] ***************************************** Real data race detected between benchmarks/testcases/TestRace3.java#46 and benchmarks/testcases/TestRace3.java#42
+     [java] x = 1
+[stopwatch] [timer: 0.260 sec]
+     [echo] Error:Iteration = 3:1
+     [echo] ------------------
+
+analysis-once:
+     [java] Analysis class javato.activetesting.RaceFuzzerAnalysis
+     [java] ***************************************** Real data race detected between benchmarks/testcases/TestRace3.java#46 and benchmarks/testcases/TestRace3.java#42
+     [java] x = 2
+[stopwatch] [timer: 0.252 sec]
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+
+>>>>>end<<<<<
+
+>>>>>start command [5]E:\tsmart\source-of-key\apache-ant-1.9.6\bin\ant -f E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\run.xml test_race4 about 5 on 2017-03-07 23:32:15 <<<<<
+
+E:\courseResource\programResearch\tool\JBenchPlatform>E:\tsmart\source-of-key\apache-ant-1.9.6\bin\ant -f E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\run.xml test_race4 
+Buildfile: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\run.xml
+
+test_race4:
+     [echo] -------------------test_race4----------------------
+     [echo] 3 potential and 3 real races
+
+race-analysis:
+
+clean:
+   [delete] Deleting directory E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\tmp
+   [delete] Deleting directory E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\tmpclasses
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\javato.usedids
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\iidToLine.map
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\iidToLine.map.html
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\error.log
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\error.list
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\error.stat
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\error.time
+
+instr:
+    [mkdir] Created dir: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\tmp
+     [java] Soot started on Tue Mar 07 23:32:17 CST 2017
+     [java] Transforming benchmarks.testcases.TestRace4$1... 
+     [java] Transforming benchmarks.testcases.TestRace4... 
+     [java] Writing to E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\tmpclasses\benchmarks\testcases\TestRace4$1.class
+     [java] Writing to E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\tmpclasses\benchmarks\testcases\TestRace4.class
+     [java] Soot finished on Tue Mar 07 23:32:17 CST 2017
+     [java] Soot has run for 0 min. 0 sec.
+
+analysis-once:
+     [java] Analysis class javato.activetesting.HybridAnalysis
+     [java] Data race between benchmarks/testcases/TestRace4.java#43 and benchmarks/testcases/TestRace4.java#48
+     [java] Data race between benchmarks/testcases/TestRace4.java#43 and benchmarks/testcases/TestRace4.java#48
+     [java] Data race between benchmarks/testcases/TestRace4.java#43 and benchmarks/testcases/TestRace4.java#48
+     [java] x = 2
+     [java] benchmarks/testcases/TestRace4.java#43:0:true:benchmarks/testcases/TestRace4.java#48:0:false:false:false
+     [java] benchmarks/testcases/TestRace4.java#43:0:false:benchmarks/testcases/TestRace4.java#48:0:false:false:false
+     [java] benchmarks/testcases/TestRace4.java#43:0:false:benchmarks/testcases/TestRace4.java#48:0:true:false:false
+     [java] # of data races 3 and lock races 0
+[stopwatch] [timer: 0.153 sec]
+
+active-loop:
+     [echo] Iteration: 1
+     [echo] ------------------
+     [echo] Error:Iteration = 1:1
+     [echo] ------------------
+
+analysis-once:
+     [java] Analysis class javato.activetesting.RaceFuzzerAnalysis
+     [java] ***************************************** Real data race detected between benchmarks/testcases/TestRace4.java#48 and benchmarks/testcases/TestRace4.java#43
+     [java] x = 2
+[stopwatch] [timer: 0.274 sec]
+     [echo] Error:Iteration = 2:1
+     [echo] ------------------
+
+analysis-once:
+     [java] Analysis class javato.activetesting.RaceFuzzerAnalysis
+     [java] ***************************************** Real data race detected between benchmarks/testcases/TestRace4.java#48 and benchmarks/testcases/TestRace4.java#43
+     [java] x = 1
+[stopwatch] [timer: 0.260 sec]
+     [echo] Error:Iteration = 3:1
+     [echo] ------------------
+
+analysis-once:
+     [java] Analysis class javato.activetesting.RaceFuzzerAnalysis
+     [java] ***************************************** Real data race detected between benchmarks/testcases/TestRace4.java#48 and benchmarks/testcases/TestRace4.java#43
+     [java] x = 2
+[stopwatch] [timer: 0.258 sec]
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+
+>>>>>end<<<<<
+
+>>>>>start command [1]E:\tsmart\source-of-key\apache-ant-1.9.6\bin\java -cp E:/courseResource/programResearch/benchmark/calfuzzer/calfuzzer2/calfuzzer/classes benchmarks.testcases.TestRace1 about 1 on 2017-03-07 23:34:28 <<<<<
+
+E:\courseResource\programResearch\tool\JBenchPlatform>E:\tsmart\source-of-key\apache-ant-1.9.6\bin\java -cp E:/courseResource/programResearch/benchmark/calfuzzer/calfuzzer2/calfuzzer/classes benchmarks.testcases.TestRace1 
+命令执行失败
+>>>>>end<<<<<
+
+>>>>>start command [2]E:\tsmart\source-of-key\apache-ant-1.9.6\bin\ant -f E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\run.xml test_race1 about 2 on 2017-03-07 23:34:28 <<<<<
+
+E:\courseResource\programResearch\tool\JBenchPlatform>E:\tsmart\source-of-key\apache-ant-1.9.6\bin\ant -f E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\run.xml test_race1 
+Buildfile: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\run.xml
+
+test_race1:
+     [echo] -------------------test_race1----------------------
+     [echo] 3 potential and 3 real races
+
+race-analysis:
+
+clean:
+   [delete] Deleting directory E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\tmp
+   [delete] Deleting directory E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\tmpclasses
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\javato.usedids
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\iidToLine.map
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\iidToLine.map.html
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\error.log
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\error.list
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\error.stat
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\error.time
+
+instr:
+    [mkdir] Created dir: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\tmp
+     [java] Soot started on Tue Mar 07 23:34:30 CST 2017
+     [java] Transforming benchmarks.testcases.TestRace1$2... 
+     [java] Transforming benchmarks.testcases.TestRace1... 
+     [java] Transforming benchmarks.testcases.TestRace1$1... 
+     [java] Writing to E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\tmpclasses\benchmarks\testcases\TestRace1$2.class
+     [java] Writing to E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\tmpclasses\benchmarks\testcases\TestRace1.class
+     [java] Writing to E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\tmpclasses\benchmarks\testcases\TestRace1$1.class
+     [java] Soot finished on Tue Mar 07 23:34:30 CST 2017
+     [java] Soot has run for 0 min. 0 sec.
+
+analysis-once:
+     [java] Analysis class javato.activetesting.HybridAnalysis
+     [java] Data race between benchmarks/testcases/TestRace1.java#47 and benchmarks/testcases/TestRace1.java#41
+     [java] Data race between benchmarks/testcases/TestRace1.java#47 and benchmarks/testcases/TestRace1.java#41
+     [java] Data race between benchmarks/testcases/TestRace1.java#47 and benchmarks/testcases/TestRace1.java#41
+     [java] x = 22
+     [java] benchmarks/testcases/TestRace1.java#47:0:true:benchmarks/testcases/TestRace1.java#41:0:false:false:false
+     [java] benchmarks/testcases/TestRace1.java#47:0:false:benchmarks/testcases/TestRace1.java#41:0:false:false:false
+     [java] benchmarks/testcases/TestRace1.java#47:0:false:benchmarks/testcases/TestRace1.java#41:0:true:false:false
+     [java] # of data races 3 and lock races 0
+[stopwatch] [timer: 0.155 sec]
+
+active-loop:
+     [echo] Iteration: 1
+     [echo] ------------------
+     [echo] Error:Iteration = 1:1
+     [echo] ------------------
+
+analysis-once:
+     [java] Analysis class javato.activetesting.RaceFuzzerAnalysis
+     [java] ***************************************** Real data race detected between benchmarks/testcases/TestRace1.java#47 and benchmarks/testcases/TestRace1.java#41
+     [java] x = 22
+[stopwatch] [timer: 0.276 sec]
+     [echo] Error:Iteration = 2:1
+     [echo] ------------------
+
+analysis-once:
+     [java] Analysis class javato.activetesting.RaceFuzzerAnalysis
+     [java] ***************************************** Real data race detected between benchmarks/testcases/TestRace1.java#47 and benchmarks/testcases/TestRace1.java#41
+     [java] x = 17
+[stopwatch] [timer: 0.267 sec]
+     [echo] Error:Iteration = 3:1
+     [echo] ------------------
+
+analysis-once:
+     [java] Analysis class javato.activetesting.RaceFuzzerAnalysis
+     [java] ***************************************** Real data race detected between benchmarks/testcases/TestRace1.java#47 and benchmarks/testcases/TestRace1.java#41
+     [java] x = 17
+[stopwatch] [timer: 0.242 sec]
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+
+>>>>>end<<<<<
+
+>>>>>start command [3]E:\tsmart\source-of-key\apache-ant-1.9.6\bin\ant -f E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\run.xml test_race2 about 3 on 2017-03-07 23:34:32 <<<<<
+
+E:\courseResource\programResearch\tool\JBenchPlatform>E:\tsmart\source-of-key\apache-ant-1.9.6\bin\ant -f E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\run.xml test_race2 
+Buildfile: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\run.xml
+
+test_race2:
+     [echo] -------------------test_race2----------------------
+     [echo] 0 potential and 0 real race
+
+race-analysis:
+
+clean:
+   [delete] Deleting directory E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\tmp
+   [delete] Deleting directory E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\tmpclasses
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\javato.usedids
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\iidToLine.map
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\iidToLine.map.html
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\error.log
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\error.list
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\error.stat
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\error.time
+
+instr:
+    [mkdir] Created dir: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\tmp
+     [java] Soot started on Tue Mar 07 23:34:33 CST 2017
+     [java] Transforming benchmarks.testcases.TestRace2$1... 
+     [java] Transforming benchmarks.testcases.TestRace2... 
+     [java] Writing to E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\tmpclasses\benchmarks\testcases\TestRace2$1.class
+     [java] Writing to E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\tmpclasses\benchmarks\testcases\TestRace2.class
+     [java] Soot finished on Tue Mar 07 23:34:34 CST 2017
+     [java] Soot has run for 0 min. 0 sec.
+
+analysis-once:
+     [java] Analysis class javato.activetesting.HybridAnalysis
+     [java] x = 3
+     [java] # of data races 0 and lock races 0
+[stopwatch] [timer: 0.140 sec]
+
+active-loop:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+
+>>>>>end<<<<<
+
+>>>>>start command [4]E:\tsmart\source-of-key\apache-ant-1.9.6\bin\ant -f E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\run.xml test_race3 about 4 on 2017-03-07 23:34:34 <<<<<
+
+E:\courseResource\programResearch\tool\JBenchPlatform>E:\tsmart\source-of-key\apache-ant-1.9.6\bin\ant -f E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\run.xml test_race3 
+Buildfile: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\run.xml
+
+test_race3:
+     [echo] -------------------test_race3----------------------
+     [echo] 3 potential and 3 real races
+
+race-analysis:
+
+clean:
+   [delete] Deleting directory E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\tmp
+   [delete] Deleting directory E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\tmpclasses
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\javato.usedids
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\iidToLine.map
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\iidToLine.map.html
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\error.log
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\error.list
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\error.time
+
+instr:
+    [mkdir] Created dir: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\tmp
+     [java] Soot started on Tue Mar 07 23:34:36 CST 2017
+     [java] Transforming benchmarks.testcases.TestRace3... 
+     [java] Transforming benchmarks.testcases.TestRace3$1... 
+     [java] Writing to E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\tmpclasses\benchmarks\testcases\TestRace3.class
+     [java] Writing to E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\tmpclasses\benchmarks\testcases\TestRace3$1.class
+     [java] Soot finished on Tue Mar 07 23:34:36 CST 2017
+     [java] Soot has run for 0 min. 0 sec.
+
+analysis-once:
+     [java] Analysis class javato.activetesting.HybridAnalysis
+     [java] Data race between benchmarks/testcases/TestRace3.java#42 and benchmarks/testcases/TestRace3.java#46
+     [java] Data race between benchmarks/testcases/TestRace3.java#42 and benchmarks/testcases/TestRace3.java#46
+     [java] Data race between benchmarks/testcases/TestRace3.java#42 and benchmarks/testcases/TestRace3.java#46
+     [java] x = 2
+     [java] benchmarks/testcases/TestRace3.java#42:0:true:benchmarks/testcases/TestRace3.java#46:0:false:false:false
+     [java] benchmarks/testcases/TestRace3.java#42:0:false:benchmarks/testcases/TestRace3.java#46:0:false:false:false
+     [java] benchmarks/testcases/TestRace3.java#42:0:false:benchmarks/testcases/TestRace3.java#46:0:true:false:false
+     [java] # of data races 3 and lock races 0
+[stopwatch] [timer: 0.148 sec]
+
+active-loop:
+     [echo] Iteration: 1
+     [echo] ------------------
+     [echo] Error:Iteration = 1:1
+     [echo] ------------------
+
+analysis-once:
+     [java] Analysis class javato.activetesting.RaceFuzzerAnalysis
+     [java] ***************************************** Real data race detected between benchmarks/testcases/TestRace3.java#46 and benchmarks/testcases/TestRace3.java#42
+     [java] x = 1
+[stopwatch] [timer: 0.271 sec]
+     [echo] Error:Iteration = 2:1
+     [echo] ------------------
+
+analysis-once:
+     [java] Analysis class javato.activetesting.RaceFuzzerAnalysis***************************************** Real data race detected between benchmarks/testcases/TestRace3.java#46 and benchmarks/testcases/TestRace3.java#42
+     [java] 
+     [java] x = 1
+[stopwatch] [timer: 0.268 sec]
+     [echo] Error:Iteration = 3:1
+     [echo] ------------------
+
+analysis-once:
+     [java] Analysis class javato.activetesting.RaceFuzzerAnalysis
+     [java] ***************************************** Real data race detected between benchmarks/testcases/TestRace3.java#46 and benchmarks/testcases/TestRace3.java#42
+     [java] x = 1
+[stopwatch] [timer: 0.251 sec]
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+
+>>>>>end<<<<<
+
+>>>>>start command [5]E:\tsmart\source-of-key\apache-ant-1.9.6\bin\ant -f E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\run.xml test_race4 about 5 on 2017-03-07 23:34:38 <<<<<
+
+E:\courseResource\programResearch\tool\JBenchPlatform>E:\tsmart\source-of-key\apache-ant-1.9.6\bin\ant -f E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\run.xml test_race4 
+Buildfile: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\run.xml
+
+test_race4:
+     [echo] -------------------test_race4----------------------
+     [echo] 3 potential and 3 real races
+
+race-analysis:
+
+clean:
+   [delete] Deleting directory E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\tmp
+   [delete] Deleting directory E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\tmpclasses
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\javato.usedids
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\iidToLine.map
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\iidToLine.map.html
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\error.log
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\error.list
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\error.stat
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\error.time
+
+instr:
+    [mkdir] Created dir: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\tmp
+     [java] Soot started on Tue Mar 07 23:34:40 CST 2017
+     [java] Transforming benchmarks.testcases.TestRace4... 
+     [java] Transforming benchmarks.testcases.TestRace4$1... 
+     [java] Writing to E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\tmpclasses\benchmarks\testcases\TestRace4.class
+     [java] Writing to E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\tmpclasses\benchmarks\testcases\TestRace4$1.class
+     [java] Soot finished on Tue Mar 07 23:34:40 CST 2017
+     [java] Soot has run for 0 min. 0 sec.
+
+analysis-once:
+     [java] Analysis class javato.activetesting.HybridAnalysis
+     [java] Data race between benchmarks/testcases/TestRace4.java#43 and benchmarks/testcases/TestRace4.java#48
+     [java] Data race between benchmarks/testcases/TestRace4.java#43 and benchmarks/testcases/TestRace4.java#48
+     [java] Data race between benchmarks/testcases/TestRace4.java#43 and benchmarks/testcases/TestRace4.java#48
+     [java] x = 2
+     [java] benchmarks/testcases/TestRace4.java#43:0:true:benchmarks/testcases/TestRace4.java#48:0:false:false:false
+     [java] benchmarks/testcases/TestRace4.java#43:0:false:benchmarks/testcases/TestRace4.java#48:0:false:false:false
+     [java] benchmarks/testcases/TestRace4.java#43:0:false:benchmarks/testcases/TestRace4.java#48:0:true:false:false
+     [java] # of data races 3 and lock races 0
+[stopwatch] [timer: 0.146 sec]
+
+active-loop:
+     [echo] Iteration: 1
+     [echo] ------------------
+     [echo] Error:Iteration = 1:1
+     [echo] ------------------
+
+analysis-once:
+     [java] Analysis class javato.activetesting.RaceFuzzerAnalysis
+     [java] ***************************************** Real data race detected between benchmarks/testcases/TestRace4.java#48 and benchmarks/testcases/TestRace4.java#43
+     [java] x = 1
+[stopwatch] [timer: 0.273 sec]
+     [echo] Error:Iteration = 2:1
+     [echo] ------------------
+
+analysis-once:
+     [java] Analysis class javato.activetesting.RaceFuzzerAnalysis
+     [java] ***************************************** Real data race detected between benchmarks/testcases/TestRace4.java#48 and benchmarks/testcases/TestRace4.java#43
+     [java] x = 1
+[stopwatch] [timer: 0.260 sec]
+     [echo] Error:Iteration = 3:1
+     [echo] ------------------
+
+analysis-once:
+     [java] Analysis class javato.activetesting.RaceFuzzerAnalysis
+     [java] ***************************************** Real data race detected between benchmarks/testcases/TestRace4.java#48 and benchmarks/testcases/TestRace4.java#43
+     [java] x = 2
+[stopwatch] [timer: 0.271 sec]
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+
+>>>>>end<<<<<
+
+>>>>>start command [1]E:\tsmart\source-of-key\apache-ant-1.9.6\bin\java -cp E:/courseResource/programResearch/benchmark/calfuzzer/calfuzzer2/calfuzzer/classes benchmarks.testcases.TestRace1 about 1 on 2017-03-07 23:35:32 <<<<<
+
+E:\courseResource\programResearch\tool\JBenchPlatform>E:\tsmart\source-of-key\apache-ant-1.9.6\bin\java -cp E:/courseResource/programResearch/benchmark/calfuzzer/calfuzzer2/calfuzzer/classes benchmarks.testcases.TestRace1 
+命令执行失败
+>>>>>end<<<<<
+
+>>>>>start command [2]E:\tsmart\source-of-key\apache-ant-1.9.6\bin\ant -f E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\run.xml test_race1 about 2 on 2017-03-07 23:35:32 <<<<<
+
+E:\courseResource\programResearch\tool\JBenchPlatform>E:\tsmart\source-of-key\apache-ant-1.9.6\bin\ant -f E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\run.xml test_race1 
+Buildfile: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\run.xml
+
+test_race1:
+     [echo] -------------------test_race1----------------------
+     [echo] 3 potential and 3 real races
+
+race-analysis:
+
+clean:
+   [delete] Deleting directory E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\tmp
+   [delete] Deleting directory E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\tmpclasses
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\javato.usedids
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\iidToLine.map
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\iidToLine.map.html
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\error.log
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\error.list
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\error.stat
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\error.time
+
+instr:
+    [mkdir] Created dir: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\tmp
+     [java] Soot started on Tue Mar 07 23:35:34 CST 2017
+     [java] Transforming benchmarks.testcases.TestRace1... 
+     [java] Transforming benchmarks.testcases.TestRace1$1... 
+     [java] Transforming benchmarks.testcases.TestRace1$2... 
+     [java] Writing to E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\tmpclasses\benchmarks\testcases\TestRace1.class
+     [java] Writing to E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\tmpclasses\benchmarks\testcases\TestRace1$1.class
+     [java] Writing to E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\tmpclasses\benchmarks\testcases\TestRace1$2.class
+     [java] Soot finished on Tue Mar 07 23:35:34 CST 2017
+     [java] Soot has run for 0 min. 0 sec.
+
+analysis-once:
+     [java] Analysis class javato.activetesting.HybridAnalysis
+     [java] Data race between benchmarks/testcases/TestRace1.java#47 and benchmarks/testcases/TestRace1.java#41
+     [java] Data race between benchmarks/testcases/TestRace1.java#47 and benchmarks/testcases/TestRace1.java#41
+     [java] Data race between benchmarks/testcases/TestRace1.java#47 and benchmarks/testcases/TestRace1.java#41
+     [java] x = 22
+     [java] benchmarks/testcases/TestRace1.java#47:0:true:benchmarks/testcases/TestRace1.java#41:0:false:false:false
+     [java] benchmarks/testcases/TestRace1.java#47:0:false:benchmarks/testcases/TestRace1.java#41:0:false:false:false
+     [java] benchmarks/testcases/TestRace1.java#47:0:false:benchmarks/testcases/TestRace1.java#41:0:true:false:false
+     [java] # of data races 3 and lock races 0
+[stopwatch] [timer: 0.151 sec]
+
+active-loop:
+     [echo] Iteration: 1
+     [echo] ------------------
+     [echo] Error:Iteration = 1:1
+     [echo] ------------------
+
+analysis-once:
+     [java] Analysis class javato.activetesting.RaceFuzzerAnalysis
+     [java] ***************************************** Real data race detected between benchmarks/testcases/TestRace1.java#47 and benchmarks/testcases/TestRace1.java#41
+     [java] x = 22
+[stopwatch] [timer: 0.254 sec]
+     [echo] Error:Iteration = 2:1
+     [echo] ------------------
+
+analysis-once:
+     [java] Analysis class javato.activetesting.RaceFuzzerAnalysis
+     [java] ***************************************** Real data race detected between benchmarks/testcases/TestRace1.java#47 and benchmarks/testcases/TestRace1.java#41
+     [java] x = 17
+[stopwatch] [timer: 0.265 sec]
+     [echo] Error:Iteration = 3:1
+     [echo] ------------------
+
+analysis-once:
+     [java] Analysis class javato.activetesting.RaceFuzzerAnalysis
+     [java] ***************************************** Real data race detected between benchmarks/testcases/TestRace1.java#47 and benchmarks/testcases/TestRace1.java#41
+     [java] x = 17
+[stopwatch] [timer: 0.253 sec]
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+
+>>>>>end<<<<<
+
+>>>>>start command [3]E:\tsmart\source-of-key\apache-ant-1.9.6\bin\ant -f E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\run.xml test_race2 about 3 on 2017-03-07 23:35:36 <<<<<
+
+E:\courseResource\programResearch\tool\JBenchPlatform>E:\tsmart\source-of-key\apache-ant-1.9.6\bin\ant -f E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\run.xml test_race2 
+Buildfile: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\run.xml
+
+test_race2:
+     [echo] -------------------test_race2----------------------
+     [echo] 0 potential and 0 real race
+
+race-analysis:
+
+clean:
+   [delete] Deleting directory E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\tmp
+   [delete] Deleting directory E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\tmpclasses
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\javato.usedids
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\iidToLine.map
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\iidToLine.map.html
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\error.log
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\error.list
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\error.stat
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\error.time
+
+instr:
+    [mkdir] Created dir: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\tmp
+     [java] Soot started on Tue Mar 07 23:35:37 CST 2017
+     [java] Transforming benchmarks.testcases.TestRace2... 
+     [java] Transforming benchmarks.testcases.TestRace2$1... 
+     [java] Writing to E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\tmpclasses\benchmarks\testcases\TestRace2.class
+     [java] Writing to E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\tmpclasses\benchmarks\testcases\TestRace2$1.class
+     [java] Soot finished on Tue Mar 07 23:35:38 CST 2017
+     [java] Soot has run for 0 min. 0 sec.
+
+analysis-once:
+     [java] Analysis class javato.activetesting.HybridAnalysis
+     [java] x = 3
+     [java] # of data races 0 and lock races 0
+[stopwatch] [timer: 0.122 sec]
+
+active-loop:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+
+>>>>>end<<<<<
+
+>>>>>start command [4]E:\tsmart\source-of-key\apache-ant-1.9.6\bin\ant -f E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\run.xml test_race3 about 4 on 2017-03-07 23:35:38 <<<<<
+
+E:\courseResource\programResearch\tool\JBenchPlatform>E:\tsmart\source-of-key\apache-ant-1.9.6\bin\ant -f E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\run.xml test_race3 
+Buildfile: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\run.xml
+
+test_race3:
+     [echo] -------------------test_race3----------------------
+     [echo] 3 potential and 3 real races
+
+race-analysis:
+
+clean:
+   [delete] Deleting directory E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\tmp
+   [delete] Deleting directory E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\tmpclasses
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\javato.usedids
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\iidToLine.map
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\iidToLine.map.html
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\error.log
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\error.list
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\error.time
+
+instr:
+    [mkdir] Created dir: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\tmp
+     [java] Soot started on Tue Mar 07 23:35:40 CST 2017
+     [java] Transforming benchmarks.testcases.TestRace3$1... 
+     [java] Transforming benchmarks.testcases.TestRace3... 
+     [java] Writing to E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\tmpclasses\benchmarks\testcases\TestRace3$1.class
+     [java] Writing to E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\tmpclasses\benchmarks\testcases\TestRace3.class
+     [java] Soot finished on Tue Mar 07 23:35:40 CST 2017
+     [java] Soot has run for 0 min. 0 sec.
+
+analysis-once:
+     [java] Analysis class javato.activetesting.HybridAnalysis
+     [java] Data race between benchmarks/testcases/TestRace3.java#46 and benchmarks/testcases/TestRace3.java#42
+     [java] Data race between benchmarks/testcases/TestRace3.java#42 and benchmarks/testcases/TestRace3.java#46
+     [java] Data race between benchmarks/testcases/TestRace3.java#42 and benchmarks/testcases/TestRace3.java#46
+     [java] x = 1
+     [java] benchmarks/testcases/TestRace3.java#46:0:false:benchmarks/testcases/TestRace3.java#42:0:true:false:false
+     [java] benchmarks/testcases/TestRace3.java#42:0:false:benchmarks/testcases/TestRace3.java#46:0:false:false:false
+     [java] benchmarks/testcases/TestRace3.java#42:0:false:benchmarks/testcases/TestRace3.java#46:0:true:false:false
+     [java] # of data races 3 and lock races 0
+[stopwatch] [timer: 0.140 sec]
+
+active-loop:
+     [echo] Iteration: 1
+     [echo] ------------------
+     [echo] Error:Iteration = 1:1
+     [echo] ------------------
+
+analysis-once:
+     [java] Analysis class javato.activetesting.RaceFuzzerAnalysis
+     [java] ***************************************** Real data race detected between benchmarks/testcases/TestRace3.java#46 and benchmarks/testcases/TestRace3.java#42
+     [java] x = 2
+[stopwatch] [timer: 0.254 sec]
+     [echo] Error:Iteration = 2:1
+     [echo] ------------------
+
+analysis-once:
+     [java] Analysis class javato.activetesting.RaceFuzzerAnalysis***************************************** Real data race detected between benchmarks/testcases/TestRace3.java#46 and benchmarks/testcases/TestRace3.java#42
+     [java] 
+     [java] x = 1
+[stopwatch] [timer: 0.323 sec]
+     [echo] Error:Iteration = 3:1
+     [echo] ------------------
+
+analysis-once:
+     [java] Analysis class javato.activetesting.RaceFuzzerAnalysis
+     [java] ***************************************** Real data race detected between benchmarks/testcases/TestRace3.java#46 and benchmarks/testcases/TestRace3.java#42
+     [java] x = 1
+[stopwatch] [timer: 0.258 sec]
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+
+>>>>>end<<<<<
+
+>>>>>start command [5]E:\tsmart\source-of-key\apache-ant-1.9.6\bin\ant -f E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\run.xml test_race4 about 5 on 2017-03-07 23:35:42 <<<<<
+
+E:\courseResource\programResearch\tool\JBenchPlatform>E:\tsmart\source-of-key\apache-ant-1.9.6\bin\ant -f E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\run.xml test_race4 
+Buildfile: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\run.xml
+
+test_race4:
+     [echo] -------------------test_race4----------------------
+     [echo] 3 potential and 3 real races
+
+race-analysis:
+
+clean:
+   [delete] Deleting directory E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\tmp
+   [delete] Deleting directory E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\tmpclasses
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\javato.usedids
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\iidToLine.map
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\iidToLine.map.html
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\error.log
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\error.list
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\error.stat
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\error.time
+
+instr:
+    [mkdir] Created dir: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\tmp
+     [java] Soot started on Tue Mar 07 23:35:43 CST 2017
+     [java] Transforming benchmarks.testcases.TestRace4$1... 
+     [java] Transforming benchmarks.testcases.TestRace4... 
+     [java] Writing to E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\tmpclasses\benchmarks\testcases\TestRace4$1.class
+     [java] Writing to E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\tmpclasses\benchmarks\testcases\TestRace4.class
+     [java] Soot finished on Tue Mar 07 23:35:44 CST 2017
+     [java] Soot has run for 0 min. 0 sec.
+
+analysis-once:
+     [java] Analysis class javato.activetesting.HybridAnalysis
+     [java] Data race between benchmarks/testcases/TestRace4.java#43 and benchmarks/testcases/TestRace4.java#48
+     [java] Data race between benchmarks/testcases/TestRace4.java#43 and benchmarks/testcases/TestRace4.java#48
+     [java] Data race between benchmarks/testcases/TestRace4.java#43 and benchmarks/testcases/TestRace4.java#48
+     [java] x = 2
+     [java] benchmarks/testcases/TestRace4.java#43:0:true:benchmarks/testcases/TestRace4.java#48:0:false:false:false
+     [java] benchmarks/testcases/TestRace4.java#43:0:false:benchmarks/testcases/TestRace4.java#48:0:false:false:false
+     [java] benchmarks/testcases/TestRace4.java#43:0:false:benchmarks/testcases/TestRace4.java#48:0:true:false:false
+     [java] # of data races 3 and lock races 0
+[stopwatch] [timer: 0.148 sec]
+
+active-loop:
+     [echo] Iteration: 1
+     [echo] ------------------
+     [echo] Error:Iteration = 1:1
+     [echo] ------------------
+
+analysis-once:
+     [java] Analysis class javato.activetesting.RaceFuzzerAnalysis
+     [java] ***************************************** Real data race detected between benchmarks/testcases/TestRace4.java#48 and benchmarks/testcases/TestRace4.java#43
+     [java] x = 1
+[stopwatch] [timer: 0.255 sec]
+     [echo] Error:Iteration = 2:1
+     [echo] ------------------
+
+analysis-once:
+     [java] Analysis class javato.activetesting.RaceFuzzerAnalysis
+     [java] ***************************************** Real data race detected between benchmarks/testcases/TestRace4.java#48 and benchmarks/testcases/TestRace4.java#43
+     [java] x = 1
+[stopwatch] [timer: 0.253 sec]
+     [echo] Error:Iteration = 3:1
+     [echo] ------------------
+
+analysis-once:
+     [java] Analysis class javato.activetesting.RaceFuzzerAnalysis
+     [java] ***************************************** Real data race detected between benchmarks/testcases/TestRace4.java#48 and benchmarks/testcases/TestRace4.java#43
+     [java] x = 2
+[stopwatch] [timer: 0.291 sec]
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+
+>>>>>end<<<<<
+
+>>>>>start command [1]E:\tsmart\source-of-key\apache-ant-1.9.6\bin\java -cp E:/courseResource/programResearch/benchmark/calfuzzer/calfuzzer2/calfuzzer/classes benchmarks.testcases.TestRace1 about 1 on 2017-03-07 23:37:03 <<<<<
+
+E:\courseResource\programResearch\tool\JBenchPlatform>E:\tsmart\source-of-key\apache-ant-1.9.6\bin\java -cp E:/courseResource/programResearch/benchmark/calfuzzer/calfuzzer2/calfuzzer/classes benchmarks.testcases.TestRace1 
+命令执行失败
+>>>>>end<<<<<
+
+>>>>>start command [2]E:\tsmart\source-of-key\apache-ant-1.9.6\bin\ant -f E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\run.xml test_race1 about 2 on 2017-03-07 23:37:03 <<<<<
+
+E:\courseResource\programResearch\tool\JBenchPlatform>E:\tsmart\source-of-key\apache-ant-1.9.6\bin\ant -f E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\run.xml test_race1 
+Buildfile: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\run.xml
+
+test_race1:
+     [echo] -------------------test_race1----------------------
+     [echo] 3 potential and 3 real races
+
+race-analysis:
+
+clean:
+   [delete] Deleting directory E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\tmp
+   [delete] Deleting directory E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\tmpclasses
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\javato.usedids
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\iidToLine.map
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\iidToLine.map.html
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\error.log
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\error.list
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\error.stat
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\error.time
+
+instr:
+    [mkdir] Created dir: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\tmp
+     [java] Soot started on Tue Mar 07 23:37:05 CST 2017
+     [java] Transforming benchmarks.testcases.TestRace1... 
+     [java] Transforming benchmarks.testcases.TestRace1$1... 
+     [java] Transforming benchmarks.testcases.TestRace1$2... 
+     [java] Writing to E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\tmpclasses\benchmarks\testcases\TestRace1.class
+     [java] Writing to E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\tmpclasses\benchmarks\testcases\TestRace1$1.class
+     [java] Writing to E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\tmpclasses\benchmarks\testcases\TestRace1$2.class
+     [java] Soot finished on Tue Mar 07 23:37:06 CST 2017
+     [java] Soot has run for 0 min. 0 sec.
+
+analysis-once:
+     [java] Analysis class javato.activetesting.HybridAnalysis
+     [java] Data race between benchmarks/testcases/TestRace1.java#47 and benchmarks/testcases/TestRace1.java#41
+     [java] Data race between benchmarks/testcases/TestRace1.java#47 and benchmarks/testcases/TestRace1.java#41
+     [java] Data race between benchmarks/testcases/TestRace1.java#47 and benchmarks/testcases/TestRace1.java#41
+     [java] x = 22
+     [java] benchmarks/testcases/TestRace1.java#47:0:true:benchmarks/testcases/TestRace1.java#41:0:false:false:false
+     [java] benchmarks/testcases/TestRace1.java#47:0:false:benchmarks/testcases/TestRace1.java#41:0:false:false:false
+     [java] benchmarks/testcases/TestRace1.java#47:0:false:benchmarks/testcases/TestRace1.java#41:0:true:false:false
+     [java] # of data races 3 and lock races 0
+[stopwatch] [timer: 0.155 sec]
+
+active-loop:
+     [echo] Iteration: 1
+     [echo] ------------------
+     [echo] Error:Iteration = 1:1
+     [echo] ------------------
+
+analysis-once:
+     [java] Analysis class javato.activetesting.RaceFuzzerAnalysis
+     [java] ***************************************** Real data race detected between benchmarks/testcases/TestRace1.java#47 and benchmarks/testcases/TestRace1.java#41
+     [java] x = 22
+[stopwatch] [timer: 0.235 sec]
+     [echo] Error:Iteration = 2:1
+     [echo] ------------------
+
+analysis-once:
+     [java] Analysis class javato.activetesting.RaceFuzzerAnalysis
+     [java] ***************************************** Real data race detected between benchmarks/testcases/TestRace1.java#47 and benchmarks/testcases/TestRace1.java#41
+     [java] x = 17
+[stopwatch] [timer: 0.268 sec]
+     [echo] Error:Iteration = 3:1
+     [echo] ------------------
+
+analysis-once:
+     [java] Analysis class javato.activetesting.RaceFuzzerAnalysis
+     [java] ***************************************** Real data race detected between benchmarks/testcases/TestRace1.java#47 and benchmarks/testcases/TestRace1.java#41
+     [java] x = 17
+[stopwatch] [timer: 0.256 sec]
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+
+>>>>>end<<<<<
+
+>>>>>start command [1]E:\tsmart\source-of-key\apache-ant-1.9.6\bin\java -cp E:/courseResource/programResearch/benchmark/calfuzzer/calfuzzer2/calfuzzer/classes benchmarks.testcases.TestRace1 about 1 on 2017-03-07 23:38:42 <<<<<
+
+E:\courseResource\programResearch\tool\JBenchPlatform>E:\tsmart\source-of-key\apache-ant-1.9.6\bin\java -cp E:/courseResource/programResearch/benchmark/calfuzzer/calfuzzer2/calfuzzer/classes benchmarks.testcases.TestRace1 
+命令执行失败
+>>>>>end<<<<<
+
+>>>>>start command [2]E:\tsmart\source-of-key\apache-ant-1.9.6\bin\ant -f E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\run.xml test_race1 about 2 on 2017-03-07 23:38:42 <<<<<
+
+E:\courseResource\programResearch\tool\JBenchPlatform>E:\tsmart\source-of-key\apache-ant-1.9.6\bin\ant -f E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\run.xml test_race1 
+Buildfile: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\run.xml
+
+test_race1:
+     [echo] -------------------test_race1----------------------
+     [echo] 3 potential and 3 real races
+
+race-analysis:
+
+clean:
+   [delete] Deleting directory E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\tmp
+   [delete] Deleting directory E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\tmpclasses
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\javato.usedids
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\iidToLine.map
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\iidToLine.map.html
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\error.log
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\error.list
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\error.stat
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\error.time
+
+instr:
+    [mkdir] Created dir: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\tmp
+     [java] Soot started on Tue Mar 07 23:38:44 CST 2017
+     [java] Transforming benchmarks.testcases.TestRace1$2... 
+     [java] Transforming benchmarks.testcases.TestRace1... 
+     [java] Transforming benchmarks.testcases.TestRace1$1... 
+     [java] Writing to E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\tmpclasses\benchmarks\testcases\TestRace1$2.class
+     [java] Writing to E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\tmpclasses\benchmarks\testcases\TestRace1.class
+     [java] Writing to E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\tmpclasses\benchmarks\testcases\TestRace1$1.class
+     [java] Soot finished on Tue Mar 07 23:38:44 CST 2017
+     [java] Soot has run for 0 min. 0 sec.
+
+analysis-once:
+     [java] Analysis class javato.activetesting.HybridAnalysis
+     [java] Data race between benchmarks/testcases/TestRace1.java#47 and benchmarks/testcases/TestRace1.java#41
+     [java] Data race between benchmarks/testcases/TestRace1.java#47 and benchmarks/testcases/TestRace1.java#41
+     [java] Data race between benchmarks/testcases/TestRace1.java#47 and benchmarks/testcases/TestRace1.java#41
+     [java] x = 22
+     [java] benchmarks/testcases/TestRace1.java#47:0:true:benchmarks/testcases/TestRace1.java#41:0:false:false:false
+     [java] benchmarks/testcases/TestRace1.java#47:0:false:benchmarks/testcases/TestRace1.java#41:0:false:false:false
+     [java] benchmarks/testcases/TestRace1.java#47:0:false:benchmarks/testcases/TestRace1.java#41:0:true:false:false
+     [java] # of data races 3 and lock races 0
+[stopwatch] [timer: 0.147 sec]
+
+active-loop:
+     [echo] Iteration: 1
+     [echo] ------------------
+     [echo] Error:Iteration = 1:1
+     [echo] ------------------
+
+analysis-once:
+     [java] Analysis class javato.activetesting.RaceFuzzerAnalysis
+     [java] ***************************************** Real data race detected between benchmarks/testcases/TestRace1.java#47 and benchmarks/testcases/TestRace1.java#41
+     [java] x = 22
+[stopwatch] [timer: 0.254 sec]
+     [echo] Error:Iteration = 2:1
+     [echo] ------------------
+
+analysis-once:
+     [java] Analysis class javato.activetesting.RaceFuzzerAnalysis
+     [java] ***************************************** Real data race detected between benchmarks/testcases/TestRace1.java#47 and benchmarks/testcases/TestRace1.java#41
+     [java] x = 17
+[stopwatch] [timer: 0.248 sec]
+     [echo] Error:Iteration = 3:1
+     [echo] ------------------
+
+analysis-once:
+     [java] Analysis class javato.activetesting.RaceFuzzerAnalysis
+     [java] ***************************************** Real data race detected between benchmarks/testcases/TestRace1.java#47 and benchmarks/testcases/TestRace1.java#41
+     [java] x = 17
+[stopwatch] [timer: 0.240 sec]
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+
+>>>>>end<<<<<
+
+>>>>>start command [1]E:\tsmart\source-of-key\apache-ant-1.9.6\bin\java -cp E:/courseResource/programResearch/benchmark/calfuzzer/calfuzzer2/calfuzzer/classes benchmarks.testcases.TestRace1 about 1 on 2017-03-07 23:49:19 <<<<<
+
+E:\courseResource\programResearch\tool\JBenchPlatform>E:\tsmart\source-of-key\apache-ant-1.9.6\bin\java -cp E:/courseResource/programResearch/benchmark/calfuzzer/calfuzzer2/calfuzzer/classes benchmarks.testcases.TestRace1 
+命令执行失败
+>>>>>end<<<<<
+
+>>>>>start command [2]E:\tsmart\source-of-key\apache-ant-1.9.6\bin\ant -f E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\run.xml test_race1 about 2 on 2017-03-07 23:49:19 <<<<<
+
+E:\courseResource\programResearch\tool\JBenchPlatform>E:\tsmart\source-of-key\apache-ant-1.9.6\bin\ant -f E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\run.xml test_race1 
+Buildfile: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\run.xml
+
+test_race1:
+     [echo] -------------------test_race1----------------------
+     [echo] 3 potential and 3 real races
+
+race-analysis:
+
+clean:
+   [delete] Deleting directory E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\tmp
+   [delete] Deleting directory E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\tmpclasses
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\javato.usedids
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\iidToLine.map
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\iidToLine.map.html
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\error.log
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\error.list
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\error.stat
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\error.time
+
+instr:
+    [mkdir] Created dir: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\tmp
+     [java] Soot started on Tue Mar 07 23:49:21 CST 2017
+     [java] Transforming benchmarks.testcases.TestRace1$2... 
+     [java] Transforming benchmarks.testcases.TestRace1... 
+     [java] Transforming benchmarks.testcases.TestRace1$1... 
+     [java] Writing to E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\tmpclasses\benchmarks\testcases\TestRace1$2.class
+     [java] Writing to E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\tmpclasses\benchmarks\testcases\TestRace1.class
+     [java] Writing to E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\tmpclasses\benchmarks\testcases\TestRace1$1.class
+     [java] Soot finished on Tue Mar 07 23:49:21 CST 2017
+     [java] Soot has run for 0 min. 0 sec.
+
+analysis-once:
+     [java] Analysis class javato.activetesting.HybridAnalysis
+     [java] Data race between benchmarks/testcases/TestRace1.java#47 and benchmarks/testcases/TestRace1.java#41
+     [java] Data race between benchmarks/testcases/TestRace1.java#47 and benchmarks/testcases/TestRace1.java#41
+     [java] Data race between benchmarks/testcases/TestRace1.java#47 and benchmarks/testcases/TestRace1.java#41
+     [java] x = 22
+     [java] benchmarks/testcases/TestRace1.java#47:0:true:benchmarks/testcases/TestRace1.java#41:0:false:false:false
+     [java] benchmarks/testcases/TestRace1.java#47:0:false:benchmarks/testcases/TestRace1.java#41:0:false:false:false
+     [java] benchmarks/testcases/TestRace1.java#47:0:false:benchmarks/testcases/TestRace1.java#41:0:true:false:false
+     [java] # of data races 3 and lock races 0
+[stopwatch] [timer: 0.155 sec]
+
+active-loop:
+     [echo] Iteration: 1
+     [echo] ------------------
+     [echo] Error:Iteration = 1:1
+     [echo] ------------------
+
+analysis-once:
+     [java] Analysis class javato.activetesting.RaceFuzzerAnalysis
+     [java] ***************************************** Real data race detected between benchmarks/testcases/TestRace1.java#47 and benchmarks/testcases/TestRace1.java#41
+     [java] x = 22
+[stopwatch] [timer: 0.238 sec]
+     [echo] Error:Iteration = 2:1
+     [echo] ------------------
+
+analysis-once:
+     [java] ***************************************** Real data race detected between benchmarks/testcases/TestRace1.java#47 and benchmarks/testcases/TestRace1.java#41Analysis class javato.activetesting.RaceFuzzerAnalysis
+     [java] 
+     [java] x = 17
+[stopwatch] [timer: 0.283 sec]
+     [echo] Error:Iteration = 3:1
+     [echo] ------------------
+
+analysis-once:
+     [java] Analysis class javato.activetesting.RaceFuzzerAnalysis
+     [java] ***************************************** Real data race detected between benchmarks/testcases/TestRace1.java#47 and benchmarks/testcases/TestRace1.java#41
+     [java] x = 17
+[stopwatch] [timer: 0.253 sec]
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+
+>>>>>end<<<<<
+
+>>>>>start command [1]E:\tsmart\source-of-key\apache-ant-1.9.6\bin\java -cp E:/courseResource/programResearch/benchmark/calfuzzer/calfuzzer2/calfuzzer/classes benchmarks.testcases.TestRace1 about 1 on 2017-03-08 15:09:25 <<<<<
+
+E:\courseResource\programResearch\tool\JBenchPlatform>E:\tsmart\source-of-key\apache-ant-1.9.6\bin\java -cp E:/courseResource/programResearch/benchmark/calfuzzer/calfuzzer2/calfuzzer/classes benchmarks.testcases.TestRace1 
+命令执行失败
+>>>>>end<<<<<
+
+>>>>>start command [2]E:\tsmart\source-of-key\apache-ant-1.9.6\bin\ant -f E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\run.xml test_race1 about 2 on 2017-03-08 15:09:25 <<<<<
+
+E:\courseResource\programResearch\tool\JBenchPlatform>E:\tsmart\source-of-key\apache-ant-1.9.6\bin\ant -f E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\run.xml test_race1 
+Buildfile: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\run.xml
+
+test_race1:
+     [echo] -------------------test_race1----------------------
+     [echo] 3 potential and 3 real races
+
+race-analysis:
+
+clean:
+   [delete] Deleting directory E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\tmp
+   [delete] Deleting directory E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\tmpclasses
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\javato.usedids
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\iidToLine.map
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\iidToLine.map.html
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\error.log
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\error.list
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\error.stat
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\error.time
+
+instr:
+    [mkdir] Created dir: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\tmp
+     [java] Soot started on Wed Mar 08 15:09:28 CST 2017
+     [java] Transforming benchmarks.testcases.TestRace1$1... 
+     [java] Transforming benchmarks.testcases.TestRace1... 
+     [java] Transforming benchmarks.testcases.TestRace1$2... 
+     [java] Writing to E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\tmpclasses\benchmarks\testcases\TestRace1$1.class
+     [java] Writing to E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\tmpclasses\benchmarks\testcases\TestRace1.class
+     [java] Writing to E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\tmpclasses\benchmarks\testcases\TestRace1$2.class
+     [java] Soot finished on Wed Mar 08 15:09:29 CST 2017
+     [java] Soot has run for 0 min. 0 sec.
+
+analysis-once:
+     [java] Analysis class javato.activetesting.HybridAnalysis
+     [java] Data race between benchmarks/testcases/TestRace1.java#47 and benchmarks/testcases/TestRace1.java#41
+     [java] Data race between benchmarks/testcases/TestRace1.java#47 and benchmarks/testcases/TestRace1.java#41
+     [java] Data race between benchmarks/testcases/TestRace1.java#47 and benchmarks/testcases/TestRace1.java#41
+     [java] x = 22
+     [java] benchmarks/testcases/TestRace1.java#47:0:true:benchmarks/testcases/TestRace1.java#41:0:false:false:false
+     [java] benchmarks/testcases/TestRace1.java#47:0:false:benchmarks/testcases/TestRace1.java#41:0:false:false:false
+     [java] benchmarks/testcases/TestRace1.java#47:0:false:benchmarks/testcases/TestRace1.java#41:0:true:false:false
+     [java] # of data races 3 and lock races 0
+[stopwatch] [timer: 0.150 sec]
+
+active-loop:
+     [echo] Iteration: 1
+     [echo] ------------------
+     [echo] Error:Iteration = 1:1
+     [echo] ------------------
+
+analysis-once:
+     [java] Analysis class javato.activetesting.RaceFuzzerAnalysis
+     [java] ***************************************** Real data race detected between benchmarks/testcases/TestRace1.java#47 and benchmarks/testcases/TestRace1.java#41
+     [java] x = 22
+[stopwatch] [timer: 0.475 sec]
+     [echo] Error:Iteration = 2:1
+     [echo] ------------------
+
+analysis-once:
+     [java] Analysis class javato.activetesting.RaceFuzzerAnalysis
+     [java] ***************************************** Real data race detected between benchmarks/testcases/TestRace1.java#47 and benchmarks/testcases/TestRace1.java#41
+     [java] x = 17
+[stopwatch] [timer: 0.301 sec]
+     [echo] Error:Iteration = 3:1
+     [echo] ------------------
+
+analysis-once:
+     [java] Analysis class javato.activetesting.RaceFuzzerAnalysis
+     [java] ***************************************** Real data race detected between benchmarks/testcases/TestRace1.java#47 and benchmarks/testcases/TestRace1.java#41
+     [java] x = 17
+[stopwatch] [timer: 0.283 sec]
+
+BUILD SUCCESSFUL
+Total time: 4 seconds
+
+>>>>>end<<<<<

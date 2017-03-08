@@ -1,0 +1,12 @@
+package cn.edu.thu.platform.match;
+
+import cn.edu.thu.platform.entity.Reports;;
+
+public class MatchDATE {
+	//读一个文件，然后匹配出每个项目的race，每队race是两个行号
+	
+	public　MatchDATE(){
+		String programName = "about 后面的名字"
+		Reports.userReports.put(key, value);
+	}
+}

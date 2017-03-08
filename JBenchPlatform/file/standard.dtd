@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT reports (report*)>
+<!ELEMENT report (race*)>
+<!ATTLIST report name ID #REQUIRED>
+<!ELEMENT race (line1,line2,variable,packageClass,detail)>
+<!ELEMENT line1 (#PCDATA)>
+<!ELEMENT line2 (#PCDATA)>
+<!ELEMENT variable (#PCDATA)>
+<!ELEMENT packageClass (#PCDATA)>
+<!ELEMENT detail (#PCDATA)>
+
+
