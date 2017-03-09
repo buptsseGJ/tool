@@ -139,6 +139,16 @@ public class SelectScriptFrame extends JFrame {
 				ex.setTitle("样例");
 			}
 		});
+		btCompare.addActionListener(new ActionListener(){
+			public void actionPerformed(ActionEvent e){
+				RoughResultFrame rrf = new RoughResultFrame();
+				System.out.println("开始查看粗糙的结果展示");
+				rrf.setSize(1500,1000);
+				rrf.setLocationRelativeTo(null);
+				rrf.setVisible(true);
+				rrf.setTitle("结果展现");
+			}
+		});
 		chooseFile.addActionListener(new ActionListener(){
 			public void actionPerformed(ActionEvent e) {
 				JFileChooser jfc= new JFileChooser();

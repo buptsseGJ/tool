@@ -981,3 +981,218 @@ org.osgi.framework.BundleException: Could not resolve module: org.key_project.ke
 !MESSAGE Commands should really have a category: plug-in='de.hentschel.visualdbc.dbcmodel.diagram', id='de.hentschel.visualdbc.dbcmodel.diagram.defineProofReferencesCommand', categoryId='de.hentschel.visualdbc.category'
 !SUBENTRY 1 org.eclipse.ui 2 0 2017-03-07 21:36:48.391
 !MESSAGE Commands should really have a category: plug-in='de.hentschel.visualdbc.dbcmodel.diagram', id='de.hentschel.visualdbc.dbcmodel.diagram.highlightProofReferencesCommand', categoryId='de.hentschel.visualdbc.category'
+!SESSION 2017-03-08 15:45:42.049 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.7.0_79
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY de.hentschel.visualdbc.dataSource.key 4 0 2017-03-08 15:45:58.826
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: de.hentschel.visualdbc.dataSource.key [911]
+  Unresolved requirement: Require-Bundle: org.key_project.ui; bundle-version="1.0.0"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY de.hentschel.visualdbc.example 4 0 2017-03-08 15:45:58.827
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: de.hentschel.visualdbc.example [918]
+  Unresolved requirement: Require-Bundle: org.key_project.key4eclipse.common.ui; bundle-version="1.0.0"
+    -> Bundle-SymbolicName: org.key_project.key4eclipse.common.ui; bundle-version="1.0.0.201603011154"; singleton:="true"
+       org.key_project.key4eclipse.common.ui [930]
+         Unresolved requirement: Require-Bundle: org.key_project.ui; bundle-version="1.0.0"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY de.hentschel.visualdbc.interactive.proving.ui 4 0 2017-03-08 15:45:58.830
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: de.hentschel.visualdbc.interactive.proving.ui [922]
+  Unresolved requirement: Require-Bundle: org.key_project.key4eclipse.starter.core; bundle-version="1.0.0"
+    -> Bundle-SymbolicName: org.key_project.key4eclipse.starter.core; bundle-version="1.0.0.201603011154"; singleton:="true"
+       org.key_project.key4eclipse.starter.core [931]
+         Unresolved requirement: Require-Bundle: org.key_project.ui; bundle-version="1.0.0"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY de.hentschel.visualdbc.key.ui 4 0 2017-03-08 15:45:58.833
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: de.hentschel.visualdbc.key.ui [923]
+  Unresolved requirement: Require-Bundle: org.key_project.key4eclipse.starter.core; bundle-version="1.0.0"
+    -> Bundle-SymbolicName: org.key_project.key4eclipse.starter.core; bundle-version="1.0.0.201603011154"; singleton:="true"
+       org.key_project.key4eclipse.starter.core [931]
+         Unresolved requirement: Require-Bundle: org.key_project.ui; bundle-version="1.0.0"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.key_project.key4eclipse.common.ui 4 0 2017-03-08 15:45:58.837
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.key_project.key4eclipse.common.ui [930]
+  Unresolved requirement: Require-Bundle: org.key_project.ui; bundle-version="1.0.0"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.key_project.key4eclipse.starter.core 4 0 2017-03-08 15:45:58.842
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.key_project.key4eclipse.starter.core [931]
+  Unresolved requirement: Require-Bundle: org.key_project.ui; bundle-version="1.0.0"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY cn.thu.thss.sts.bdsl 4 0 2017-03-08 15:45:58.848
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: cn.thu.thss.sts.bdsl [1045]
+  Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY cn.thu.thss.sts.bdsl.ide 4 0 2017-03-08 15:45:58.851
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: cn.thu.thss.sts.bdsl.ide [1046]
+  Unresolved requirement: Require-Bundle: cn.thu.thss.sts.bdsl
+    -> Bundle-SymbolicName: cn.thu.thss.sts.bdsl; bundle-version="1.0.0.201612281059"; singleton:="true"
+       cn.thu.thss.sts.bdsl [1045]
+         Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY cn.thu.thss.sts.bdsl.tests 4 0 2017-03-08 15:45:58.854
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: cn.thu.thss.sts.bdsl.tests [1047]
+  Unresolved requirement: Require-Bundle: cn.thu.thss.sts.bdsl
+    -> Bundle-SymbolicName: cn.thu.thss.sts.bdsl; bundle-version="1.0.0.201612281059"; singleton:="true"
+       cn.thu.thss.sts.bdsl [1045]
+         Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY cn.thu.thss.sts.bdsl.ui 4 0 2017-03-08 15:45:58.856
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: cn.thu.thss.sts.bdsl.ui [1048]
+  Unresolved requirement: Require-Bundle: cn.thu.thss.sts.bdsl
+    -> Bundle-SymbolicName: cn.thu.thss.sts.bdsl; bundle-version="1.0.0.201612281059"; singleton:="true"
+       cn.thu.thss.sts.bdsl [1045]
+         Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY cn.thu.thss.sts.bdsl.ui.tests 4 0 2017-03-08 15:45:58.859
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: cn.thu.thss.sts.bdsl.ui.tests [1049]
+  Unresolved requirement: Require-Bundle: cn.thu.thss.sts.bdsl.ui
+    -> Bundle-SymbolicName: cn.thu.thss.sts.bdsl.ui; bundle-version="1.0.0.201612281059"; singleton:="true"
+       cn.thu.thss.sts.bdsl.ui [1048]
+         Unresolved requirement: Require-Bundle: cn.thu.thss.sts.bdsl
+           -> Bundle-SymbolicName: cn.thu.thss.sts.bdsl; bundle-version="1.0.0.201612281059"; singleton:="true"
+              cn.thu.thss.sts.bdsl [1045]
+                Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.ui 2 0 2017-03-08 15:46:07.029
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2017-03-08 15:46:07.029
+!MESSAGE Commands should really have a category: plug-in='de.hentschel.visualdbc.dbcmodel.diagram', id='de.hentschel.visualdbc.dbcmodel.diagram.defineProofReferencesCommand', categoryId='de.hentschel.visualdbc.category'
+!SUBENTRY 1 org.eclipse.ui 2 0 2017-03-08 15:46:07.029
+!MESSAGE Commands should really have a category: plug-in='de.hentschel.visualdbc.dbcmodel.diagram', id='de.hentschel.visualdbc.dbcmodel.diagram.highlightProofReferencesCommand', categoryId='de.hentschel.visualdbc.category'
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2017-03-08 15:46:07.138
+!MESSAGE Nothing to merge for "platform:/plugin/org.eclipse.e4.tools.emf.ui/fragment.e4xmi"
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2017-03-08 15:46:07.149
+!MESSAGE Nothing to merge for "platform:/plugin/org.eclipse.e4.tools.emf.ui/fragment.e4xmi"
+
+!ENTRY org.eclipse.ui 2 0 2017-03-08 15:46:07.578
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2017-03-08 15:46:07.578
+!MESSAGE Commands should really have a category: plug-in='de.hentschel.visualdbc.dbcmodel.diagram', id='de.hentschel.visualdbc.dbcmodel.diagram.defineProofReferencesCommand', categoryId='de.hentschel.visualdbc.category'
+!SUBENTRY 1 org.eclipse.ui 2 0 2017-03-08 15:46:07.578
+!MESSAGE Commands should really have a category: plug-in='de.hentschel.visualdbc.dbcmodel.diagram', id='de.hentschel.visualdbc.dbcmodel.diagram.highlightProofReferencesCommand', categoryId='de.hentschel.visualdbc.category'

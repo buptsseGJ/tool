@@ -10,7 +10,7 @@ import org.w3c.dom.NamedNodeMap;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 
-import cn.edu.thu.platform.comparison.CompareFalseNegative;
+import cn.edu.thu.platform.comparison.Comparison;
 import cn.edu.thu.platform.entity.Race;
 import cn.edu.thu.platform.entity.Report;
 import cn.edu.thu.platform.entity.Reports;
@@ -76,7 +76,7 @@ public class DomToEntity {
 							}
 						}
 					}
-					CompareFalseNegative aaa = new CompareFalseNegative();
+					Comparison aaa = new Comparison();
 					aaa.getUniqueRace(compareRaces);
 					NamedNodeMap reportAttributes = reportList.item(i).getAttributes();
 					String programName = reportAttributes.getNamedItem("name").getNodeValue().toString();
