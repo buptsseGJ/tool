@@ -140,7 +140,7 @@ public class SelectScriptFrame extends JFrame {
 		anotherPanel.setBorder(new TitledBorder(new LineBorder(new Color(211,211, 211), 3, true), " \u8FD0\u884C\u6548\u679C\u6BD4\u8F83 ",TitledBorder.LEADING, TitledBorder.TOP, null,new Color(0, 0, 0)));
 		anotherPanel.setLayout(null);
 		anotherPanel.setSize(100, 600);
-		anotherPanel.setBounds(262, 746, 758, 161);
+		anotherPanel.setBounds(282, 747, 758, 161);
 		anotherPanel.add(cal = new JRadioButton("CalFuzzer", true));
 		cal.setBackground(new Color(245, 245, 245));
 		cal.setFont(new Font("Century Gothic", Font.PLAIN, 22));
@@ -224,6 +224,8 @@ public class SelectScriptFrame extends JFrame {
 				ex.setTitle("样例");
 			}
 		});
+		
+		//比较结果 button 响应
 		btCompare.addActionListener(new ActionListener(){
 			public void actionPerformed(ActionEvent e){
 				RoughResultFrame rrf = new RoughResultFrame();

@@ -1930,3 +1930,17 @@ C:\Users\yx\Documents\GitHub\tool\JBenchPlatform>java -cp C:/AppData/Setup/calfu
 x = 3
 
 >>>>>end<<<<<
+
+>>>>>start command [CASE1_benchmarks.testcases.TestRace1] java -cp C:/AppData/Setup/calfuzzer/calfuzzer2.0/calfuzzer2/calfuzzer/classes  benchmarks.testcases.TestRace1 about CASE1_benchmarks.testcases.TestRace1 on 2017-03-09 10:30:52 <<<<<
+
+C:\Users\yx\Documents\GitHub\�½��ļ���\tool\JBenchPlatform>java -cp C:/AppData/Setup/calfuzzer/calfuzzer2.0/calfuzzer2/calfuzzer/classes  benchmarks.testcases.TestRace1 
+x = 22
+
+>>>>>end<<<<<
+
+>>>>>start command [CASE2_benchmarks.testcases.TestRace2] java -cp C:/AppData/Setup/calfuzzer/calfuzzer2.0/calfuzzer2/calfuzzer/classes   benchmarks.testcases.TestRace2 about CASE2_benchmarks.testcases.TestRace2 on 2017-03-09 10:30:52 <<<<<
+
+C:\Users\yx\Documents\GitHub\�½��ļ���\tool\JBenchPlatform>java -cp C:/AppData/Setup/calfuzzer/calfuzzer2.0/calfuzzer2/calfuzzer/classes   benchmarks.testcases.TestRace2 
+x = 3
+
+>>>>>end<<<<<
