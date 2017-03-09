@@ -1846,3 +1846,87 @@ BUILD SUCCESSFUL
 Total time: 4 seconds
 
 >>>>>end<<<<<
+
+>>>>>start command [��������1_benchmarks.testcases.TestRace1] java -cp C:/AppData/Setup/calfuzzer/calfuzzer2.0/calfuzzer2/calfuzzer/classes  benchmarks.testcases.TestRace1 about ��������1_benchmarks.testcases.TestRace1 on 2017-03-09 00:03:18 <<<<<
+
+C:\Users\yx\Documents\GitHub\tool\JBenchPlatform>java -cp C:/AppData/Setup/calfuzzer/calfuzzer2.0/calfuzzer2/calfuzzer/classes  benchmarks.testcases.TestRace1 
+x = 22
+
+>>>>>end<<<<<
+
+>>>>>start command [��������2_benchmarks.testcases.TestRace2] java -cp C:/AppData/Setup/calfuzzer/calfuzzer2.0/calfuzzer2/calfuzzer/classes   benchmarks.testcases.TestRace2 about ��������2_benchmarks.testcases.TestRace2 on 2017-03-09 00:04:41 <<<<<
+
+C:\Users\yx\Documents\GitHub\tool\JBenchPlatform>java -cp C:/AppData/Setup/calfuzzer/calfuzzer2.0/calfuzzer2/calfuzzer/classes   benchmarks.testcases.TestRace2 
+x = 3
+
+>>>>>end<<<<<
+
+>>>>>start command [CASE1_benchmarks.testcases.TestRace1] java -cp C:/AppData/Setup/calfuzzer/calfuzzer2.0/calfuzzer2/calfuzzer/classes  benchmarks.testcases.TestRace1 about CASE1_benchmarks.testcases.TestRace1 on 2017-03-09 00:34:35 <<<<<
+
+C:\Users\yx\Documents\GitHub\tool\JBenchPlatform>java -cp C:/AppData/Setup/calfuzzer/calfuzzer2.0/calfuzzer2/calfuzzer/classes  benchmarks.testcases.TestRace1 
+x = 22
+
+>>>>>end<<<<<
+
+>>>>>start command [CASE2_benchmarks.testcases.TestRace2] java -cp C:/AppData/Setup/calfuzzer/calfuzzer2.0/calfuzzer2/calfuzzer/classes   benchmarks.testcases.TestRace2 about CASE2_benchmarks.testcases.TestRace2 on 2017-03-09 00:34:36 <<<<<
+
+C:\Users\yx\Documents\GitHub\tool\JBenchPlatform>java -cp C:/AppData/Setup/calfuzzer/calfuzzer2.0/calfuzzer2/calfuzzer/classes   benchmarks.testcases.TestRace2 
+x = 3
+
+>>>>>end<<<<<
+
+>>>>>start command [CASE1_benchmarks.testcases.TestRace1] java -cp C:/AppData/Setup/calfuzzer/calfuzzer2.0/calfuzzer2/calfuzzer/classes  benchmarks.testcases.TestRace1 about CASE1_benchmarks.testcases.TestRace1 on 2017-03-09 01:00:03 <<<<<
+
+C:\Users\yx\Documents\GitHub\tool\JBenchPlatform>java -cp C:/AppData/Setup/calfuzzer/calfuzzer2.0/calfuzzer2/calfuzzer/classes  benchmarks.testcases.TestRace1 
+x = 22
+
+>>>>>end<<<<<
+
+>>>>>start command [CASE2_benchmarks.testcases.TestRace2] java -cp C:/AppData/Setup/calfuzzer/calfuzzer2.0/calfuzzer2/calfuzzer/classes   benchmarks.testcases.TestRace2 about CASE2_benchmarks.testcases.TestRace2 on 2017-03-09 01:00:03 <<<<<
+
+C:\Users\yx\Documents\GitHub\tool\JBenchPlatform>java -cp C:/AppData/Setup/calfuzzer/calfuzzer2.0/calfuzzer2/calfuzzer/classes   benchmarks.testcases.TestRace2 
+x = 3
+
+>>>>>end<<<<<
+
+>>>>>start command [CASE1_benchmarks.testcases.TestRace1] java -cp C:/AppData/Setup/calfuzzer/calfuzzer2.0/calfuzzer2/calfuzzer/classes  benchmarks.testcases.TestRace1 about CASE1_benchmarks.testcases.TestRace1 on 2017-03-09 01:07:48 <<<<<
+
+C:\Users\yx\Documents\GitHub\tool\JBenchPlatform>java -cp C:/AppData/Setup/calfuzzer/calfuzzer2.0/calfuzzer2/calfuzzer/classes  benchmarks.testcases.TestRace1 
+x = 22
+
+>>>>>end<<<<<
+
+>>>>>start command [CASE2_benchmarks.testcases.TestRace2] java -cp C:/AppData/Setup/calfuzzer/calfuzzer2.0/calfuzzer2/calfuzzer/classes   benchmarks.testcases.TestRace2 about CASE2_benchmarks.testcases.TestRace2 on 2017-03-09 01:07:48 <<<<<
+
+C:\Users\yx\Documents\GitHub\tool\JBenchPlatform>java -cp C:/AppData/Setup/calfuzzer/calfuzzer2.0/calfuzzer2/calfuzzer/classes   benchmarks.testcases.TestRace2 
+x = 3
+
+>>>>>end<<<<<
+
+>>>>>start command [CASE1_benchmarks.testcases.TestRace1] java -cp C:/AppData/Setup/calfuzzer/calfuzzer2.0/calfuzzer2/calfuzzer/classes  benchmarks.testcases.TestRace1 about CASE1_benchmarks.testcases.TestRace1 on 2017-03-09 01:30:42 <<<<<
+
+C:\Users\yx\Documents\GitHub\tool\JBenchPlatform>java -cp C:/AppData/Setup/calfuzzer/calfuzzer2.0/calfuzzer2/calfuzzer/classes  benchmarks.testcases.TestRace1 
+x = 22
+
+>>>>>end<<<<<
+
+>>>>>start command [CASE2_benchmarks.testcases.TestRace2] java -cp C:/AppData/Setup/calfuzzer/calfuzzer2.0/calfuzzer2/calfuzzer/classes   benchmarks.testcases.TestRace2 about CASE2_benchmarks.testcases.TestRace2 on 2017-03-09 01:30:42 <<<<<
+
+C:\Users\yx\Documents\GitHub\tool\JBenchPlatform>java -cp C:/AppData/Setup/calfuzzer/calfuzzer2.0/calfuzzer2/calfuzzer/classes   benchmarks.testcases.TestRace2 
+x = 3
+
+>>>>>end<<<<<
+
+>>>>>start command [CASE1_benchmarks.testcases.TestRace1] java -cp C:/AppData/Setup/calfuzzer/calfuzzer2.0/calfuzzer2/calfuzzer/classes  benchmarks.testcases.TestRace1 about CASE1_benchmarks.testcases.TestRace1 on 2017-03-09 01:34:55 <<<<<
+
+C:\Users\yx\Documents\GitHub\tool\JBenchPlatform>java -cp C:/AppData/Setup/calfuzzer/calfuzzer2.0/calfuzzer2/calfuzzer/classes  benchmarks.testcases.TestRace1 
+x = 22
+
+>>>>>end<<<<<
+
+>>>>>start command [CASE2_benchmarks.testcases.TestRace2] java -cp C:/AppData/Setup/calfuzzer/calfuzzer2.0/calfuzzer2/calfuzzer/classes   benchmarks.testcases.TestRace2 about CASE2_benchmarks.testcases.TestRace2 on 2017-03-09 01:34:55 <<<<<
+
+C:\Users\yx\Documents\GitHub\tool\JBenchPlatform>java -cp C:/AppData/Setup/calfuzzer/calfuzzer2.0/calfuzzer2/calfuzzer/classes   benchmarks.testcases.TestRace2 
+x = 3
+
+>>>>>end<<<<<
