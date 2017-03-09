@@ -262,10 +262,11 @@ public class SelectScriptFrame extends JFrame {
 			// command =
 			// "E:\\tsmart\\source-of-key\\apache-ant-1.9.6\\bin\\ant -f E:\\courseResource\\programResearch\\benchmark\\calfuzzer\\calfuzzer2\\calfuzzer\\run.xml test_race1";
 			Process proc = Runtime.getRuntime().exec(scriptFile);
-			BufferedInputStream in = new BufferedInputStream(proc.getInputStream());
+			//Rv-Predict的输出走的是错误输出流，Calfuzzer的输出走的是标准输出流
+			BufferedInputStream in = new BufferedInputStream(proc.getErrorStream());//getInputStream());
 			BufferedReader inBr = new BufferedReader(new InputStreamReader(in));
 			String lineStr;
-			FileWriter writer = new FileWriter(filePath + "/result.txt", true);
+			FileWriter writer = new FileWriter(filePath + "/result.txt", false);
 			SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");// 设置日期格式
 			// System.out.println(df.format(new Date()));// new Date()为获取当前系统时间
 			writer.write("\n>>>>>start command " + command + " about "	+ programName + " on " + df.format(new Date()) + " <<<<<\n");

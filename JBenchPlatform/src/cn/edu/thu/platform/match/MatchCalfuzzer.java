@@ -18,16 +18,15 @@ public class MatchCalfuzzer implements MatchInterface {
 		System.out.println(" Calfuzzer 文件匹配  start...");
 	}
 
-	private String re = "";
-	// 表示目前的匹配进度
-	// 0初始状态；1匹配到>>>start<<<;2匹配到>>>end<<<;
-	private int state = 0;
-
 	@Override
 	public void matchFile() {
 		File file = new File("../result.txt");
 		BufferedReader reader = null;
 		String info = "";
+		// state 表示目前的匹配进度
+		// 0初始状态；1匹配到>>>start<<<;2匹配到>>>end<<<;
+		int state = 0;
+		
 		try{
 			reader = new BufferedReader(new FileReader(file));
 			String tempString = "";

@@ -1,2 +1,10 @@
-[CASE1_benchmarks.testcases.TestRace1] ant -f C:/AppData/Setup/calfuzzer/calfuzzer2.0/calfuzzer2/calfuzzer/classes  benchmarks.testcases.TestRace1
-[CASE2_benchmarks.testcases.TestRace2] ant -f C:/AppData/Setup/calfuzzer/calfuzzer2.0/calfuzzer2/calfuzzer/classes   benchmarks.testcases.TestRace2
+[CASE1] java -javaagent:C:/AppData/Setup/RV-Predict/examples/rv-predict.jar -cp examples.jar account.Account
+[CASE2] java -javaagent:C:/AppData/Setup/RV-Predict/examples/rv-predict.jar -cp examples.jar account.Account
+[CASE3] java -javaagent:C:/AppData/Setup/RV-Predict/examples/rv-predict.jar -cp examples.jar account.Account
+[CASE4] java -javaagent:C:/AppData/Setup/RV-Predict/examples/rv-predict.jar -cp examples.jar account.Account
+[CASE5] java -javaagent:C:/AppData/Setup/RV-Predict/examples/rv-predict.jar -cp examples.jar account.Account
+[CASE6] java -javaagent:C:/AppData/Setup/RV-Predict/examples/rv-predict.jar -cp examples.jar account.Account
+[CASE7] java -javaagent:C:/AppData/Setup/RV-Predict/examples/rv-predict.jar -cp examples.jar account.Account
+[CASE8] java -javaagent:C:/AppData/Setup/RV-Predict/examples/rv-predict.jar -cp examples.jar account.Account
+[CASE9] java -javaagent:C:/AppData/Setup/RV-Predict/examples/rv-predict.jar -cp examples.jar account.Account
+[CASE10] java -javaagent:C:/AppData/Setup/RV-Predict/examples/rv-predict.jar -cp examples.jar account.Account

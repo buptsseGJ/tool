@@ -1,1 +1,1 @@
- ant -f  C:/AppData/Setup/calfuzzer/calfuzzer2.0/calfuzzer2/calfuzzer/run.xml test_race11
+ java -javaagent:C:/AppData/Setup/RV-Predict/rv-predict.jar="--base-log-dir C:/AppData/Setup/RV-Predict/log/" -cp C:/AppData/Setup/RV-Predict/examples/examples.jar  account.Account
