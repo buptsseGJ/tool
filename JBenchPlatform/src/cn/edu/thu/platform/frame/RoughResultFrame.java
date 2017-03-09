@@ -12,13 +12,23 @@ import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
 
+import cn.edu.thu.platform.comparison.ComparisonResult;
+import cn.edu.thu.platform.match.Match;
+import cn.edu.thu.platform.match.MatchInterface;
+
 public class RoughResultFrame extends JFrame {
 	private JTextArea jText = new JTextArea();
 	private JButton btSaveResult = new JButton("另存报告");
 	private JPanel panel = new JPanel();
 	private JLabel label = new JLabel("报告已经存放在根目录下的ResultReport.txt下");
-	
-	public RoughResultFrame(){
+
+	public RoughResultFrame() {
+
+		// 根据参数ComparisonResult.tool 由Match类返回 对应需要实例化哪一个类
+		MatchInterface match = Match.getMatch(ComparisonResult.tool);
+		// 调用对应方法，提取文件中所有的 用例名 行号对 等信息
+		match.matchFile();
+
 		this.setLayout(null);
 		panel.setLayout(null);
 		panel.setBounds(0, 0, 1500, 1000);
@@ -31,13 +41,13 @@ public class RoughResultFrame extends JFrame {
 		this.add(panel);
 		generateReport();
 	}
-	
-	public void generateReport(){
-		String filePath = "";
+
+	public void generateReport() {
+		String filePath = "../result.txt";
 		try {
 			FileWriter writer = new FileWriter(filePath, true);
 			writer.write("\n----------------------------------------\n----------------------------------------\n");
-			SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");//设置日期格式
+			SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");// 设置日期格式
 			writer.write("\t" + df.format(new Date()));
 			writer.write("\n----------------------------------------\n----------------------------------------\n");
 			writeResult(writer);
@@ -46,9 +56,9 @@ public class RoughResultFrame extends JFrame {
 			e.printStackTrace();
 		}
 	}
-	
-	public void writeResult(FileWriter writer){
+
+	public void writeResult(FileWriter writer) {
 		int count = 0;
-		
+
 	}
 }

@@ -7,26 +7,29 @@ public class Report {
 	private Set<Race> races = new HashSet<Race>();
 	private String name;
 	private Set<Race> compareRaces = new HashSet<Race>();
-	
-	public Report(Set<Race> comepareRaces){
+
+	public Report(Set<Race> comepareRaces) {
 		this.compareRaces = compareRaces;
 	}
-	
+
 	public Report(Set<Race> races, String name) {
 		super();
 		this.races = races;
 		this.name = name;
 	}
-	
+
 	public Set<Race> getRaces() {
 		return races;
 	}
+
 	public void setRaces(Set<Race> races) {
 		this.races = races;
 	}
+
 	public String getName() {
 		return name;
 	}
+
 	public void setName(String name) {
 		this.name = name;
 	}

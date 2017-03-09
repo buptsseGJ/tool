@@ -18,7 +18,9 @@ public class MyErrorHandler implements ErrorHandler {
 	public void error(SAXParseException exception) throws SAXException {
 		// TODO Auto-generated method stub
 		System.out.println("error");
-		JOptionPane.showMessageDialog(null, "\nxml文件有问题\n" + exception.getMessage(), "error", JOptionPane.ERROR_MESSAGE); 
+		JOptionPane.showMessageDialog(null,
+				"\nxml文件有问题\n" + exception.getMessage(), "error",
+				JOptionPane.ERROR_MESSAGE);
 		throw new SAXException();
 	}
 

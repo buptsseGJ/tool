@@ -6,9 +6,9 @@ public class Race {
 	private String variable;
 	private String packageClass;
 	private String detail;
-	
-	public Race(String line1, String line2, String variable, String packageClass,
-			String detail) {
+
+	public Race(String line1, String line2, String variable,
+			String packageClass, String detail) {
 		super();
 		this.line1 = line1;
 		this.line2 = line2;
@@ -16,8 +16,8 @@ public class Race {
 		this.packageClass = packageClass;
 		this.detail = detail;
 	}
-	
-	public Race(String line1, String line2){
+
+	public Race(String line1, String line2) {
 		this.line1 = line1;
 		this.line2 = line2;
 	}
@@ -29,7 +29,7 @@ public class Race {
 	public void setLine2(String line2) {
 		this.line2 = line2;
 	}
-	
+
 	public String getLine1() {
 		return line1;
 	}
@@ -91,5 +91,5 @@ public class Race {
 		} else if (!line2.equals(other.line2))
 			return false;
 		return true;
-	}	
+	}
 }

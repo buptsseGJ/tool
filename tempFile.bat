@@ -1,1 +1,1 @@
- java -cp C:/AppData/Setup/calfuzzer/calfuzzer2.0/calfuzzer2/calfuzzer/classes   benchmarks.testcases.TestRace2
+ ant -f  C:/AppData/Setup/calfuzzer/calfuzzer2.0/calfuzzer2/calfuzzer/run.xml test_race11

@@ -1,19 +1,25 @@
 package cn.edu.thu.platform.frame;
 
-import javax.swing.*;
-
-import org.w3c.dom.Document;
-
-import cn.edu.thu.platform.parser.DomToEntity;
-import cn.edu.thu.platform.parser.ParseXml;
-
-import java.awt.*;
-import java.awt.event.*;
+import java.awt.BorderLayout;
+import java.awt.Graphics;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 import java.io.BufferedInputStream;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.IOException;
 import java.io.InputStreamReader;
+
+import javax.swing.JButton;
+import javax.swing.JFileChooser;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+
+import org.w3c.dom.Document;
+
+import cn.edu.thu.platform.parser.DomToEntity;
+import cn.edu.thu.platform.parser.ParseXml;
 
 /**
  * 主界面 主要功能： 1）读取benchamrk readSuites 2）管理benchmark manageSuites 3）运行程序
@@ -37,6 +43,7 @@ public class MainFrame extends JFrame {
 
 		// 读benchmark 监听函数
 		readSuites.addActionListener(new ActionListener() {
+			@Override
 			public void actionPerformed(ActionEvent e) {
 				System.out.println("开始文件选择");
 				JFileChooser jfc = new JFileChooser();
@@ -60,6 +67,7 @@ public class MainFrame extends JFrame {
 		});
 		// 管理benchmark 监听函数
 		manageSuites.addActionListener(new ActionListener() {
+			@Override
 			public void actionPerformed(ActionEvent e) {
 				ManageSuitesFrame msf = new ManageSuitesFrame();
 				System.out.println("开始管理benchmark");
@@ -71,6 +79,7 @@ public class MainFrame extends JFrame {
 		});
 		// 运行程序 监听函数
 		runProgram.addActionListener(new ActionListener() {
+			@Override
 			public void actionPerformed(ActionEvent e) {
 				System.out.println("开始运行程序");
 				// String[] command = {"java",
@@ -101,11 +110,11 @@ public class MainFrame extends JFrame {
 				}
 			}
 		});
-		// 程序脚本   监听函数
+		// 程序脚本 监听函数
 		scriptFile.addActionListener(new ActionListener() {
 			@Override
 			public void actionPerformed(ActionEvent e) {
-				//弹出  实现  程序脚本  的新窗口
+				// 弹出 实现 程序脚本 的新窗口
 				SelectScriptFrame ssf = new SelectScriptFrame();
 				System.out.println("开始脚本操作");
 				ssf.setSize(1160, 1000);
