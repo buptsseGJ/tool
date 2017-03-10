@@ -1,8 +1,8 @@
 
->>>>>start command [CASE1] java -javaagent:C:/AppData/Setup/RV-Predict/rv-predict.jar="--base-log-dir C:/AppData/Setup/RV-Predict/log/" -cp C:/AppData/Setup/RV-Predict/examples/examples.jar  account.Account about CASE1 on 2017-03-10 04:11:58 <<<<<
+>>>>>start command [CASE1] java -javaagent:C:/AppData/Setup/RV-Predict/rv-predict.jar="--base-log-dir C:/AppData/Setup/RV-Predict/log/" -cp C:/AppData/Setup/RV-Predict/examples/examples.jar  account.Account about CASE1 on 2017-03-11 01:38:34 <<<<<
 
 ----------------Instrumented execution to record the trace-----------------
-[RV-Predict] Log directory: C:\AppData\Setup\RV-Predict\log\rv-predict9040993361303362538
+[RV-Predict] Log directory: C:\AppData\Setup\RV-Predict\log\rv-predict3183664753491448393
 [RV-Predict] Finished retransforming preloaded classes.
 Data race on field account.Account.Bank_Total: {{{
     Concurrent write in thread T13 (locks held: {})
@@ -69,24 +69,12 @@ Data race on field account.Account.Bank_Total: {{{
 
 ----------------------------------------
 ----------------------------------------
-	2017-03-10 04:12:11
+	2017-03-11 01:39:08
 ----------------------------------------
 ----------------------------------------
 
 ----------------------------------------
 ----------------------------------------
-	2017-03-10 04:15:46
-----------------------------------------
-----------------------------------------
-
-----------------------------------------
-----------------------------------------
-	2017-03-10 04:17:07
-----------------------------------------
-----------------------------------------
-
-----------------------------------------
-----------------------------------------
-	2017-03-10 04:18:28
+	2017-03-11 01:39:15
 ----------------------------------------
 ----------------------------------------

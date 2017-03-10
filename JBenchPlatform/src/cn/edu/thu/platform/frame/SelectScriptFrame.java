@@ -261,9 +261,17 @@ public class SelectScriptFrame extends JFrame {
 			// command = "E:\\courseResource\\programResearch\\tool\\test.bat";
 			// command =
 			// "E:\\tsmart\\source-of-key\\apache-ant-1.9.6\\bin\\ant -f E:\\courseResource\\programResearch\\benchmark\\calfuzzer\\calfuzzer2\\calfuzzer\\run.xml test_race1";
+			
 			Process proc = Runtime.getRuntime().exec(scriptFile);
+
 			//Rv-Predict的输出走的是错误输出流，Calfuzzer的输出走的是标准输出流
-			BufferedInputStream in = new BufferedInputStream(proc.getErrorStream());//getInputStream());
+			BufferedInputStream in = null;
+			if(ComparisonResult.tool.equals("Rv-Predict")) {
+				in = new BufferedInputStream(proc.getErrorStream());
+			}else {
+				in = new BufferedInputStream(proc.getInputStream());
+			}
+
 			BufferedReader inBr = new BufferedReader(new InputStreamReader(in));
 			String lineStr;
 			FileWriter writer = new FileWriter(filePath + "/result.txt", false);

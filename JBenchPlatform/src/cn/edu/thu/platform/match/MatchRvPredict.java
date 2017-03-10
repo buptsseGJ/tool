@@ -69,12 +69,21 @@ public class MatchRvPredict implements MatchInterface {
 								String str2 = pairMatch.group(7);
 								String num2 = pairMatch.group(9);
 								
-								System.out.println(str1+"	" + num1+"	"+str2+"	"+num2);
-	
-								//匹配到一对
-								Race race = new Race(num1,num2);
-								races.add(race);
-	
+								//保证 行号对中行较小的数字永远在前面
+								int x1 = Integer.parseInt(num1.trim());
+								int x2 = Integer.parseInt(num1.trim());
+								if(x1<x2) {
+									//匹配到一对
+									Race race = new Race(num1,num2);
+									races.add(race);
+									System.out.println(str1+"	" + num1+"	"+str2+"	"+num2);
+								}else {
+									//匹配到一对
+									Race race = new Race(num2.trim(),num1.trim());
+									races.add(race);			
+									System.out.println(str2+"	" + num2+"	"+str1+"	"+num1);						
+								}
+		
 								pairMatch = pairPattern.matcher(pairMatch.group(11));
 							}
 							Report report = new Report(races);
