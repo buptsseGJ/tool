@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 >>>>>start command [1]java -cp E:/courseResource/programResearch/benchmark/calfuzzer/calfuzzer2/calfuzzer/classes benchmarks.testcases.TestRace1 about 1 on 2016-12-10 17:31:17 <<<<<
 
 >>>>>end<<<<<
@@ -19,6 +20,12 @@ Total time: 1 second
 
 ----------------Instrumented execution to record the trace-----------------
 [RV-Predict] Log directory: C:\Users\JIANGA~1\AppData\Local\Temp\rv-predict3677931889405842040
+=======
+>>>>>start command [CASE1] java -javaagent:C:/AppData/Setup/RV-Predict/rv-predict.jar="--base-log-dir C:/AppData/Setup/RV-Predict/log/" -cp C:/AppData/Setup/RV-Predict/examples/examples.jar  account.Account about CASE1 on 2017-03-11 01:38:34 <<<<<
+
+----------------Instrumented execution to record the trace-----------------
+[RV-Predict] Log directory: C:\AppData\Setup\RV-Predict\log\rv-predict3183664753491448393
+>>>>>>> 04f2331d253ae96be4e53b1165632b0c045a600a
 [RV-Predict] Finished retransforming preloaded classes.
 Data race on field benchmarks.testcases.TestRace1.x: {{{
     Concurrent read in thread T14 (locks held: {})
@@ -71,6 +78,7 @@ Data race on field benchmarks.testcases.TestRace1.x: {{{
 
 >>>>>end<<<<<
 
+<<<<<<< HEAD
 >>>>>start command [1]java -cp E:/courseResource/programResearch/benchmark/calfuzzer/calfuzzer2/calfuzzer/classes benchmarks.testcases.TestRace1 about 1 on 2016-12-10 17:41:11 <<<<<
 
 >>>>>end<<<<<
@@ -106,3 +114,16 @@ Data race on field benchmarks.testcases.TestRace1.x: {{{
 
 
 >>>>>end<<<<<
+=======
+----------------------------------------
+----------------------------------------
+	2017-03-11 01:39:08
+----------------------------------------
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+	2017-03-11 01:39:15
+----------------------------------------
+----------------------------------------
+>>>>>>> 04f2331d253ae96be4e53b1165632b0c045a600a
