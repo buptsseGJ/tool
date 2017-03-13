@@ -37,7 +37,6 @@
 <fullyQualifiedTypeName name="java.io.FileWriter"/>
 <fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
 <fullyQualifiedTypeName name="java.util.Date"/>
-<fullyQualifiedTypeName name="cn.edu.thu.platform.entity.Reports"/>
 <fullyQualifiedTypeName name="java.util.HashSet"/>
 <fullyQualifiedTypeName name="java.util.Set"/>
 <fullyQualifiedTypeName name="javax.swing.JRadioButton"/>
@@ -48,4 +47,6 @@
 <fullyQualifiedTypeName name="java.awt.Color"/>
 <fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="cn.edu.thu.platform.comparison.Comparison"/>
+<fullyQualifiedTypeName name="cn.edu.thu.platform.entity.Reports"/>
 </qualifiedTypeNameHistroy>

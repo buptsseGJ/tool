@@ -1,1 +1,1 @@
-rv-predict -cp E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\classes benchmarks.testcases.TestRace1
+E:\tsmart\source-of-key\apache-ant-1.9.6\bin\ant -f E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\run.xml test_race1

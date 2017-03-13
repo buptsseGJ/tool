@@ -1,129 +1,79 @@
 
-<<<<<<< HEAD
->>>>>start command [1]java -cp E:/courseResource/programResearch/benchmark/calfuzzer/calfuzzer2/calfuzzer/classes benchmarks.testcases.TestRace1 about 1 on 2016-12-10 17:31:17 <<<<<
+>>>>>start command [testRace1]E:\tsmart\source-of-key\apache-ant-1.9.6\bin\ant -f E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\run.xml test_race1 about testRace1 on 2017-03-13 22:11:42 <<<<<
+
+E:\github\tool\JBenchPlatform>E:\tsmart\source-of-key\apache-ant-1.9.6\bin\ant -f E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\run.xml test_race1 
+Buildfile: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\run.xml
+
+test_race1:
+     [echo] -------------------test_race1----------------------
+     [echo] 3 potential and 3 real races
+
+race-analysis:
+
+clean:
+   [delete] Deleting directory E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\tmp
+   [delete] Deleting directory E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\tmpclasses
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\javato.usedids
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\iidToLine.map
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\iidToLine.map.html
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\error.log
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\error.list
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\error.stat
+   [delete] Deleting: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\error.time
+
+instr:
+    [mkdir] Created dir: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\tmp
+     [java] Soot started on Mon Mar 13 22:11:38 CST 2017
+     [java] Transforming benchmarks.testcases.TestRace1$2... 
+     [java] Transforming benchmarks.testcases.TestRace1... 
+     [java] Transforming benchmarks.testcases.TestRace1$1... 
+     [java] Writing to E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\tmpclasses\benchmarks\testcases\TestRace1$2.class
+     [java] Writing to E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\tmpclasses\benchmarks\testcases\TestRace1.class
+     [java] Writing to E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\tmpclasses\benchmarks\testcases\TestRace1$1.class
+     [java] Soot finished on Mon Mar 13 22:11:38 CST 2017
+     [java] Soot has run for 0 min. 0 sec.
+
+analysis-once:
+     [java] Analysis class javato.activetesting.HybridAnalysis
+     [java] Data race between benchmarks/testcases/TestRace1.java#47 and benchmarks/testcases/TestRace1.java#41
+     [java] Data race between benchmarks/testcases/TestRace1.java#47 and benchmarks/testcases/TestRace1.java#41
+     [java] Data race between benchmarks/testcases/TestRace1.java#47 and benchmarks/testcases/TestRace1.java#41
+     [java] x = 22
+     [java] benchmarks/testcases/TestRace1.java#47:0:true:benchmarks/testcases/TestRace1.java#41:0:false:false:false
+     [java] benchmarks/testcases/TestRace1.java#47:0:false:benchmarks/testcases/TestRace1.java#41:0:false:false:false
+     [java] benchmarks/testcases/TestRace1.java#47:0:false:benchmarks/testcases/TestRace1.java#41:0:true:false:false
+     [java] # of data races 3 and lock races 0
+[stopwatch] [timer: 0.194 sec]
+
+active-loop:
+     [echo] Iteration: 1
+     [echo] ------------------
+     [echo] Error:Iteration = 1:1
+     [echo] ------------------
+
+analysis-once:
+     [java] Analysis class javato.activetesting.RaceFuzzerAnalysis
+     [java] ***************************************** Real data race detected between benchmarks/testcases/TestRace1.java#47 and benchmarks/testcases/TestRace1.java#41
+     [java] x = 22
+[stopwatch] [timer: 0.292 sec]
+     [echo] Error:Iteration = 2:1
+     [echo] ------------------
+
+analysis-once:
+     [java] ***************************************** Real data race detected between benchmarks/testcases/TestRace1.java#47 and benchmarks/testcases/TestRace1.java#41Analysis class javato.activetesting.RaceFuzzerAnalysis
+     [java] 
+     [java] x = 17
+[stopwatch] [timer: 0.316 sec]
+     [echo] Error:Iteration = 3:1
+     [echo] ------------------
+
+analysis-once:
+     [java] Analysis class javato.activetesting.RaceFuzzerAnalysis
+     [java] ***************************************** Real data race detected between benchmarks/testcases/TestRace1.java#47 and benchmarks/testcases/TestRace1.java#41
+     [java] x = 17
+[stopwatch] [timer: 0.287 sec]
+
+BUILD SUCCESSFUL
+Total time: 4 seconds
 
 >>>>>end<<<<<
-
->>>>>start command [2]E:\tsmart\source-of-key\apache-ant-1.9.6\bin\ant -f E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\run.xml test_race1 about 2 on 2016-12-10 17:31:17 <<<<<
-     [java] Java Result: 1
-
-BUILD FAILED
-E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\run.xml:339: The following error occurred while executing this line:
-E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\run.xml:260: The following error occurred while executing this line:
-E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\run.xml:174: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\error.list doesn't exist
-
-Total time: 1 second
-命令执行失败
->>>>>end<<<<<
-
->>>>>start command [3]rv-predict -cp E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\classes benchmarks.testcases.TestRace1 about 3 on 2016-12-10 17:31:19 <<<<<
-
-----------------Instrumented execution to record the trace-----------------
-[RV-Predict] Log directory: C:\Users\JIANGA~1\AppData\Local\Temp\rv-predict3677931889405842040
-=======
->>>>>start command [CASE1] java -javaagent:C:/AppData/Setup/RV-Predict/rv-predict.jar="--base-log-dir C:/AppData/Setup/RV-Predict/log/" -cp C:/AppData/Setup/RV-Predict/examples/examples.jar  account.Account about CASE1 on 2017-03-11 01:38:34 <<<<<
-
-----------------Instrumented execution to record the trace-----------------
-[RV-Predict] Log directory: C:\AppData\Setup\RV-Predict\log\rv-predict3183664753491448393
->>>>>>> 04f2331d253ae96be4e53b1165632b0c045a600a
-[RV-Predict] Finished retransforming preloaded classes.
-Data race on field benchmarks.testcases.TestRace1.x: {{{
-    Concurrent read in thread T14 (locks held: {})
- ---->  at benchmarks.testcases.TestRace1$1.run(TestRace1.java:41)
-    T14 is created by T1
-        at benchmarks.testcases.TestRace1.main(TestRace1.java:51)
-
-    Concurrent write in thread T15 (locks held: {})
- ---->  at benchmarks.testcases.TestRace1$2.run(TestRace1.java:47)
-    T15 is created by T1
-        at benchmarks.testcases.TestRace1.main(TestRace1.java:52)
-}}}
-
-
->>>>>end<<<<<
-
->>>>>start command [1]java -cp E:/courseResource/programResearch/benchmark/calfuzzer/calfuzzer2/calfuzzer/classes benchmarks.testcases.TestRace1 about 1 on 2016-12-10 17:41:00 <<<<<
-
->>>>>end<<<<<
-
->>>>>start command [2]E:\tsmart\source-of-key\apache-ant-1.9.6\bin\ant -f E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\run.xml test_race1 about 2 on 2016-12-10 17:41:00 <<<<<
-     [java] Java Result: 1
-
-BUILD FAILED
-E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\run.xml:339: The following error occurred while executing this line:
-E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\run.xml:260: The following error occurred while executing this line:
-E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\run.xml:174: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\error.list doesn't exist
-
-Total time: 1 second
-命令执行失败
->>>>>end<<<<<
-
->>>>>start command [3]rv-predict -cp E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\classes benchmarks.testcases.TestRace1 about 3 on 2016-12-10 17:41:02 <<<<<
-
-----------------Instrumented execution to record the trace-----------------
-[RV-Predict] Log directory: C:\Users\JIANGA~1\AppData\Local\Temp\rv-predict7944392419715900855
-[RV-Predict] Finished retransforming preloaded classes.
-Data race on field benchmarks.testcases.TestRace1.x: {{{
-    Concurrent read in thread T14 (locks held: {})
- ---->  at benchmarks.testcases.TestRace1$1.run(TestRace1.java:41)
-    T14 is created by T1
-        at benchmarks.testcases.TestRace1.main(TestRace1.java:51)
-
-    Concurrent write in thread T15 (locks held: {})
- ---->  at benchmarks.testcases.TestRace1$2.run(TestRace1.java:47)
-    T15 is created by T1
-        at benchmarks.testcases.TestRace1.main(TestRace1.java:52)
-}}}
-
-
->>>>>end<<<<<
-
-<<<<<<< HEAD
->>>>>start command [1]java -cp E:/courseResource/programResearch/benchmark/calfuzzer/calfuzzer2/calfuzzer/classes benchmarks.testcases.TestRace1 about 1 on 2016-12-10 17:41:11 <<<<<
-
->>>>>end<<<<<
-
->>>>>start command [2]E:\tsmart\source-of-key\apache-ant-1.9.6\bin\ant -f E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\run.xml test_race1 about 2 on 2016-12-10 17:41:11 <<<<<
-     [java] Java Result: 1
-
-BUILD FAILED
-E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\run.xml:339: The following error occurred while executing this line:
-E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\run.xml:260: The following error occurred while executing this line:
-E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\run.xml:174: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\error.list doesn't exist
-
-Total time: 1 second
-命令执行失败
->>>>>end<<<<<
-
->>>>>start command [3]rv-predict -cp E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\classes benchmarks.testcases.TestRace1 about 3 on 2016-12-10 17:41:13 <<<<<
-
-----------------Instrumented execution to record the trace-----------------
-[RV-Predict] Log directory: C:\Users\JIANGA~1\AppData\Local\Temp\rv-predict2948492600941723705
-[RV-Predict] Finished retransforming preloaded classes.
-Data race on field benchmarks.testcases.TestRace1.x: {{{
-    Concurrent read in thread T14 (locks held: {})
- ---->  at benchmarks.testcases.TestRace1$1.run(TestRace1.java:41)
-    T14 is created by T1
-        at benchmarks.testcases.TestRace1.main(TestRace1.java:51)
-
-    Concurrent write in thread T15 (locks held: {})
- ---->  at benchmarks.testcases.TestRace1$2.run(TestRace1.java:47)
-    T15 is created by T1
-        at benchmarks.testcases.TestRace1.main(TestRace1.java:52)
-}}}
-
-
->>>>>end<<<<<
-=======
-----------------------------------------
-----------------------------------------
-	2017-03-11 01:39:08
-----------------------------------------
-----------------------------------------
-
-----------------------------------------
-----------------------------------------
-	2017-03-11 01:39:15
-----------------------------------------
-----------------------------------------
->>>>>>> 04f2331d253ae96be4e53b1165632b0c045a600a

@@ -19,6 +19,7 @@ import javax.swing.JButton;
 import javax.swing.JFileChooser;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
+import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.JRadioButton;
 import javax.swing.JScrollPane;
@@ -38,7 +39,14 @@ public class SelectScriptFrame extends JFrame {
 	private JButton btCompare = new JButton("比较结果");
 	private JButton btChooseResult = new JButton("选择比较文件");
 	private JButton btExample = new JButton("查看样例文件");
-	JPanel anotherPanel = new JPanel();
+	private JPanel anotherPanel = new JPanel();
+	private BufferedReader readStdout = null;  
+    private BufferedReader readStderr = null;  
+    private StringBuffer mStringBuffer = new StringBuffer();
+    private String tmp1 = null;  
+    private String tmp2 = null;  
+    // 回调用到的接口  
+//    private RealtimeProcessInterface mInterface = null;  
 	// private JFileChooser chooseResult = new JFileChooser();
 	private JRadioButton cal, rv, date, other;
 	private String fileAbsolutePath = "";
@@ -120,7 +128,9 @@ public class SelectScriptFrame extends JFrame {
 						writer.write(deleteName(temp));
 						// writer.write("\n echo \"-->end<--\"\n");
 						writer.close();
-						runCommands(tempFile, writePosition, temp,getName(temp));
+						FileWriter writer1 = new FileWriter(writePosition + "/result.txt", false);
+						runCommands(tempFile, writePosition, temp,getName(temp),writer1);
+						writer1.close();
 					} catch (IOException e1) {
 						e1.printStackTrace();
 					}
@@ -228,8 +238,17 @@ public class SelectScriptFrame extends JFrame {
 		btCompare.addActionListener(new ActionListener() {
 			@Override
 			public void actionPerformed(ActionEvent e) {
-				RoughResultFrame rrf = new RoughResultFrame();
+				RoughResultFrame rrf = new RoughResultFrame();;
 				System.out.println("开始查看粗糙的结果展示");
+//				if(cal.isSelected()){
+//					rrf = new RoughResultFrame("CalFuzzer");
+//				}else if(rv.isSelected()){
+//					rrf = new RoughResultFrame("Rv-Predict");
+//				}else if(date.isSelected()){
+//					rrf = new RoughResultFrame("DATE");
+//				}else{
+//					rrf = new RoughResultFrame("other");
+//				}
 				rrf.setSize(1500, 1000);
 				rrf.setLocationRelativeTo(null);
 				rrf.setVisible(true);
@@ -252,7 +271,7 @@ public class SelectScriptFrame extends JFrame {
 	}
 
 	// 运行脚本命令 的处理函数
-	public void runCommands(String scriptFile, String filePath, String command,String programName) {
+	public void runCommands(String scriptFile, String filePath, String command,String programName,FileWriter writer) {
 		try {
 			// String command =
 			// "java -cp E:\\courseResource\\programResearch\\benchmark相关\\benchmarks汇总\\calfuzzer_calfuzzer\\CalFuzzer_TestRace1\\bin benchmarks.testcases.TestRace1";
@@ -265,24 +284,55 @@ public class SelectScriptFrame extends JFrame {
 			Process proc = Runtime.getRuntime().exec(scriptFile);
 
 			//Rv-Predict的输出走的是错误输出流，Calfuzzer的输出走的是标准输出流
-			BufferedInputStream in = null;
-			if(ComparisonResult.tool.equals("Rv-Predict")) {
-				in = new BufferedInputStream(proc.getErrorStream());
-			}else {
-				in = new BufferedInputStream(proc.getInputStream());
-			}
-
-			BufferedReader inBr = new BufferedReader(new InputStreamReader(in));
+//			BufferedInputStream in = null;
+//			if(ComparisonResult.tool.equals("Rv-Predict")) {
+//				in = new BufferedInputStream(proc.getErrorStream());
+//			}else {
+//				in = new BufferedInputStream(proc.getInputStream());
+//			}
+//
+//			BufferedReader inBr = new BufferedReader(new InputStreamReader(in));
+			 // 获取标准输出  
+	        readStdout = new BufferedReader(new InputStreamReader(proc.getInputStream()));  
+	        // 获取错误输出  
+	        readStderr = new BufferedReader(new InputStreamReader(proc.getErrorStream()));  
+	        mStringBuffer.replace(0, mStringBuffer.length(), "");
+	        Thread execThread = new Thread(){  
+	            public void run(){  
+	                try {  
+	                    // 逐行读取  
+	                    while((tmp1 = readStdout.readLine()) != null || (tmp2 = readStderr.readLine()) != null){  
+	                    if(tmp1 != null){  
+	                        mStringBuffer.append(tmp1 + "\n");  
+	                        // 回调接口方法  
+//	                        mInterface.onNewStdoutListener(tmp1);  
+	                    }  
+	                    if(tmp2 != null){  
+	                        mStringBuffer.append(tmp2 + "\n");  
+//	                        mInterface.onNewStderrListener(tmp2);  
+	                    }  
+	                    }  
+	                } catch (IOException e) {  
+	                    // TODO Auto-generated catch block  
+	                    e.printStackTrace();  
+	                }  
+	                 
+	            }  
+	        };  
+	        execThread.start();  
+	        execThread.join();  
+	        execThread.stop();
 			String lineStr;
-			FileWriter writer = new FileWriter(filePath + "/result.txt", true);
+//			FileWriter writer = new FileWriter(filePath + "/result.txt", true);
 			SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");// 设置日期格式
 			// System.out.println(df.format(new Date()));// new Date()为获取当前系统时间
 			writer.write("\n>>>>>start command " + command + " about "	+ programName + " on " + df.format(new Date()) + " <<<<<\n");
-			while ((lineStr = inBr.readLine()) != null) {
-				// 获得命令执行后在控制台的输出信息
-				System.out.println(lineStr);// 打印输出信息
-				writer.write(lineStr + "\n");
-			}
+//			while ((lineStr = inBr.readLine()) != null) {
+//				// 获得命令执行后在控制台的输出信息
+//				System.out.println(lineStr);// 打印输出信息
+//				writer.write(lineStr + "\n");
+//			}
+			writer.write(mStringBuffer.toString());
 			// 检查命令是否执行失败。
 			if (proc.waitFor() != 0) {
 				if (proc.exitValue() == 1)// p.exitValue()==0表示正常结束，1：非正常结束
@@ -290,8 +340,8 @@ public class SelectScriptFrame extends JFrame {
 				writer.write("命令执行失败");
 			}
 			writer.write("\n>>>>>end<<<<<\n");
-			inBr.close();
-			in.close();
+//			inBr.close();
+//			in.close();
 			writer.close();
 		} catch (IOException e1) {
 			e1.printStackTrace();

@@ -55,10 +55,10 @@ public class MatchCalfuzzer implements MatchInterface {
 						Pattern namePattern = Pattern.compile(pattern);
 						Matcher nameMatch = namePattern.matcher(info);
 						if (nameMatch.find()) {
-							caseName = nameMatch.group(3);
+							caseName = nameMatch.group(3).trim();
 							Set<Race> races = new HashSet<Race>();
 							
-							String pair = "(.*?\\*+\\s+Real\\s+data\\s+race\\s+detected\\s+between\\s+?)(.*?java)(#)(\\d+?)(\\s*?and\\s+?)(.*?java)(#)(\\d+?)(\\s*?.*)";
+							String pair = "(.*?\\*+\\s+Real\\s+data\\s+race\\s+detected\\s+between\\s+?)(.*?java)(#)(\\d+?)(\\s*?and\\s+?)(.*?java)(#)(\\d+)(.*)";
 							Pattern pairPattern = Pattern.compile(pair);
 							info = nameMatch.group(5);
 							Matcher pairMatch = pairPattern.matcher(info);
