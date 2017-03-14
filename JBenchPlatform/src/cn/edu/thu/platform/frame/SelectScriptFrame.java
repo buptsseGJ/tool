@@ -28,6 +28,7 @@ import javax.swing.border.LineBorder;
 import javax.swing.border.TitledBorder;
 import javax.swing.event.ChangeEvent;
 import javax.swing.event.ChangeListener;
+import javax.swing.text.DefaultCaret;
 
 import cn.edu.thu.platform.comparison.ComparisonResult;
 import cn.edu.thu.platform.script.Script;
@@ -38,6 +39,7 @@ import cn.edu.thu.platform.script.Script;
 public class SelectScriptFrame extends JFrame implements ChangeListener{
 	public JProgressBar progress = new JProgressBar();
 	private JTextArea jText = new JTextArea();
+	private JScrollPane jsp;
 	private JButton runScript = new JButton("运行脚本");
 	private JButton btCompare = new JButton("比较结果");
 	private JButton btChooseResult = new JButton("选择比较文件");
@@ -54,6 +56,13 @@ public class SelectScriptFrame extends JFrame implements ChangeListener{
 	private JRadioButton cal, rv, date, other;
 	private String fileAbsolutePath = "";
 
+	public String commands = "";//用于存储窗口中需要显示的文本信息
+	public int indexPos = System.getProperty("user.dir").replace('\\', '/').lastIndexOf('/');
+	public String writePosition = System.getProperty("user.dir").replace('\\', '/').substring(0, indexPos);
+//	public int position = writePosition.lastIndexOf('/');
+//	writePosition = writePosition.substring(0, indexPos);
+	
+
 	public SelectScriptFrame() {
 		getContentPane().setLayout(null);
 		JPanel panel = new JPanel();
@@ -61,13 +70,14 @@ public class SelectScriptFrame extends JFrame implements ChangeListener{
 		panel.setLayout(null);
 		panel.setSize(1139, 948);
 		panel.setBackground(new Color(245, 245, 245));
-		progress.setVisible(true);
+		progress.setForeground(new Color(135, 206, 250));
+		progress.setVisible(false);
 		progress.setMinimum(0);
         progress.setStringPainted(true);      // 描绘文字			        
-        progress.setBackground(Color.green); // 设置背景色
-        progress.setBounds(0, 0, 500, 20);
+        progress.setBackground(Color.WHITE); // 设置背景色
+        progress.setBounds(0, 0, 1139, 20);
         panel.add(progress);
-        
+        		
 //        progress.addChangeListener(l);
 		
 		// 选择文件 提示文本
@@ -94,7 +104,7 @@ public class SelectScriptFrame extends JFrame implements ChangeListener{
 				if (file != null) {
 					fileAbsolutePath = file.getAbsolutePath();
 					System.out.println("脚本路径：" + file.getAbsolutePath());
-					String commands = readFileByLines(fileAbsolutePath);
+					commands = readFileByLines(fileAbsolutePath);
 					jText.setText(commands);
 					if (!(jText.getText().equals("") || jText == null)) {
 						runScript.setEnabled(true);
@@ -105,7 +115,7 @@ public class SelectScriptFrame extends JFrame implements ChangeListener{
 
 		// 文本信息显示框
 		jText.setBounds(67, 102, 1002, 648);
-		JScrollPane jsp = new JScrollPane(jText);
+		jsp = new JScrollPane(jText);
 		jsp.setBounds(67, 100, 1002, 610);
 		panel.add(jsp);
 		jText.setFont(new Font("Century Gothic", Font.PLAIN, 23));
@@ -122,48 +132,58 @@ public class SelectScriptFrame extends JFrame implements ChangeListener{
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				System.out.println(System.getProperty("user.dir"));
-				String writePosition = System.getProperty("user.dir").replace('\\', '/');
-				int position = writePosition.lastIndexOf('/');
-				writePosition = writePosition.substring(0, position);
 				System.out.println("writePosition:" + writePosition);
-				String command = "";
-				// runCommands(fileAbsolutePath,writePosition);
-				// runCommands("E:\\courseResource\\programResearch\\tool\\commands.bat",writePosition);
-				Thread th = new Thread(){
+
+				//由于需要实时刷新进度条，故将脚本运行操作放入匿名线程种执行
+				new Thread(){  
 					public void run(){
 						progress.setValue(0);
 						progress.setVisible(true);
 						progress.setMaximum(Script.scripts.size());
+						
+						commands = commands + "\n";
+						
+						FileWriter writer1;
+						try {
+							writer1 = new FileWriter(writePosition + "/result.txt", false);
+							for (int i = 0; i < Script.scripts.size(); i++) {
+								String temp = Script.scripts.get(i);
+								String tempFile = writePosition + "/tempFile.bat";
+								FileWriter writer = new FileWriter(tempFile, false);
+								SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");// 设置日期格式
+								// writer.write("\necho \"-->start " + "on " + df.format(new Date()) + "<--\"\n");
+								writer.write(deleteName(temp));
+								// writer.write("\n echo \"-->end<--\"\n");
+								writer.close();
+								
+								commands = commands + "\nStart running usecase  [ " + SelectScriptFrame.this.getName(temp)+" ]...\n";
+								jText.setText(commands);
+								
+								//运行单个脚本命令
+								runCommands(tempFile, writePosition, temp,SelectScriptFrame.this.getName(temp),writer1);
+
+								commands = commands + "usecase  [ " + SelectScriptFrame.this.getName(temp)+" ] finished !\n";
+								jText.setText(commands);
+								
+								//脚本命令运行结束，刷新进度条进度
+								progress.setValue(i+1);
+								System.out.println("progress值："+(progress.getValue()));
+								
+							}
+							writer1.close();
+						} catch (IOException e1) {
+							// TODO Auto-generated catch block
+							e1.printStackTrace();
+						}
+						JOptionPane.showMessageDialog(null, "执行完毕");
+						anotherPanel.setVisible(true);
+						
+						//脚本运行结束，隐藏进度条
+						progress.setValue(0);
+						progress.setVisible(false);						
 					}
-				};
-				th.start();
-				try {
-					th.join();
-				} catch (InterruptedException e2) {
-					// TODO Auto-generated catch block
-					e2.printStackTrace();
-				}
-				FileWriter writer1;
-				try {
-					writer1 = new FileWriter(writePosition + "/result.txt", false);
-					for (int i = 0; i < Script.scripts.size(); i++) {
-						String temp = Script.scripts.get(i);
-						String tempFile = writePosition + "/tempFile.bat";
-						FileWriter writer = new FileWriter(tempFile, false);
-						SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");// 设置日期格式
-						// writer.write("\necho \"-->start " + "on " + df.format(new Date()) + "<--\"\n");
-						writer.write(deleteName(temp));
-						// writer.write("\n echo \"-->end<--\"\n");
-						writer.close();
-						runCommands(tempFile, writePosition, temp,getName(temp),writer1);
-					}
-					writer1.close();
-				} catch (IOException e1) {
-					// TODO Auto-generated catch block
-					e1.printStackTrace();
-				}
-				JOptionPane.showMessageDialog(null, "执行完毕");
-				anotherPanel.setVisible(true);
+				}.start();  
+
 			}
 		});
 
@@ -291,72 +311,64 @@ public class SelectScriptFrame extends JFrame implements ChangeListener{
 
 	// 运行脚本命令 的处理函数
 	public void runCommands(String scriptFile, String filePath, String command,String programName,FileWriter writer) {
-		Thread progressThread = new Thread(){
-			public void run(){
-				progress.setValue(progress.getValue()+1);
-				System.out.println("progress值："+(progress.getValue()));
-//				int value = progress.getValue();
-//				progress.setString("zhi:"+(value*1.0)/(Script.scripts.size())*100 + "%");
-//				System.out.println("百分比："+ (value*1.0)/(Script.scripts.size())*100 + "%");
-			}
-		};
-		progressThread.start();
-		try {
-			progressThread.join();
-		} catch (InterruptedException e2) {
-			// TODO Auto-generated catch block
-			e2.printStackTrace();
-		}
+
 		try {
 			Process proc = Runtime.getRuntime().exec(scriptFile);
 
 			//Rv-Predict的输出走的是错误输出流，Calfuzzer的输出走的是标准输出流
-//			BufferedInputStream in = null;
-//			if(ComparisonResult.tool.equals("Rv-Predict")) {
-//				in = new BufferedInputStream(proc.getErrorStream());
-//			}else {
-//				in = new BufferedInputStream(proc.getInputStream());
-//			}
-//
-//			BufferedReader inBr = new BufferedReader(new InputStreamReader(in));
-			 // 获取标准输出  
-	        readStdout = new BufferedReader(new InputStreamReader(proc.getInputStream()));  
-	        // 获取错误输出  
-	        readStderr = new BufferedReader(new InputStreamReader(proc.getErrorStream()));  
-	        mStringBuffer.replace(0, mStringBuffer.length(), "");
-	        Thread execThread = new Thread(){  
-	            public void run(){  
-	                try {  
-	                    // 逐行读取  
-	                    while((tmp1 = readStdout.readLine()) != null || (tmp2 = readStderr.readLine()) != null){  
-	                    if(tmp1 != null){  
-	                        mStringBuffer.append(tmp1 + "\n");  
-	                        // 回调接口方法  
-//	                        mInterface.onNewStdoutListener(tmp1);  
-	                    }  
-	                    if(tmp2 != null){  
-	                        mStringBuffer.append(tmp2 + "\n");  
-//	                        mInterface.onNewStderrListener(tmp2);  
-	                    }  
-	                    }  
-	                } catch (IOException e) {  
-	                    // TODO Auto-generated catch block  
-	                    e.printStackTrace();  
-	                }  
-	                 
-	            }  
-	        };  
-	        execThread.start();  
-	        execThread.join();  
-	        execThread.stop();
-			String lineStr;
+			//			BufferedInputStream in = null;
+			//			if(ComparisonResult.tool.equals("Rv-Predict")) {
+			//				in = new BufferedInputStream(proc.getErrorStream());
+			//			}else {
+			//				in = new BufferedInputStream(proc.getInputStream());
+			//			}
+			//
+			//			BufferedReader inBr = new BufferedReader(new InputStreamReader(in));
+			// 获取标准输出  
+			readStdout = new BufferedReader(new InputStreamReader(proc.getInputStream()));  
+			// 获取错误输出  
+			readStderr = new BufferedReader(new InputStreamReader(proc.getErrorStream()));  
+			mStringBuffer.replace(0, mStringBuffer.length(), "");
+			//	        Thread execThread = new Thread(){  
+			//	            public void run(){  
+			try {  
+				// 逐行读取  
+				while((tmp1 = readStdout.readLine()) != null || (tmp2 = readStderr.readLine()) != null){  
+					if(tmp1 != null){  
+						mStringBuffer.append(tmp1 + "\n");  
+						commands = commands + "    " + tmp1+"\n";
+						jText.setText(commands);
+						// 回调接口方法  
+						//	                        mInterface.onNewStdoutListener(tmp1);  
+					}  
+					if(tmp2 != null){  
+						mStringBuffer.append(tmp2 + "\n");  
+						//	                        mInterface.onNewStderrListener(tmp2); 
+						commands = commands + "    " + tmp1+"\n";
+						jText.setText(commands); 
+					}  
+					
+					//使得滚动条一直位于最下方
+			        DefaultCaret caret = (DefaultCaret)jText.getCaret();  
+			        caret.setUpdatePolicy(DefaultCaret.ALWAYS_UPDATE);  
+			        jsp.setViewportView(jText);  
+				} 
+
+			} catch (IOException e) {  
+				// TODO Auto-generated catch block  
+				e.printStackTrace();  
+			}  
+
+			//	            }  
+			//	        };  
+			//			String lineStr;
 			SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");// 设置日期格式
 			writer.write("\n>>>>>start command " + command + " about "	+ programName + " on " + df.format(new Date()) + " <<<<<\n");
-//			while ((lineStr = inBr.readLine()) != null) {
-//				// 获得命令执行后在控制台的输出信息
-//				System.out.println(lineStr);// 打印输出信息
-//				writer.write(lineStr + "\n");
-//			}
+			//			while ((lineStr = inBr.readLine()) != null) {
+			//				// 获得命令执行后在控制台的输出信息
+			//				System.out.println(lineStr);// 打印输出信息
+			//				writer.write(lineStr + "\n");
+			//			}
 			writer.write(mStringBuffer.toString());
 			// 检查命令是否执行失败。
 			if (proc.waitFor() != 0) {
@@ -372,6 +384,7 @@ public class SelectScriptFrame extends JFrame implements ChangeListener{
 		}
 	}
 
+	//逐行读取文本中的内容，将所有内容存入String中并返回。
 	public String readFileByLines(String fileName) {
 		File file = new File(fileName);
 		BufferedReader reader = null;
