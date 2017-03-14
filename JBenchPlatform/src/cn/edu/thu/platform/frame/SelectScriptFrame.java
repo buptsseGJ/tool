@@ -13,7 +13,6 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.text.SimpleDateFormat;
 import java.util.Date;
-
 import javax.swing.ButtonGroup;
 import javax.swing.JButton;
 import javax.swing.JFileChooser;
@@ -21,11 +20,14 @@ import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
+import javax.swing.JProgressBar;
 import javax.swing.JRadioButton;
 import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
 import javax.swing.border.LineBorder;
 import javax.swing.border.TitledBorder;
+import javax.swing.event.ChangeEvent;
+import javax.swing.event.ChangeListener;
 
 import cn.edu.thu.platform.comparison.ComparisonResult;
 import cn.edu.thu.platform.script.Script;
@@ -33,7 +35,8 @@ import cn.edu.thu.platform.script.Script;
 /**
  * 主界面点击 “程序脚本”，弹出本窗口，实现选择脚本文件、运行脚本、选择并比较结果、查看样例文件等功能
  */
-public class SelectScriptFrame extends JFrame {
+public class SelectScriptFrame extends JFrame implements ChangeListener{
+	public JProgressBar progress = new JProgressBar();
 	private JTextArea jText = new JTextArea();
 	private JButton runScript = new JButton("运行脚本");
 	private JButton btCompare = new JButton("比较结果");
@@ -58,7 +61,15 @@ public class SelectScriptFrame extends JFrame {
 		panel.setLayout(null);
 		panel.setSize(1139, 948);
 		panel.setBackground(new Color(245, 245, 245));
-
+		progress.setVisible(true);
+		progress.setMinimum(0);
+        progress.setStringPainted(true);      // 描绘文字			        
+        progress.setBackground(Color.green); // 设置背景色
+        progress.setBounds(0, 0, 500, 20);
+        panel.add(progress);
+        
+//        progress.addChangeListener(l);
+		
 		// 选择文件 提示文本
 		JLabel label = new JLabel("请选择一份脚本文件:");
 		label.setBounds(378, 34, 231, 55);
@@ -118,9 +129,25 @@ public class SelectScriptFrame extends JFrame {
 				String command = "";
 				// runCommands(fileAbsolutePath,writePosition);
 				// runCommands("E:\\courseResource\\programResearch\\tool\\commands.bat",writePosition);
-				for (int i = 0; i < Script.scripts.size(); i++) {
-					String temp = Script.scripts.get(i);
-					try {
+				Thread th = new Thread(){
+					public void run(){
+						progress.setValue(0);
+						progress.setVisible(true);
+						progress.setMaximum(Script.scripts.size());
+					}
+				};
+				th.start();
+				try {
+					th.join();
+				} catch (InterruptedException e2) {
+					// TODO Auto-generated catch block
+					e2.printStackTrace();
+				}
+				FileWriter writer1;
+				try {
+					writer1 = new FileWriter(writePosition + "/result.txt", false);
+					for (int i = 0; i < Script.scripts.size(); i++) {
+						String temp = Script.scripts.get(i);
 						String tempFile = writePosition + "/tempFile.bat";
 						FileWriter writer = new FileWriter(tempFile, false);
 						SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");// 设置日期格式
@@ -128,13 +155,14 @@ public class SelectScriptFrame extends JFrame {
 						writer.write(deleteName(temp));
 						// writer.write("\n echo \"-->end<--\"\n");
 						writer.close();
-						FileWriter writer1 = new FileWriter(writePosition + "/result.txt", false);
 						runCommands(tempFile, writePosition, temp,getName(temp),writer1);
-						writer1.close();
-					} catch (IOException e1) {
-						e1.printStackTrace();
 					}
+					writer1.close();
+				} catch (IOException e1) {
+					// TODO Auto-generated catch block
+					e1.printStackTrace();
 				}
+				JOptionPane.showMessageDialog(null, "执行完毕");
 				anotherPanel.setVisible(true);
 			}
 		});
@@ -240,15 +268,6 @@ public class SelectScriptFrame extends JFrame {
 			public void actionPerformed(ActionEvent e) {
 				RoughResultFrame rrf = new RoughResultFrame();;
 				System.out.println("开始查看粗糙的结果展示");
-//				if(cal.isSelected()){
-//					rrf = new RoughResultFrame("CalFuzzer");
-//				}else if(rv.isSelected()){
-//					rrf = new RoughResultFrame("Rv-Predict");
-//				}else if(date.isSelected()){
-//					rrf = new RoughResultFrame("DATE");
-//				}else{
-//					rrf = new RoughResultFrame("other");
-//				}
 				rrf.setSize(1500, 1000);
 				rrf.setLocationRelativeTo(null);
 				rrf.setVisible(true);
@@ -272,15 +291,23 @@ public class SelectScriptFrame extends JFrame {
 
 	// 运行脚本命令 的处理函数
 	public void runCommands(String scriptFile, String filePath, String command,String programName,FileWriter writer) {
+		Thread progressThread = new Thread(){
+			public void run(){
+				progress.setValue(progress.getValue()+1);
+				System.out.println("progress值："+(progress.getValue()));
+//				int value = progress.getValue();
+//				progress.setString("zhi:"+(value*1.0)/(Script.scripts.size())*100 + "%");
+//				System.out.println("百分比："+ (value*1.0)/(Script.scripts.size())*100 + "%");
+			}
+		};
+		progressThread.start();
 		try {
-			// String command =
-			// "java -cp E:\\courseResource\\programResearch\\benchmark相关\\benchmarks汇总\\calfuzzer_calfuzzer\\CalFuzzer_TestRace1\\bin benchmarks.testcases.TestRace1";
-			// command =
-			// "cmd /c E:\\tsmart\\source-of-key\\apache-ant-1.9.6\\bin\\ant -f E:\\courseResource\\programResearch\\benchmark\\calfuzzer\\calfuzzer2\\calfuzzer\\run.xml test_race1";
-			// command = "E:\\courseResource\\programResearch\\tool\\test.bat";
-			// command =
-			// "E:\\tsmart\\source-of-key\\apache-ant-1.9.6\\bin\\ant -f E:\\courseResource\\programResearch\\benchmark\\calfuzzer\\calfuzzer2\\calfuzzer\\run.xml test_race1";
-			
+			progressThread.join();
+		} catch (InterruptedException e2) {
+			// TODO Auto-generated catch block
+			e2.printStackTrace();
+		}
+		try {
 			Process proc = Runtime.getRuntime().exec(scriptFile);
 
 			//Rv-Predict的输出走的是错误输出流，Calfuzzer的输出走的是标准输出流
@@ -323,9 +350,7 @@ public class SelectScriptFrame extends JFrame {
 	        execThread.join();  
 	        execThread.stop();
 			String lineStr;
-//			FileWriter writer = new FileWriter(filePath + "/result.txt", true);
 			SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");// 设置日期格式
-			// System.out.println(df.format(new Date()));// new Date()为获取当前系统时间
 			writer.write("\n>>>>>start command " + command + " about "	+ programName + " on " + df.format(new Date()) + " <<<<<\n");
 //			while ((lineStr = inBr.readLine()) != null) {
 //				// 获得命令执行后在控制台的输出信息
@@ -340,9 +365,6 @@ public class SelectScriptFrame extends JFrame {
 				writer.write("命令执行失败");
 			}
 			writer.write("\n>>>>>end<<<<<\n");
-//			inBr.close();
-//			in.close();
-			writer.close();
 		} catch (IOException e1) {
 			e1.printStackTrace();
 		} catch (Exception e1) {
@@ -378,5 +400,15 @@ public class SelectScriptFrame extends JFrame {
 			}
 		}
 		return commands;
+	}
+
+	@Override
+	public void stateChanged(ChangeEvent e) {
+		// TODO Auto-generated method stub
+		if(e.getSource()==progress){
+			int value = progress.getValue();
+			progress.setString("zhi:"+(value*1.0)/(Script.scripts.size())*100 + "%");
+			System.out.println("zhi:"+(value*1.0)/(Script.scripts.size())*100 + "%");
+		}
 	}
 }
