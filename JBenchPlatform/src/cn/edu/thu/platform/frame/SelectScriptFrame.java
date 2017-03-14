@@ -156,14 +156,14 @@ public class SelectScriptFrame extends JFrame implements ChangeListener{
 								// writer.write("\n echo \"-->end<--\"\n");
 								writer.close();
 								
-								commands = commands + "\nStart running usecase  [ " + SelectScriptFrame.this.getName(temp)+" ]...\n";
-								jText.setText(commands);
+//								commands = commands + "\nStart running usecase  [ " + SelectScriptFrame.this.getName(temp)+" ]...\n";
+//								jText.setText(commands);
 								
 								//运行单个脚本命令
 								runCommands(tempFile, writePosition, temp,SelectScriptFrame.this.getName(temp),writer1);
 
-								commands = commands + "usecase  [ " + SelectScriptFrame.this.getName(temp)+" ] finished !\n";
-								jText.setText(commands);
+//								commands = commands + "usecase  [ " + SelectScriptFrame.this.getName(temp)+" ] finished !\n";
+//								jText.setText(commands);
 								
 								//脚本命令运行结束，刷新进度条进度
 								progress.setValue(i+1);
@@ -336,16 +336,16 @@ public class SelectScriptFrame extends JFrame implements ChangeListener{
 				while((tmp1 = readStdout.readLine()) != null || (tmp2 = readStderr.readLine()) != null){  
 					if(tmp1 != null){  
 						mStringBuffer.append(tmp1 + "\n");  
-						commands = commands + "    " + tmp1+"\n";
-						jText.setText(commands);
+//						commands = commands + "    " + tmp1+"\n";
+//						jText.setText(commands);
 						// 回调接口方法  
 						//	                        mInterface.onNewStdoutListener(tmp1);  
 					}  
 					if(tmp2 != null){  
 						mStringBuffer.append(tmp2 + "\n");  
 						//	                        mInterface.onNewStderrListener(tmp2); 
-						commands = commands + "    " + tmp1+"\n";
-						jText.setText(commands); 
+//						commands = commands + "    " + tmp1+"\n";
+//						jText.setText(commands); 
 					}  
 					
 					//使得滚动条一直位于最下方

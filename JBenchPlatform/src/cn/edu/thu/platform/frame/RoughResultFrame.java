@@ -68,11 +68,7 @@ public class RoughResultFrame extends JFrame {
 		for(int i=0;i < numOfNames; i++){
 			String name = Reports.programNames.get(i);
 			originalReport = Reports.compareReports.get(name);
-			System.out.println("races:" + originalReport.getRaces().isEmpty());
-			System.out.println(":" + Reports.compareReports.containsKey(name));
-			System.out.println("races:" + Reports.userReports.containsKey("testRace1"));
-			System.out.println("races:" + Reports.userReports.containsKey("1"));
-			System.out.println("races:" + Reports.userReports.containsKey(name));
+
 			newReport = Reports.userReports.get(name);
 			String message = com.compare(originalReport, newReport);
 			totalMessage += (i+1) + ". " + name + message +"\n\n";
