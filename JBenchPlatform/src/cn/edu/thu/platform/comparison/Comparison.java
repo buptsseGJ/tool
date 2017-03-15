@@ -6,11 +6,12 @@ import java.util.Set;
 
 import cn.edu.thu.platform.entity.Race;
 import cn.edu.thu.platform.entity.Report;
+import cn.edu.thu.platform.entity.Reports;
 
 public class Comparison {
 
-	public String compare(Report originalReport, Report newReport) {
-		if(newReport != null && originalReport !=null){
+	public String compare(String programName,Report originalReport, Report newReport) {
+//		if(newReport != null && originalReport !=null){
 			Set<Race> originalRaces = originalReport.getCompareRaces();
 			Set<Race> newRaces = newReport.getCompareRaces();
 			int originalLength = originalRaces.size();
@@ -39,22 +40,98 @@ public class Comparison {
 			findReport = new Report(findRaces);
 			missReport = new Report(missRaces);
 			additionalReport = new Report(additionalRaces);
-			String programName = newReport.getName();
 			String message = "中的race总数是" + originalLength + "个,"
 					+ "该工具成功找到了" + rightMatch + "个,遗漏了"
 					+ (originalLength - rightMatch) + "个,并且额外找出了" + falseMatch
-					+ "个,暂且怀疑是误报情况。因此漏报率是" + (originalLength - rightMatch)
-					/ originalLength + ",误报率是" + falseMatch / originalLength
-					+ "\n\n";
+					+ "个。因此正确率是" + rightMatch / originalLength * 100 + "%,漏报率是" + (originalLength - rightMatch)
+					/ originalLength * 100 + "%,误报率是" + falseMatch / originalLength * 100
+					+ "%。\n";
 			ComparisonResult.result += message;
 			ComparisonResult.findRace.put(programName, findReport);
 			ComparisonResult.missRace.put(programName, missReport);
 			ComparisonResult.additianalRace.put(programName, additionalReport);
 			ComparisonResult.summary.put(programName, message);
-			return message;
+			Iterator<Race> itFind = newRaces.iterator();
+			while(itFind.hasNext()){
+				Race race = itFind.next();
+//				message += "成功找到的data race信息如下：\n";
+				message += getSuccessInformation(Reports.reports.get(programName).getRaces(),findRaces);
+//				String temp = "\trace位置<" + race.getLine1() + "," +  race.getLine2() + ">";
+				message += getMissInformation(Reports.reports.get(programName).getRaces(),missRaces);
+				message += getAdditionInformation(additionalRaces);
+			}
+			return message ;
+	}
+//		else{
+//			return "";
+//		}
+//	}
+	
+	public String getAdditionInformation(Set<Race> current){
+		String info = "";
+		if(current.isEmpty()){
+			info += "\n误报的data race如下：无\n";
 		}else{
-			return "";
+			Iterator<Race> it = current.iterator();
+			int count = 1;
+			while(it.hasNext()){
+				Race temp = it.next();
+				if(count == 1){
+					info += "误报的data race如下：\n";
+				}
+				info += "\t" + count + ")位置：<" + temp.getLine1() + "," + temp.getLine2() + ">\n";
+				count++;
+			}
 		}
+		return info;
+	}
+	
+	public String getMissInformation(Set<Race> original, Set<Race> current){
+		String info = "";
+		if(current.isEmpty()){
+			info += "\n漏报的dara race如下：无\n";
+		}else{
+			Iterator<Race> it = original.iterator();
+			int count = 1;
+			while(it.hasNext()){
+				Race temp = it.next();
+				if(current.contains(temp)){
+					if(count == 1){
+						info += "没找到的dara race如下：\n";
+					}
+					info += "\t" + count + ")位置：<" + temp.getLine1() + "," + temp.getLine2() + ">\n";
+					info += "\t  变量：" + temp.getVariable() + "\n";
+					info += "\t  类：" + temp.getPackageClass() + "\n";
+					info += "\t  详细：" + temp.getDetail() + "\n";
+					count++;
+				}
+			}		
+		}
+		return info;
+	}
+	
+	public String getSuccessInformation(Set<Race> original, Set<Race> current){
+		String info = "";
+		if(current.isEmpty()){
+			info += "成功找到的dara race如下：无\n";
+		}else{
+			Iterator<Race> it = original.iterator();
+			int count = 1;
+			while(it.hasNext()){
+				Race temp = it.next();
+				if(current.contains(temp)){
+					if(count == 1){
+						info += "成功找到的dara race如下：\n";
+					}
+					info += "\t" + count + ")位置：<" + temp.getLine1() + "," + temp.getLine2() + ">\n";
+					info += "\t  变量：" + temp.getVariable() + "\n";
+					info += "\t  类：" + temp.getPackageClass() + "\n";
+					info += "\t  详细：" + temp.getDetail() + "\n";
+					count++;
+				}
+			}
+		}
+		return info;
 	}
 
 	public Set<Race> getUniqueRace(Set<Race> races) {

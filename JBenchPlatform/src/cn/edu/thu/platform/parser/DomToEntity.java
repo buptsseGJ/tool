@@ -77,10 +77,12 @@ public class DomToEntity {
 										.getFirstChild().getNodeValue()
 										.toString().trim()
 										: null;
-								String detail = tempDetail.getFirstChild()
+								String detail = tempDetail.getFirstChild().getNextSibling()
 										.getNodeValue() != null ? tempDetail
-										.getFirstChild().getNodeValue()
-										.toString().trim() : null;
+										.getFirstChild().getNextSibling().getNodeValue()
+										.toString(): null;
+										System.out.println("detail:" + tempDetail.getFirstChild().getNextSibling().getNodeValue().toString());
+//								detail.replace("\t", "");
 								Race tempRace, compareRace;
 								if (Integer.parseInt(line1) < Integer
 										.parseInt(line2)) {
@@ -97,8 +99,8 @@ public class DomToEntity {
 							}
 						}
 					}
-					Comparison aaa = new Comparison();
-					aaa.getUniqueRace(compareRaces);
+//					Comparison aaa = new Comparison();
+//					aaa.getUniqueRace(compareRaces);
 					NamedNodeMap reportAttributes = reportList.item(i)
 							.getAttributes();
 					String programName = reportAttributes.getNamedItem("name")

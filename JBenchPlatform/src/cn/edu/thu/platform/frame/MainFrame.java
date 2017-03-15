@@ -14,6 +14,7 @@ import javax.swing.JButton;
 import javax.swing.JFileChooser;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
+import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 
 import org.w3c.dom.Document;
@@ -59,6 +60,7 @@ public class MainFrame extends JFrame {
 						System.out.println("正确");
 						DomToEntity convert = new DomToEntity();
 						convert.startDom(validationResult);
+						JOptionPane.showMessageDialog(null, "benchmark解析完毕");
 					} else {
 						System.out.println("错误");
 					}

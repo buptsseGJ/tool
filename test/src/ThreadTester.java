@@ -29,10 +29,11 @@ class ThreadTesterB implements Runnable {
 public class ThreadTester {
 	public static void main(String[] args) throws InterruptedException {
 		Thread t1 = new Thread(new ThreadTesterA());
-		Thread t2 = new Thread(new ThreadTesterB());
+//		Thread t2 = new Thread(new ThreadTesterB());
 		t1.start();
 //		t1.join(); // wait t1 to be finished
 //		t2.start();
+//		t2.sleep(10);
 		t1.join();
 		System.out.println("kaishi");
 //		t2.join(); // in this program, this may be removed
