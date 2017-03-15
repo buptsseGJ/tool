@@ -1,5 +1,5 @@
 
->>>>>start command [testRace1]E:\tsmart\source-of-key\apache-ant-1.9.6\bin\ant -f E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\run.xml test_race1 about testRace1 on 2017-03-15 10:57:11 <<<<<
+>>>>>start command [testRace1]E:\tsmart\source-of-key\apache-ant-1.9.6\bin\ant -f E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\run.xml test_race1 about testRace1 on 2017-03-15 15:32:53 <<<<<
 
 E:\github\tool\JBenchPlatform>E:\tsmart\source-of-key\apache-ant-1.9.6\bin\ant -f E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\run.xml test_race1 
 Buildfile: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\run.xml
@@ -23,14 +23,14 @@ clean:
 
 instr:
     [mkdir] Created dir: E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\tmp
-     [java] Soot started on Wed Mar 15 10:57:10 CST 2017
-     [java] Transforming benchmarks.testcases.TestRace1... 
+     [java] Soot started on Wed Mar 15 15:32:51 CST 2017
      [java] Transforming benchmarks.testcases.TestRace1$1... 
+     [java] Transforming benchmarks.testcases.TestRace1... 
      [java] Transforming benchmarks.testcases.TestRace1$2... 
-     [java] Writing to E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\tmpclasses\benchmarks\testcases\TestRace1.class
      [java] Writing to E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\tmpclasses\benchmarks\testcases\TestRace1$1.class
+     [java] Writing to E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\tmpclasses\benchmarks\testcases\TestRace1.class
      [java] Writing to E:\courseResource\programResearch\benchmark\calfuzzer\calfuzzer2\calfuzzer\src\benchmarks\tmpclasses\benchmarks\testcases\TestRace1$2.class
-     [java] Soot finished on Wed Mar 15 10:57:10 CST 2017
+     [java] Soot finished on Wed Mar 15 15:32:52 CST 2017
      [java] Soot has run for 0 min. 0 sec.
 
 analysis-once:
@@ -43,7 +43,7 @@ analysis-once:
      [java] benchmarks/testcases/TestRace1.java#47:0:false:benchmarks/testcases/TestRace1.java#41:0:false:false:false
      [java] benchmarks/testcases/TestRace1.java#47:0:false:benchmarks/testcases/TestRace1.java#41:0:true:false:false
      [java] # of data races 3 and lock races 0
-[stopwatch] [timer: 0.139 sec]
+[stopwatch] [timer: 0.146 sec]
 
 active-loop:
      [echo] Iteration: 1
@@ -55,7 +55,7 @@ analysis-once:
      [java] Analysis class javato.activetesting.RaceFuzzerAnalysis
      [java] ***************************************** Real data race detected between benchmarks/testcases/TestRace1.java#47 and benchmarks/testcases/TestRace1.java#41
      [java] x = 22
-[stopwatch] [timer: 0.244 sec]
+[stopwatch] [timer: 0.277 sec]
      [echo] Error:Iteration = 2:1
      [echo] ------------------
 
@@ -63,7 +63,7 @@ analysis-once:
      [java] Analysis class javato.activetesting.RaceFuzzerAnalysis
      [java] ***************************************** Real data race detected between benchmarks/testcases/TestRace1.java#47 and benchmarks/testcases/TestRace1.java#41
      [java] x = 17
-[stopwatch] [timer: 0.241 sec]
+[stopwatch] [timer: 0.283 sec]
      [echo] Error:Iteration = 3:1
      [echo] ------------------
 
@@ -71,7 +71,7 @@ analysis-once:
      [java] Analysis class javato.activetesting.RaceFuzzerAnalysis
      [java] ***************************************** Real data race detected between benchmarks/testcases/TestRace1.java#47 and benchmarks/testcases/TestRace1.java#41
      [java] x = 17
-[stopwatch] [timer: 0.237 sec]
+[stopwatch] [timer: 0.256 sec]
 
 BUILD SUCCESSFUL
 Total time: 3 seconds

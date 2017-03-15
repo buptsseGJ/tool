@@ -39,7 +39,7 @@ public class RoughResultFrame extends JFrame {
 		panel.setLayout(null);
 		panel.setBounds(0, 0, 1500, 1000);
 		JScrollPane jsp = new JScrollPane(jText);
-		jsp.setBounds(10, 100, 1450, 950);
+		jsp.setBounds(10, 60, 1450, 850);
 		jText.setFont(new Font("宋体",Font.BOLD,20));
 		jText.setLineWrap(true);
 		label.setBounds(20, 20, 500, 40);
@@ -81,7 +81,7 @@ public class RoughResultFrame extends JFrame {
 		}
 		//错误的程序名信息输出
 		for(int i = 0; i < Reports.wrongNames.size(); i++){
-			totalMessage += count + ". 测试集中没有名为[" + Reports.wrongNames.get(i) + "]的程序";
+			totalMessage += count + ". 测试集中没有名为[" + Reports.wrongNames.get(i) + "]的程序\n\n";
 			count++;
 		}
 		//漏掉的程序名信息输出
