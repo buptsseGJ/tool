@@ -7,6 +7,7 @@ import java.util.Set;
 import cn.edu.thu.platform.entity.Race;
 import cn.edu.thu.platform.entity.Report;
 import cn.edu.thu.platform.entity.Reports;
+import cn.edu.thu.platform.script.Script;
 
 public class Comparison {
 
@@ -46,6 +47,9 @@ public class Comparison {
 					+ "个。因此正确率是" + rightMatch / originalLength * 100 + "%,漏报率是" + (originalLength - rightMatch)
 					/ originalLength * 100 + "%,误报率是" + falseMatch / originalLength * 100
 					+ "%。\n";
+			if(rightMatch != originalLength){
+				Script.suggestName.add(programName);
+			}
 			ComparisonResult.result += message;
 			ComparisonResult.findRace.put(programName, findReport);
 			ComparisonResult.missRace.put(programName, missReport);
