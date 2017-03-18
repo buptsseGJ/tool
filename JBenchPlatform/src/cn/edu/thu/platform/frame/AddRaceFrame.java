@@ -2,13 +2,29 @@ package cn.edu.thu.platform.frame;
 
 import java.awt.Color;
 import java.awt.Font;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.io.IOException;
+import java.util.Iterator;
+import java.util.Set;
 
+import javax.swing.JOptionPane;
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JTextArea;
 import javax.swing.JTextField;
+import javax.swing.JScrollPane;
+import javax.xml.transform.TransformerException;
+
+import org.w3c.dom.Document;
+import org.xml.sax.SAXException;
+
+import cn.edu.thu.platform.entity.Race;
+import cn.edu.thu.platform.entity.Report;
+import cn.edu.thu.platform.entity.Reports;
+import cn.edu.thu.platform.parser.ParseXml;
 
 public class AddRaceFrame extends JFrame {
 	private JTextField txProgramName = new JTextField();
@@ -17,6 +33,7 @@ public class AddRaceFrame extends JFrame {
 	private JTextField txVariable = new JTextField();
 	private JTextField txPackageClass = new JTextField();
 	private JTextArea txDetail = new JTextArea();
+	private JScrollPane jsp = new JScrollPane(txDetail);
 	private JTextField txTime = new JTextField();
 	private JLabel lbProgramName = new JLabel("program name:");
 	private JLabel lbLine1 = new JLabel("line1:");
@@ -39,6 +56,9 @@ public class AddRaceFrame extends JFrame {
 		lbLine1.setFont(font);
 		lbLine2.setFont(font);
 		btSearch.setFont(font);
+		lbVariable.setFont(font);
+		lbPackageClass.setFont(font);
+		lbDetail.setFont(font);
 		lbProgramName.setBounds(50, 10, 150, 30);
 		lbLine1.setBounds(50, 50, 150, 30);
 		lbLine2.setBounds(50, 90, 150, 30);
@@ -51,7 +71,7 @@ public class AddRaceFrame extends JFrame {
 		txLine2.setBounds(220, 90, 550, 30);
 		txVariable.setBounds(220, 190, 550, 30);
 		txPackageClass.setBounds(220, 230, 550, 30);
-		txDetail.setBounds(50, 310, 850, 300);
+		jsp.setBounds(50, 310, 850, 300);
 		btConfirm.setBounds(150, 650, 150, 50);
 		btCancel.setBounds(400, 650, 150, 50);
 		panel.add(lbProgramName);
@@ -66,9 +86,102 @@ public class AddRaceFrame extends JFrame {
 		panel.add(txLine1);
 		panel.add(txVariable);
 		panel.add(txPackageClass);
-		panel.add(txDetail);
+		panel.add(jsp);
 		panel.add(btConfirm);
 		panel.add(btCancel);
 		this.add(panel);
+		txProgramName.setText(programName);
+		txProgramName.setEditable(false);
+		btSearch.addActionListener(new ActionListener(){
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				if(txProgramName.getText().equals("")){
+					JOptionPane.showMessageDialog(null,"请输入programName的内容");
+				}else if(txLine1.getText().equals("")){
+					JOptionPane.showMessageDialog(null, "请输入line1的内容");
+				}else if(txLine2.getText().equals("")){
+					JOptionPane.showMessageDialog(null,"请输入line2的内容");
+				}else{
+					Report report = Reports.reports.get(txProgramName.getText());
+					Set<Race> races = report.getRaces();
+					Iterator it = races.iterator();
+					Race race = null;
+					boolean flag = false;
+					txLine1.setEditable(false);
+					txLine2.setEditable(false);
+					while(it.hasNext()){
+						race = (Race) it.next();
+						if(race.getLine1().equals(txLine1.getText())&&race.getLine2().equals(txLine2.getText())
+								||race.getLine2().equals(txLine1.getText())&&race.getLine1().equals(txLine2.getText())){
+							txProgramName.setEditable(false);
+							txVariable.setText(race.getVariable());
+							txPackageClass.setText(race.getPackageClass());
+							txDetail.setText(race.getDetail());
+							JOptionPane.showMessageDialog(null, "已找到这个race，您可以进行修改。");
+							flag = true;
+						}
+					}
+					if(flag == false){
+						JOptionPane.showMessageDialog(null, "当前bug库中不存在此记录，您可以新增race。");
+					}
+					btSearch.setEnabled(false);
+				}
+			}			
+		});
+		btCancel.addActionListener(new ActionListener(){
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				dispose();
+			}
+		});
+		btConfirm.addActionListener(new ActionListener(){
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Race tempRace = new Race(txLine1.getText(), txLine2.getText(), txVariable.getText(), txPackageClass.getText(), txDetail.getText());
+				if(isValidate(tempRace)){
+					ParseXml parse = new ParseXml();
+					try {
+						Document doc = parse.buildDocument("");
+						parse.addElement(doc, txProgramName.getText(), tempRace);
+						parse.writeDomToXml(doc);
+						JOptionPane.showMessageDialog(null, "增加race修改完成");
+						dispose();
+					} catch (SAXException e1) {
+						// TODO Auto-generated catch block
+						e1.printStackTrace();
+					} catch (IOException e1) {
+						// TODO Auto-generated catch block
+						e1.printStackTrace();
+					} catch (TransformerException e1) {
+						// TODO Auto-generated catch block
+						e1.printStackTrace();
+					}
+				}
+			}
+		});
 	}
+	
+	public boolean isValidate(Race race){
+		String line1 = race.getLine1();
+		String line2 = race.getLine2();
+		String variable = race.getVariable();
+		String packageClass = race.getPackageClass();
+		if(line1.contains("<")||line1.contains(">")||line1.contains("&")||line1.contains("'")||line1.contains("\"")){
+			JOptionPane.showMessageDialog(null, "line1不能包含'<','>','&',''','\"'");
+			return false;
+		}else if(line2.contains("<")||line2.contains(">")||line2.contains("&")||line2.contains("'")||line2.contains("\"")){
+			JOptionPane.showMessageDialog(null, "line2不能包含'<','>','&',''','\"'");
+			return false;
+		}else if(variable.contains("<")||variable.contains(">")||variable.contains("&")||variable.contains("'")||variable.contains("\"")){
+			JOptionPane.showMessageDialog(null, "variable不能包含'<','>','&',''','\"'");
+			return false;
+		}else if(packageClass.contains("<")||packageClass.contains(">")||packageClass.contains("&")||packageClass.contains("'")||packageClass.contains("\"")){
+			JOptionPane.showMessageDialog(null, "packageClass不能包含'<','>','&',''','\"'");
+			return false;
+		}
+		return true;
+	}		
 }
