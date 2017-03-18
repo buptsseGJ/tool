@@ -37,10 +37,38 @@ public class AddRaceFrame extends JFrame {
 		Font font = new Font("宋体", Font.PLAIN, 20); 
 		lbProgramName.setFont(font);
 		lbLine1.setFont(font);
+		lbLine2.setFont(font);
+		btSearch.setFont(font);
 		lbProgramName.setBounds(50, 10, 150, 30);
 		lbLine1.setBounds(50, 50, 150, 30);
+		lbLine2.setBounds(50, 90, 150, 30);
+		btSearch.setBounds(450, 150, 100, 30);
+		lbVariable.setBounds(50, 190, 150, 30);
+		lbPackageClass.setBounds(50, 230, 150, 30);
+		lbDetail.setBounds(50, 270, 150, 30);
+		txProgramName.setBounds(220, 10, 550, 30);
+		txLine1.setBounds(220, 50, 550, 30);
+		txLine2.setBounds(220, 90, 550, 30);
+		txVariable.setBounds(220, 190, 550, 30);
+		txPackageClass.setBounds(220, 230, 550, 30);
+		txDetail.setBounds(50, 310, 850, 300);
+		btConfirm.setBounds(150, 650, 150, 50);
+		btCancel.setBounds(400, 650, 150, 50);
 		panel.add(lbProgramName);
 		panel.add(lbLine1);
+		panel.add(lbLine2);
+		panel.add(btSearch);
+		panel.add(lbVariable);
+		panel.add(lbPackageClass);
+		panel.add(lbDetail);
+		panel.add(txProgramName);
+		panel.add(txLine2);
+		panel.add(txLine1);
+		panel.add(txVariable);
+		panel.add(txPackageClass);
+		panel.add(txDetail);
+		panel.add(btConfirm);
+		panel.add(btCancel);
 		this.add(panel);
 	}
 }
