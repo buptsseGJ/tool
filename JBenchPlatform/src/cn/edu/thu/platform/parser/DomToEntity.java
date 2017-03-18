@@ -77,12 +77,19 @@ public class DomToEntity {
 										.getFirstChild().getNodeValue()
 										.toString().trim()
 										: null;
-								String detail = tempDetail.getFirstChild().getNextSibling()
-										.getNodeValue() != null ? tempDetail
-										.getFirstChild().getNextSibling().getNodeValue()
-										.toString(): null;
-										System.out.println("detail:" + tempDetail.getFirstChild().getNextSibling().getNodeValue().toString());
+								String detail ="";
+								if(tempDetail.getFirstChild().getNodeType() == node.TEXT_NODE){
+									detail = tempDetail.getFirstChild().getNextSibling()
+											.getNodeValue() != null ? tempDetail
+											.getFirstChild().getNextSibling().getNodeValue()
+											.toString(): null;
+											System.out.println("detail:" + tempDetail.getFirstChild().getNextSibling().getNodeValue().toString());
 //								detail.replace("\t", "");
+								}else{
+									detail = tempDetail.getFirstChild().getNodeValue() != null ? tempDetail
+											.getFirstChild().getNodeValue().toString(): null;
+											System.out.println("detail:" + tempDetail.getFirstChild().getNodeValue().toString());
+								}
 								Race tempRace, compareRace;
 								if (Integer.parseInt(line1) < Integer
 										.parseInt(line2)) {
