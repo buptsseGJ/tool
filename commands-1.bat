@@ -1,0 +1,2 @@
+[testRace1]D:\install\apache-ant-1.9.6\bin\ant -f D:\research\calfuzzer2\calfuzzer\run.xml test_race1
+[testRace3]D:\install\apache-ant-1.9.6\bin\ant -f D:\research\calfuzzer2\calfuzzer\run.xml test_race3

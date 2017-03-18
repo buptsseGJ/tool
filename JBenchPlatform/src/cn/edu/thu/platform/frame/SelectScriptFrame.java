@@ -311,8 +311,11 @@ public class SelectScriptFrame extends JFrame implements ChangeListener {
 			String programName, FileWriter writer) {
 
 		try {
+			SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");// 设置日期格式
+			long startTime=System.currentTimeMillis();   //获取开始时间 
 			Process proc = Runtime.getRuntime().exec(scriptFile);
-
+			long tempTime = System.currentTimeMillis();
+			System.out.println("时间1;" + (tempTime - startTime)/1000);
 			// Rv-Predict的输出走的是错误输出流，Calfuzzer的输出走的是标准输出流
 			// BufferedInputStream in = null;
 			// if(ComparisonResult.tool.equals("Rv-Predict")) {
@@ -363,8 +366,10 @@ public class SelectScriptFrame extends JFrame implements ChangeListener {
 			};
 			execThread.start();
 			execThread.join();
+			long endTime = System.currentTimeMillis();
+			long timeConsumer = (endTime - startTime) / 1000;
+			System.out.println("时间2：" + timeConsumer);
 			Reports.userNames.add(programName);
-			SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");// 设置日期格式
 			writer.write("\n>>>>>start command " + command + " about "
 					+ programName + " on " + df.format(new Date()) + " <<<<<\n");
 			// while ((lineStr = inBr.readLine()) != null) {
@@ -379,6 +384,7 @@ public class SelectScriptFrame extends JFrame implements ChangeListener {
 					System.err.println("命令执行失败!");
 				writer.write("命令执行失败");
 			}
+			writer.write("[total time:" + timeConsumer + "s]");
 			writer.write("\n>>>>>end<<<<<\n");
 		} catch (IOException e1) {
 			e1.printStackTrace();

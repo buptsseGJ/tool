@@ -26,6 +26,7 @@ public class RoughResultFrame extends JFrame {
 	private JTextArea jText = new JTextArea();
 	private JButton btSaveResult = new JButton("另存报告");
 	private JPanel panel = new JPanel();
+	private JButton btSuggest = new JButton("建议的测试用例");
 	private JLabel label = new JLabel("报告已经存放在根目录下的resultReport.txt下");
 	private String totalMessage = "";
 	public RoughResultFrame() {
@@ -41,8 +42,10 @@ public class RoughResultFrame extends JFrame {
 		JScrollPane jsp = new JScrollPane(jText);
 		jsp.setBounds(10, 60, 1450, 850);
 		jText.setFont(new Font("宋体",Font.BOLD,20));
-		jText.setLineWrap(true);
+		jText.setLineWrap(false);
 		label.setBounds(20, 20, 500, 40);
+		btSuggest.setBounds(550, 5, 150, 35);
+		panel.add(btSuggest);
 		panel.add(jsp);
 		panel.add(label);
 		this.add(panel);
