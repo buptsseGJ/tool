@@ -1,5 +1,5 @@
-[CASE1] ant -f  C:/AppData/Setup/calfuzzer/calfuzzer2.0/calfuzzer2/calfuzzer/run.xml test_race1
-[CASE2] ant -f  C:/AppData/Setup/calfuzzer/calfuzzer2.0/calfuzzer2/calfuzzer/run.xml test_race2
+[testRace1] ant -f  C:/AppData/Setup/calfuzzer/calfuzzer2.0/calfuzzer2/calfuzzer/run.xml test_race1
+[testRace3] ant -f  C:/AppData/Setup/calfuzzer/calfuzzer2.0/calfuzzer2/calfuzzer/run.xml test_race2
 [CASE3] ant -f  C:/AppData/Setup/calfuzzer/calfuzzer2.0/calfuzzer2/calfuzzer/run.xml test_race3
 [CASE4] ant -f  C:/AppData/Setup/calfuzzer/calfuzzer2.0/calfuzzer2/calfuzzer/run.xml test_race4
 [CASE5] ant -f  C:/AppData/Setup/calfuzzer/calfuzzer2.0/calfuzzer2/calfuzzer/run.xml test_race5
