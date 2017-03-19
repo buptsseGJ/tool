@@ -4,11 +4,9 @@
 	<report name="testRace1">
 		<race>
 			<line1>41</line1>
-			<line2>47</line2>
-			<variable>x</variable>
+			<line2>47</line2><variable>x</variable>
 			<packageClass>testRace.TestRace1</packageClass>
-			<detail>
-				<![CDATA[
+			<detail><![CDATA[
 					Race: <testRace.TestRace1$1: void run()>|$i0 = <testRace.TestRace1: int x>|41 - <testRace.TestRace1$2: void run()>|<testRace.TestRace1: int x> = $i1|47
 					Race: <testRace.TestRace1$1: void run()>|<testRace.TestRace1: int x> = $i1|41 - <testRace.TestRace1$2: void run()>|<testRace.TestRace1: int x> = $i1|47
 					Race: <testRace.TestRace1$2: void run()>|$i0 = <testRace.TestRace1: int x>|47 - <testRace.TestRace1$1: void run()>|<testRace.TestRace1: int x> = $i1|41
@@ -31,67 +29,101 @@
 			</detail>
 		</race>
 	</report>
+	<report name="testRace4">
+		<race>
+			<line1>43</line1>
+			<line2>48</line2>
+			<variable>x</variable>
+			<packageClass>testRace.TestRace3</packageClass>
+			<detail>
+				<![CDATA[
+					Race: <testRace.TestRace4: void main(java.lang.String[])>|$i0 = <testRace.TestRace4: int x>|48 - <testRace.TestRace4$1: void run()>|<testRace.TestRace4: int x> = $i1|43
+					Race: <testRace.TestRace4: void main(java.lang.String[])>|<testRace.TestRace4: int x> = $i1|48 - <testRace.TestRace4$1: void run()>|<testRace.TestRace4: int x> = $i1|43
+					Race: <testRace.TestRace4$1: void run()>|$i0 = <testRace.TestRace4: int x>|43 - <testRace.TestRace4: void main(java.lang.String[])>|<testRace.TestRace4: int x> = $i1|48
+				]]>
+			</detail>
+		</race>
+	</report>
 	<report name="testRace6">
 		<race>
-			<line1></line1>
-			<line2></line2>
+			<line1>44</line1>
+			<line2>50</line2>
 			<variable>x</variable>
 			<packageClass>testRace.TestRace6</packageClass>
 			<detail>
 				<![CDATA[
-					
+					Race: <testRace.TestRace6: void main(java.lang.String[])>|$i0 = <testRace.TestRace6: int x>|50 - <testRace.TestRace6$1: void run()>|<testRace.TestRace6: int x> = $i1|44
+					Race: <testRace.TestRace6: void main(java.lang.String[])>|<testRace.TestRace6: int x> = $i1|50 - <testRace.TestRace6$1: void run()>|<testRace.TestRace6: int x> = $i1|44
+					Race: <testRace.TestRace6$1: void run()>|$i0 = <testRace.TestRace6: int x>|44 - <testRace.TestRace6: void main(java.lang.String[])>|<testRace.TestRace6: int x> = $i1|50
 				]]>
 			</detail>
 		</race>
 	</report>
 	<report name="testRace10">
 		<race>
-			<line1></line1>
-			<line2></line2>
+			<line1>43</line1>
+			<line2>60</line2>
 			<variable>x</variable>
 			<packageClass>testRace.TestRace10</packageClass>
 			<detail>
 				<![CDATA[
-					
+					Race: <testRace.TestRace10: void main(java.lang.String[])>|$i0 = <testRace.TestRace10: int x>|60 - <testRace.TestRace10$1: void run()>|<testRace.TestRace10: int x> = $i1|43
+					Race: <testRace.TestRace10: void main(java.lang.String[])>|<testRace.TestRace10: int x> = $i1|60 - <testRace.TestRace10$1: void run()>|<testRace.TestRace10: int x> = $i1|43
+					Race: <testRace.TestRace10$1: void run()>|$i0 = <testRace.TestRace10: int x>|43 - <testRace.TestRace10: void main(java.lang.String[])>|<testRace.TestRace10: int x> = $i1|60
 				]]>
 			</detail>
 		</race>
 	</report>
 	<report name="testRace11">
 		<race>
-			<line1></line1>
-			<line2></line2>
+			<line1>47</line1>
+			<line2>51</line2>
 			<variable>x</variable>
 			<packageClass>testRace.TestRace11</packageClass>
 			<detail>
 				<![CDATA[
-					
+					Race: <testRace.TestRace11: void main(java.lang.String[])>|$i0 = <testRace.TestRace11: int x>|51 - <testRace.TestRace11$1: void run()>|<testRace.TestRace11: int x> = $i1|47
+					Race: <testRace.TestRace11: void main(java.lang.String[])>|<testRace.TestRace11: int x> = $i1|51 - <testRace.TestRace11$1: void run()>|<testRace.TestRace11: int x> = $i1|47
+					Race: <testRace.TestRace11$1: void run()>|$i0 = <testRace.TestRace11: int x>|47 - <testRace.TestRace11: void main(java.lang.String[])>|<testRace.TestRace11: int x> = $i1|51
 				]]>
 			</detail>
 		</race>
 	</report>
 	<report name="testRace12">
 		<race>
-			<line1></line1>
-			<line2></line2>
+			<line1>46</line1>
+			<line2>50</line2>
 			<variable>x</variable>
 			<packageClass>testRace.TestRace12</packageClass>
 			<detail>
 				<![CDATA[
-					
+					Race: <testRace.TestRace12: float getX()>|$f0 = <testRace.TestRace12: float x>|46 - <testRace.TestRace12: void setX(float)>|<testRace.TestRace12: float x> = f0|50
+				]]>
+			</detail>
+		</race>
+		<race>
+			<line1>50</line1>
+			<line2>50</line2>
+			<variable>x</variable>
+			<packageClass>testRace.TestRace12</packageClass>
+			<detail>
+				<![CDATA[
+					Race: <testRace.TestRace12: void setX(float)>|<testRace.TestRace12: float x> = f0|50 - <testRace.TestRace12: void setX(float)>|<testRace.TestRace12: float x> = f0|50
 				]]>
 			</detail>
 		</race>
 	</report>
 	<report name="testRace13">
 		<race>
-			<line1></line1>
-			<line2></line2>
+			<line1>41</line1>
+			<line2>47</line2>
 			<variable>x</variable>
 			<packageClass>testRace.TestRace13</packageClass>
 			<detail>
 				<![CDATA[
-					
+					Race: <testRace.TestRace13$1: void run()>|$i0 = <testRace.TestRace13: int x>|41 - <testRace.TestRace13$2: void run()>|<testRace.TestRace13: int x> = $i1|47
+					Race: <testRace.TestRace13$1: void run()>|<testRace.TestRace13: int x> = $i1|41 - <testRace.TestRace13$2: void run()>|<testRace.TestRace13: int x> = $i1|47
+					Race: <testRace.TestRace13$2: void run()>|$i0 = <testRace.TestRace13: int x>|47 - <testRace.TestRace13$1: void run()>|<testRace.TestRace13: int x> = $i1|41
 				]]>
 			</detail>
 		</race>
@@ -634,22 +666,46 @@
 	</report>
 	<report name="MTListTest">
 		<race>
-			<line1></line1>
-			<line2></line2>
-			<variable></variable>
-			<packageClass></packageClass>
+			<line1>74</line1>
+			<line2>296</line2>
+			<variable>size</variable>
+			<packageClass>benchmarks.instrumented.java15.util.LinkedList</packageClass>
 			<detail>
 				<![CDATA[
+					Race: <benchmarks.instrumented.java15.util.LinkedList: int access$100(benchmarks.instrumented.java15.util.LinkedList)>|$i0 = r0.<benchmarks.instrumented.java15.util.LinkedList: int size>|74 - <benchmarks.instrumented.java15.util.LinkedList: void clear()>|r0.<benchmarks.instrumented.java15.util.LinkedList: int size> = 0|296
 				]]>
 			</detail>
 		</race>
 		<race>
-			<line1></line1>
-			<line2></line2>
-			<variable></variable>
-			<packageClass></packageClass>
+			<line1>74</line1>
+			<line2>637</line2>
+			<variable>size</variable>
+			<packageClass>benchmarks.instrumented.java15.util.LinkedList</packageClass>
 			<detail>
 				<![CDATA[
+					Race: <benchmarks.instrumented.java15.util.LinkedList: int access$100(benchmarks.instrumented.java15.util.LinkedList)>|$i0 = r0.<benchmarks.instrumented.java15.util.LinkedList: int size>|74 - <benchmarks.instrumented.java15.util.LinkedList: benchmarks.instrumented.java15.util.LinkedList$Entry addBefore(java.lang.Object,benchmarks.instrumented.java15.util.LinkedList$Entry)>|r0.<benchmarks.instrumented.java15.util.LinkedList: int size> = $i1|637
+				]]>
+			</detail>
+		</race>
+		<race>
+			<line1>74</line1>
+			<line2>280</line2>
+			<variable>size</variable>
+			<packageClass>benchmarks.instrumented.java15.util.LinkedList</packageClass>
+			<detail>
+				<![CDATA[
+					Race: <benchmarks.instrumented.java15.util.LinkedList: int access$100(benchmarks.instrumented.java15.util.LinkedList)>|$i0 = r0.<benchmarks.instrumented.java15.util.LinkedList: int size>|74 - <benchmarks.instrumented.java15.util.LinkedList: boolean addAll(int,benchmarks.instrumented.java15.util.Collection)>|r0.<benchmarks.instrumented.java15.util.LinkedList: int size> = $i9|280
+				]]>
+			</detail>
+		</race>
+		<race>
+			<line1>74</line1>
+			<line2>651</line2>
+			<variable>size</variable>
+			<packageClass>benchmarks.instrumented.java15.util.LinkedList</packageClass>
+			<detail>
+				<![CDATA[
+					Race: <benchmarks.instrumented.java15.util.LinkedList: int access$100(benchmarks.instrumented.java15.util.LinkedList)>|$i0 = r0.<benchmarks.instrumented.java15.util.LinkedList: int size>|74 - <benchmarks.instrumented.java15.util.LinkedList: java.lang.Object remove(benchmarks.instrumented.java15.util.LinkedList$Entry)>|r0.<benchmarks.instrumented.java15.util.LinkedList: int size> = $i1|651
 				]]>
 			</detail>
 		</race>
@@ -814,6 +870,17 @@
 	</report>
 	<report name="MTTreeSetTest">
 		<race>
+			<line1>1188</line1>
+			<line2>1278</line2>
+			<variable>left</variable>
+			<packageClass>benchmarks.instrumented.java15.util.TreeMap</packageClass>
+			<detail>
+				<![CDATA[
+					Race: <benchmarks.instrumented.java15.util.TreeMap: benchmarks.instrumented.java15.util.TreeMap$Entry firstEntry()>|$r2 = r1.<benchmarks.instrumented.java15.util.TreeMap$Entry: benchmarks.instrumented.java15.util.TreeMap$Entry left>|1188 - <benchmarks.instrumented.java15.util.TreeMap: void rotateRight(benchmarks.instrumented.java15.util.TreeMap$Entry)>|r1.<benchmarks.instrumented.java15.util.TreeMap$Entry: benchmarks.instrumented.java15.util.TreeMap$Entry left> = $r3|1278
+				]]>
+			</detail>
+		</race>
+		<race>
 			<line1>1186</line1>
 			<line2>1266</line2>
 			<variable>root</variable>
@@ -821,6 +888,17 @@
 			<detail>
 				<![CDATA[
 					Race: <benchmarks.instrumented.java15.util.TreeMap: benchmarks.instrumented.java15.util.TreeMap$Entry firstEntry()>|r1 = r0.<benchmarks.instrumented.java15.util.TreeMap: benchmarks.instrumented.java15.util.TreeMap$Entry root>|1186 - <benchmarks.instrumented.java15.util.TreeMap: void rotateLeft(benchmarks.instrumented.java15.util.TreeMap$Entry)>|r0.<benchmarks.instrumented.java15.util.TreeMap: benchmarks.instrumented.java15.util.TreeMap$Entry root> = r2|1266
+				]]>
+			</detail>
+		</race>
+		<race>
+			<line1>1186</line1>
+			<line2>1282</line2>
+			<variable>root</variable>
+			<packageClass>benchmarks.instrumented.java15.util.TreeMap</packageClass>
+			<detail>
+				<![CDATA[
+					Race: <benchmarks.instrumented.java15.util.TreeMap: benchmarks.instrumented.java15.util.TreeMap$Entry firstEntry()>|r1 = r0.<benchmarks.instrumented.java15.util.TreeMap: benchmarks.instrumented.java15.util.TreeMap$Entry root>|1186 - <benchmarks.instrumented.java15.util.TreeMap: void rotateRight(benchmarks.instrumented.java15.util.TreeMap$Entry)>|r0.<benchmarks.instrumented.java15.util.TreeMap: benchmarks.instrumented.java15.util.TreeMap$Entry root> = r2|1282
 				]]>
 			</detail>
 		</race>
@@ -876,6 +954,28 @@
 			<detail>
 				<![CDATA[
 					Race: <benchmarks.instrumented.java15.util.TreeMap: int access$1600(benchmarks.instrumented.java15.util.TreeMap)>|$i0 = r0.<benchmarks.instrumented.java15.util.TreeMap: int modCount>|81 - <benchmarks.instrumented.java15.util.TreeMap: void clear()>|r0.<benchmarks.instrumented.java15.util.TreeMap: int modCount> = $i1|519
+				]]>
+			</detail>
+		</race>
+		<race>
+			<line1>473</line1>
+			<line2>1188</line2>
+			<variable>left</variable>
+			<packageClass>benchmarks.instrumented.java15.util.TreeMap</packageClass>
+			<detail>
+				<![CDATA[
+					Race: <benchmarks.instrumented.java15.util.TreeMap: benchmarks.instrumented.java15.util.TreeMap$Entry firstEntry()>|$r2 = r1.<benchmarks.instrumented.java15.util.TreeMap$Entry: benchmarks.instrumented.java15.util.TreeMap$Entry left>|1188 - <benchmarks.instrumented.java15.util.TreeMap: java.lang.Object put(java.lang.Object,java.lang.Object)>|r3.<benchmarks.instrumented.java15.util.TreeMap$Entry: benchmarks.instrumented.java15.util.TreeMap$Entry left> = $r8|473
+				]]>
+			</detail>
+		</race>
+		<race>
+			<line1>473</line1>
+			<line2>1189</line2>
+			<variable>left</variable>
+			<packageClass>benchmarks.instrumented.java15.util.TreeMap</packageClass>
+			<detail>
+				<![CDATA[
+					Race: <benchmarks.instrumented.java15.util.TreeMap: benchmarks.instrumented.java15.util.TreeMap$Entry firstEntry()>|$r2 = r1.<benchmarks.instrumented.java15.util.TreeMap$Entry: benchmarks.instrumented.java15.util.TreeMap$Entry left>|1189 - <benchmarks.instrumented.java15.util.TreeMap: java.lang.Object put(java.lang.Object,java.lang.Object)>|r3.<benchmarks.instrumented.java15.util.TreeMap$Entry: benchmarks.instrumented.java15.util.TreeMap$Entry left> = $r8|473
 				]]>
 			</detail>
 		</race>

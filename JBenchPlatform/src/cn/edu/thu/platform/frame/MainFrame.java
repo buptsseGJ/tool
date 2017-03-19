@@ -14,7 +14,9 @@ import javax.swing.JButton;
 import javax.swing.JFileChooser;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
+import javax.swing.JOptionPane;
 import javax.swing.JPanel;
+import javax.swing.filechooser.FileSystemView;
 
 import org.w3c.dom.Document;
 
@@ -48,6 +50,8 @@ public class MainFrame extends JFrame {
 				System.out.println("开始文件选择");
 				JFileChooser jfc = new JFileChooser();
 				jfc.setFileSelectionMode(JFileChooser.FILES_ONLY);
+				File rootFile = new File(System.getProperty("user.dir").replace('\\', '/')+"/file");
+				jfc.setCurrentDirectory(rootFile);
 				jfc.showDialog(new JLabel(), "选择");
 				File file = jfc.getSelectedFile();
 				if (file != null) {
@@ -59,6 +63,7 @@ public class MainFrame extends JFrame {
 						System.out.println("正确");
 						DomToEntity convert = new DomToEntity();
 						convert.startDom(validationResult);
+						JOptionPane.showMessageDialog(null, "benchmark解析完毕");
 					} else {
 						System.out.println("错误");
 					}

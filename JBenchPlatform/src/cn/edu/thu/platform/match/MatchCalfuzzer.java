@@ -46,8 +46,12 @@ public class MatchCalfuzzer implements MatchInterface {
 						}
 						//防止输出信息位于两行中，将一个测试用例中的输出文本拼接成一行
 						info +=tempString;
-						break;
-					case 2://若状态为2,说明已经找到测试用例名,正在寻找测试用例的行号对
+
+						if(state == 1){
+							break;
+						}
+						
+						//若状态为2,说明已经找到测试用例名,正在寻找测试用例的行号对
 						System.out.println("\n\n\n"+info+"\n");
 						String caseName = "";
 						//防止 为发现race时匹配处理时可能引发的异常

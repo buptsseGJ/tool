@@ -1,0 +1,1059 @@
+
+----------------------------------------
+----------------------------------------
+	2017-03-14 23:05:29
+----------------------------------------
+----------------------------------------
+1. testRace1
+
+
+----------------------------------------
+----------------------------------------
+	2017-03-14 23:06:01
+----------------------------------------
+----------------------------------------
+1. testRace1
+
+2. testRace3
+
+
+----------------------------------------
+----------------------------------------
+	2017-03-14 23:07:44
+----------------------------------------
+----------------------------------------
+1. testRace1中的race总数是1个,该工具成功找到了1个,遗漏了0个,并且额外找出了0。因此漏报率是0%,误报率是0%。
+
+
+
+----------------------------------------
+----------------------------------------
+	2017-03-15 09:07:42
+----------------------------------------
+----------------------------------------
+1. testRace1中的race总数是1个,该工具成功找到了1个,遗漏了0个,并且额外找出了0个。因此漏报率是0%,误报率是0%。
+成功找到的dara race如下：
+1)位置：<41,47>
+变量：null
+类：null
+详细：null
+
+
+----------------------------------------
+----------------------------------------
+	2017-03-15 09:10:30
+----------------------------------------
+----------------------------------------
+1. testRace1中的race总数是1个,该工具成功找到了1个,遗漏了0个,并且额外找出了0个。因此漏报率是0%,误报率是0%。
+成功找到的dara race如下：
+	1)位置：<41,47>
+	变量：x
+	类：testRace.TestRace1
+	详细：
+
+
+----------------------------------------
+----------------------------------------
+	2017-03-15 09:23:50
+----------------------------------------
+----------------------------------------
+1. testRace1中的race总数是1个,该工具成功找到了1个,遗漏了0个,并且额外找出了0个。因此漏报率是0%,误报率是0%。
+成功找到的dara race如下：
+	1)位置：<41,47>
+	变量：x
+	类：testRace.TestRace1
+	详细：
+					Race: <testRace.TestRace1$1: void run()>|$i0 = <testRace.TestRace1: int x>|41 - <testRace.TestRace1$2: void run()>|<testRace.TestRace1: int x> = $i1|47
+					Race: <testRace.TestRace1$1: void run()>|<testRace.TestRace1: int x> = $i1|41 - <testRace.TestRace1$2: void run()>|<testRace.TestRace1: int x> = $i1|47
+					Race: <testRace.TestRace1$2: void run()>|$i0 = <testRace.TestRace1: int x>|47 - <testRace.TestRace1$1: void run()>|<testRace.TestRace1: int x> = $i1|41
+				
+
+
+----------------------------------------
+----------------------------------------
+	2017-03-15 09:45:42
+----------------------------------------
+----------------------------------------
+1. testRace1中的race总数是1个,该工具成功找到了1个,遗漏了0个,并且额外找出了0个。因此漏报率是0%,误报率是0%。
+成功找到的dara race如下：
+	1)位置：<41,47>
+	变量：x
+	类：testRace.TestRace1
+	详细：
+					Race: <testRace.TestRace1$1: void run()>|$i0 = <testRace.TestRace1: int x>|41 - <testRace.TestRace1$2: void run()>|<testRace.TestRace1: int x> = $i1|47
+					Race: <testRace.TestRace1$1: void run()>|<testRace.TestRace1: int x> = $i1|41 - <testRace.TestRace1$2: void run()>|<testRace.TestRace1: int x> = $i1|47
+					Race: <testRace.TestRace1$2: void run()>|$i0 = <testRace.TestRace1: int x>|47 - <testRace.TestRace1$1: void run()>|<testRace.TestRace1: int x> = $i1|41
+				
+
+
+----------------------------------------
+----------------------------------------
+	2017-03-15 10:49:27
+----------------------------------------
+----------------------------------------
+1. testRace1中的race总数是1个,该工具成功找到了1个,遗漏了0个,并且额外找出了0个。因此漏报率是0%,误报率是0%。
+成功找到的dara race如下：
+	1)位置：<41,47>
+	  变量：x
+	  类：testRace.TestRace1
+	  详细：
+					Race: <testRace.TestRace1$1: void run()>|$i0 = <testRace.TestRace1: int x>|41 - <testRace.TestRace1$2: void run()>|<testRace.TestRace1: int x> = $i1|47
+					Race: <testRace.TestRace1$1: void run()>|<testRace.TestRace1: int x> = $i1|41 - <testRace.TestRace1$2: void run()>|<testRace.TestRace1: int x> = $i1|47
+					Race: <testRace.TestRace1$2: void run()>|$i0 = <testRace.TestRace1: int x>|47 - <testRace.TestRace1$1: void run()>|<testRace.TestRace1: int x> = $i1|41
+				
+
+没找到的dara race如下：无
+
+误报的data race如下：无
+
+2测试集中的以下程序还没有被测试：
+	1) testRace3	1) testRace4	1) testRace6	1) testRace10	1) testRace11	1) testRace12	1) testRace13	1) testAtomicity1	1) testAtomicity4	1) testAtomicity6	1) testAtomicity7	1) testAtomicity8	1) testAtomicity9	1) testAtomicity11	1) testAtomicity12	1) testAtomicity13	1) testAtomicity14	1) tsp	1) sor	1) cyclicDemo	1) JGFALLSizeA	1) JGFALLSizeB	1) MTListTest	1) MTSetTest	1) MTVectorTest	1) MTTreeSetTest	1) MTArrayListTest	1) MTHashtableTest	1) MTLinkedHashSetTest	1) MTLinkedListInfiniteLoop	1) IdentityHashMapDeadlockTest	1) JGFMolDynBenchSizeA	1) JGFRayTracerBenchSizeA	1) jpf_test_cases	1) SimpleExample	1) account	1) airlinetickets	1) boundedbuffer	1) bubblesort	1) bufwriter	1) critical	1) mergesort	1) pingpong
+----------------------------------------
+----------------------------------------
+	2017-03-15 10:50:49
+----------------------------------------
+----------------------------------------
+1. testRace1中的race总数是1个,该工具成功找到了1个,遗漏了0个,并且额外找出了0个。因此漏报率是0%,误报率是0%。
+成功找到的dara race如下：
+	1)位置：<41,47>
+	  变量：x
+	  类：testRace.TestRace1
+	  详细：
+					Race: <testRace.TestRace1$1: void run()>|$i0 = <testRace.TestRace1: int x>|41 - <testRace.TestRace1$2: void run()>|<testRace.TestRace1: int x> = $i1|47
+					Race: <testRace.TestRace1$1: void run()>|<testRace.TestRace1: int x> = $i1|41 - <testRace.TestRace1$2: void run()>|<testRace.TestRace1: int x> = $i1|47
+					Race: <testRace.TestRace1$2: void run()>|$i0 = <testRace.TestRace1: int x>|47 - <testRace.TestRace1$1: void run()>|<testRace.TestRace1: int x> = $i1|41
+				
+
+没找到的dara race如下：无
+
+误报的data race如下：无
+
+2测试集中的以下程序还没有被测试：
+	1) testRace3	1) testRace4	1) testRace6	1) testRace10	1) testRace11	1) testRace12	1) testRace13	1) testAtomicity1	1) testAtomicity4	1) testAtomicity6	1) testAtomicity7	1) testAtomicity8	1) testAtomicity9	1) testAtomicity11	1) testAtomicity12	1) testAtomicity13	1) testAtomicity14	1) tsp	1) sor	1) cyclicDemo	1) JGFALLSizeA	1) JGFALLSizeB	1) MTListTest	1) MTSetTest	1) MTVectorTest	1) MTTreeSetTest	1) MTArrayListTest	1) MTHashtableTest	1) MTLinkedHashSetTest	1) MTLinkedListInfiniteLoop	1) IdentityHashMapDeadlockTest	1) JGFMolDynBenchSizeA	1) JGFRayTracerBenchSizeA	1) jpf_test_cases	1) SimpleExample	1) account	1) airlinetickets	1) boundedbuffer	1) bubblesort	1) bufwriter	1) critical	1) mergesort	1) pingpong
+----------------------------------------
+----------------------------------------
+	2017-03-15 10:53:39
+----------------------------------------
+----------------------------------------
+1. testRace1中的race总数是1个,该工具成功找到了1个,遗漏了0个,并且额外找出了0个。因此正确率是100%,漏报率是0%,误报率是0%。
+成功找到的dara race如下：
+	1)位置：<41,47>
+	  变量：x
+	  类：testRace.TestRace1
+	  详细：
+					Race: <testRace.TestRace1$1: void run()>|$i0 = <testRace.TestRace1: int x>|41 - <testRace.TestRace1$2: void run()>|<testRace.TestRace1: int x> = $i1|47
+					Race: <testRace.TestRace1$1: void run()>|<testRace.TestRace1: int x> = $i1|41 - <testRace.TestRace1$2: void run()>|<testRace.TestRace1: int x> = $i1|47
+					Race: <testRace.TestRace1$2: void run()>|$i0 = <testRace.TestRace1: int x>|47 - <testRace.TestRace1$1: void run()>|<testRace.TestRace1: int x> = $i1|41
+				
+
+没找到的dara race如下：无
+
+误报的data race如下：无
+
+2. 测试集中的以下程序还没有被测试：
+	1) testRace3	2) testRace4	3) testRace6	4) testRace10	5) testRace11	6) testRace12	7) testRace13	8) testAtomicity1	9) testAtomicity4	10) testAtomicity6	11) testAtomicity7	12) testAtomicity8	13) testAtomicity9	14) testAtomicity11	15) testAtomicity12	16) testAtomicity13	17) testAtomicity14	18) tsp	19) sor	20) cyclicDemo	21) JGFALLSizeA	22) JGFALLSizeB	23) MTListTest	24) MTSetTest	25) MTVectorTest	26) MTTreeSetTest	27) MTArrayListTest	28) MTHashtableTest	29) MTLinkedHashSetTest	30) MTLinkedListInfiniteLoop	31) IdentityHashMapDeadlockTest	32) JGFMolDynBenchSizeA	33) JGFRayTracerBenchSizeA	34) jpf_test_cases	35) SimpleExample	36) account	37) airlinetickets	38) boundedbuffer	39) bubblesort	40) bufwriter	41) critical	42) mergesort	43) pingpong
+----------------------------------------
+----------------------------------------
+	2017-03-15 10:57:15生成比较结果报告
+----------------------------------------
+----------------------------------------
+1. testRace1中的race总数是1个,该工具成功找到了1个,遗漏了0个,并且额外找出了0个。因此正确率是100%,漏报率是0%,误报率是0%。
+成功找到的dara race如下：
+	1)位置：<41,47>
+	  变量：x
+	  类：testRace.TestRace1
+	  详细：
+					Race: <testRace.TestRace1$1: void run()>|$i0 = <testRace.TestRace1: int x>|41 - <testRace.TestRace1$2: void run()>|<testRace.TestRace1: int x> = $i1|47
+					Race: <testRace.TestRace1$1: void run()>|<testRace.TestRace1: int x> = $i1|41 - <testRace.TestRace1$2: void run()>|<testRace.TestRace1: int x> = $i1|47
+					Race: <testRace.TestRace1$2: void run()>|$i0 = <testRace.TestRace1: int x>|47 - <testRace.TestRace1$1: void run()>|<testRace.TestRace1: int x> = $i1|41
+				
+
+漏报的dara race如下：无
+
+误报的data race如下：无
+
+2. 测试集中的以下程序还没有被测试：
+	1) testRace3
+	2) testRace4
+	3) testRace6
+	4) testRace10
+	5) testRace11
+	6) testRace12
+	7) testRace13
+	8) testAtomicity1
+	9) testAtomicity4
+	10) testAtomicity6
+	11) testAtomicity7
+	12) testAtomicity8
+	13) testAtomicity9
+	14) testAtomicity11
+	15) testAtomicity12
+	16) testAtomicity13
+	17) testAtomicity14
+	18) tsp
+	19) sor
+	20) cyclicDemo
+	21) JGFALLSizeA
+	22) JGFALLSizeB
+	23) MTListTest
+	24) MTSetTest
+	25) MTVectorTest
+	26) MTTreeSetTest
+	27) MTArrayListTest
+	28) MTHashtableTest
+	29) MTLinkedHashSetTest
+	30) MTLinkedListInfiniteLoop
+	31) IdentityHashMapDeadlockTest
+	32) JGFMolDynBenchSizeA
+	33) JGFRayTracerBenchSizeA
+	34) jpf_test_cases
+	35) SimpleExample
+	36) account
+	37) airlinetickets
+	38) boundedbuffer
+	39) bubblesort
+	40) bufwriter
+	41) critical
+	42) mergesort
+	43) pingpong
+
+----------------------------------------
+----------------------------------------
+	2017-03-15 15:20:25生成比较结果报告
+----------------------------------------
+----------------------------------------
+1. testRace1中的race总数是1个,该工具成功找到了1个,遗漏了0个,并且额外找出了0个。因此正确率是100%,漏报率是0%,误报率是0%。
+成功找到的dara race如下：
+	1)位置：<41,47>
+	  变量：x
+	  类：testRace.TestRace1
+	  详细：
+					Race: <testRace.TestRace1$1: void run()>|$i0 = <testRace.TestRace1: int x>|41 - <testRace.TestRace1$2: void run()>|<testRace.TestRace1: int x> = $i1|47
+					Race: <testRace.TestRace1$1: void run()>|<testRace.TestRace1: int x> = $i1|41 - <testRace.TestRace1$2: void run()>|<testRace.TestRace1: int x> = $i1|47
+					Race: <testRace.TestRace1$2: void run()>|$i0 = <testRace.TestRace1: int x>|47 - <testRace.TestRace1$1: void run()>|<testRace.TestRace1: int x> = $i1|41
+				
+
+漏报的dara race如下：无
+
+误报的data race如下：无
+
+2. 测试集中的以下程序还没有被测试：
+	1)  testRace3
+	2)  testRace4
+	3)  testRace6
+	4)  testRace10
+	5)  testRace11
+	6)  testRace12
+	7)  testRace13
+	8)  testAtomicity1
+	9)  testAtomicity4
+	10)  testAtomicity6
+	11)  testAtomicity7
+	12)  testAtomicity8
+	13)  testAtomicity9
+	14)  testAtomicity11
+	15)  testAtomicity12
+	16)  testAtomicity13
+	17)  testAtomicity14
+	18)  tsp
+	19)  sor
+	20)  cyclicDemo
+	21)  JGFALLSizeA
+	22)  JGFALLSizeB
+	23)  MTListTest
+	24)  MTSetTest
+	25)  MTVectorTest
+	26)  MTTreeSetTest
+	27)  MTArrayListTest
+	28)  MTHashtableTest
+	29)  MTLinkedHashSetTest
+	30)  MTLinkedListInfiniteLoop
+	31)  IdentityHashMapDeadlockTest
+	32)  JGFMolDynBenchSizeA
+	33)  JGFRayTracerBenchSizeA
+	34)  jpf_test_cases
+	35)  SimpleExample
+	36)  account
+	37)  airlinetickets
+	38)  boundedbuffer
+	39)  bubblesort
+	40)  bufwriter
+	41)  critical
+	42)  mergesort
+	43)  pingpong
+
+----------------------------------------
+----------------------------------------
+	2017-03-15 15:23:10生成比较结果报告
+----------------------------------------
+----------------------------------------
+1. testRace1中的race总数是1个,该工具成功找到了1个,遗漏了0个,并且额外找出了0个。因此正确率是100%,漏报率是0%,误报率是0%。
+成功找到的dara race如下：
+	1)位置：<41,47>
+	  变量：x
+	  类：testRace.TestRace1
+	  详细：
+					Race: <testRace.TestRace1$1: void run()>|$i0 = <testRace.TestRace1: int x>|41 - <testRace.TestRace1$2: void run()>|<testRace.TestRace1: int x> = $i1|47
+					Race: <testRace.TestRace1$1: void run()>|<testRace.TestRace1: int x> = $i1|41 - <testRace.TestRace1$2: void run()>|<testRace.TestRace1: int x> = $i1|47
+					Race: <testRace.TestRace1$2: void run()>|$i0 = <testRace.TestRace1: int x>|47 - <testRace.TestRace1$1: void run()>|<testRace.TestRace1: int x> = $i1|41
+				
+
+漏报的dara race如下：无
+
+误报的data race如下：无
+
+2. testRace3中的race总数是1个,该工具成功找到了1个,遗漏了0个,并且额外找出了0个。因此正确率是100%,漏报率是0%,误报率是0%。
+成功找到的dara race如下：
+	1)位置：<42,46>
+	  变量：x
+	  类：testRace.TestRace3
+	  详细：
+					Race: <testRace.TestRace3: void main(java.lang.String[])>|$i0 = <testRace.TestRace3: int x>|46 - <testRace.TestRace3$1: void run()>|<testRace.TestRace3: int x> = $i1|42
+					Race: <testRace.TestRace3: void main(java.lang.String[])>|<testRace.TestRace3: int x> = $i1|46 - <testRace.TestRace3$1: void run()>|<testRace.TestRace3: int x> = $i1|42
+					Race: <testRace.TestRace3$1: void run()>|$i0 = <testRace.TestRace3: int x>|42 - <testRace.TestRace3: void main(java.lang.String[])>|<testRace.TestRace3: int x> = $i1|46
+				
+
+漏报的dara race如下：无
+
+误报的data race如下：无
+
+3. 测试集中的以下程序还没有被测试：
+	1)  testRace4
+	2)  testRace6
+	3)  testRace10
+	4)  testRace11
+	5)  testRace12
+	6)  testRace13
+	7)  testAtomicity1
+	8)  testAtomicity4
+	9)  testAtomicity6
+	10)  testAtomicity7
+	11)  testAtomicity8
+	12)  testAtomicity9
+	13)  testAtomicity11
+	14)  testAtomicity12
+	15)  testAtomicity13
+	16)  testAtomicity14
+	17)  tsp
+	18)  sor
+	19)  cyclicDemo
+	20)  JGFALLSizeA
+	21)  JGFALLSizeB
+	22)  MTListTest
+	23)  MTSetTest
+	24)  MTVectorTest
+	25)  MTTreeSetTest
+	26)  MTArrayListTest
+	27)  MTHashtableTest
+	28)  MTLinkedHashSetTest
+	29)  MTLinkedListInfiniteLoop
+	30)  IdentityHashMapDeadlockTest
+	31)  JGFMolDynBenchSizeA
+	32)  JGFRayTracerBenchSizeA
+	33)  jpf_test_cases
+	34)  SimpleExample
+	35)  account
+	36)  airlinetickets
+	37)  boundedbuffer
+	38)  bubblesort
+	39)  bufwriter
+	40)  critical
+	41)  mergesort
+	42)  pingpong
+
+----------------------------------------
+----------------------------------------
+	2017-03-15 15:24:18生成比较结果报告
+----------------------------------------
+----------------------------------------
+1. testRace1中的race总数是1个,该工具成功找到了1个,遗漏了0个,并且额外找出了0个。因此正确率是100%,漏报率是0%,误报率是0%。
+成功找到的dara race如下：
+	1)位置：<41,47>
+	  变量：x
+	  类：testRace.TestRace1
+	  详细：
+					Race: <testRace.TestRace1$1: void run()>|$i0 = <testRace.TestRace1: int x>|41 - <testRace.TestRace1$2: void run()>|<testRace.TestRace1: int x> = $i1|47
+					Race: <testRace.TestRace1$1: void run()>|<testRace.TestRace1: int x> = $i1|41 - <testRace.TestRace1$2: void run()>|<testRace.TestRace1: int x> = $i1|47
+					Race: <testRace.TestRace1$2: void run()>|$i0 = <testRace.TestRace1: int x>|47 - <testRace.TestRace1$1: void run()>|<testRace.TestRace1: int x> = $i1|41
+				
+
+漏报的dara race如下：无
+
+误报的data race如下：无
+
+2. testRace3中的race总数是1个,该工具成功找到了1个,遗漏了0个,并且额外找出了0个。因此正确率是100%,漏报率是0%,误报率是0%。
+成功找到的dara race如下：
+	1)位置：<42,46>
+	  变量：x
+	  类：testRace.TestRace3
+	  详细：
+					Race: <testRace.TestRace3: void main(java.lang.String[])>|$i0 = <testRace.TestRace3: int x>|46 - <testRace.TestRace3$1: void run()>|<testRace.TestRace3: int x> = $i1|42
+					Race: <testRace.TestRace3: void main(java.lang.String[])>|<testRace.TestRace3: int x> = $i1|46 - <testRace.TestRace3$1: void run()>|<testRace.TestRace3: int x> = $i1|42
+					Race: <testRace.TestRace3$1: void run()>|$i0 = <testRace.TestRace3: int x>|42 - <testRace.TestRace3: void main(java.lang.String[])>|<testRace.TestRace3: int x> = $i1|46
+				
+
+漏报的dara race如下：无
+
+误报的data race如下：无
+
+3. 测试集中的以下程序还没有被测试：
+	1)  testRace4
+	2)  testRace6
+	3)  testRace10
+	4)  testRace11
+	5)  testRace12
+	6)  testRace13
+	7)  testAtomicity1
+	8)  testAtomicity4
+	9)  testAtomicity6
+	10)  testAtomicity7
+	11)  testAtomicity8
+	12)  testAtomicity9
+	13)  testAtomicity11
+	14)  testAtomicity12
+	15)  testAtomicity13
+	16)  testAtomicity14
+	17)  tsp
+	18)  sor
+	19)  cyclicDemo
+	20)  JGFALLSizeA
+	21)  JGFALLSizeB
+	22)  MTListTest
+	23)  MTSetTest
+	24)  MTVectorTest
+	25)  MTTreeSetTest
+	26)  MTArrayListTest
+	27)  MTHashtableTest
+	28)  MTLinkedHashSetTest
+	29)  MTLinkedListInfiniteLoop
+	30)  IdentityHashMapDeadlockTest
+	31)  JGFMolDynBenchSizeA
+	32)  JGFRayTracerBenchSizeA
+	33)  jpf_test_cases
+	34)  SimpleExample
+	35)  account
+	36)  airlinetickets
+	37)  boundedbuffer
+	38)  bubblesort
+	39)  bufwriter
+	40)  critical
+	41)  mergesort
+	42)  pingpong
+
+----------------------------------------
+----------------------------------------
+	2017-03-15 15:25:32生成比较结果报告
+----------------------------------------
+----------------------------------------
+1. testRace1中的race总数是1个,该工具成功找到了1个,遗漏了0个,并且额外找出了0个。因此正确率是100%,漏报率是0%,误报率是0%。
+成功找到的dara race如下：
+	1)位置：<41,47>
+	  变量：x
+	  类：testRace.TestRace1
+	  详细：
+					Race: <testRace.TestRace1$1: void run()>|$i0 = <testRace.TestRace1: int x>|41 - <testRace.TestRace1$2: void run()>|<testRace.TestRace1: int x> = $i1|47
+					Race: <testRace.TestRace1$1: void run()>|<testRace.TestRace1: int x> = $i1|41 - <testRace.TestRace1$2: void run()>|<testRace.TestRace1: int x> = $i1|47
+					Race: <testRace.TestRace1$2: void run()>|$i0 = <testRace.TestRace1: int x>|47 - <testRace.TestRace1$1: void run()>|<testRace.TestRace1: int x> = $i1|41
+				
+
+漏报的dara race如下：无
+
+误报的data race如下：无
+
+2. testRace3中的race总数是1个,该工具成功找到了1个,遗漏了0个,并且额外找出了0个。因此正确率是100%,漏报率是0%,误报率是0%。
+成功找到的dara race如下：
+	1)位置：<42,46>
+	  变量：x
+	  类：testRace.TestRace3
+	  详细：
+					Race: <testRace.TestRace3: void main(java.lang.String[])>|$i0 = <testRace.TestRace3: int x>|46 - <testRace.TestRace3$1: void run()>|<testRace.TestRace3: int x> = $i1|42
+					Race: <testRace.TestRace3: void main(java.lang.String[])>|<testRace.TestRace3: int x> = $i1|46 - <testRace.TestRace3$1: void run()>|<testRace.TestRace3: int x> = $i1|42
+					Race: <testRace.TestRace3$1: void run()>|$i0 = <testRace.TestRace3: int x>|42 - <testRace.TestRace3: void main(java.lang.String[])>|<testRace.TestRace3: int x> = $i1|46
+				
+
+漏报的dara race如下：无
+
+误报的data race如下：无
+
+3. 测试集中的以下程序还没有被测试：
+	1)  testRace4
+	2)  testRace6
+	3)  testRace10
+	4)  testRace11
+	5)  testRace12
+	6)  testRace13
+	7)  testAtomicity1
+	8)  testAtomicity4
+	9)  testAtomicity6
+	10)  testAtomicity7
+	11)  testAtomicity8
+	12)  testAtomicity9
+	13)  testAtomicity11
+	14)  testAtomicity12
+	15)  testAtomicity13
+	16)  testAtomicity14
+	17)  tsp
+	18)  sor
+	19)  cyclicDemo
+	20)  JGFALLSizeA
+	21)  JGFALLSizeB
+	22)  MTListTest
+	23)  MTSetTest
+	24)  MTVectorTest
+	25)  MTTreeSetTest
+	26)  MTArrayListTest
+	27)  MTHashtableTest
+	28)  MTLinkedHashSetTest
+	29)  MTLinkedListInfiniteLoop
+	30)  IdentityHashMapDeadlockTest
+	31)  JGFMolDynBenchSizeA
+	32)  JGFRayTracerBenchSizeA
+	33)  jpf_test_cases
+	34)  SimpleExample
+	35)  account
+	36)  airlinetickets
+	37)  boundedbuffer
+	38)  bubblesort
+	39)  bufwriter
+	40)  critical
+	41)  mergesort
+	42)  pingpong
+
+----------------------------------------
+----------------------------------------
+	2017-03-15 15:27:24生成比较结果报告
+----------------------------------------
+----------------------------------------
+1. testRace1中的race总数是1个,该工具成功找到了1个,遗漏了0个,并且额外找出了0个。因此正确率是100%,漏报率是0%,误报率是0%。
+成功找到的dara race如下：
+	1)位置：<41,47>
+	  变量：x
+	  类：testRace.TestRace1
+	  详细：
+					Race: <testRace.TestRace1$1: void run()>|$i0 = <testRace.TestRace1: int x>|41 - <testRace.TestRace1$2: void run()>|<testRace.TestRace1: int x> = $i1|47
+					Race: <testRace.TestRace1$1: void run()>|<testRace.TestRace1: int x> = $i1|41 - <testRace.TestRace1$2: void run()>|<testRace.TestRace1: int x> = $i1|47
+					Race: <testRace.TestRace1$2: void run()>|$i0 = <testRace.TestRace1: int x>|47 - <testRace.TestRace1$1: void run()>|<testRace.TestRace1: int x> = $i1|41
+				
+
+漏报的dara race如下：无
+
+误报的data race如下：无
+
+2. testRace3中的race总数是1个,该工具成功找到了1个,遗漏了0个,并且额外找出了0个。因此正确率是100%,漏报率是0%,误报率是0%。
+成功找到的dara race如下：
+	1)位置：<42,46>
+	  变量：x
+	  类：testRace.TestRace3
+	  详细：
+					Race: <testRace.TestRace3: void main(java.lang.String[])>|$i0 = <testRace.TestRace3: int x>|46 - <testRace.TestRace3$1: void run()>|<testRace.TestRace3: int x> = $i1|42
+					Race: <testRace.TestRace3: void main(java.lang.String[])>|<testRace.TestRace3: int x> = $i1|46 - <testRace.TestRace3$1: void run()>|<testRace.TestRace3: int x> = $i1|42
+					Race: <testRace.TestRace3$1: void run()>|$i0 = <testRace.TestRace3: int x>|42 - <testRace.TestRace3: void main(java.lang.String[])>|<testRace.TestRace3: int x> = $i1|46
+				
+
+漏报的dara race如下：无
+
+误报的data race如下：无
+
+3. 测试集中的以下程序还没有被测试：
+	1)  testRace4
+	2)  testRace6
+	3)  testRace10
+	4)  testRace11
+	5)  testRace12
+	6)  testRace13
+	7)  testAtomicity1
+	8)  testAtomicity4
+	9)  testAtomicity6
+	10)  testAtomicity7
+	11)  testAtomicity8
+	12)  testAtomicity9
+	13)  testAtomicity11
+	14)  testAtomicity12
+	15)  testAtomicity13
+	16)  testAtomicity14
+	17)  tsp
+	18)  sor
+	19)  cyclicDemo
+	20)  JGFALLSizeA
+	21)  JGFALLSizeB
+	22)  MTListTest
+	23)  MTSetTest
+	24)  MTVectorTest
+	25)  MTTreeSetTest
+	26)  MTArrayListTest
+	27)  MTHashtableTest
+	28)  MTLinkedHashSetTest
+	29)  MTLinkedListInfiniteLoop
+	30)  IdentityHashMapDeadlockTest
+	31)  JGFMolDynBenchSizeA
+	32)  JGFRayTracerBenchSizeA
+	33)  jpf_test_cases
+	34)  SimpleExample
+	35)  account
+	36)  airlinetickets
+	37)  boundedbuffer
+	38)  bubblesort
+	39)  bufwriter
+	40)  critical
+	41)  mergesort
+	42)  pingpong
+
+----------------------------------------
+----------------------------------------
+	2017-03-15 15:32:59生成比较结果报告
+----------------------------------------
+----------------------------------------
+1. testRace1中的race总数是1个,该工具成功找到了1个,遗漏了0个,并且额外找出了0个。因此正确率是100%,漏报率是0%,误报率是0%。
+成功找到的dara race如下：
+	1)位置：<41,47>
+	  变量：x
+	  类：testRace.TestRace1
+	  详细：
+					Race: <testRace.TestRace1$1: void run()>|$i0 = <testRace.TestRace1: int x>|41 - <testRace.TestRace1$2: void run()>|<testRace.TestRace1: int x> = $i1|47
+					Race: <testRace.TestRace1$1: void run()>|<testRace.TestRace1: int x> = $i1|41 - <testRace.TestRace1$2: void run()>|<testRace.TestRace1: int x> = $i1|47
+					Race: <testRace.TestRace1$2: void run()>|$i0 = <testRace.TestRace1: int x>|47 - <testRace.TestRace1$1: void run()>|<testRace.TestRace1: int x> = $i1|41
+				
+
+漏报的dara race如下：无
+
+误报的data race如下：无
+
+2. 测试集中没有名为[testRace2]的程序3. 测试集中的以下程序还没有被测试：
+	1)  testRace3
+	2)  testRace4
+	3)  testRace6
+	4)  testRace10
+	5)  testRace11
+	6)  testRace12
+	7)  testRace13
+	8)  testAtomicity1
+	9)  testAtomicity4
+	10)  testAtomicity6
+	11)  testAtomicity7
+	12)  testAtomicity8
+	13)  testAtomicity9
+	14)  testAtomicity11
+	15)  testAtomicity12
+	16)  testAtomicity13
+	17)  testAtomicity14
+	18)  tsp
+	19)  sor
+	20)  cyclicDemo
+	21)  JGFALLSizeA
+	22)  JGFALLSizeB
+	23)  MTListTest
+	24)  MTSetTest
+	25)  MTVectorTest
+	26)  MTTreeSetTest
+	27)  MTArrayListTest
+	28)  MTHashtableTest
+	29)  MTLinkedHashSetTest
+	30)  MTLinkedListInfiniteLoop
+	31)  IdentityHashMapDeadlockTest
+	32)  JGFMolDynBenchSizeA
+	33)  JGFRayTracerBenchSizeA
+	34)  jpf_test_cases
+	35)  SimpleExample
+	36)  account
+	37)  airlinetickets
+	38)  boundedbuffer
+	39)  bubblesort
+	40)  bufwriter
+	41)  critical
+	42)  mergesort
+	43)  pingpong
+
+----------------------------------------
+----------------------------------------
+	2017-03-16 10:57:33生成比较结果报告
+----------------------------------------
+----------------------------------------
+1. testRace1中的race总数是1个,该工具成功找到了1个,遗漏了0个,并且额外找出了0个。因此正确率是100%,漏报率是0%,误报率是0%。
+成功找到的dara race如下：
+	1)位置：<41,47>
+	  变量：x
+	  类：testRace.TestRace1
+	  详细：
+					Race: <testRace.TestRace1$1: void run()>|$i0 = <testRace.TestRace1: int x>|41 - <testRace.TestRace1$2: void run()>|<testRace.TestRace1: int x> = $i1|47
+					Race: <testRace.TestRace1$1: void run()>|<testRace.TestRace1: int x> = $i1|41 - <testRace.TestRace1$2: void run()>|<testRace.TestRace1: int x> = $i1|47
+					Race: <testRace.TestRace1$2: void run()>|$i0 = <testRace.TestRace1: int x>|47 - <testRace.TestRace1$1: void run()>|<testRace.TestRace1: int x> = $i1|41
+				
+
+漏报的dara race如下：无
+
+误报的data race如下：无
+
+2. testRace3中的race总数是1个,该工具成功找到了1个,遗漏了0个,并且额外找出了0个。因此正确率是100%,漏报率是0%,误报率是0%。
+成功找到的dara race如下：
+	1)位置：<42,46>
+	  变量：x
+	  类：testRace.TestRace3
+	  详细：
+					Race: <testRace.TestRace3: void main(java.lang.String[])>|$i0 = <testRace.TestRace3: int x>|46 - <testRace.TestRace3$1: void run()>|<testRace.TestRace3: int x> = $i1|42
+					Race: <testRace.TestRace3: void main(java.lang.String[])>|<testRace.TestRace3: int x> = $i1|46 - <testRace.TestRace3$1: void run()>|<testRace.TestRace3: int x> = $i1|42
+					Race: <testRace.TestRace3$1: void run()>|$i0 = <testRace.TestRace3: int x>|42 - <testRace.TestRace3: void main(java.lang.String[])>|<testRace.TestRace3: int x> = $i1|46
+				
+
+漏报的dara race如下：无
+
+误报的data race如下：无
+
+3. 测试集中的以下程序还没有被测试：
+	1)  testRace4
+	2)  testRace6
+	3)  testRace10
+	4)  testRace11
+	5)  testRace12
+	6)  testRace13
+	7)  testAtomicity1
+	8)  testAtomicity4
+	9)  testAtomicity6
+	10)  testAtomicity7
+	11)  testAtomicity8
+	12)  testAtomicity9
+	13)  testAtomicity11
+	14)  testAtomicity12
+	15)  testAtomicity13
+	16)  testAtomicity14
+	17)  tsp
+	18)  sor
+	19)  cyclicDemo
+	20)  JGFALLSizeA
+	21)  JGFALLSizeB
+	22)  MTListTest
+	23)  MTSetTest
+	24)  MTVectorTest
+	25)  MTTreeSetTest
+	26)  MTArrayListTest
+	27)  MTHashtableTest
+	28)  MTLinkedHashSetTest
+	29)  MTLinkedListInfiniteLoop
+	30)  IdentityHashMapDeadlockTest
+	31)  JGFMolDynBenchSizeA
+	32)  JGFRayTracerBenchSizeA
+	33)  jpf_test_cases
+	34)  SimpleExample
+	35)  account
+	36)  airlinetickets
+	37)  boundedbuffer
+	38)  bubblesort
+	39)  bufwriter
+	40)  critical
+	41)  mergesort
+	42)  pingpong
+
+----------------------------------------
+----------------------------------------
+	2017-03-16 15:35:07生成比较结果报告
+----------------------------------------
+----------------------------------------
+1. testRace1中的race总数是1个,该工具成功找到了1个,遗漏了0个,并且额外找出了0个。因此正确率是100%,漏报率是0%,误报率是0%。
+成功找到的dara race如下：
+	1)位置：<41,47>
+	  变量：x
+	  类：testRace.TestRace1
+	  详细：
+					Race: <testRace.TestRace1$1: void run()>|$i0 = <testRace.TestRace1: int x>|41 - <testRace.TestRace1$2: void run()>|<testRace.TestRace1: int x> = $i1|47
+					Race: <testRace.TestRace1$1: void run()>|<testRace.TestRace1: int x> = $i1|41 - <testRace.TestRace1$2: void run()>|<testRace.TestRace1: int x> = $i1|47
+					Race: <testRace.TestRace1$2: void run()>|$i0 = <testRace.TestRace1: int x>|47 - <testRace.TestRace1$1: void run()>|<testRace.TestRace1: int x> = $i1|41
+				
+
+漏报的dara race如下：无
+
+误报的data race如下：无
+
+2. testRace3中的race总数是1个,该工具成功找到了1个,遗漏了0个,并且额外找出了0个。因此正确率是100%,漏报率是0%,误报率是0%。
+成功找到的dara race如下：
+	1)位置：<42,46>
+	  变量：x
+	  类：testRace.TestRace3
+	  详细：
+					Race: <testRace.TestRace3: void main(java.lang.String[])>|$i0 = <testRace.TestRace3: int x>|46 - <testRace.TestRace3$1: void run()>|<testRace.TestRace3: int x> = $i1|42
+					Race: <testRace.TestRace3: void main(java.lang.String[])>|<testRace.TestRace3: int x> = $i1|46 - <testRace.TestRace3$1: void run()>|<testRace.TestRace3: int x> = $i1|42
+					Race: <testRace.TestRace3$1: void run()>|$i0 = <testRace.TestRace3: int x>|42 - <testRace.TestRace3: void main(java.lang.String[])>|<testRace.TestRace3: int x> = $i1|46
+				
+
+漏报的dara race如下：无
+
+误报的data race如下：无
+
+3. 测试集中的以下程序还没有被测试：
+	1)  testRace4
+	2)  testRace6
+	3)  testRace10
+	4)  testRace11
+	5)  testRace12
+	6)  testRace13
+	7)  testAtomicity1
+	8)  testAtomicity4
+	9)  testAtomicity6
+	10)  testAtomicity7
+	11)  testAtomicity8
+	12)  testAtomicity9
+	13)  testAtomicity11
+	14)  testAtomicity12
+	15)  testAtomicity13
+	16)  testAtomicity14
+	17)  tsp
+	18)  sor
+	19)  cyclicDemo
+	20)  JGFALLSizeA
+	21)  JGFALLSizeB
+	22)  MTListTest
+	23)  MTSetTest
+	24)  MTVectorTest
+	25)  MTTreeSetTest
+	26)  MTArrayListTest
+	27)  MTHashtableTest
+	28)  MTLinkedHashSetTest
+	29)  MTLinkedListInfiniteLoop
+	30)  IdentityHashMapDeadlockTest
+	31)  JGFMolDynBenchSizeA
+	32)  JGFRayTracerBenchSizeA
+	33)  jpf_test_cases
+	34)  SimpleExample
+	35)  account
+	36)  airlinetickets
+	37)  boundedbuffer
+	38)  bubblesort
+	39)  bufwriter
+	40)  critical
+	41)  mergesort
+	42)  pingpong
+
+----------------------------------------
+----------------------------------------
+	2017-03-16 15:39:30生成比较结果报告
+----------------------------------------
+----------------------------------------
+1. testRace1中的race总数是1个,该工具成功找到了1个,遗漏了0个,并且额外找出了0个。因此正确率是100%,漏报率是0%,误报率是0%。
+成功找到的dara race如下：
+	1)位置：<41,47>
+	  变量：x
+	  类：testRace.TestRace1
+	  详细：
+					Race: <testRace.TestRace1$1: void run()>|$i0 = <testRace.TestRace1: int x>|41 - <testRace.TestRace1$2: void run()>|<testRace.TestRace1: int x> = $i1|47
+					Race: <testRace.TestRace1$1: void run()>|<testRace.TestRace1: int x> = $i1|41 - <testRace.TestRace1$2: void run()>|<testRace.TestRace1: int x> = $i1|47
+					Race: <testRace.TestRace1$2: void run()>|$i0 = <testRace.TestRace1: int x>|47 - <testRace.TestRace1$1: void run()>|<testRace.TestRace1: int x> = $i1|41
+				
+
+漏报的dara race如下：无
+
+误报的data race如下：无
+
+2. testRace3中的race总数是1个,该工具成功找到了1个,遗漏了0个,并且额外找出了0个。因此正确率是100%,漏报率是0%,误报率是0%。
+成功找到的dara race如下：
+	1)位置：<42,46>
+	  变量：x
+	  类：testRace.TestRace3
+	  详细：
+					Race: <testRace.TestRace3: void main(java.lang.String[])>|$i0 = <testRace.TestRace3: int x>|46 - <testRace.TestRace3$1: void run()>|<testRace.TestRace3: int x> = $i1|42
+					Race: <testRace.TestRace3: void main(java.lang.String[])>|<testRace.TestRace3: int x> = $i1|46 - <testRace.TestRace3$1: void run()>|<testRace.TestRace3: int x> = $i1|42
+					Race: <testRace.TestRace3$1: void run()>|$i0 = <testRace.TestRace3: int x>|42 - <testRace.TestRace3: void main(java.lang.String[])>|<testRace.TestRace3: int x> = $i1|46
+				
+
+漏报的dara race如下：无
+
+误报的data race如下：无
+
+3. 测试集中的以下程序还没有被测试：
+	1)  testRace4
+	2)  testRace6
+	3)  testRace10
+	4)  testRace11
+	5)  testRace12
+	6)  testRace13
+	7)  testAtomicity1
+	8)  testAtomicity4
+	9)  testAtomicity6
+	10)  testAtomicity7
+	11)  testAtomicity8
+	12)  testAtomicity9
+	13)  testAtomicity11
+	14)  testAtomicity12
+	15)  testAtomicity13
+	16)  testAtomicity14
+	17)  tsp
+	18)  sor
+	19)  cyclicDemo
+	20)  JGFALLSizeA
+	21)  JGFALLSizeB
+	22)  MTListTest
+	23)  MTSetTest
+	24)  MTVectorTest
+	25)  MTTreeSetTest
+	26)  MTArrayListTest
+	27)  MTHashtableTest
+	28)  MTLinkedHashSetTest
+	29)  MTLinkedListInfiniteLoop
+	30)  IdentityHashMapDeadlockTest
+	31)  JGFMolDynBenchSizeA
+	32)  JGFRayTracerBenchSizeA
+	33)  jpf_test_cases
+	34)  SimpleExample
+	35)  account
+	36)  airlinetickets
+	37)  boundedbuffer
+	38)  bubblesort
+	39)  bufwriter
+	40)  critical
+	41)  mergesort
+	42)  pingpong
+
+----------------------------------------
+----------------------------------------
+	2017-03-16 15:40:13生成比较结果报告
+----------------------------------------
+----------------------------------------
+1. testRace1中的race总数是1个,该工具成功找到了1个,遗漏了0个,并且额外找出了0个。因此正确率是100%,漏报率是0%,误报率是0%。
+成功找到的dara race如下：
+	1)位置：<41,47>
+	  变量：x
+	  类：testRace.TestRace1
+	  详细：
+					Race: <testRace.TestRace1$1: void run()>|$i0 = <testRace.TestRace1: int x>|41 - <testRace.TestRace1$2: void run()>|<testRace.TestRace1: int x> = $i1|47
+					Race: <testRace.TestRace1$1: void run()>|<testRace.TestRace1: int x> = $i1|41 - <testRace.TestRace1$2: void run()>|<testRace.TestRace1: int x> = $i1|47
+					Race: <testRace.TestRace1$2: void run()>|$i0 = <testRace.TestRace1: int x>|47 - <testRace.TestRace1$1: void run()>|<testRace.TestRace1: int x> = $i1|41
+				
+
+漏报的dara race如下：无
+
+误报的data race如下：无
+
+2. testRace3中的race总数是1个,该工具成功找到了1个,遗漏了0个,并且额外找出了0个。因此正确率是100%,漏报率是0%,误报率是0%。
+成功找到的dara race如下：
+	1)位置：<42,46>
+	  变量：x
+	  类：testRace.TestRace3
+	  详细：
+					Race: <testRace.TestRace3: void main(java.lang.String[])>|$i0 = <testRace.TestRace3: int x>|46 - <testRace.TestRace3$1: void run()>|<testRace.TestRace3: int x> = $i1|42
+					Race: <testRace.TestRace3: void main(java.lang.String[])>|<testRace.TestRace3: int x> = $i1|46 - <testRace.TestRace3$1: void run()>|<testRace.TestRace3: int x> = $i1|42
+					Race: <testRace.TestRace3$1: void run()>|$i0 = <testRace.TestRace3: int x>|42 - <testRace.TestRace3: void main(java.lang.String[])>|<testRace.TestRace3: int x> = $i1|46
+				
+
+漏报的dara race如下：无
+
+误报的data race如下：无
+
+3. 测试集中的以下程序还没有被测试：
+	1)  testRace4
+	2)  testRace6
+	3)  testRace10
+	4)  testRace11
+	5)  testRace12
+	6)  testRace13
+	7)  testAtomicity1
+	8)  testAtomicity4
+	9)  testAtomicity6
+	10)  testAtomicity7
+	11)  testAtomicity8
+	12)  testAtomicity9
+	13)  testAtomicity11
+	14)  testAtomicity12
+	15)  testAtomicity13
+	16)  testAtomicity14
+	17)  tsp
+	18)  sor
+	19)  cyclicDemo
+	20)  JGFALLSizeA
+	21)  JGFALLSizeB
+	22)  MTListTest
+	23)  MTSetTest
+	24)  MTVectorTest
+	25)  MTTreeSetTest
+	26)  MTArrayListTest
+	27)  MTHashtableTest
+	28)  MTLinkedHashSetTest
+	29)  MTLinkedListInfiniteLoop
+	30)  IdentityHashMapDeadlockTest
+	31)  JGFMolDynBenchSizeA
+	32)  JGFRayTracerBenchSizeA
+	33)  jpf_test_cases
+	34)  SimpleExample
+	35)  account
+	36)  airlinetickets
+	37)  boundedbuffer
+	38)  bubblesort
+	39)  bufwriter
+	40)  critical
+	41)  mergesort
+	42)  pingpong
+
+----------------------------------------
+----------------------------------------
+	2017-03-16 15:45:37生成比较结果报告
+----------------------------------------
+----------------------------------------
+1. testRace1中的race总数是1个,该工具成功找到了1个,遗漏了0个,并且额外找出了0个。因此正确率是100%,漏报率是0%,误报率是0%。
+成功找到的dara race如下：
+	1)位置：<41,47>
+	  变量：x
+	  类：testRace.TestRace1
+	  详细：
+					Race: <testRace.TestRace1$1: void run()>|$i0 = <testRace.TestRace1: int x>|41 - <testRace.TestRace1$2: void run()>|<testRace.TestRace1: int x> = $i1|47
+					Race: <testRace.TestRace1$1: void run()>|<testRace.TestRace1: int x> = $i1|41 - <testRace.TestRace1$2: void run()>|<testRace.TestRace1: int x> = $i1|47
+					Race: <testRace.TestRace1$2: void run()>|$i0 = <testRace.TestRace1: int x>|47 - <testRace.TestRace1$1: void run()>|<testRace.TestRace1: int x> = $i1|41
+				
+
+漏报的dara race如下：无
+
+误报的data race如下：无
+
+2. testRace3中的race总数是1个,该工具成功找到了1个,遗漏了0个,并且额外找出了0个。因此正确率是100%,漏报率是0%,误报率是0%。
+成功找到的dara race如下：
+	1)位置：<42,46>
+	  变量：x
+	  类：testRace.TestRace3
+	  详细：
+					Race: <testRace.TestRace3: void main(java.lang.String[])>|$i0 = <testRace.TestRace3: int x>|46 - <testRace.TestRace3$1: void run()>|<testRace.TestRace3: int x> = $i1|42
+					Race: <testRace.TestRace3: void main(java.lang.String[])>|<testRace.TestRace3: int x> = $i1|46 - <testRace.TestRace3$1: void run()>|<testRace.TestRace3: int x> = $i1|42
+					Race: <testRace.TestRace3$1: void run()>|$i0 = <testRace.TestRace3: int x>|42 - <testRace.TestRace3: void main(java.lang.String[])>|<testRace.TestRace3: int x> = $i1|46
+				
+
+漏报的dara race如下：无
+
+误报的data race如下：无
+
+3. 测试集中的以下程序还没有被测试：
+	1)  testRace4
+	2)  testRace6
+	3)  testRace10
+	4)  testRace11
+	5)  testRace12
+	6)  testRace13
+	7)  testAtomicity1
+	8)  testAtomicity4
+	9)  testAtomicity6
+	10)  testAtomicity7
+	11)  testAtomicity8
+	12)  testAtomicity9
+	13)  testAtomicity11
+	14)  testAtomicity12
+	15)  testAtomicity13
+	16)  testAtomicity14
+	17)  tsp
+	18)  sor
+	19)  cyclicDemo
+	20)  JGFALLSizeA
+	21)  JGFALLSizeB
+	22)  MTListTest
+	23)  MTSetTest
+	24)  MTVectorTest
+	25)  MTTreeSetTest
+	26)  MTArrayListTest
+	27)  MTHashtableTest
+	28)  MTLinkedHashSetTest
+	29)  MTLinkedListInfiniteLoop
+	30)  IdentityHashMapDeadlockTest
+	31)  JGFMolDynBenchSizeA
+	32)  JGFRayTracerBenchSizeA
+	33)  jpf_test_cases
+	34)  SimpleExample
+	35)  account
+	36)  airlinetickets
+	37)  boundedbuffer
+	38)  bubblesort
+	39)  bufwriter
+	40)  critical
+	41)  mergesort
+	42)  pingpong

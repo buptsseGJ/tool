@@ -13,4 +13,8 @@ public class Reports {
 	public static Map<String, Report> userReports = new HashMap<String, Report>();
 	
 	public static List<String> programNames = new ArrayList<String>();
+	
+	public static List<String> userNames = new ArrayList<String>();
+	//wrongNames 存储脚本里的名字不在benchmark中的
+	public static List<String> wrongNames = new ArrayList<String>();
 }
