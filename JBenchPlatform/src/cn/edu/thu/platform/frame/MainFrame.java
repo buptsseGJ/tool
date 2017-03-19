@@ -16,7 +16,6 @@ import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
-import javax.swing.filechooser.FileSystemView;
 
 import org.w3c.dom.Document;
 
@@ -74,12 +73,19 @@ public class MainFrame extends JFrame {
 		manageSuites.addActionListener(new ActionListener() {
 			@Override
 			public void actionPerformed(ActionEvent e) {
-				ManageSuitesFrame msf = new ManageSuitesFrame();
+				ManageBenchmarkFrame mbf = new ManageBenchmarkFrame();
 				System.out.println("开始管理benchmark");
-				msf.setSize(1000, 1000);
-				msf.setLocationRelativeTo(null);
-				msf.setVisible(true);
-				msf.setTitle("管理");
+				mbf.setSize(1000, 1000);
+				mbf.setLocationRelativeTo(null);
+				mbf.setVisible(true);
+				mbf.setTitle("管理");
+				
+//				ManageSuitesFrame msf = new ManageSuitesFrame();				
+//				System.out.println("开始管理benchmark");
+//				msf.setSize(1000, 1000);
+//				msf.setLocationRelativeTo(null);
+//				msf.setVisible(true);
+//				msf.setTitle("管理");
 			}
 		});
 		// 运行程序 监听函数
@@ -143,6 +149,7 @@ public class MainFrame extends JFrame {
 
 	static class ButtonPanel extends JPanel {
 
+		@Override
 		protected void paintComponent(Graphics g) {
 			super.paintComponent(g);
 		}

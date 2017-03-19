@@ -1,10 +1,8 @@
 package cn.edu.thu.platform.frame;
 
 import java.awt.Color;
-import java.awt.Component;
 import java.awt.Dimension;
 import java.awt.Font;
-import java.awt.Graphics;
 import java.awt.Rectangle;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -12,7 +10,6 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Set;
-import java.util.Vector;
 
 import javax.swing.DefaultListModel;
 import javax.swing.JButton;
@@ -21,7 +18,6 @@ import javax.swing.JList;
 import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
-import javax.swing.ListCellRenderer;
 import javax.swing.ListSelectionModel;
 import javax.swing.event.ListSelectionEvent;
 import javax.swing.event.ListSelectionListener;
@@ -84,7 +80,7 @@ public class ManageSuitesFrame extends JFrame {
 		panelBottom.setBounds(new Rectangle(150, 850, 600, 100));
 		btAddReport.setEnabled(true);
 		btDeleteReport.setEnabled(false);
-		btAddRace.setEnabled(false);
+		btAddRace.setEnabled(true);
 		btDeleteRace.setEnabled(false);
 		panelBottom.add(btAddReport);
 		panelBottom.add(btDeleteReport);
@@ -106,7 +102,7 @@ public class ManageSuitesFrame extends JFrame {
 					btDeleteReport.setEnabled(false);
 					btAddRace.setEnabled(false);
 //					model.removeAllElements();
-					String name = (String) jListLeft.getSelectedValue();
+					String name = jListLeft.getSelectedValue();
 					System.out.println("选择的名字:" + name);
 					String information = getRacesInformation(name);
 					getRacesList(name);

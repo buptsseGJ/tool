@@ -4,7 +4,6 @@ import java.awt.Color;
 import java.awt.Font;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.io.BufferedInputStream;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
@@ -140,6 +139,7 @@ public class SelectScriptFrame extends JFrame implements ChangeListener {
 
 				// 由于需要实时刷新进度条，故将脚本运行操作放入匿名线程种执行
 				new Thread() {
+					@Override
 					public void run() {
 						progress.setValue(0);
 						progress.setVisible(true);
@@ -332,6 +332,7 @@ public class SelectScriptFrame extends JFrame implements ChangeListener {
 			readStderr = new BufferedReader(new InputStreamReader(proc.getErrorStream()));
 			mStringBuffer.replace(0, mStringBuffer.length(), "");
 			Thread execThread = new Thread() {
+				@Override
 				public void run() {
 					try {
 						// 逐行读取
