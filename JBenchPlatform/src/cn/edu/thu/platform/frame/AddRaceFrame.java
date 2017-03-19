@@ -8,6 +8,7 @@ import java.io.IOException;
 import java.util.Iterator;
 import java.util.Set;
 
+import javax.swing.DefaultListModel;
 import javax.swing.JOptionPane;
 import javax.swing.JButton;
 import javax.swing.JFrame;
@@ -44,8 +45,9 @@ public class AddRaceFrame extends JFrame {
 	private JButton btConfirm = new JButton("确定");
 	private JButton btCancel = new JButton("取消");
 	private JButton btSearch = new JButton("查询");
+	private DefaultListModel<String> model;
 	
-	public AddRaceFrame(String programName){
+	public AddRaceFrame(String programName, DefaultListModel<String> model){
 		this.setLayout(null);
 		JPanel panel = new JPanel();
 		panel.setLayout(null);
@@ -92,6 +94,7 @@ public class AddRaceFrame extends JFrame {
 		this.add(panel);
 		txProgramName.setText(programName);
 		txProgramName.setEditable(false);
+		this.model = model;
 		btSearch.addActionListener(new ActionListener(){
 
 			@Override
@@ -147,6 +150,7 @@ public class AddRaceFrame extends JFrame {
 						Document doc = parse.buildDocument("");
 						parse.addElement(doc, txProgramName.getText(), tempRace);
 						parse.writeDomToXml(doc);
+						updateStaticVariables(tempRace,txProgramName.getText());
 						JOptionPane.showMessageDialog(null, "增加race修改完成");
 						dispose();
 					} catch (SAXException e1) {
@@ -162,6 +166,43 @@ public class AddRaceFrame extends JFrame {
 				}
 			}
 		});
+	}
+	
+	public void updateStaticVariables(Race race, String programName){
+		Report tempReport = Reports.reports.get(programName);
+		Set<Race> tempRaces = tempReport.getRaces();
+		Iterator it = tempRaces.iterator();
+		String line1 = race.getLine1();
+		String line2 = race.getLine2();
+		String temp = "";
+		temp = line1;
+		boolean flag = false;
+		if(Integer.parseInt(line1)>Integer.parseInt(line2)){
+			line1 = line2;
+			line2 = temp;
+		}
+		while(it.hasNext()){
+			Race tempRace = (Race) it.next();
+			String currentLine1 = tempRace.getLine1();
+			String currentLine2 = tempRace.getLine2();
+			temp = currentLine1;
+			if(Integer.parseInt(currentLine1)>Integer.parseInt(currentLine2)){
+				currentLine1 = currentLine2;
+				currentLine2 = temp;
+			}
+			if(line1==currentLine1&&line2==currentLine2){
+				tempRaces.remove(tempRace);
+				Race newRace = new Race(currentLine1, currentLine2, race.getVariable(), race.getPackageClass(), race.getDetail());
+				tempRaces.add(newRace);
+				flag = true;
+				break;
+			}
+		}
+		if(flag == false){
+			Race newRace = new Race(line1, line2, race.getVariable(), race.getPackageClass(), race.getDetail());
+			tempRaces.add(newRace);
+		}
+		ManageSuitesFrame.getRacesList(programName);
 	}
 	
 	public boolean isValidate(Race race){
