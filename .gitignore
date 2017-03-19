@@ -6,9 +6,15 @@ ehthumbs.db
 Desktop.ini
 
 # Recycle Bin used on file shares
+\bin\
+.metadata\
+\.metadata\*
+.metadata\*
 $RECYCLE.BIN/
 /bin/
 .metadata/
+/.metadata/*
+.metadata/*
 
 # Windows Installer files
 *.cab
@@ -49,3 +55,5 @@ Network Trash Folder
 Temporary Items
 .apdisk
 *.class
+result.txt
+result1.txt
