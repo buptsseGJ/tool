@@ -46,7 +46,7 @@ public class ManageSuitesFrame extends JFrame {
 	private JButton btDeleteRace = new JButton("删除race");
 	private String currentName = "";
 	
-	public DefaultListModel<String> model = new DefaultListModel<String>();
+	public static DefaultListModel<String> model = new DefaultListModel<String>();
 	public DefaultListModel<String> leftModel = new DefaultListModel<String>();
 
 	public ManageSuitesFrame() {
@@ -98,12 +98,14 @@ public class ManageSuitesFrame extends JFrame {
 		jListLeft.addListSelectionListener(new ListSelectionListener() {
 			@Override
 			public void valueChanged(ListSelectionEvent e) {
+
+				//抬起来生效
 				if (!jListLeft.getValueIsAdjusting()) {
 					// int indexSelected = jListLeft.getSelectedIndex();
 					// System.out.println("选择的下标："+indexSelected);
-					btDeleteReport.setEnabled(true);
-					btAddRace.setEnabled(true);
-					model.removeAllElements();
+					btDeleteReport.setEnabled(false);
+					btAddRace.setEnabled(false);
+//					model.removeAllElements();
 					String name = (String) jListLeft.getSelectedValue();
 					System.out.println("选择的名字:" + name);
 					String information = getRacesInformation(name);
@@ -118,7 +120,7 @@ public class ManageSuitesFrame extends JFrame {
 
 			@Override
 			public void actionPerformed(ActionEvent e) {
-				AddRaceFrame addRace = new AddRaceFrame(currentName);
+				AddRaceFrame addRace = new AddRaceFrame(currentName,model);
 				addRace.setSize(1000, 800);
 				addRace.setLocationRelativeTo(null);
 				addRace.setVisible(true);
@@ -128,7 +130,8 @@ public class ManageSuitesFrame extends JFrame {
 		});
 	}
 	
-	public void getRacesList(String name){
+	public static void getRacesList(String name){
+		model.removeAllElements();
 		List<String> list = new ArrayList<String>();
 		Report reports = Reports.reports.get(name);
 		if (reports == null) {

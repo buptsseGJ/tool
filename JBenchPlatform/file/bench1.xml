@@ -15,11 +15,25 @@ Race: <testRace.TestRace3$1: void run()>|$i0 = <testRace.TestRace3: int x>|42 - 
 				]]></detail>
 		</race>
 		<race>
-		<line1>1</line1>
+			<line1>1</line1>
 			<line2>2</line2>
 			<variable>y</variable>
 			<packageClass>x</packageClass>
 			<detail><![CDATA[xxxxxxx]]></detail>
+		</race>
+		<race>
+			<line1>1</line1>
+			<line2>3</line2>
+			<variable>yyyy</variable>
+			<packageClass>yyyyy</packageClass>
+			<detail><![CDATA[测试用]]></detail>
+		</race>
+		<race>
+			<line1>1</line1>
+			<line2>4</line2>
+			<variable>1</variable>
+			<packageClass>1</packageClass>
+			<detail><![CDATA[1]]></detail>
 		</race>
 	</report>
 	<report name="testRace3">
