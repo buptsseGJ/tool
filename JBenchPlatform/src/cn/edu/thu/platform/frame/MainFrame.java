@@ -4,6 +4,7 @@ import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.EventQueue;
 import java.awt.Graphics;
+import java.awt.TextArea;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.BufferedInputStream;
@@ -19,6 +20,7 @@ import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
+import javax.swing.JScrollPane;
 import javax.swing.UIManager;
 import javax.swing.UnsupportedLookAndFeelException;
 
@@ -41,6 +43,7 @@ import java.awt.Dimension;
 import java.awt.FlowLayout;
 import java.awt.Point;
 import java.awt.Rectangle;
+import java.awt.Cursor;
 
 /**
  * 主界面 主要功能： 1）读取benchamrk readSuites 2）管理benchmark manageSuites 3）运行程序
@@ -55,6 +58,9 @@ public class MainFrame extends JFrame {
 	private JButton scriptFile = new JButton("By scriptFile");
 	private final JPanel information = new JPanel();
 	private final JLabel lblRunUsecases = new JLabel(" Run usecases");
+	File file = null;
+	public TextArea textArea = new TextArea("",50, 1, TextArea.SCROLLBARS_BOTH);
+	public String textAreaInfo = "";
 
 	public MainFrame() {
 		getContentPane().setFont(new Font("Century Gothic", Font.PLAIN, 22));
@@ -139,11 +145,17 @@ public class MainFrame extends JFrame {
 		information.setBorder(new LineBorder(SystemColor.scrollbar));
 		information.setFont(new Font("Century Gothic", Font.PLAIN, 18));
 		information.setForeground(Color.DARK_GRAY);
-		information.setBackground(Color.WHITE);
+		information.setBackground(SystemColor.inactiveCaptionBorder);
 		information.setBounds(10, 219, 396, 304);
 		
 		p1.add(information);
 		information.setLayout(null);
+		textArea.setCursor(Cursor.getPredefinedCursor(Cursor.TEXT_CURSOR));
+		textArea.setBackground(SystemColor.textHighlightText);
+		textArea.setEditable(false);
+		textArea.setFont(new Font("微软雅黑 Light", Font.PLAIN, 18));
+		textArea.setBounds(3, 3, 390, 300);
+		information.add(textArea);
 		
 		JLabel lblNewLabel = new JLabel("  Running Information :");
 		lblNewLabel.setFont(new Font("Century Gothic", Font.PLAIN, 17));
@@ -206,20 +218,37 @@ public class MainFrame extends JFrame {
 						File rootFile = new File(System.getProperty("user.dir").replace('\\', '/')+"/file");
 						jfc.setCurrentDirectory(rootFile);
 						jfc.showDialog(new JLabel(), "选择");
-						File file = jfc.getSelectedFile();
+						file = jfc.getSelectedFile();
 						if (file != null) {
-							String fileAbsolutePath = file.getAbsolutePath();
-							ParseXml parser = new ParseXml();
-							Document validationResult = parser.validateXml(fileAbsolutePath);
-							if (validationResult != null) {
-								System.out.println("正确");
-								Reports.removeAllBenchmakrs();
-								DomToEntity convert = new DomToEntity();
-								convert.startDom(validationResult);
-								JOptionPane.showMessageDialog(getContentPane(), "benchmark解析完毕");
-							} else {
-								System.out.println("错误");
-							}
+							textAreaInfo="";
+							textArea.setText(textAreaInfo);
+//							new Thread() {
+//								@Override
+//								public void run() {
+									String fileAbsolutePath = file.getAbsolutePath();
+									ParseXml parser = new ParseXml();
+									Document validationResult = parser.validateXml(fileAbsolutePath);
+									if (validationResult != null) {
+										textAreaInfo=textAreaInfo+"\nxml文件格式验证通过！\n";
+										textArea.setText(textAreaInfo);
+										
+										Reports.removeAllBenchmakrs();
+										DomToEntity convert = new DomToEntity();
+										textAreaInfo = convert.startDom(validationResult,textAreaInfo,textArea);										
+
+										textAreaInfo=textAreaInfo+"\nbenchmarks读取完毕！\n";
+										textArea.setText(textAreaInfo);
+										textArea.setCaretPosition(textArea.getText().length());
+										
+										JOptionPane.showMessageDialog(getContentPane(), "benchmark解析完毕");
+									} else {
+										System.out.println("错误");
+										textAreaInfo=textAreaInfo+"\n\nbenchmarks错误！\n";
+										textArea.setText(textAreaInfo);
+										textArea.setCaretPosition(textArea.getText().length());
+									}
+//								}
+//							}.start();
 						}
 					}
 				});

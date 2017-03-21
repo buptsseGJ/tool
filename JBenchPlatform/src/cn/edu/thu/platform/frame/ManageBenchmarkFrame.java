@@ -435,7 +435,7 @@ public class ManageBenchmarkFrame extends JFrame  implements MouseListener,Actio
 			treetable.updateUI();
 			JOptionPane.showMessageDialog(null, "Benchmarks 更新成功 ！");
 			
-//			dispose();
+			dispose();
 			
 		}
 	}
