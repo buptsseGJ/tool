@@ -63,6 +63,20 @@ public class ParseXml {
         return null;
 	}
 	
+	public Document emptyDocument(String fileAbsolutePath) throws SAXException, IOException{
+		String filePath = "file/bench1.xml";
+
+		DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
+		DocumentBuilder dBuilder = null;
+		try {
+			dBuilder = dbFactory.newDocumentBuilder();
+		} catch (ParserConfigurationException e) {
+			e.printStackTrace();
+		}
+		Document doc = dBuilder.parse(filePath);
+		doc.getDocumentElement().normalize();
+		return doc;
+	}
     public void addElement(Document doc, String id, Race race) {
     	deleteElement(doc, id, race);
     	Element report = doc.getElementById(id);    	

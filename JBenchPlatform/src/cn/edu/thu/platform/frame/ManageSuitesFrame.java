@@ -46,7 +46,8 @@ public class ManageSuitesFrame extends JFrame {
 	public DefaultListModel<String> leftModel = new DefaultListModel<String>();
 
 	public ManageSuitesFrame() {
-		this.setLayout(null);
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		getContentPane().setLayout(null);
 //		jListLeft.setListData(Reports.programNames.toArray());
 		for(int i = 0; i < Reports.programNames.size(); i++){
 			leftModel.addElement(Reports.programNames.get(i));
@@ -88,9 +89,9 @@ public class ManageSuitesFrame extends JFrame {
 		panelBottom.add(btDeleteRace);
 //		panelBottom.add(button);
 		// this.add(panelCom);
-		this.add(panelLeft);
-		this.add(panelRight);
-		this.add(panelBottom);
+		getContentPane().add(panelLeft);
+		getContentPane().add(panelRight);
+		getContentPane().add(panelBottom);
 		jListLeft.addListSelectionListener(new ListSelectionListener() {
 			@Override
 			public void valueChanged(ListSelectionEvent e) {
