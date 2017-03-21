@@ -1057,3 +1057,196 @@
 	40)  critical
 	41)  mergesort
 	42)  pingpong
+
+----------------------------------------
+----------------------------------------
+	2017-03-21 19:46:17生成比较结果报告
+----------------------------------------
+----------------------------------------
+1. 测试集中没有名为[testRace1]的程序
+
+2. 测试集中没有名为[testRace3]的程序
+
+3. 测试集中没有名为[CASE3]的程序
+
+4. 测试集中没有名为[CASE4]的程序
+
+5. 测试集中没有名为[CASE5]的程序
+
+6. 测试集中没有名为[CASE6]的程序
+
+7. 测试集中没有名为[CASE7]的程序
+
+8. 测试集中没有名为[CASE8]的程序
+
+9. 测试集中没有名为[CASE9]的程序
+
+10. 测试集中没有名为[CASE10]的程序
+
+11. 测试集中没有名为[CASE11]的程序
+
+
+----------------------------------------
+----------------------------------------
+	2017-03-21 20:10:03生成比较结果报告
+----------------------------------------
+----------------------------------------
+1. testRace1中的race总数是4个,该工具成功找到了0个,遗漏了4个,并且额外找出了1个。因此正确率是0%,漏报率是100%,误报率是0%。
+成功找到的dara race如下：无
+没找到的dara race如下：
+	1)位置：<111,1111>
+	  变量：
+	  类：1111
+	  详细：
+	2)位置：<22,22>
+	  变量：222
+	  类：22
+	  详细：
+	3)位置：<42,46>
+	  变量：x
+	  类：testRace.TestRace3
+	  详细：
+修改Race: <testRace.TestRace3: void main(java.lang.String[])>|$i0 = <testRace.TestRace3: int x>|46 - <testRace.TestRace3$1: void run()>|<testRace.TestRace3: int x> = $i1|42
+Race: <testRace.TestRace3: void main(java.lang.String[])>|<testRace.TestRace3: int x> = $i1|46 - <testRace.TestRace3$1: void run()>|<testRace.TestRace3: int x> = $i1|42
+Race: <testRace.TestRace3$1: void run()>|$i0 = <testRace.TestRace3: int x>|42 - <testRace.TestRace3: void main(java.lang.String[])>|<testRace.TestRace3: int x> = $i1|46
+				
+	4)位置：<1,2>
+	  变量：y
+	  类：x
+	  详细：xxxxxxx
+误报的data race如下：
+	1)位置：<41,47>
+
+2. testRace3中的race总数是5个,该工具成功找到了0个,遗漏了5个,并且额外找出了0个。因此正确率是0%,漏报率是100%,误报率是0%。
+
+3. 测试集中没有名为[CASE3]的程序
+
+4. 测试集中没有名为[CASE4]的程序
+
+5. 测试集中没有名为[CASE5]的程序
+
+6. 测试集中没有名为[CASE6]的程序
+
+7. 测试集中没有名为[CASE7]的程序
+
+8. 测试集中没有名为[CASE8]的程序
+
+9. 测试集中没有名为[CASE9]的程序
+
+10. 测试集中没有名为[CASE10]的程序
+
+11. 测试集中没有名为[CASE11]的程序
+
+
+----------------------------------------
+----------------------------------------
+	2017-03-21 20:50:47生成比较结果报告
+----------------------------------------
+----------------------------------------
+1. testRace1中的race总数是4个,该工具成功找到了0个,遗漏了4个,并且额外找出了1个。因此正确率是0%,漏报率是100%,误报率是0%。
+成功找到的dara race如下：无
+没找到的dara race如下：
+	1)位置：<111,1111>
+	  变量：
+	  类：1111
+	  详细：
+	2)位置：<22,22>
+	  变量：222
+	  类：22
+	  详细：
+	3)位置：<42,46>
+	  变量：x
+	  类：testRace.TestRace3
+	  详细：
+修改Race: <testRace.TestRace3: void main(java.lang.String[])>|$i0 = <testRace.TestRace3: int x>|46 - <testRace.TestRace3$1: void run()>|<testRace.TestRace3: int x> = $i1|42
+Race: <testRace.TestRace3: void main(java.lang.String[])>|<testRace.TestRace3: int x> = $i1|46 - <testRace.TestRace3$1: void run()>|<testRace.TestRace3: int x> = $i1|42
+Race: <testRace.TestRace3$1: void run()>|$i0 = <testRace.TestRace3: int x>|42 - <testRace.TestRace3: void main(java.lang.String[])>|<testRace.TestRace3: int x> = $i1|46
+				
+	4)位置：<1,2>
+	  变量：y
+	  类：x
+	  详细：xxxxxxx
+误报的data race如下：
+	1)位置：<41,47>
+
+2. testRace3中的race总数是5个,该工具成功找到了0个,遗漏了5个,并且额外找出了0个。因此正确率是0%,漏报率是100%,误报率是0%。
+
+3. 测试集中没有名为[CASE3]的程序
+
+4. 测试集中没有名为[CASE4]的程序
+
+5. 测试集中没有名为[CASE5]的程序
+
+6. 测试集中没有名为[CASE6]的程序
+
+7. 测试集中没有名为[CASE7]的程序
+
+8. 测试集中没有名为[CASE8]的程序
+
+9. 测试集中没有名为[CASE9]的程序
+
+10. 测试集中没有名为[CASE10]的程序
+
+11. 测试集中没有名为[CASE11]的程序
+
+
+----------------------------------------
+----------------------------------------
+	2017-03-21 20:50:52生成比较结果报告
+----------------------------------------
+----------------------------------------
+1. testRace1中的race总数是4个,该工具成功找到了0个,遗漏了4个,并且额外找出了1个。因此正确率是0%,漏报率是100%,误报率是0%。
+成功找到的dara race如下：无
+没找到的dara race如下：
+	1)位置：<111,1111>
+	  变量：
+	  类：1111
+	  详细：
+	2)位置：<22,22>
+	  变量：222
+	  类：22
+	  详细：
+	3)位置：<42,46>
+	  变量：x
+	  类：testRace.TestRace3
+	  详细：
+修改Race: <testRace.TestRace3: void main(java.lang.String[])>|$i0 = <testRace.TestRace3: int x>|46 - <testRace.TestRace3$1: void run()>|<testRace.TestRace3: int x> = $i1|42
+Race: <testRace.TestRace3: void main(java.lang.String[])>|<testRace.TestRace3: int x> = $i1|46 - <testRace.TestRace3$1: void run()>|<testRace.TestRace3: int x> = $i1|42
+Race: <testRace.TestRace3$1: void run()>|$i0 = <testRace.TestRace3: int x>|42 - <testRace.TestRace3: void main(java.lang.String[])>|<testRace.TestRace3: int x> = $i1|46
+				
+	4)位置：<1,2>
+	  变量：y
+	  类：x
+	  详细：xxxxxxx
+误报的data race如下：
+	1)位置：<41,47>
+
+2. testRace3中的race总数是5个,该工具成功找到了0个,遗漏了5个,并且额外找出了0个。因此正确率是0%,漏报率是100%,误报率是0%。
+
+3. 测试集中没有名为[CASE3]的程序
+
+4. 测试集中没有名为[CASE4]的程序
+
+5. 测试集中没有名为[CASE5]的程序
+
+6. 测试集中没有名为[CASE6]的程序
+
+7. 测试集中没有名为[CASE7]的程序
+
+8. 测试集中没有名为[CASE8]的程序
+
+9. 测试集中没有名为[CASE9]的程序
+
+10. 测试集中没有名为[CASE10]的程序
+
+11. 测试集中没有名为[CASE11]的程序
+
+
+----------------------------------------
+----------------------------------------
+	2017-03-21 20:52:04生成比较结果报告
+----------------------------------------
+----------------------------------------
+1. 测试集中的以下程序还没有被测试：
+	1)  testRace1
+	2)  testRace3

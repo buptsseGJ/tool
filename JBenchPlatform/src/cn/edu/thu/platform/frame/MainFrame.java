@@ -69,7 +69,7 @@ public class MainFrame extends JFrame {
 		p1.setBounds(0, 0, 428, 533);
 		getContentPane().setLayout(null);
 		getContentPane().add(p1);
-		
+
 		JLabel label = new JLabel("Benchmarks");
 		label.setOpaque(true);
 		label.setBounds(24, 29, 105, 21);
@@ -77,7 +77,7 @@ public class MainFrame extends JFrame {
 		label.setEnabled(false);
 		label.setBackground(UIManager.getColor("menu"));
 		label.setFont(new Font("Century Gothic", Font.PLAIN, 17));
-		
+
 		JPanel benchmarks = new JPanel();
 		benchmarks.setFont(new Font("Century Gothic", Font.PLAIN, 22));
 		benchmarks.setBorder(new TitledBorder(new LineBorder(new Color(211, 211, 211)), "Benchmarks", TitledBorder.LEADING, TitledBorder.TOP, null, new Color(64, 64, 64)));		
@@ -89,28 +89,8 @@ public class MainFrame extends JFrame {
 		benchmarks.add(manageSuites);
 		manageSuites.setForeground(Color.DARK_GRAY);
 		manageSuites.setFont(new Font("Century Gothic", Font.PLAIN, 22));
-		// 管理benchmark 监听函数
-		manageSuites.addActionListener(new ActionListener() {
-			@Override
-			public void actionPerformed(ActionEvent e) {
-		        ManageBenchmarkFrame mbf = new ManageBenchmarkFrame();
-				System.out.println("开始管理benchmark");
-				mbf.setSize(1160, 1000);
-				mbf.setBounds(750, 150,1160, 1000);
-				mbf.setVisible(true);
-				mbf.treetable.removeAll();
-				mbf.treetable.updateUI();
-				mbf.setTitle("管理");
-//				ManageBenchmarkFrame mbf = new ManageBenchmarkFrame();
-				
-//				ManageSuitesFrame msf = new ManageSuitesFrame();				
-//				System.out.println("开始管理benchmark");
-//				msf.setSize(1000, 1000);
-//				msf.setLocationRelativeTo(null);
-//				msf.setVisible(true);
-//				msf.setTitle("管理");
-			}
-		});
+		manageSuites.setEnabled(false);
+
 		readSuites.setHorizontalAlignment(SwingConstants.LEFT);
 		readSuites.setBounds(15, 40, 127, 37);
 		benchmarks.add(readSuites);
@@ -124,7 +104,7 @@ public class MainFrame extends JFrame {
 		p1.add(lblRunUsecases);
 		lblRunUsecases.setFont(new Font("Century Gothic", Font.PLAIN, 17));
 		lblRunUsecases.setBackground(SystemColor.menu);
-		
+
 		JPanel programs = new JPanel();
 		programs.setFont(new Font("Century Gothic", Font.PLAIN, 22));
 		programs.setBounds(204, 39, 193, 140);
@@ -133,7 +113,9 @@ public class MainFrame extends JFrame {
 		runProgram.setBounds(15, 28, 159, 37);
 		programs.add(runProgram);
 		runProgram.setFocusable(false);
+		runProgram.setEnabled(false);
 		scriptFile.setFocusable(false);
+		scriptFile.setEnabled(false);
 		runProgram.setForeground(Color.DARK_GRAY);
 		runProgram.setFont(new Font("Century Gothic", Font.PLAIN, 22));
 		scriptFile.setHorizontalAlignment(SwingConstants.LEFT);
@@ -147,7 +129,7 @@ public class MainFrame extends JFrame {
 		information.setForeground(Color.DARK_GRAY);
 		information.setBackground(SystemColor.inactiveCaptionBorder);
 		information.setBounds(10, 219, 396, 304);
-		
+
 		p1.add(information);
 		information.setLayout(null);
 		textArea.setCursor(Cursor.getPredefinedCursor(Cursor.TEXT_CURSOR));
@@ -156,11 +138,34 @@ public class MainFrame extends JFrame {
 		textArea.setFont(new Font("微软雅黑 Light", Font.PLAIN, 18));
 		textArea.setBounds(3, 3, 390, 300);
 		information.add(textArea);
-		
+
 		JLabel lblNewLabel = new JLabel("  Running Information :");
 		lblNewLabel.setFont(new Font("Century Gothic", Font.PLAIN, 17));
 		lblNewLabel.setBounds(15, 198, 231, 21);
 		p1.add(lblNewLabel);
+
+		// 管理benchmark 监听函数
+		manageSuites.addActionListener(new ActionListener() {
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				ManageBenchmarkFrame mbf = new ManageBenchmarkFrame();
+				System.out.println("开始管理benchmark");
+				mbf.setSize(1160, 1000);
+				mbf.setBounds(750, 150,1160, 1000);
+				mbf.setVisible(true);
+				mbf.treetable.removeAll();
+				mbf.treetable.updateUI();
+				mbf.setTitle("管理");
+				//				ManageBenchmarkFrame mbf = new ManageBenchmarkFrame();
+
+				//				ManageSuitesFrame msf = new ManageSuitesFrame();				
+				//				System.out.println("开始管理benchmark");
+				//				msf.setSize(1000, 1000);
+				//				msf.setLocationRelativeTo(null);
+				//				msf.setVisible(true);
+				//				msf.setTitle("管理");
+			}
+		});
 		// 程序脚本 监听函数
 		scriptFile.addActionListener(new ActionListener() {
 			@Override
@@ -169,6 +174,7 @@ public class MainFrame extends JFrame {
 				SelectScriptFrame ssf = new SelectScriptFrame();
 				System.out.println("开始脚本操作");
 				ssf.setBounds(750, 150,1160, 1000);
+				ssf.setTextArea(textArea);
 				//ssf.setLocationRelativeTo(null);
 				ssf.setVisible(true);
 				ssf.setTitle("脚本");
@@ -207,51 +213,56 @@ public class MainFrame extends JFrame {
 				}
 			}
 		});
-		
-				// 读benchmark 监听函数
-				readSuites.addActionListener(new ActionListener() {
-					@Override
-					public void actionPerformed(ActionEvent e) {
-						System.out.println("开始文件选择");
-						JFileChooser jfc = new JFileChooser();
-						jfc.setFileSelectionMode(JFileChooser.FILES_ONLY);
-						File rootFile = new File(System.getProperty("user.dir").replace('\\', '/')+"/file");
-						jfc.setCurrentDirectory(rootFile);
-						jfc.showDialog(new JLabel(), "选择");
-						file = jfc.getSelectedFile();
-						if (file != null) {
-							textAreaInfo="";
-							textArea.setText(textAreaInfo);
-//							new Thread() {
-//								@Override
-//								public void run() {
-									String fileAbsolutePath = file.getAbsolutePath();
-									ParseXml parser = new ParseXml();
-									Document validationResult = parser.validateXml(fileAbsolutePath);
-									if (validationResult != null) {
-										textAreaInfo=textAreaInfo+"\nxml文件格式验证通过！\n";
-										textArea.setText(textAreaInfo);
-										
-										Reports.removeAllBenchmakrs();
-										DomToEntity convert = new DomToEntity();
-										textAreaInfo = convert.startDom(validationResult,textAreaInfo,textArea);										
 
-										textAreaInfo=textAreaInfo+"\nbenchmarks读取完毕！\n";
-										textArea.setText(textAreaInfo);
-										textArea.setCaretPosition(textArea.getText().length());
-										
-										JOptionPane.showMessageDialog(getContentPane(), "benchmark解析完毕");
-									} else {
-										System.out.println("错误");
-										textAreaInfo=textAreaInfo+"\n\nbenchmarks错误！\n";
-										textArea.setText(textAreaInfo);
-										textArea.setCaretPosition(textArea.getText().length());
-									}
-//								}
-//							}.start();
-						}
+		// 读benchmark 监听函数
+		readSuites.addActionListener(new ActionListener() {
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				System.out.println("开始文件选择");
+				JFileChooser jfc = new JFileChooser();
+				jfc.setFileSelectionMode(JFileChooser.FILES_ONLY);
+				File rootFile = new File(System.getProperty("user.dir").replace('\\', '/')+"/file");
+				jfc.setCurrentDirectory(rootFile);
+				jfc.showDialog(new JLabel(), "选择");
+				file = jfc.getSelectedFile();
+				if (file != null) {
+					textAreaInfo="";
+					textArea.setText(textAreaInfo);
+					//							new Thread() {
+					//								@Override
+					//								public void run() {
+					String fileAbsolutePath = file.getAbsolutePath();
+					ParseXml parser = new ParseXml();
+					Document validationResult = parser.validateXml(fileAbsolutePath);
+					if (validationResult != null) {
+						textAreaInfo=textAreaInfo+"\nxml文件格式验证通过！\n";
+						textArea.setText(textAreaInfo);
+
+						Reports.removeAllBenchmakrs();
+						DomToEntity convert = new DomToEntity();
+						textAreaInfo = convert.startDom(validationResult,textAreaInfo,textArea);										
+
+						textAreaInfo=textAreaInfo+"\nbenchmarks读取完毕！\n";
+						textArea.setText(textAreaInfo);
+						textArea.setCaretPosition(textArea.getText().length());
+
+						JOptionPane.showMessageDialog(getContentPane(), "benchmark解析完毕");
+						
+						manageSuites.setEnabled(true);
+						runProgram.setEnabled(true);
+						scriptFile.setEnabled(true);
+						
+					} else {
+						System.out.println("错误");
+						textAreaInfo=textAreaInfo+"\n\nbenchmarks错误！\n";
+						textArea.setText(textAreaInfo);
+						textArea.setCaretPosition(textArea.getText().length());
 					}
-				});
+					//								}
+					//							}.start();
+				}
+			}
+		});
 	}
 
 	public static void main(String[] args) {
