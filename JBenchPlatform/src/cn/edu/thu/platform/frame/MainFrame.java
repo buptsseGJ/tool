@@ -24,6 +24,7 @@ import javax.swing.UnsupportedLookAndFeelException;
 
 import org.w3c.dom.Document;
 
+import cn.edu.thu.platform.entity.Reports;
 import cn.edu.thu.platform.parser.DomToEntity;
 import cn.edu.thu.platform.parser.ParseXml;
 import java.awt.Font;
@@ -91,6 +92,8 @@ public class MainFrame extends JFrame {
 				mbf.setSize(1160, 1000);
 				mbf.setBounds(750, 150,1160, 1000);
 				mbf.setVisible(true);
+				mbf.treetable.removeAll();
+				mbf.treetable.updateUI();
 				mbf.setTitle("管理");
 //				ManageBenchmarkFrame mbf = new ManageBenchmarkFrame();
 				
@@ -210,6 +213,7 @@ public class MainFrame extends JFrame {
 							Document validationResult = parser.validateXml(fileAbsolutePath);
 							if (validationResult != null) {
 								System.out.println("正确");
+								Reports.removeAllBenchmakrs();
 								DomToEntity convert = new DomToEntity();
 								convert.startDom(validationResult);
 								JOptionPane.showMessageDialog(getContentPane(), "benchmark解析完毕");

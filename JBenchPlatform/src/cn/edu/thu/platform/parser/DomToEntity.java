@@ -33,8 +33,7 @@ public class DomToEntity {
 			for (int i = 0; i < reportList.getLength(); i++) {
 				if (reportList.item(i).getNodeType() != (Node.TEXT_NODE)) {
 					// get all the race element for each report
-					System.out.println("reportList Length:"
-							+ reportList.getLength());
+					System.out.println("reportList Length:"	+ reportList.getLength());
 					NodeList raceList = reportList.item(i).getChildNodes();
 					Set<Race> races = new HashSet<Race>();
 					Set<Race> compareRaces = new HashSet<Race>();
@@ -54,13 +53,19 @@ public class DomToEntity {
 								tempNode = tempPackageClass.getNextSibling();
 								Node tempDetail = getNonTextNode(tempNode);
 								tempNode = tempDetail.getNextSibling();
-								System.out.println("line1:"	+ tempLine1.getFirstChild()
-												.getNodeValue().toString());
+								System.out.println("line1:"	+ tempLine1.getFirstChild().getNodeValue().toString());
 								String line1 = tempLine1.getFirstChild().getNodeValue() != null ? (tempLine1.getFirstChild().getNodeValue().toString()).trim() : null;
 								String line2 = tempLine2.getFirstChild().getNodeValue() != null ? (tempLine2.getFirstChild().getNodeValue().toString()).trim() : null;
-								String variable = tempVariable.getFirstChild().getNodeValue() != null ? tempVariable.getFirstChild().getNodeValue().toString().trim() : null;
+								String variable = "";
+								if(tempVariable.getFirstChild()!=null) {
+									variable = tempVariable.getFirstChild().getNodeValue() != null ? tempVariable.getFirstChild().getNodeValue().toString().trim() : null;
+								}else {
+									variable="";
+								}
+								//String variable = tempVariable.getFirstChild().getNodeValue() != null ? tempVariable.getFirstChild().getNodeValue().toString().trim() : null;
 								String packageClass = tempPackageClass.getFirstChild().getNodeValue() != null ? tempPackageClass.getFirstChild().getNodeValue().toString().trim(): null;
 								String detail ="";
+								if(tempDetail.getFirstChild()!=null) {
 								if(tempDetail.getFirstChild().getNodeType() == node.TEXT_NODE){
 									detail = tempDetail.getFirstChild().getNextSibling().getNodeValue() != null ? tempDetail.getFirstChild().getNextSibling().getNodeValue().toString(): null;
 									System.out.println("detail:" + tempDetail.getFirstChild().getNextSibling().getNodeValue().toString());
@@ -68,6 +73,7 @@ public class DomToEntity {
 								}else{
 									detail = tempDetail.getFirstChild().getNodeValue() != null ? tempDetail.getFirstChild().getNodeValue().toString(): null;
 									System.out.println("detail:" + tempDetail.getFirstChild().getNodeValue().toString());
+								}
 								}
 								Race tempRace, compareRace;
 								if (Integer.parseInt(line1) < Integer.parseInt(line2)) {
@@ -84,10 +90,8 @@ public class DomToEntity {
 					}
 //					Comparison aaa = new Comparison();
 //					aaa.getUniqueRace(compareRaces);
-					NamedNodeMap reportAttributes = reportList.item(i)
-							.getAttributes();
-					String programName = reportAttributes.getNamedItem("name")
-							.getNodeValue().toString();
+					NamedNodeMap reportAttributes = reportList.item(i).getAttributes();
+					String programName = reportAttributes.getNamedItem("name").getNodeValue().toString();
 					Reports.programNames.add(programName);
 					Report report = new Report(races, programName);
 					Report compareReport = new Report(compareRaces);// is a set all the races for each program

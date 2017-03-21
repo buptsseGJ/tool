@@ -17,4 +17,9 @@ public class Reports {
 	public static List<String> userNames = new ArrayList<String>();
 	//wrongNames 存储脚本里的名字不在benchmark中的
 	public static List<String> wrongNames = new ArrayList<String>();
+	
+	public static void removeAllBenchmakrs() {
+		reports.clear();
+		programNames.clear();
+	}
 }

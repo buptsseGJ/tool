@@ -54,7 +54,21 @@ import org.jdesktop.swingx.treetable.AbstractMutableTreeTableNode;
 import org.jdesktop.swingx.treetable.DefaultMutableTreeTableNode;
 import org.jdesktop.swingx.treetable.MutableTreeTableNode;
 import org.jdesktop.swingx.ux.CheckTreeTableManager2;
+import javax.xml.parsers.DocumentBuilder;
+import javax.xml.parsers.DocumentBuilderFactory;
+import javax.xml.parsers.ParserConfigurationException;
+import javax.xml.transform.OutputKeys;
+import javax.xml.transform.Transformer;
+import javax.xml.transform.TransformerConfigurationException;
+import javax.xml.transform.TransformerException;
+import javax.xml.transform.TransformerFactory;
+import javax.xml.transform.dom.DOMSource;
+import javax.xml.transform.stream.StreamResult;
+
 import org.w3c.dom.Document;
+import org.w3c.dom.Element;
+import org.w3c.dom.Node;
+import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
 
 import cn.edu.thu.platform.entity.Race;
@@ -73,10 +87,7 @@ import javax.swing.JProgressBar;
 import javax.swing.JToolBar;
 import javax.swing.ImageIcon;
 import javax.swing.border.LineBorder;
-import javax.xml.parsers.DocumentBuilder;
-import javax.xml.parsers.DocumentBuilderFactory;
-import javax.xml.parsers.ParserConfigurationException;
-import javax.xml.transform.TransformerException;
+
 
 import java.awt.SystemColor;
 
@@ -87,7 +98,7 @@ import java.awt.SystemColor;
 public class ManageBenchmarkFrame extends JFrame  implements MouseListener,ActionListener{
 
 	private final CheckTreeTableManager2 manager;
-	public final JXTreeTable treetable;
+	public JXTreeTable treetable;
 	private JPopupMenu popMenu; 
 	private int curClick_X = -1,curClick_Y = -1;
 	JMenuItem addItem1 = new JMenuItem("add usecase"); 
@@ -302,23 +313,23 @@ public class ManageBenchmarkFrame extends JFrame  implements MouseListener,Actio
 		int caseNum = rootNode.getChildCount();
 		for(int i=0;i<caseNum;i++) {
 			pathIndex++;
-			MyTreeTableNode curNode = (MyTreeTableNode)rootNode.getChildAt(i).getUserObject();
+			MyTreeTableNode curUseCaseMyTreeNode = (MyTreeTableNode)rootNode.getChildAt(i).getUserObject();
 
-			if(curNode.getValue1().contains("<")||curNode.getValue1().contains(">")||curNode.getValue1().contains("&")||curNode.getValue1().contains("'")||curNode.getValue1().contains("\"")){
+			if(curUseCaseMyTreeNode.getValue1().contains("<")||curUseCaseMyTreeNode.getValue1().contains(">")||curUseCaseMyTreeNode.getValue1().contains("&")||curUseCaseMyTreeNode.getValue1().contains("'")||curUseCaseMyTreeNode.getValue1().contains("\"")){
 				JOptionPane.showMessageDialog(null, "Usecase name can't contain '<','>','&',''','\"'");
 				isSave = false;
 				break;
-			}else if(reports.containsKey(curNode.getValue1())){//用例名重复
+			}else if(reports.containsKey(curUseCaseMyTreeNode.getValue1())){//用例名重复
 				JOptionPane.showMessageDialog(null, "Usecase name must be unique !");
 				isSave = false;
 				break;
-			}else if(curNode.getValue1().equals("")){//用例名为空
+			}else if(curUseCaseMyTreeNode.getValue1().equals("")){//用例名为空
 				JOptionPane.showMessageDialog(null, "Usecase name can't be null !");
 				isSave = false;
 				break;
 			}else {
 				Set<Race> races = new HashSet<Race>();
-				DefaultMutableTreeTableNode curUseCaseNode = (DefaultMutableTreeTableNode)  treetable.getPathForLocation(pathIndex, 0).getLastPathComponent();
+				DefaultMutableTreeTableNode curUseCaseNode = (DefaultMutableTreeTableNode)  treetable.getPathForRow(pathIndex-1).getLastPathComponent();
 				for(int j=0;j<curUseCaseNode.getChildCount();j++) {
 					pathIndex++;
 					MyTreeTableNode curRaceNode = (MyTreeTableNode)curUseCaseNode.getChildAt(j).getUserObject();
@@ -327,12 +338,13 @@ public class ManageBenchmarkFrame extends JFrame  implements MouseListener,Actio
 						treetable.getTreeSelectionModel().setSelectionPath(treetable.getPathForLocation(pathIndex, 0));
 						isSave = false;
 						break;
-					}else if(curRaceNode.getValue3().equals("")||curRaceNode.getValue4().equals("")){//行号为空
+					}else if(curRaceNode.getValue3().equals("")||curRaceNode.getValue2().equals("")){//行号为空
 						JOptionPane.showMessageDialog(null, "line number can't be null !");
 						treetable.getTreeSelectionModel().setSelectionPath(treetable.getPathForLocation(pathIndex, 0));
 						isSave = false;
 						break;
 					}else {
+						//判断是否与已确认的Race重复
 						Iterator it = races.iterator();
 						while(it.hasNext()){
 							Race race = (Race) it.next();
@@ -352,53 +364,79 @@ public class ManageBenchmarkFrame extends JFrame  implements MouseListener,Actio
 					}
 				}
 				if(isSave) {	
-					reports.put(curNode.getValue1(), races);
+					if(races.size()>0)
+						reports.put(curUseCaseMyTreeNode.getValue1(), races);
 				}else {
 					break;
 				}
 			}
 		}
 		if(isSave) {//全部符合条件，保存到文件	
-
-			ParseXml parse = new ParseXml();
-			Document doc = null;
-//			try {
-//				doc=parse.emptyDocument("");
-//			} catch (SAXException | IOException e2) {
-//				e2.printStackTrace();
+			//清空表单内的所有元素，防止下次打开时出现异常
+//			treetable.getTreeSelectionModel().clearSelection();
+//			for(int i=caseNum-1;i>=0;i--) {
+//				((DefaultMutableTreeTableNode)rootNode.getChildAt(i)).removeFromParent();
 //			}
+//			treetable.updateUI();
+			
+			//从内存中将所有的Element删除
+			ParseXml parse = new ParseXml();
+			DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
+		    factory.setValidating(true);
+		    factory.setExpandEntityReferences(false);
+			Document doc = null;
+			try {
+				doc = parse.buildDocument("");
+			} catch (SAXException | IOException e1) {
+				e1.printStackTrace();
+			}
+			for(int i=0;i<Reports.programNames.size();i++) {
+				Report re = Reports.reports.get(Reports.programNames.get(i));
+				if (re != null) {
+					Set<Race> races = re.getRaces();
+					Iterator<Race> reIt = races.iterator();
+					while (reIt.hasNext()) {
+						parse.deleteElement(doc,Reports.programNames.get(i),reIt.next());
+					}
+				}
+			}
 			Iterator<Entry<String, Set<Race>>> iter = reports.entrySet().iterator();
 			while (iter.hasNext()) {	
-				try {
-					doc = parse.buildDocument("");
-				} catch (SAXException | IOException e1) {
-					e1.printStackTrace();
-				}
+//				try {
+//					doc = parse.buildDocument("");
+//				} catch (SAXException | IOException e1) {
+//					e1.printStackTrace();
+//				}
 				Map.Entry<String, Set<Race>> entry = (Map.Entry<String, Set<Race>>) iter.next();
 				Set<Race> tmpRaces = entry.getValue();
 				String tmpCaseName = entry.getKey();
 				Iterator<Race> it = tmpRaces.iterator();
 				while (it.hasNext()) {
-					parse.addElement(doc, tmpCaseName, it.next());
+					try {
+						parse.addElement(doc, tmpCaseName, it.next());
+						parse.writeDomToXml(doc);
+					} catch (TransformerException e) {//| SAXException | IOException e) {
+						e.printStackTrace();
+					}
 				}
-				try {
-					parse.writeDomToXml(doc);
-				} catch (TransformerException e) {
-					e.printStackTrace();
-				}
-				doc = null;
 			}
-			
-			JOptionPane.showMessageDialog(getContentPane(), "benchmarks保存成功");
-			
-			Document validationResult = parse.validateXml("file/bench1.xml");
+			Reports.removeAllBenchmakrs();
+			treetable.removeAll();
+			ParseXml parser = new ParseXml();
+			Document validationResult = parser.validateXml("file/brench1.xml");
 			if (validationResult != null) {
 				System.out.println("正确");
+				Reports.removeAllBenchmakrs();
 				DomToEntity convert = new DomToEntity();
 				convert.startDom(validationResult);
+			} else {
+				System.out.println("错误");
 			}
+			treetable.updateUI();
+			JOptionPane.showMessageDialog(null, "Benchmarks 更新成功 ！");
 			
-			dispose();
+//			dispose();
+			
 		}
 	}
 	
@@ -430,6 +468,7 @@ public class ManageBenchmarkFrame extends JFrame  implements MouseListener,Actio
 	Map<String, Report> localReport = new HashMap<String, Report>();
 	private JToolBar toolBar;
 	private DefaultMutableTreeTableNode createDummyData() {
+		
 		DefaultMutableTreeTableNode root = new DefaultMutableTreeTableNode(new MyTreeTableNode("root"));
 
 		for (int i = 0; i < Reports.programNames.size(); i++) {
