@@ -1,5 +1,6 @@
 package cn.edu.thu.platform.comparison;
 
+import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Iterator;
 import java.util.Set;
@@ -51,6 +52,7 @@ public class Comparison {
 					+ "%。\n";
 			Result result = new Result(programName, originalLength, rightMatch, falseMatch, originalLength - rightMatch, 0, 0);
 			ComparisonResult.results.add(result);
+			ComparisonResult.resultsMap.put(programName, result);
 			if(rightMatch != originalLength){
 				Script.suggestName.add(programName);
 			}

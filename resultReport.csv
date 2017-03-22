@@ -1,0 +1,3891 @@
+DATE:,2017/3/22 10:35,,,,,,,,,,,
+TOOL:,CalFuzzer,,,,,,,,,,,
+,,No.,USECASE NAME,IS IN BENCHMARKS,IS IN SCRIPTFILE,TOTAL RACES,FOUNDED RACES,MISSING RACES,EXTRA RACES,PRECISION,FNR,FPR
+,,1,testRace1,TRUE,TRUE,4,0,4,1,0%,100%,100%
+,,2,testRace3,TRUE,TRUE,5,0,5,0,0%,100%,100%
+,,3,CASE3,FALSE,TRUE,--,--,--,--,--,--,--
+,,4,CASE4,FALSE,TRUE,--,--,--,--,--,--,--
+,,5,CASE5,FALSE,TRUE,--,--,--,--,--,--,--
+,,6,CASE6,FALSE,TRUE,--,--,--,--,--,--,--
+,,7,CASE7,FALSE,TRUE,--,--,--,--,--,--,--
+,,8,CASE8,FALSE,TRUE,--,--,--,--,--,--,--
+,,9,CASE9,FALSE,TRUE,--,--,--,--,--,--,--
+,,10,CASE10,FALSE,TRUE,--,--,--,--,--,--,--
+,,11,CASE11,FALSE,TRUE,--,--,--,--,--,--,--
+,,,Statistic description:,,,,,,,,,
+,,1,testRace1,total 4 races;,0 right race;,4 missing race;,1 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,,
+,,2,testRace3,total 5 races;,0 right race;,5 missing race;,0 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,,
+,,3,CASE3,is not in benchmarks;,,,,,,,,
+,,4,CASE4,is not in benchmarks;,,,,,,,,
+,,5,CASE5,is not in benchmarks;,,,,,,,,
+,,6,CASE6,is not in benchmarks;,,,,,,,,
+,,7,CASE7,is not in benchmarks;,,,,,,,,
+,,8,CASE8,is not in benchmarks;,,,,,,,,
+,,9,CASE9,is not in benchmarks;,,,,,,,,
+,,10,CASE10,is not in benchmarks;,,,,,,,,
+,,11,CASE11,is not in benchmarks;,,,,,,,,
+,,,Races details:,,,,,,,,,
+DATE:,2017-03-22 10:40:39
+TOOL:,CalFuzzer
+,,No.,USECASE NAME,IS IN BENCHMARKS,IS IN SCRIPTFILE,TOTAL RACES,FOUNDED RACES,MISSING RACES,EXTRA RACES,PRECISION,FNR,FPR,
+,,1,testRace1,TRUE,TRUE,4,0,4,2,0%,100%,100%,
+,,2,testRace3,TRUE,TRUE,5,0,5,0,0%,100%,100%,
+,,3,CASE3,FALSE,TRUE,--,--,--,--,--,--,--,
+,,4,CASE4,FALSE,TRUE,--,--,--,--,--,--,--,
+,,5,CASE5,FALSE,TRUE,--,--,--,--,--,--,--,
+,,6,CASE6,FALSE,TRUE,--,--,--,--,--,--,--,
+,,7,CASE7,FALSE,TRUE,--,--,--,--,--,--,--,
+,,8,CASE8,FALSE,TRUE,--,--,--,--,--,--,--,
+,,9,CASE9,FALSE,TRUE,--,--,--,--,--,--,--,
+,,10,CASE10,FALSE,TRUE,--,--,--,--,--,--,--,
+,,11,CASE11,FALSE,TRUE,--,--,--,--,--,--,--,
+,,,Statistic description:
+,,1,testRace1,total 4 races;,0 right race;,4 missing race;,2 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,2,testRace3,total 5 races;,0 right race;,5 missing race;,0 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,3. ,CASE3,is not in benchmarks;
+,,4. ,CASE4,is not in benchmarks;
+,,5. ,CASE5,is not in benchmarks;
+,,6. ,CASE6,is not in benchmarks;
+,,7. ,CASE7,is not in benchmarks;
+,,8. ,CASE8,is not in benchmarks;
+,,9. ,CASE9,is not in benchmarks;
+,,10. ,CASE10,is not in benchmarks;
+,,11. ,CASE11,is not in benchmarks;
+,,,Races details:
+
+DATE:,2017-03-22 10:58:14
+TOOL:,CalFuzzer
+,,No.,USECASE NAME,IS IN BENCHMARKS,IS IN SCRIPTFILE,TOTAL RACES,FOUNDED RACES,MISSING RACES,EXTRA RACES,PRECISION,FNR,FPR,
+,,1,testRace1,TRUE,TRUE,4,0,4,1,0%,100%,100%,
+,,2,testRace3,TRUE,TRUE,5,0,5,0,0%,100%,100%,
+,,3,CASE3,FALSE,TRUE,--,--,--,--,--,--,--,
+,,4,CASE4,FALSE,TRUE,--,--,--,--,--,--,--,
+,,5,CASE5,FALSE,TRUE,--,--,--,--,--,--,--,
+,,6,CASE6,FALSE,TRUE,--,--,--,--,--,--,--,
+,,7,CASE7,FALSE,TRUE,--,--,--,--,--,--,--,
+,,8,CASE8,FALSE,TRUE,--,--,--,--,--,--,--,
+,,9,CASE9,FALSE,TRUE,--,--,--,--,--,--,--,
+,,10,CASE10,FALSE,TRUE,--,--,--,--,--,--,--,
+,,11,CASE11,FALSE,TRUE,--,--,--,--,--,--,--,
+,,,Statistic description:
+,,1,testRace1,total 4 races;,0 right race;,4 missing race;,1 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,2,testRace3,total 5 races;,0 right race;,5 missing race;,0 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,3. ,CASE3,is not in benchmarks;
+,,4. ,CASE4,is not in benchmarks;
+,,5. ,CASE5,is not in benchmarks;
+,,6. ,CASE6,is not in benchmarks;
+,,7. ,CASE7,is not in benchmarks;
+,,8. ,CASE8,is not in benchmarks;
+,,9. ,CASE9,is not in benchmarks;
+,,10. ,CASE10,is not in benchmarks;
+,,11. ,CASE11,is not in benchmarks;
+,,,Races details:
+,,,1,missing,null,111,1111,null,null,
+,,,2,missing,null,22,22,null,null,
+,,,3,missing,null,42,46,null,null,
+,,,4,missing,null,1,2,null,null,
+,,,1,missing,null,22,22,null,null,
+,,,2,missing,null,44,44,null,null,
+,,,3,missing,null,42,46,null,null,
+,,,4,missing,null,33,33,null,null,
+,,,5,missing,null,11,11,null,null,
+
+DATE:,2017-03-22 11:00:28
+TOOL:,CalFuzzer
+,,No.,USECASE NAME,IS IN BENCHMARKS,IS IN SCRIPTFILE,TOTAL RACES,FOUNDED RACES,MISSING RACES,EXTRA RACES,PRECISION,FNR,FPR,
+,,1,testRace1,TRUE,TRUE,4,0,4,1,0%,100%,100%,
+,,2,testRace3,TRUE,TRUE,5,0,5,0,0%,100%,100%,
+,,3,CASE3,FALSE,TRUE,--,--,--,--,--,--,--,
+,,4,CASE4,FALSE,TRUE,--,--,--,--,--,--,--,
+,,5,CASE5,FALSE,TRUE,--,--,--,--,--,--,--,
+,,6,CASE6,FALSE,TRUE,--,--,--,--,--,--,--,
+,,7,CASE7,FALSE,TRUE,--,--,--,--,--,--,--,
+,,8,CASE8,FALSE,TRUE,--,--,--,--,--,--,--,
+,,9,CASE9,FALSE,TRUE,--,--,--,--,--,--,--,
+,,10,CASE10,FALSE,TRUE,--,--,--,--,--,--,--,
+,,11,CASE11,FALSE,TRUE,--,--,--,--,--,--,--,
+,,,Statistic description:
+,,1,testRace1,total 4 races;,0 right race;,4 missing race;,1 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,2,testRace3,total 5 races;,0 right race;,5 missing race;,0 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,3. ,CASE3,is not in benchmarks;
+,,4. ,CASE4,is not in benchmarks;
+,,5. ,CASE5,is not in benchmarks;
+,,6. ,CASE6,is not in benchmarks;
+,,7. ,CASE7,is not in benchmarks;
+,,8. ,CASE8,is not in benchmarks;
+,,9. ,CASE9,is not in benchmarks;
+,,10. ,CASE10,is not in benchmarks;
+,,11. ,CASE11,is not in benchmarks;
+,,,Races details:
+,,,1,missing,null,111,1111,null,null,
+,,,2,missing,null,22,22,null,null,
+,,,3,missing,null,42,46,null,null,
+,,,4,missing,null,1,2,null,null,
+,,,5,additional,null,41,47,null,null,
+,,,1,missing,null,22,22,null,null,
+,,,2,missing,null,44,44,null,null,
+,,,3,missing,null,42,46,null,null,
+,,,4,missing,null,33,33,null,null,
+,,,5,missing,null,11,11,null,null,
+
+DATE:,2017-03-22 11:04:34
+TOOL:,CalFuzzer
+,,No.,USECASE NAME,IS IN BENCHMARKS,IS IN SCRIPTFILE,TOTAL RACES,FOUNDED RACES,MISSING RACES,EXTRA RACES,PRECISION,FNR,FPR,
+,,1,testRace1,TRUE,TRUE,4,0,4,1,0%,100%,100%,
+,,2,testRace3,TRUE,TRUE,5,0,5,0,0%,100%,100%,
+,,3,CASE3,FALSE,TRUE,--,--,--,--,--,--,--,
+,,4,CASE4,FALSE,TRUE,--,--,--,--,--,--,--,
+,,5,CASE5,FALSE,TRUE,--,--,--,--,--,--,--,
+,,6,CASE6,FALSE,TRUE,--,--,--,--,--,--,--,
+,,7,CASE7,FALSE,TRUE,--,--,--,--,--,--,--,
+,,8,CASE8,FALSE,TRUE,--,--,--,--,--,--,--,
+,,9,CASE9,FALSE,TRUE,--,--,--,--,--,--,--,
+,,10,CASE10,FALSE,TRUE,--,--,--,--,--,--,--,
+,,11,CASE11,FALSE,TRUE,--,--,--,--,--,--,--,
+,,,Statistic description:
+,,1,testRace1,total 4 races;,0 right race;,4 missing race;,1 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,2,testRace3,total 5 races;,0 right race;,5 missing race;,0 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,3. ,CASE3,is not in benchmarks;
+,,4. ,CASE4,is not in benchmarks;
+,,5. ,CASE5,is not in benchmarks;
+,,6. ,CASE6,is not in benchmarks;
+,,7. ,CASE7,is not in benchmarks;
+,,8. ,CASE8,is not in benchmarks;
+,,9. ,CASE9,is not in benchmarks;
+,,10. ,CASE10,is not in benchmarks;
+,,11. ,CASE11,is not in benchmarks;
+,,,Races details:
+,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,testRace1,1,missing,null,111,1111,null,null,
+,,,2,missing,null,22,22,null,null,
+,,,3,missing,null,42,46,null,null,
+,,,4,missing,null,1,2,null,null,
+,,,5,additional,null,41,47,null,null,
+,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,testRace3,1,missing,null,22,22,null,null,
+,,,2,missing,null,44,44,null,null,
+,,,3,missing,null,42,46,null,null,
+,,,4,missing,null,33,33,null,null,
+,,,5,missing,null,11,11,null,null,
+
+DATE:,2017-03-22 11:34:13
+TOOL:,CalFuzzer
+,,No.,USECASE NAME,IS IN BENCHMARKS,IS IN SCRIPTFILE,TOTAL RACES,FOUNDED RACES,MISSING RACES,EXTRA RACES,PRECISION,FNR,FPR,
+,,1,testRace1,TRUE,TRUE,4,0,4,2,0%,100%,100%,
+,,2,testRace3,TRUE,TRUE,5,0,5,0,0%,100%,100%,
+,,3,CASE3,FALSE,TRUE,--,--,--,--,--,--,--,
+,,4,CASE4,FALSE,TRUE,--,--,--,--,--,--,--,
+,,5,CASE5,FALSE,TRUE,--,--,--,--,--,--,--,
+,,6,CASE6,FALSE,TRUE,--,--,--,--,--,--,--,
+,,7,CASE7,FALSE,TRUE,--,--,--,--,--,--,--,
+,,8,CASE8,FALSE,TRUE,--,--,--,--,--,--,--,
+,,9,CASE9,FALSE,TRUE,--,--,--,--,--,--,--,
+,,10,CASE10,FALSE,TRUE,--,--,--,--,--,--,--,
+,,11,CASE11,FALSE,TRUE,--,--,--,--,--,--,--,
+,,,Statistic description:
+,,1,testRace1,total 4 races;,0 right race;,4 missing race;,2 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,2,testRace3,total 5 races;,0 right race;,5 missing race;,0 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,3. ,CASE3,is not in benchmarks;
+,,4. ,CASE4,is not in benchmarks;
+,,5. ,CASE5,is not in benchmarks;
+,,6. ,CASE6,is not in benchmarks;
+,,7. ,CASE7,is not in benchmarks;
+,,8. ,CASE8,is not in benchmarks;
+,,9. ,CASE9,is not in benchmarks;
+,,10. ,CASE10,is not in benchmarks;
+,,11. ,CASE11,is not in benchmarks;
+,,,Races details:
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace1,1,missing,null,111,1111,null,null,
+,,,,2,missing,null,22,22,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,1,2,null,null,
+,,,,5,additional,null,41,47,null,null,
+,,,,6,additional,null,47,41,null,null,
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace3,1,missing,null,22,22,null,null,
+,,,,2,missing,null,44,44,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,33,33,null,null,
+,,,,5,missing,null,11,11,null,null,
+
+DATE:,2017-03-22 11:40:24
+TOOL:,CalFuzzer
+,,No.,USECASE NAME,IS IN BENCHMARKS,IS IN SCRIPTFILE,TOTAL RACES,FOUNDED RACES,MISSING RACES,EXTRA RACES,PRECISION,FNR,FPR,
+,,1,testRace1,TRUE,TRUE,4,0,4,1,0%,100%,误报率是100%,
+,,2,testRace3,TRUE,TRUE,5,0,5,0,0%,100%,误报率是100%,
+,,3,CASE3,FALSE,TRUE,--,--,--,--,--,--,--,
+,,4,CASE4,FALSE,TRUE,--,--,--,--,--,--,--,
+,,5,CASE5,FALSE,TRUE,--,--,--,--,--,--,--,
+,,6,CASE6,FALSE,TRUE,--,--,--,--,--,--,--,
+,,7,CASE7,FALSE,TRUE,--,--,--,--,--,--,--,
+,,8,CASE8,FALSE,TRUE,--,--,--,--,--,--,--,
+,,9,CASE9,FALSE,TRUE,--,--,--,--,--,--,--,
+,,10,CASE10,FALSE,TRUE,--,--,--,--,--,--,--,
+,,11,CASE11,FALSE,TRUE,--,--,--,--,--,--,--,
+,,,Statistic description:
+,,1,testRace1,total 4 races;,0 right race;,4 missing race;,1 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,2,testRace3,total 5 races;,0 right race;,5 missing race;,0 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,3. ,CASE3,is not in benchmarks;
+,,4. ,CASE4,is not in benchmarks;
+,,5. ,CASE5,is not in benchmarks;
+,,6. ,CASE6,is not in benchmarks;
+,,7. ,CASE7,is not in benchmarks;
+,,8. ,CASE8,is not in benchmarks;
+,,9. ,CASE9,is not in benchmarks;
+,,10. ,CASE10,is not in benchmarks;
+,,11. ,CASE11,is not in benchmarks;
+,,,Races details:
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace1,1,missing,null,111,1111,null,null,
+,,,,2,missing,null,22,22,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,1,2,null,null,
+,,,,5,additional,null,41,47,null,null,
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace3,1,missing,null,22,22,null,null,
+,,,,2,missing,null,44,44,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,33,33,null,null,
+,,,,5,missing,null,11,11,null,null,
+
+DATE:,2017-03-22 11:44:37
+TOOL:,CalFuzzer
+,,No.,USECASE NAME,IS IN BENCHMARKS,IS IN SCRIPTFILE,TOTAL RACES,FOUNDED RACES,MISSING RACES,EXTRA RACES,PRECISION,FNR,FPR,
+,,1,testRace1,TRUE,TRUE,4,0,4,1,0%,100%,误报率是100%,
+,,2,testRace3,TRUE,TRUE,5,0,5,0,0%,100%,误报率是100%,
+,,3,CASE3,FALSE,TRUE,--,--,--,--,--,--,--,
+,,4,CASE4,FALSE,TRUE,--,--,--,--,--,--,--,
+,,5,CASE5,FALSE,TRUE,--,--,--,--,--,--,--,
+,,6,CASE6,FALSE,TRUE,--,--,--,--,--,--,--,
+,,7,CASE7,FALSE,TRUE,--,--,--,--,--,--,--,
+,,8,CASE8,FALSE,TRUE,--,--,--,--,--,--,--,
+,,9,CASE9,FALSE,TRUE,--,--,--,--,--,--,--,
+,,10,CASE10,FALSE,TRUE,--,--,--,--,--,--,--,
+,,11,CASE11,FALSE,TRUE,--,--,--,--,--,--,--,
+,,,Statistic description:
+,,1,testRace1,total 4 races;,0 right race;,4 missing race;,1 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,2,testRace3,total 5 races;,0 right race;,5 missing race;,0 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,3. ,CASE3,is not in benchmarks;
+,,4. ,CASE4,is not in benchmarks;
+,,5. ,CASE5,is not in benchmarks;
+,,6. ,CASE6,is not in benchmarks;
+,,7. ,CASE7,is not in benchmarks;
+,,8. ,CASE8,is not in benchmarks;
+,,9. ,CASE9,is not in benchmarks;
+,,10. ,CASE10,is not in benchmarks;
+,,11. ,CASE11,is not in benchmarks;
+,,,Races details:
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace1,1,missing,null,111,1111,null,null,
+,,,,2,missing,null,22,22,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,1,2,null,null,
+,,,,5,additional,null,41,47,null,null,
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace3,1,missing,null,22,22,null,null,
+,,,,2,missing,null,44,44,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,33,33,null,null,
+,,,,5,missing,null,11,11,null,null,
+
+DATE:,2017-03-22 11:50:37
+TOOL:,CalFuzzer
+,,No.,USECASE NAME,IS IN BENCHMARKS,IS IN SCRIPTFILE,TOTAL RACES,FOUNDED RACES,MISSING RACES,EXTRA RACES,PRECISION,FNR,FPR,
+,,1,testRace1,TRUE,FALSE,,--,--,--,--,--,--,--,
+,,1,testRace3,TRUE,FALSE,,--,--,--,--,--,--,--,
+,,,Statistic description:
+,,1. ,testRace1,in scriptfile,not in benchmarks;
+,,1. ,testRace3,in scriptfile,not in benchmarks;
+,,,Races details:
+
+DATE:,2017-03-22 11:54:42
+TOOL:,CalFuzzer
+,,No.,USECASE NAME,IS IN BENCHMARKS,IS IN SCRIPTFILE,TOTAL RACES,FOUNDED RACES,MISSING RACES,EXTRA RACES,PRECISION,FNR,FPR,
+,,1,testRace1,TRUE,TRUE,4,0,4,1,0%,100%,误报率是100%,
+,,2,testRace3,TRUE,TRUE,5,0,5,0,0%,100%,误报率是100%,
+,,3,CASE3,FALSE,TRUE,--,--,--,--,--,--,--,
+,,4,CASE4,FALSE,TRUE,--,--,--,--,--,--,--,
+,,5,CASE5,FALSE,TRUE,--,--,--,--,--,--,--,
+,,6,CASE6,FALSE,TRUE,--,--,--,--,--,--,--,
+,,7,CASE7,FALSE,TRUE,--,--,--,--,--,--,--,
+,,8,CASE8,FALSE,TRUE,--,--,--,--,--,--,--,
+,,9,CASE9,FALSE,TRUE,--,--,--,--,--,--,--,
+,,10,CASE10,FALSE,TRUE,--,--,--,--,--,--,--,
+,,11,CASE11,FALSE,TRUE,--,--,--,--,--,--,--,
+,,,Statistic description:
+,,1,testRace1,total 4 races;,0 right race;,4 missing race;,1 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,2,testRace3,total 5 races;,0 right race;,5 missing race;,0 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,3. ,CASE3,is not in benchmarks;
+,,4. ,CASE4,is not in benchmarks;
+,,5. ,CASE5,is not in benchmarks;
+,,6. ,CASE6,is not in benchmarks;
+,,7. ,CASE7,is not in benchmarks;
+,,8. ,CASE8,is not in benchmarks;
+,,9. ,CASE9,is not in benchmarks;
+,,10. ,CASE10,is not in benchmarks;
+,,11. ,CASE11,is not in benchmarks;
+,,,Races details:
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace1,1,missing,null,111,1111,null,null,
+,,,,2,missing,null,22,22,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,1,2,null,null,
+,,,,5,additional,null,41,47,null,null,
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace3,1,missing,null,22,22,null,null,
+,,,,2,missing,null,44,44,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,33,33,null,null,
+,,,,5,missing,null,11,11,null,null,
+
+DATE:,2017-03-22 12:09:05
+TOOL:,CalFuzzer
+,,No.,USECASE NAME,IS IN BENCHMARKS,IS IN SCRIPTFILE,TOTAL RACES,FOUNDED RACES,MISSING RACES,EXTRA RACES,PRECISION,FNR,FPR,
+,,1,testRace1,TRUE,TRUE,4,0,4,1,0%,100%,误报率是100%,
+,,2,testRace3,TRUE,TRUE,5,0,5,0,0%,100%,误报率是100%,
+,,3,CASE3,FALSE,TRUE,--,--,--,--,--,--,--,
+,,4,CASE4,FALSE,TRUE,--,--,--,--,--,--,--,
+,,5,CASE5,FALSE,TRUE,--,--,--,--,--,--,--,
+,,6,CASE6,FALSE,TRUE,--,--,--,--,--,--,--,
+,,7,CASE7,FALSE,TRUE,--,--,--,--,--,--,--,
+,,8,CASE8,FALSE,TRUE,--,--,--,--,--,--,--,
+,,9,CASE9,FALSE,TRUE,--,--,--,--,--,--,--,
+,,10,CASE10,FALSE,TRUE,--,--,--,--,--,--,--,
+,,11,CASE11,FALSE,TRUE,--,--,--,--,--,--,--,
+,,,Statistic description:
+,,1,testRace1,total 4 races;,0 right race;,4 missing race;,1 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,2,testRace3,total 5 races;,0 right race;,5 missing race;,0 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,3. ,CASE3,is not in benchmarks;
+,,4. ,CASE4,is not in benchmarks;
+,,5. ,CASE5,is not in benchmarks;
+,,6. ,CASE6,is not in benchmarks;
+,,7. ,CASE7,is not in benchmarks;
+,,8. ,CASE8,is not in benchmarks;
+,,9. ,CASE9,is not in benchmarks;
+,,10. ,CASE10,is not in benchmarks;
+,,11. ,CASE11,is not in benchmarks;
+,,,Races details:
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace1,1,missing,null,111,1111,null,null,
+,,,,2,missing,null,22,22,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,1,2,null,null,
+,,,,5,additional,null,41,47,null,null,
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace3,1,missing,null,22,22,null,null,
+,,,,2,missing,null,44,44,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,33,33,null,null,
+,,,,5,missing,null,11,11,null,null,
+
+DATE:,2017-03-22 19:48:06
+TOOL:,CalFuzzer
+,,No.,USECASE NAME,IS IN BENCHMARKS,IS IN SCRIPTFILE,TOTAL RACES,FOUNDED RACES,MISSING RACES,EXTRA RACES,PRECISION,FNR,FPR,
+,,1,testRace1,TRUE,TRUE,4,0,4,1,0%,100%,误报率是100%,
+,,2,testRace3,TRUE,TRUE,5,0,5,0,0%,100%,误报率是100%,
+,,3,CASE3,FALSE,TRUE,--,--,--,--,--,--,--,
+,,4,CASE4,FALSE,TRUE,--,--,--,--,--,--,--,
+,,5,CASE5,FALSE,TRUE,--,--,--,--,--,--,--,
+,,6,CASE6,FALSE,TRUE,--,--,--,--,--,--,--,
+,,7,CASE7,FALSE,TRUE,--,--,--,--,--,--,--,
+,,8,CASE8,FALSE,TRUE,--,--,--,--,--,--,--,
+,,9,CASE9,FALSE,TRUE,--,--,--,--,--,--,--,
+,,10,CASE10,FALSE,TRUE,--,--,--,--,--,--,--,
+,,11,CASE11,FALSE,TRUE,--,--,--,--,--,--,--,
+,,,Statistic description:
+,,1,testRace1,total 4 races;,0 right race;,4 missing race;,1 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,2,testRace3,total 5 races;,0 right race;,5 missing race;,0 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,3. ,CASE3,is not in benchmarks;
+,,4. ,CASE4,is not in benchmarks;
+,,5. ,CASE5,is not in benchmarks;
+,,6. ,CASE6,is not in benchmarks;
+,,7. ,CASE7,is not in benchmarks;
+,,8. ,CASE8,is not in benchmarks;
+,,9. ,CASE9,is not in benchmarks;
+,,10. ,CASE10,is not in benchmarks;
+,,11. ,CASE11,is not in benchmarks;
+,,,Races details:
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace1,1,missing,null,111,1111,null,null,
+,,,,2,missing,null,22,22,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,1,2,null,null,
+,,,,5,additional,null,41,47,null,null,
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace3,1,missing,null,22,22,null,null,
+,,,,2,missing,null,44,44,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,33,33,null,null,
+,,,,5,missing,null,11,11,null,null,
+
+DATE:,2017-03-22 20:28:58
+TOOL:,CalFuzzer
+,,No.,USECASE NAME,IS IN BENCHMARKS,IS IN SCRIPTFILE,TOTAL RACES,FOUNDED RACES,MISSING RACES,EXTRA RACES,PRECISION,FNR,FPR,
+,,1,testRace1,TRUE,FALSE,,--,--,--,--,--,--,--,
+,,1,testRace3,TRUE,FALSE,,--,--,--,--,--,--,--,
+,,,Statistic description:
+,,1. ,testRace1,in scriptfile,not in benchmarks;
+,,1. ,testRace3,in scriptfile,not in benchmarks;
+,,,Races details:
+
+DATE:,2017-03-22 20:32:54
+TOOL:,CalFuzzer
+,,No.,USECASE NAME,IS IN BENCHMARKS,IS IN SCRIPTFILE,TOTAL RACES,FOUNDED RACES,MISSING RACES,EXTRA RACES,PRECISION,FNR,FPR,
+,,1,testRace1,TRUE,TRUE,4,0,4,1,0%,100%,误报率是100%,
+,,2,testRace3,TRUE,TRUE,5,0,5,0,0%,100%,误报率是100%,
+,,3,CASE3,FALSE,TRUE,--,--,--,--,--,--,--,
+,,4,CASE4,FALSE,TRUE,--,--,--,--,--,--,--,
+,,5,CASE5,FALSE,TRUE,--,--,--,--,--,--,--,
+,,6,CASE6,FALSE,TRUE,--,--,--,--,--,--,--,
+,,7,CASE7,FALSE,TRUE,--,--,--,--,--,--,--,
+,,8,CASE8,FALSE,TRUE,--,--,--,--,--,--,--,
+,,9,CASE9,FALSE,TRUE,--,--,--,--,--,--,--,
+,,10,CASE10,FALSE,TRUE,--,--,--,--,--,--,--,
+,,11,CASE11,FALSE,TRUE,--,--,--,--,--,--,--,
+,,,Statistic description:
+,,1,testRace1,total 4 races;,0 right race;,4 missing race;,1 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,2,testRace3,total 5 races;,0 right race;,5 missing race;,0 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,3. ,CASE3,is not in benchmarks;
+,,4. ,CASE4,is not in benchmarks;
+,,5. ,CASE5,is not in benchmarks;
+,,6. ,CASE6,is not in benchmarks;
+,,7. ,CASE7,is not in benchmarks;
+,,8. ,CASE8,is not in benchmarks;
+,,9. ,CASE9,is not in benchmarks;
+,,10. ,CASE10,is not in benchmarks;
+,,11. ,CASE11,is not in benchmarks;
+,,,Races details:
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace1,1,missing,null,111,1111,null,null,
+,,,,2,missing,null,22,22,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,1,2,null,null,
+,,,,5,additional,null,41,47,null,null,
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace3,1,missing,null,22,22,null,null,
+,,,,2,missing,null,44,44,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,33,33,null,null,
+,,,,5,missing,null,11,11,null,null,
+
+DATE:,2017-03-22 20:34:50
+TOOL:,CalFuzzer
+,,No.,USECASE NAME,IS IN BENCHMARKS,IS IN SCRIPTFILE,TOTAL RACES,FOUNDED RACES,MISSING RACES,EXTRA RACES,PRECISION,FNR,FPR,
+,,1,testRace1,TRUE,FALSE,,--,--,--,--,--,--,--,
+,,1,testRace3,TRUE,FALSE,,--,--,--,--,--,--,--,
+,,,Statistic description:
+,,1. ,testRace1,in scriptfile,not in benchmarks;
+,,1. ,testRace3,in scriptfile,not in benchmarks;
+,,,Races details:
+
+DATE:,2017-03-22 20:35:15
+TOOL:,CalFuzzer
+,,No.,USECASE NAME,IS IN BENCHMARKS,IS IN SCRIPTFILE,TOTAL RACES,FOUNDED RACES,MISSING RACES,EXTRA RACES,PRECISION,FNR,FPR,
+,,1,testRace1,TRUE,FALSE,,--,--,--,--,--,--,--,
+,,1,testRace3,TRUE,FALSE,,--,--,--,--,--,--,--,
+,,,Statistic description:
+,,1. ,testRace1,in scriptfile,not in benchmarks;
+,,1. ,testRace3,in scriptfile,not in benchmarks;
+,,,Races details:
+
+DATE:,2017-03-22 20:36:45
+TOOL:,CalFuzzer
+,,No.,USECASE NAME,IS IN BENCHMARKS,IS IN SCRIPTFILE,TOTAL RACES,FOUNDED RACES,MISSING RACES,EXTRA RACES,PRECISION,FNR,FPR,
+,,1,testRace1,TRUE,FALSE,,--,--,--,--,--,--,--,
+,,1,testRace3,TRUE,FALSE,,--,--,--,--,--,--,--,
+,,,Statistic description:
+,,1. ,testRace1,in scriptfile,not in benchmarks;
+,,1. ,testRace3,in scriptfile,not in benchmarks;
+,,,Races details:
+
+DATE:,2017-03-22 20:37:01
+TOOL:,CalFuzzer
+,,No.,USECASE NAME,IS IN BENCHMARKS,IS IN SCRIPTFILE,TOTAL RACES,FOUNDED RACES,MISSING RACES,EXTRA RACES,PRECISION,FNR,FPR,
+,,1,testRace1,TRUE,FALSE,,--,--,--,--,--,--,--,
+,,1,testRace3,TRUE,FALSE,,--,--,--,--,--,--,--,
+,,,Statistic description:
+,,1. ,testRace1,in scriptfile,not in benchmarks;
+,,1. ,testRace3,in scriptfile,not in benchmarks;
+,,,Races details:
+
+DATE:,2017-03-22 20:40:57
+TOOL:,CalFuzzer
+,,No.,USECASE NAME,IS IN BENCHMARKS,IS IN SCRIPTFILE,TOTAL RACES,FOUNDED RACES,MISSING RACES,EXTRA RACES,PRECISION,FNR,FPR,
+,,1,testRace1,TRUE,FALSE,,--,--,--,--,--,--,--,
+,,2,testRace3,TRUE,FALSE,,--,--,--,--,--,--,--,
+,,,Statistic description:
+,,1. ,testRace1,in scriptfile,not in benchmarks;
+,,2. ,testRace3,in scriptfile,not in benchmarks;
+,,,Races details:
+
+DATE:,2017-03-22 20:41:24
+TOOL:,CalFuzzer
+,,No.,USECASE NAME,IS IN BENCHMARKS,IS IN SCRIPTFILE,TOTAL RACES,FOUNDED RACES,MISSING RACES,EXTRA RACES,PRECISION,FNR,FPR,
+,,1,testRace1,TRUE,TRUE,4,0,4,1,0%,100%,误报率是100%,
+,,2,testRace3,TRUE,TRUE,5,0,5,0,0%,100%,误报率是100%,
+,,3,CASE3,FALSE,TRUE,--,--,--,--,--,--,--,
+,,4,CASE4,FALSE,TRUE,--,--,--,--,--,--,--,
+,,5,CASE5,FALSE,TRUE,--,--,--,--,--,--,--,
+,,6,CASE6,FALSE,TRUE,--,--,--,--,--,--,--,
+,,7,CASE7,FALSE,TRUE,--,--,--,--,--,--,--,
+,,8,CASE8,FALSE,TRUE,--,--,--,--,--,--,--,
+,,9,CASE9,FALSE,TRUE,--,--,--,--,--,--,--,
+,,10,CASE10,FALSE,TRUE,--,--,--,--,--,--,--,
+,,11,CASE11,FALSE,TRUE,--,--,--,--,--,--,--,
+,,,Statistic description:
+,,1,testRace1,total 4 races;,0 right race;,4 missing race;,1 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,2,testRace3,total 5 races;,0 right race;,5 missing race;,0 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,3. ,CASE3,is not in benchmarks;
+,,4. ,CASE4,is not in benchmarks;
+,,5. ,CASE5,is not in benchmarks;
+,,6. ,CASE6,is not in benchmarks;
+,,7. ,CASE7,is not in benchmarks;
+,,8. ,CASE8,is not in benchmarks;
+,,9. ,CASE9,is not in benchmarks;
+,,10. ,CASE10,is not in benchmarks;
+,,11. ,CASE11,is not in benchmarks;
+,,,Races details:
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace1,1,missing,null,111,1111,null,null,
+,,,,2,missing,null,22,22,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,1,2,null,null,
+,,,,5,additional,null,41,47,null,null,
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace3,1,missing,null,22,22,null,null,
+,,,,2,missing,null,44,44,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,33,33,null,null,
+,,,,5,missing,null,11,11,null,null,
+
+DATE:,2017-03-22 21:04:16
+TOOL:,CalFuzzer
+,,No.,USECASE NAME,IS IN BENCHMARKS,IS IN SCRIPTFILE,TOTAL RACES,FOUNDED RACES,MISSING RACES,EXTRA RACES,PRECISION,FNR,FPR,
+,,1,testRace1,TRUE,TRUE,4,0,4,1,0%,100%,误报率是100%,
+,,2,testRace3,TRUE,TRUE,5,0,5,0,0%,100%,误报率是100%,
+,,3,CASE3,FALSE,TRUE,--,--,--,--,--,--,--,
+,,4,CASE4,FALSE,TRUE,--,--,--,--,--,--,--,
+,,5,CASE5,FALSE,TRUE,--,--,--,--,--,--,--,
+,,6,CASE6,FALSE,TRUE,--,--,--,--,--,--,--,
+,,7,CASE7,FALSE,TRUE,--,--,--,--,--,--,--,
+,,8,CASE8,FALSE,TRUE,--,--,--,--,--,--,--,
+,,9,CASE9,FALSE,TRUE,--,--,--,--,--,--,--,
+,,10,CASE10,FALSE,TRUE,--,--,--,--,--,--,--,
+,,11,CASE11,FALSE,TRUE,--,--,--,--,--,--,--,
+,,,Statistic description:
+,,1,testRace1,total 4 races;,0 right race;,4 missing race;,1 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,2,testRace3,total 5 races;,0 right race;,5 missing race;,0 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,3. ,CASE3,is not in benchmarks;
+,,4. ,CASE4,is not in benchmarks;
+,,5. ,CASE5,is not in benchmarks;
+,,6. ,CASE6,is not in benchmarks;
+,,7. ,CASE7,is not in benchmarks;
+,,8. ,CASE8,is not in benchmarks;
+,,9. ,CASE9,is not in benchmarks;
+,,10. ,CASE10,is not in benchmarks;
+,,11. ,CASE11,is not in benchmarks;
+,,,Races details:
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace1,1,missing,null,111,1111,null,null,
+,,,,2,missing,null,22,22,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,1,2,null,null,
+,,,,5,additional,null,41,47,null,null,
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace3,1,missing,null,22,22,null,null,
+,,,,2,missing,null,44,44,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,33,33,null,null,
+,,,,5,missing,null,11,11,null,null,
+
+DATE:,2017-03-22 21:06:46
+TOOL:,CalFuzzer
+,,No.,USECASE NAME,IS IN BENCHMARKS,IS IN SCRIPTFILE,TOTAL RACES,FOUNDED RACES,MISSING RACES,EXTRA RACES,PRECISION,FNR,FPR,
+,,1,testRace1,TRUE,FALSE,,--,--,--,--,--,--,--,
+,,2,testRace3,TRUE,FALSE,,--,--,--,--,--,--,--,
+,,,Statistic description:
+,,1. ,testRace1,in scriptfile,not in benchmarks;
+,,2. ,testRace3,in scriptfile,not in benchmarks;
+,,,Races details:
+
+DATE:,2017-03-22 21:08:47
+TOOL:,CalFuzzer
+,,No.,USECASE NAME,IS IN BENCHMARKS,IS IN SCRIPTFILE,TOTAL RACES,FOUNDED RACES,MISSING RACES,EXTRA RACES,PRECISION,FNR,FPR,
+,,1,testRace1,TRUE,FALSE,,--,--,--,--,--,--,--,
+,,2,testRace3,TRUE,FALSE,,--,--,--,--,--,--,--,
+,,,Statistic description:
+,,1. ,testRace1,in scriptfile,not in benchmarks;
+,,2. ,testRace3,in scriptfile,not in benchmarks;
+,,,Races details:
+
+DATE:,2017-03-22 21:09:18
+TOOL:,CalFuzzer
+,,No.,USECASE NAME,IS IN BENCHMARKS,IS IN SCRIPTFILE,TOTAL RACES,FOUNDED RACES,MISSING RACES,EXTRA RACES,PRECISION,FNR,FPR,
+,,1,testRace1,TRUE,TRUE,4,0,4,1,0%,100%,误报率是100%,
+,,2,testRace3,TRUE,TRUE,5,0,5,0,0%,100%,误报率是100%,
+,,3,CASE3,FALSE,TRUE,--,--,--,--,--,--,--,
+,,4,CASE4,FALSE,TRUE,--,--,--,--,--,--,--,
+,,5,CASE5,FALSE,TRUE,--,--,--,--,--,--,--,
+,,6,CASE6,FALSE,TRUE,--,--,--,--,--,--,--,
+,,7,CASE7,FALSE,TRUE,--,--,--,--,--,--,--,
+,,8,CASE8,FALSE,TRUE,--,--,--,--,--,--,--,
+,,9,CASE9,FALSE,TRUE,--,--,--,--,--,--,--,
+,,10,CASE10,FALSE,TRUE,--,--,--,--,--,--,--,
+,,11,CASE11,FALSE,TRUE,--,--,--,--,--,--,--,
+,,,Statistic description:
+,,1,testRace1,total 4 races;,0 right race;,4 missing race;,1 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,2,testRace3,total 5 races;,0 right race;,5 missing race;,0 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,3. ,CASE3,is not in benchmarks;
+,,4. ,CASE4,is not in benchmarks;
+,,5. ,CASE5,is not in benchmarks;
+,,6. ,CASE6,is not in benchmarks;
+,,7. ,CASE7,is not in benchmarks;
+,,8. ,CASE8,is not in benchmarks;
+,,9. ,CASE9,is not in benchmarks;
+,,10. ,CASE10,is not in benchmarks;
+,,11. ,CASE11,is not in benchmarks;
+,,,Races details:
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace1,1,missing,null,111,1111,null,null,
+,,,,2,missing,null,22,22,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,1,2,null,null,
+,,,,5,additional,null,41,47,null,null,
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace3,1,missing,null,22,22,null,null,
+,,,,2,missing,null,44,44,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,33,33,null,null,
+,,,,5,missing,null,11,11,null,null,
+
+DATE:,2017-03-22 21:12:14
+TOOL:,CalFuzzer
+,,No.,USECASE NAME,IS IN BENCHMARKS,IS IN SCRIPTFILE,TOTAL RACES,FOUNDED RACES,MISSING RACES,EXTRA RACES,PRECISION,FNR,FPR,
+,,1,testRace1,TRUE,TRUE,4,0,4,1,0%,100%,误报率是100%,
+,,2,testRace3,TRUE,TRUE,5,0,5,0,0%,100%,误报率是100%,
+,,3,CASE3,FALSE,TRUE,--,--,--,--,--,--,--,
+,,4,CASE4,FALSE,TRUE,--,--,--,--,--,--,--,
+,,5,CASE5,FALSE,TRUE,--,--,--,--,--,--,--,
+,,6,CASE6,FALSE,TRUE,--,--,--,--,--,--,--,
+,,7,CASE7,FALSE,TRUE,--,--,--,--,--,--,--,
+,,8,CASE8,FALSE,TRUE,--,--,--,--,--,--,--,
+,,9,CASE9,FALSE,TRUE,--,--,--,--,--,--,--,
+,,10,CASE10,FALSE,TRUE,--,--,--,--,--,--,--,
+,,11,CASE11,FALSE,TRUE,--,--,--,--,--,--,--,
+,,,Statistic description:
+,,1,testRace1,total 4 races;,0 right race;,4 missing race;,1 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,2,testRace3,total 5 races;,0 right race;,5 missing race;,0 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,3. ,CASE3,is not in benchmarks;
+,,4. ,CASE4,is not in benchmarks;
+,,5. ,CASE5,is not in benchmarks;
+,,6. ,CASE6,is not in benchmarks;
+,,7. ,CASE7,is not in benchmarks;
+,,8. ,CASE8,is not in benchmarks;
+,,9. ,CASE9,is not in benchmarks;
+,,10. ,CASE10,is not in benchmarks;
+,,11. ,CASE11,is not in benchmarks;
+,,,Races details:
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace1,1,missing,null,111,1111,null,null,
+,,,,2,missing,null,22,22,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,1,2,null,null,
+,,,,5,additional,null,41,47,null,null,
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace3,1,missing,null,22,22,null,null,
+,,,,2,missing,null,44,44,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,33,33,null,null,
+,,,,5,missing,null,11,11,null,null,
+
+DATE:,2017-03-22 21:12:28
+TOOL:,CalFuzzer
+,,No.,USECASE NAME,IS IN BENCHMARKS,IS IN SCRIPTFILE,TOTAL RACES,FOUNDED RACES,MISSING RACES,EXTRA RACES,PRECISION,FNR,FPR,
+,,1,testRace1,TRUE,FALSE,,--,--,--,--,--,--,--,
+,,2,testRace3,TRUE,FALSE,,--,--,--,--,--,--,--,
+,,,Statistic description:
+,,1. ,testRace1,in scriptfile,not in benchmarks;
+,,2. ,testRace3,in scriptfile,not in benchmarks;
+,,,Races details:
+
+DATE:,2017-03-22 21:14:25
+TOOL:,CalFuzzer
+,,No.,USECASE NAME,IS IN BENCHMARKS,IS IN SCRIPTFILE,TOTAL RACES,FOUNDED RACES,MISSING RACES,EXTRA RACES,PRECISION,FNR,FPR,
+,,1,testRace1,TRUE,FALSE,,--,--,--,--,--,--,--,
+,,2,testRace3,TRUE,FALSE,,--,--,--,--,--,--,--,
+,,,Statistic description:
+,,1. ,testRace1,in scriptfile,not in benchmarks;
+,,2. ,testRace3,in scriptfile,not in benchmarks;
+,,,Races details:
+
+DATE:,2017-03-22 21:16:29
+TOOL:,CalFuzzer
+,,No.,USECASE NAME,IS IN BENCHMARKS,IS IN SCRIPTFILE,TOTAL RACES,FOUNDED RACES,MISSING RACES,EXTRA RACES,PRECISION,FNR,FPR,
+,,1,testRace1,TRUE,FALSE,,--,--,--,--,--,--,--,
+,,2,testRace3,TRUE,FALSE,,--,--,--,--,--,--,--,
+,,,Statistic description:
+,,1. ,testRace1,in scriptfile,not in benchmarks;
+,,2. ,testRace3,in scriptfile,not in benchmarks;
+,,,Races details:
+
+DATE:,2017-03-22 21:16:47
+TOOL:,CalFuzzer
+,,No.,USECASE NAME,IS IN BENCHMARKS,IS IN SCRIPTFILE,TOTAL RACES,FOUNDED RACES,MISSING RACES,EXTRA RACES,PRECISION,FNR,FPR,
+,,1,testRace1,TRUE,FALSE,,--,--,--,--,--,--,--,
+,,2,testRace3,TRUE,FALSE,,--,--,--,--,--,--,--,
+,,,Statistic description:
+,,1. ,testRace1,in scriptfile,not in benchmarks;
+,,2. ,testRace3,in scriptfile,not in benchmarks;
+,,,Races details:
+
+DATE:,2017-03-22 21:17:42
+TOOL:,CalFuzzer
+,,No.,USECASE NAME,IS IN BENCHMARKS,IS IN SCRIPTFILE,TOTAL RACES,FOUNDED RACES,MISSING RACES,EXTRA RACES,PRECISION,FNR,FPR,
+,,1,testRace1,TRUE,FALSE,,--,--,--,--,--,--,--,
+,,2,testRace3,TRUE,FALSE,,--,--,--,--,--,--,--,
+,,,Statistic description:
+,,1. ,testRace1,in scriptfile,not in benchmarks;
+,,2. ,testRace3,in scriptfile,not in benchmarks;
+,,,Races details:
+
+DATE:,2017-03-22 21:18:15
+TOOL:,CalFuzzer
+,,No.,USECASE NAME,IS IN BENCHMARKS,IS IN SCRIPTFILE,TOTAL RACES,FOUNDED RACES,MISSING RACES,EXTRA RACES,PRECISION,FNR,FPR,
+,,1,testRace1,TRUE,FALSE,,--,--,--,--,--,--,--,
+,,2,testRace3,TRUE,FALSE,,--,--,--,--,--,--,--,
+,,,Statistic description:
+,,1. ,testRace1,in scriptfile,not in benchmarks;
+,,2. ,testRace3,in scriptfile,not in benchmarks;
+,,,Races details:
+
+DATE:,2017-03-22 21:18:47
+TOOL:,CalFuzzer
+,,No.,USECASE NAME,IS IN BENCHMARKS,IS IN SCRIPTFILE,TOTAL RACES,FOUNDED RACES,MISSING RACES,EXTRA RACES,PRECISION,FNR,FPR,
+,,1,testRace1,TRUE,FALSE,,--,--,--,--,--,--,--,
+,,2,testRace3,TRUE,FALSE,,--,--,--,--,--,--,--,
+,,,Statistic description:
+,,1. ,testRace1,in scriptfile,not in benchmarks;
+,,2. ,testRace3,in scriptfile,not in benchmarks;
+,,,Races details:
+
+DATE:,2017-03-22 21:19:04
+TOOL:,CalFuzzer
+,,No.,USECASE NAME,IS IN BENCHMARKS,IS IN SCRIPTFILE,TOTAL RACES,FOUNDED RACES,MISSING RACES,EXTRA RACES,PRECISION,FNR,FPR,
+,,1,testRace1,TRUE,FALSE,,--,--,--,--,--,--,--,
+,,2,testRace3,TRUE,FALSE,,--,--,--,--,--,--,--,
+,,,Statistic description:
+,,1. ,testRace1,in scriptfile,not in benchmarks;
+,,2. ,testRace3,in scriptfile,not in benchmarks;
+,,,Races details:
+
+DATE:,2017-03-22 21:19:15
+TOOL:,CalFuzzer
+,,No.,USECASE NAME,IS IN BENCHMARKS,IS IN SCRIPTFILE,TOTAL RACES,FOUNDED RACES,MISSING RACES,EXTRA RACES,PRECISION,FNR,FPR,
+,,1,testRace1,TRUE,FALSE,,--,--,--,--,--,--,--,
+,,2,testRace3,TRUE,FALSE,,--,--,--,--,--,--,--,
+,,,Statistic description:
+,,1. ,testRace1,in scriptfile,not in benchmarks;
+,,2. ,testRace3,in scriptfile,not in benchmarks;
+,,,Races details:
+
+DATE:,2017-03-22 21:19:33
+TOOL:,CalFuzzer
+,,No.,USECASE NAME,IS IN BENCHMARKS,IS IN SCRIPTFILE,TOTAL RACES,FOUNDED RACES,MISSING RACES,EXTRA RACES,PRECISION,FNR,FPR,
+,,1,testRace1,TRUE,FALSE,,--,--,--,--,--,--,--,
+,,2,testRace3,TRUE,FALSE,,--,--,--,--,--,--,--,
+,,,Statistic description:
+,,1. ,testRace1,in scriptfile,not in benchmarks;
+,,2. ,testRace3,in scriptfile,not in benchmarks;
+,,,Races details:
+
+DATE:,2017-03-22 21:20:00
+TOOL:,CalFuzzer
+,,No.,USECASE NAME,IS IN BENCHMARKS,IS IN SCRIPTFILE,TOTAL RACES,FOUNDED RACES,MISSING RACES,EXTRA RACES,PRECISION,FNR,FPR,
+,,1,testRace1,TRUE,FALSE,,--,--,--,--,--,--,--,
+,,2,testRace3,TRUE,FALSE,,--,--,--,--,--,--,--,
+,,,Statistic description:
+,,1. ,testRace1,in scriptfile,not in benchmarks;
+,,2. ,testRace3,in scriptfile,not in benchmarks;
+,,,Races details:
+
+DATE:,2017-03-22 21:21:15
+TOOL:,CalFuzzer
+,,No.,USECASE NAME,IS IN BENCHMARKS,IS IN SCRIPTFILE,TOTAL RACES,FOUNDED RACES,MISSING RACES,EXTRA RACES,PRECISION,FNR,FPR,
+,,1,testRace1,TRUE,FALSE,,--,--,--,--,--,--,--,
+,,2,testRace3,TRUE,FALSE,,--,--,--,--,--,--,--,
+,,,Statistic description:
+,,1. ,testRace1,in scriptfile,not in benchmarks;
+,,2. ,testRace3,in scriptfile,not in benchmarks;
+,,,Races details:
+
+DATE:,2017-03-22 21:21:27
+TOOL:,CalFuzzer
+,,No.,USECASE NAME,IS IN BENCHMARKS,IS IN SCRIPTFILE,TOTAL RACES,FOUNDED RACES,MISSING RACES,EXTRA RACES,PRECISION,FNR,FPR,
+,,1,testRace1,TRUE,FALSE,,--,--,--,--,--,--,--,
+,,2,testRace3,TRUE,FALSE,,--,--,--,--,--,--,--,
+,,,Statistic description:
+,,1. ,testRace1,in scriptfile,not in benchmarks;
+,,2. ,testRace3,in scriptfile,not in benchmarks;
+,,,Races details:
+
+DATE:,2017-03-22 21:21:43
+TOOL:,CalFuzzer
+,,No.,USECASE NAME,IS IN BENCHMARKS,IS IN SCRIPTFILE,TOTAL RACES,FOUNDED RACES,MISSING RACES,EXTRA RACES,PRECISION,FNR,FPR,
+,,1,testRace1,TRUE,FALSE,,--,--,--,--,--,--,--,
+,,2,testRace3,TRUE,FALSE,,--,--,--,--,--,--,--,
+,,,Statistic description:
+,,1. ,testRace1,in scriptfile,not in benchmarks;
+,,2. ,testRace3,in scriptfile,not in benchmarks;
+,,,Races details:
+
+DATE:,2017-03-22 21:22:20
+TOOL:,CalFuzzer
+,,No.,USECASE NAME,IS IN BENCHMARKS,IS IN SCRIPTFILE,TOTAL RACES,FOUNDED RACES,MISSING RACES,EXTRA RACES,PRECISION,FNR,FPR,
+,,1,testRace1,TRUE,FALSE,,--,--,--,--,--,--,--,
+,,2,testRace3,TRUE,FALSE,,--,--,--,--,--,--,--,
+,,,Statistic description:
+,,1. ,testRace1,in scriptfile,not in benchmarks;
+,,2. ,testRace3,in scriptfile,not in benchmarks;
+,,,Races details:
+
+DATE:,2017-03-22 21:22:58
+TOOL:,CalFuzzer
+,,No.,USECASE NAME,IS IN BENCHMARKS,IS IN SCRIPTFILE,TOTAL RACES,FOUNDED RACES,MISSING RACES,EXTRA RACES,PRECISION,FNR,FPR,
+,,1,testRace1,TRUE,FALSE,,--,--,--,--,--,--,--,
+,,2,testRace3,TRUE,FALSE,,--,--,--,--,--,--,--,
+,,,Statistic description:
+,,1. ,testRace1,in scriptfile,not in benchmarks;
+,,2. ,testRace3,in scriptfile,not in benchmarks;
+,,,Races details:
+
+DATE:,2017-03-22 21:23:24
+TOOL:,CalFuzzer
+,,No.,USECASE NAME,IS IN BENCHMARKS,IS IN SCRIPTFILE,TOTAL RACES,FOUNDED RACES,MISSING RACES,EXTRA RACES,PRECISION,FNR,FPR,
+,,1,testRace1,TRUE,FALSE,,--,--,--,--,--,--,--,
+,,2,testRace3,TRUE,FALSE,,--,--,--,--,--,--,--,
+,,,Statistic description:
+,,1. ,testRace1,in scriptfile,not in benchmarks;
+,,2. ,testRace3,in scriptfile,not in benchmarks;
+,,,Races details:
+
+DATE:,2017-03-22 21:23:42
+TOOL:,CalFuzzer
+,,No.,USECASE NAME,IS IN BENCHMARKS,IS IN SCRIPTFILE,TOTAL RACES,FOUNDED RACES,MISSING RACES,EXTRA RACES,PRECISION,FNR,FPR,
+,,1,testRace1,TRUE,FALSE,,--,--,--,--,--,--,--,
+,,2,testRace3,TRUE,FALSE,,--,--,--,--,--,--,--,
+,,,Statistic description:
+,,1. ,testRace1,in scriptfile,not in benchmarks;
+,,2. ,testRace3,in scriptfile,not in benchmarks;
+,,,Races details:
+
+DATE:,2017-03-22 21:23:51
+TOOL:,CalFuzzer
+,,No.,USECASE NAME,IS IN BENCHMARKS,IS IN SCRIPTFILE,TOTAL RACES,FOUNDED RACES,MISSING RACES,EXTRA RACES,PRECISION,FNR,FPR,
+,,1,testRace1,TRUE,FALSE,,--,--,--,--,--,--,--,
+,,2,testRace3,TRUE,FALSE,,--,--,--,--,--,--,--,
+,,,Statistic description:
+,,1. ,testRace1,in scriptfile,not in benchmarks;
+,,2. ,testRace3,in scriptfile,not in benchmarks;
+,,,Races details:
+
+DATE:,2017-03-22 21:24:04
+TOOL:,CalFuzzer
+,,No.,USECASE NAME,IS IN BENCHMARKS,IS IN SCRIPTFILE,TOTAL RACES,FOUNDED RACES,MISSING RACES,EXTRA RACES,PRECISION,FNR,FPR,
+,,1,testRace1,TRUE,FALSE,,--,--,--,--,--,--,--,
+,,2,testRace3,TRUE,FALSE,,--,--,--,--,--,--,--,
+,,,Statistic description:
+,,1. ,testRace1,in scriptfile,not in benchmarks;
+,,2. ,testRace3,in scriptfile,not in benchmarks;
+,,,Races details:
+
+DATE:,2017-03-22 21:24:43
+TOOL:,CalFuzzer
+,,No.,USECASE NAME,IS IN BENCHMARKS,IS IN SCRIPTFILE,TOTAL RACES,FOUNDED RACES,MISSING RACES,EXTRA RACES,PRECISION,FNR,FPR,
+,,1,testRace1,TRUE,FALSE,,--,--,--,--,--,--,--,
+,,2,testRace3,TRUE,FALSE,,--,--,--,--,--,--,--,
+,,,Statistic description:
+,,1. ,testRace1,in scriptfile,not in benchmarks;
+,,2. ,testRace3,in scriptfile,not in benchmarks;
+,,,Races details:
+
+DATE:,2017-03-22 21:25:16
+TOOL:,CalFuzzer
+,,No.,USECASE NAME,IS IN BENCHMARKS,IS IN SCRIPTFILE,TOTAL RACES,FOUNDED RACES,MISSING RACES,EXTRA RACES,PRECISION,FNR,FPR,
+,,1,testRace1,TRUE,FALSE,,--,--,--,--,--,--,--,
+,,2,testRace3,TRUE,FALSE,,--,--,--,--,--,--,--,
+,,,Statistic description:
+,,1. ,testRace1,in scriptfile,not in benchmarks;
+,,2. ,testRace3,in scriptfile,not in benchmarks;
+,,,Races details:
+
+DATE:,2017-03-22 21:28:32
+TOOL:,CalFuzzer
+,,No.,USECASE NAME,IS IN BENCHMARKS,IS IN SCRIPTFILE,TOTAL RACES,FOUNDED RACES,MISSING RACES,EXTRA RACES,PRECISION,FNR,FPR,
+,,1,testRace1,TRUE,FALSE,,--,--,--,--,--,--,--,
+,,2,testRace3,TRUE,FALSE,,--,--,--,--,--,--,--,
+,,,Statistic description:
+,,1. ,testRace1,in scriptfile,not in benchmarks;
+,,2. ,testRace3,in scriptfile,not in benchmarks;
+,,,Races details:
+
+DATE:,2017-03-22 21:30:12
+TOOL:,CalFuzzer
+,,No.,USECASE NAME,IS IN BENCHMARKS,IS IN SCRIPTFILE,TOTAL RACES,FOUNDED RACES,MISSING RACES,EXTRA RACES,PRECISION,FNR,FPR,
+,,1,testRace1,TRUE,FALSE,,--,--,--,--,--,--,--,
+,,2,testRace3,TRUE,FALSE,,--,--,--,--,--,--,--,
+,,,Statistic description:
+,,1. ,testRace1,in scriptfile,not in benchmarks;
+,,2. ,testRace3,in scriptfile,not in benchmarks;
+,,,Races details:
+
+DATE:,2017-03-22 21:30:50
+TOOL:,CalFuzzer
+,,No.,USECASE NAME,IS IN BENCHMARKS,IS IN SCRIPTFILE,TOTAL RACES,FOUNDED RACES,MISSING RACES,EXTRA RACES,PRECISION,FNR,FPR,
+,,1,testRace1,TRUE,FALSE,,--,--,--,--,--,--,--,
+,,2,testRace3,TRUE,FALSE,,--,--,--,--,--,--,--,
+,,,Statistic description:
+,,1. ,testRace1,in scriptfile,not in benchmarks;
+,,2. ,testRace3,in scriptfile,not in benchmarks;
+,,,Races details:
+
+DATE:,2017-03-22 21:31:14
+TOOL:,CalFuzzer
+,,No.,USECASE NAME,IS IN BENCHMARKS,IS IN SCRIPTFILE,TOTAL RACES,FOUNDED RACES,MISSING RACES,EXTRA RACES,PRECISION,FNR,FPR,
+,,1,testRace1,TRUE,FALSE,,--,--,--,--,--,--,--,
+,,2,testRace3,TRUE,FALSE,,--,--,--,--,--,--,--,
+,,,Statistic description:
+,,1. ,testRace1,in scriptfile,not in benchmarks;
+,,2. ,testRace3,in scriptfile,not in benchmarks;
+,,,Races details:
+
+DATE:,2017-03-22 21:38:31
+TOOL:,CalFuzzer
+,,No.,USECASE NAME,IS IN BENCHMARKS,IS IN SCRIPTFILE,TOTAL RACES,FOUNDED RACES,MISSING RACES,EXTRA RACES,PRECISION,FNR,FPR,
+,,1,testRace1,TRUE,FALSE,,--,--,--,--,--,--,--,
+,,2,testRace3,TRUE,FALSE,,--,--,--,--,--,--,--,
+,,,Statistic description:
+,,1. ,testRace1,in scriptfile,not in benchmarks;
+,,2. ,testRace3,in scriptfile,not in benchmarks;
+,,,Races details:
+
+DATE:,2017-03-22 21:43:35
+TOOL:,CalFuzzer
+,,No.,USECASE NAME,IS IN BENCHMARKS,IS IN SCRIPTFILE,TOTAL RACES,FOUNDED RACES,MISSING RACES,EXTRA RACES,PRECISION,FNR,FPR,
+,,1,testRace1,TRUE,FALSE,,--,--,--,--,--,--,--,
+,,2,testRace3,TRUE,FALSE,,--,--,--,--,--,--,--,
+,,,Statistic description:
+,,1. ,testRace1,in scriptfile,not in benchmarks;
+,,2. ,testRace3,in scriptfile,not in benchmarks;
+,,,Races details:
+
+DATE:,2017-03-22 21:45:33
+TOOL:,CalFuzzer
+,,No.,USECASE NAME,IS IN BENCHMARKS,IS IN SCRIPTFILE,TOTAL RACES,FOUNDED RACES,MISSING RACES,EXTRA RACES,PRECISION,FNR,FPR,
+,,1,testRace1,TRUE,FALSE,,--,--,--,--,--,--,--,
+,,2,testRace3,TRUE,FALSE,,--,--,--,--,--,--,--,
+,,,Statistic description:
+,,1. ,testRace1,in scriptfile,not in benchmarks;
+,,2. ,testRace3,in scriptfile,not in benchmarks;
+,,,Races details:
+
+DATE:,2017-03-22 21:46:48
+TOOL:,CalFuzzer
+,,No.,USECASE NAME,IS IN BENCHMARKS,IS IN SCRIPTFILE,TOTAL RACES,FOUNDED RACES,MISSING RACES,EXTRA RACES,PRECISION,FNR,FPR,
+,,1,testRace1,TRUE,FALSE,,--,--,--,--,--,--,--,
+,,2,testRace3,TRUE,FALSE,,--,--,--,--,--,--,--,
+,,,Statistic description:
+,,1. ,testRace1,in scriptfile,not in benchmarks;
+,,2. ,testRace3,in scriptfile,not in benchmarks;
+,,,Races details:
+
+DATE:,2017-03-22 21:56:01
+TOOL:,CalFuzzer
+,,No.,USECASE NAME,IS IN BENCHMARKS,IS IN SCRIPTFILE,TOTAL RACES,FOUNDED RACES,MISSING RACES,EXTRA RACES,PRECISION,FNR,FPR,
+,,1,testRace1,TRUE,FALSE,,--,--,--,--,--,--,--,
+,,2,testRace3,TRUE,FALSE,,--,--,--,--,--,--,--,
+,,,Statistic description:
+,,1. ,testRace1,in scriptfile,not in benchmarks;
+,,2. ,testRace3,in scriptfile,not in benchmarks;
+,,,Races details:
+
+DATE:,2017-03-22 21:56:34
+TOOL:,CalFuzzer
+,,No.,USECASE NAME,IS IN BENCHMARKS,IS IN SCRIPTFILE,TOTAL RACES,FOUNDED RACES,MISSING RACES,EXTRA RACES,PRECISION,FNR,FPR,
+,,1,testRace1,TRUE,FALSE,,--,--,--,--,--,--,--,
+,,2,testRace3,TRUE,FALSE,,--,--,--,--,--,--,--,
+,,,Statistic description:
+,,1. ,testRace1,in scriptfile,not in benchmarks;
+,,2. ,testRace3,in scriptfile,not in benchmarks;
+,,,Races details:
+
+DATE:,2017-03-22 21:57:11
+TOOL:,CalFuzzer
+,,No.,USECASE NAME,IS IN BENCHMARKS,IS IN SCRIPTFILE,TOTAL RACES,FOUNDED RACES,MISSING RACES,EXTRA RACES,PRECISION,FNR,FPR,
+,,1,testRace1,TRUE,FALSE,,--,--,--,--,--,--,--,
+,,2,testRace3,TRUE,FALSE,,--,--,--,--,--,--,--,
+,,,Statistic description:
+,,1. ,testRace1,in scriptfile,not in benchmarks;
+,,2. ,testRace3,in scriptfile,not in benchmarks;
+,,,Races details:
+
+DATE:,2017-03-22 21:57:47
+TOOL:,CalFuzzer
+,,No.,USECASE NAME,IS IN BENCHMARKS,IS IN SCRIPTFILE,TOTAL RACES,FOUNDED RACES,MISSING RACES,EXTRA RACES,PRECISION,FNR,FPR,
+,,1,testRace1,TRUE,FALSE,,--,--,--,--,--,--,--,
+,,2,testRace3,TRUE,FALSE,,--,--,--,--,--,--,--,
+,,,Statistic description:
+,,1. ,testRace1,in scriptfile,not in benchmarks;
+,,2. ,testRace3,in scriptfile,not in benchmarks;
+,,,Races details:
+
+DATE:,2017-03-22 21:58:31
+TOOL:,CalFuzzer
+,,No.,USECASE NAME,IS IN BENCHMARKS,IS IN SCRIPTFILE,TOTAL RACES,FOUNDED RACES,MISSING RACES,EXTRA RACES,PRECISION,FNR,FPR,
+,,1,testRace1,TRUE,FALSE,,--,--,--,--,--,--,--,
+,,2,testRace3,TRUE,FALSE,,--,--,--,--,--,--,--,
+,,,Statistic description:
+,,1. ,testRace1,in scriptfile,not in benchmarks;
+,,2. ,testRace3,in scriptfile,not in benchmarks;
+,,,Races details:
+
+DATE:,2017-03-22 21:59:10
+TOOL:,CalFuzzer
+,,No.,USECASE NAME,IS IN BENCHMARKS,IS IN SCRIPTFILE,TOTAL RACES,FOUNDED RACES,MISSING RACES,EXTRA RACES,PRECISION,FNR,FPR,
+,,1,testRace1,TRUE,TRUE,4,0,4,1,0%,100%,误报率是100%,
+,,2,testRace3,TRUE,TRUE,5,0,5,0,0%,100%,误报率是100%,
+,,3,CASE3,FALSE,TRUE,--,--,--,--,--,--,--,
+,,4,CASE4,FALSE,TRUE,--,--,--,--,--,--,--,
+,,5,CASE5,FALSE,TRUE,--,--,--,--,--,--,--,
+,,6,CASE6,FALSE,TRUE,--,--,--,--,--,--,--,
+,,7,CASE7,FALSE,TRUE,--,--,--,--,--,--,--,
+,,8,CASE8,FALSE,TRUE,--,--,--,--,--,--,--,
+,,9,CASE9,FALSE,TRUE,--,--,--,--,--,--,--,
+,,10,CASE10,FALSE,TRUE,--,--,--,--,--,--,--,
+,,11,CASE11,FALSE,TRUE,--,--,--,--,--,--,--,
+,,,Statistic description:
+,,1,testRace1,total 4 races;,0 right race;,4 missing race;,1 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,2,testRace3,total 5 races;,0 right race;,5 missing race;,0 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,3. ,CASE3,is not in benchmarks;
+,,4. ,CASE4,is not in benchmarks;
+,,5. ,CASE5,is not in benchmarks;
+,,6. ,CASE6,is not in benchmarks;
+,,7. ,CASE7,is not in benchmarks;
+,,8. ,CASE8,is not in benchmarks;
+,,9. ,CASE9,is not in benchmarks;
+,,10. ,CASE10,is not in benchmarks;
+,,11. ,CASE11,is not in benchmarks;
+,,,Races details:
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace1,1,missing,null,111,1111,null,null,
+,,,,2,missing,null,22,22,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,1,2,null,null,
+,,,,5,additional,null,41,47,null,null,
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace3,1,missing,null,22,22,null,null,
+,,,,2,missing,null,44,44,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,33,33,null,null,
+,,,,5,missing,null,11,11,null,null,
+
+DATE:,2017-03-22 22:00:10
+TOOL:,CalFuzzer
+,,No.,USECASE NAME,IS IN BENCHMARKS,IS IN SCRIPTFILE,TOTAL RACES,FOUNDED RACES,MISSING RACES,EXTRA RACES,PRECISION,FNR,FPR,
+,,1,testRace1,TRUE,TRUE,4,0,4,1,0%,100%,误报率是100%,
+,,2,testRace3,TRUE,TRUE,5,0,5,0,0%,100%,误报率是100%,
+,,3,CASE3,FALSE,TRUE,--,--,--,--,--,--,--,
+,,4,CASE4,FALSE,TRUE,--,--,--,--,--,--,--,
+,,5,CASE5,FALSE,TRUE,--,--,--,--,--,--,--,
+,,6,CASE6,FALSE,TRUE,--,--,--,--,--,--,--,
+,,7,CASE7,FALSE,TRUE,--,--,--,--,--,--,--,
+,,8,CASE8,FALSE,TRUE,--,--,--,--,--,--,--,
+,,9,CASE9,FALSE,TRUE,--,--,--,--,--,--,--,
+,,10,CASE10,FALSE,TRUE,--,--,--,--,--,--,--,
+,,11,CASE11,FALSE,TRUE,--,--,--,--,--,--,--,
+,,,Statistic description:
+,,1,testRace1,total 4 races;,0 right race;,4 missing race;,1 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,2,testRace3,total 5 races;,0 right race;,5 missing race;,0 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,3. ,CASE3,is not in benchmarks;
+,,4. ,CASE4,is not in benchmarks;
+,,5. ,CASE5,is not in benchmarks;
+,,6. ,CASE6,is not in benchmarks;
+,,7. ,CASE7,is not in benchmarks;
+,,8. ,CASE8,is not in benchmarks;
+,,9. ,CASE9,is not in benchmarks;
+,,10. ,CASE10,is not in benchmarks;
+,,11. ,CASE11,is not in benchmarks;
+,,,Races details:
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace1,1,missing,null,111,1111,null,null,
+,,,,2,missing,null,22,22,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,1,2,null,null,
+,,,,5,additional,null,41,47,null,null,
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace3,1,missing,null,22,22,null,null,
+,,,,2,missing,null,44,44,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,33,33,null,null,
+,,,,5,missing,null,11,11,null,null,
+
+DATE:,2017-03-22 22:01:04
+TOOL:,CalFuzzer
+,,No.,USECASE NAME,IS IN BENCHMARKS,IS IN SCRIPTFILE,TOTAL RACES,FOUNDED RACES,MISSING RACES,EXTRA RACES,PRECISION,FNR,FPR,
+,,1,testRace1,TRUE,TRUE,4,0,4,1,0%,100%,误报率是100%,
+,,2,testRace3,TRUE,TRUE,5,0,5,0,0%,100%,误报率是100%,
+,,3,CASE3,FALSE,TRUE,--,--,--,--,--,--,--,
+,,4,CASE4,FALSE,TRUE,--,--,--,--,--,--,--,
+,,5,CASE5,FALSE,TRUE,--,--,--,--,--,--,--,
+,,6,CASE6,FALSE,TRUE,--,--,--,--,--,--,--,
+,,7,CASE7,FALSE,TRUE,--,--,--,--,--,--,--,
+,,8,CASE8,FALSE,TRUE,--,--,--,--,--,--,--,
+,,9,CASE9,FALSE,TRUE,--,--,--,--,--,--,--,
+,,10,CASE10,FALSE,TRUE,--,--,--,--,--,--,--,
+,,11,CASE11,FALSE,TRUE,--,--,--,--,--,--,--,
+,,,Statistic description:
+,,1,testRace1,total 4 races;,0 right race;,4 missing race;,1 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,2,testRace3,total 5 races;,0 right race;,5 missing race;,0 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,3. ,CASE3,is not in benchmarks;
+,,4. ,CASE4,is not in benchmarks;
+,,5. ,CASE5,is not in benchmarks;
+,,6. ,CASE6,is not in benchmarks;
+,,7. ,CASE7,is not in benchmarks;
+,,8. ,CASE8,is not in benchmarks;
+,,9. ,CASE9,is not in benchmarks;
+,,10. ,CASE10,is not in benchmarks;
+,,11. ,CASE11,is not in benchmarks;
+,,,Races details:
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace1,1,missing,null,111,1111,null,null,
+,,,,2,missing,null,22,22,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,1,2,null,null,
+,,,,5,additional,null,41,47,null,null,
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace3,1,missing,null,22,22,null,null,
+,,,,2,missing,null,44,44,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,33,33,null,null,
+,,,,5,missing,null,11,11,null,null,
+
+DATE:,2017-03-22 22:01:15
+TOOL:,CalFuzzer
+,,No.,USECASE NAME,IS IN BENCHMARKS,IS IN SCRIPTFILE,TOTAL RACES,FOUNDED RACES,MISSING RACES,EXTRA RACES,PRECISION,FNR,FPR,
+,,1,testRace1,TRUE,TRUE,4,0,4,1,0%,100%,误报率是100%,
+,,2,testRace3,TRUE,TRUE,5,0,5,0,0%,100%,误报率是100%,
+,,3,CASE3,FALSE,TRUE,--,--,--,--,--,--,--,
+,,4,CASE4,FALSE,TRUE,--,--,--,--,--,--,--,
+,,5,CASE5,FALSE,TRUE,--,--,--,--,--,--,--,
+,,6,CASE6,FALSE,TRUE,--,--,--,--,--,--,--,
+,,7,CASE7,FALSE,TRUE,--,--,--,--,--,--,--,
+,,8,CASE8,FALSE,TRUE,--,--,--,--,--,--,--,
+,,9,CASE9,FALSE,TRUE,--,--,--,--,--,--,--,
+,,10,CASE10,FALSE,TRUE,--,--,--,--,--,--,--,
+,,11,CASE11,FALSE,TRUE,--,--,--,--,--,--,--,
+,,,Statistic description:
+,,1,testRace1,total 4 races;,0 right race;,4 missing race;,1 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,2,testRace3,total 5 races;,0 right race;,5 missing race;,0 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,3. ,CASE3,is not in benchmarks;
+,,4. ,CASE4,is not in benchmarks;
+,,5. ,CASE5,is not in benchmarks;
+,,6. ,CASE6,is not in benchmarks;
+,,7. ,CASE7,is not in benchmarks;
+,,8. ,CASE8,is not in benchmarks;
+,,9. ,CASE9,is not in benchmarks;
+,,10. ,CASE10,is not in benchmarks;
+,,11. ,CASE11,is not in benchmarks;
+,,,Races details:
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace1,1,missing,null,111,1111,null,null,
+,,,,2,missing,null,22,22,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,1,2,null,null,
+,,,,5,additional,null,41,47,null,null,
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace3,1,missing,null,22,22,null,null,
+,,,,2,missing,null,44,44,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,33,33,null,null,
+,,,,5,missing,null,11,11,null,null,
+
+DATE:,2017-03-22 22:01:39
+TOOL:,CalFuzzer
+,,No.,USECASE NAME,IS IN BENCHMARKS,IS IN SCRIPTFILE,TOTAL RACES,FOUNDED RACES,MISSING RACES,EXTRA RACES,PRECISION,FNR,FPR,
+,,1,testRace1,TRUE,TRUE,4,0,4,1,0%,100%,误报率是100%,
+,,2,testRace3,TRUE,TRUE,5,0,5,0,0%,100%,误报率是100%,
+,,3,CASE3,FALSE,TRUE,--,--,--,--,--,--,--,
+,,4,CASE4,FALSE,TRUE,--,--,--,--,--,--,--,
+,,5,CASE5,FALSE,TRUE,--,--,--,--,--,--,--,
+,,6,CASE6,FALSE,TRUE,--,--,--,--,--,--,--,
+,,7,CASE7,FALSE,TRUE,--,--,--,--,--,--,--,
+,,8,CASE8,FALSE,TRUE,--,--,--,--,--,--,--,
+,,9,CASE9,FALSE,TRUE,--,--,--,--,--,--,--,
+,,10,CASE10,FALSE,TRUE,--,--,--,--,--,--,--,
+,,11,CASE11,FALSE,TRUE,--,--,--,--,--,--,--,
+,,,Statistic description:
+,,1,testRace1,total 4 races;,0 right race;,4 missing race;,1 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,2,testRace3,total 5 races;,0 right race;,5 missing race;,0 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,3. ,CASE3,is not in benchmarks;
+,,4. ,CASE4,is not in benchmarks;
+,,5. ,CASE5,is not in benchmarks;
+,,6. ,CASE6,is not in benchmarks;
+,,7. ,CASE7,is not in benchmarks;
+,,8. ,CASE8,is not in benchmarks;
+,,9. ,CASE9,is not in benchmarks;
+,,10. ,CASE10,is not in benchmarks;
+,,11. ,CASE11,is not in benchmarks;
+,,,Races details:
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace1,1,missing,null,111,1111,null,null,
+,,,,2,missing,null,22,22,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,1,2,null,null,
+,,,,5,additional,null,41,47,null,null,
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace3,1,missing,null,22,22,null,null,
+,,,,2,missing,null,44,44,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,33,33,null,null,
+,,,,5,missing,null,11,11,null,null,
+
+DATE:,2017-03-22 22:01:58
+TOOL:,CalFuzzer
+,,No.,USECASE NAME,IS IN BENCHMARKS,IS IN SCRIPTFILE,TOTAL RACES,FOUNDED RACES,MISSING RACES,EXTRA RACES,PRECISION,FNR,FPR,
+,,1,testRace1,TRUE,TRUE,4,0,4,1,0%,100%,误报率是100%,
+,,2,testRace3,TRUE,TRUE,5,0,5,0,0%,100%,误报率是100%,
+,,3,CASE3,FALSE,TRUE,--,--,--,--,--,--,--,
+,,4,CASE4,FALSE,TRUE,--,--,--,--,--,--,--,
+,,5,CASE5,FALSE,TRUE,--,--,--,--,--,--,--,
+,,6,CASE6,FALSE,TRUE,--,--,--,--,--,--,--,
+,,7,CASE7,FALSE,TRUE,--,--,--,--,--,--,--,
+,,8,CASE8,FALSE,TRUE,--,--,--,--,--,--,--,
+,,9,CASE9,FALSE,TRUE,--,--,--,--,--,--,--,
+,,10,CASE10,FALSE,TRUE,--,--,--,--,--,--,--,
+,,11,CASE11,FALSE,TRUE,--,--,--,--,--,--,--,
+,,,Statistic description:
+,,1,testRace1,total 4 races;,0 right race;,4 missing race;,1 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,2,testRace3,total 5 races;,0 right race;,5 missing race;,0 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,3. ,CASE3,is not in benchmarks;
+,,4. ,CASE4,is not in benchmarks;
+,,5. ,CASE5,is not in benchmarks;
+,,6. ,CASE6,is not in benchmarks;
+,,7. ,CASE7,is not in benchmarks;
+,,8. ,CASE8,is not in benchmarks;
+,,9. ,CASE9,is not in benchmarks;
+,,10. ,CASE10,is not in benchmarks;
+,,11. ,CASE11,is not in benchmarks;
+,,,Races details:
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace1,1,missing,null,111,1111,null,null,
+,,,,2,missing,null,22,22,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,1,2,null,null,
+,,,,5,additional,null,41,47,null,null,
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace3,1,missing,null,22,22,null,null,
+,,,,2,missing,null,44,44,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,33,33,null,null,
+,,,,5,missing,null,11,11,null,null,
+
+DATE:,2017-03-22 22:02:18
+TOOL:,CalFuzzer
+,,No.,USECASE NAME,IS IN BENCHMARKS,IS IN SCRIPTFILE,TOTAL RACES,FOUNDED RACES,MISSING RACES,EXTRA RACES,PRECISION,FNR,FPR,
+,,1,testRace1,TRUE,TRUE,4,0,4,1,0%,100%,误报率是100%,
+,,2,testRace3,TRUE,TRUE,5,0,5,0,0%,100%,误报率是100%,
+,,3,CASE3,FALSE,TRUE,--,--,--,--,--,--,--,
+,,4,CASE4,FALSE,TRUE,--,--,--,--,--,--,--,
+,,5,CASE5,FALSE,TRUE,--,--,--,--,--,--,--,
+,,6,CASE6,FALSE,TRUE,--,--,--,--,--,--,--,
+,,7,CASE7,FALSE,TRUE,--,--,--,--,--,--,--,
+,,8,CASE8,FALSE,TRUE,--,--,--,--,--,--,--,
+,,9,CASE9,FALSE,TRUE,--,--,--,--,--,--,--,
+,,10,CASE10,FALSE,TRUE,--,--,--,--,--,--,--,
+,,11,CASE11,FALSE,TRUE,--,--,--,--,--,--,--,
+,,,Statistic description:
+,,1,testRace1,total 4 races;,0 right race;,4 missing race;,1 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,2,testRace3,total 5 races;,0 right race;,5 missing race;,0 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,3. ,CASE3,is not in benchmarks;
+,,4. ,CASE4,is not in benchmarks;
+,,5. ,CASE5,is not in benchmarks;
+,,6. ,CASE6,is not in benchmarks;
+,,7. ,CASE7,is not in benchmarks;
+,,8. ,CASE8,is not in benchmarks;
+,,9. ,CASE9,is not in benchmarks;
+,,10. ,CASE10,is not in benchmarks;
+,,11. ,CASE11,is not in benchmarks;
+,,,Races details:
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace1,1,missing,null,111,1111,null,null,
+,,,,2,missing,null,22,22,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,1,2,null,null,
+,,,,5,additional,null,41,47,null,null,
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace3,1,missing,null,22,22,null,null,
+,,,,2,missing,null,44,44,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,33,33,null,null,
+,,,,5,missing,null,11,11,null,null,
+
+DATE:,2017-03-22 22:02:30
+TOOL:,CalFuzzer
+,,No.,USECASE NAME,IS IN BENCHMARKS,IS IN SCRIPTFILE,TOTAL RACES,FOUNDED RACES,MISSING RACES,EXTRA RACES,PRECISION,FNR,FPR,
+,,1,testRace1,TRUE,TRUE,4,0,4,1,0%,100%,误报率是100%,
+,,2,testRace3,TRUE,TRUE,5,0,5,0,0%,100%,误报率是100%,
+,,3,CASE3,FALSE,TRUE,--,--,--,--,--,--,--,
+,,4,CASE4,FALSE,TRUE,--,--,--,--,--,--,--,
+,,5,CASE5,FALSE,TRUE,--,--,--,--,--,--,--,
+,,6,CASE6,FALSE,TRUE,--,--,--,--,--,--,--,
+,,7,CASE7,FALSE,TRUE,--,--,--,--,--,--,--,
+,,8,CASE8,FALSE,TRUE,--,--,--,--,--,--,--,
+,,9,CASE9,FALSE,TRUE,--,--,--,--,--,--,--,
+,,10,CASE10,FALSE,TRUE,--,--,--,--,--,--,--,
+,,11,CASE11,FALSE,TRUE,--,--,--,--,--,--,--,
+,,,Statistic description:
+,,1,testRace1,total 4 races;,0 right race;,4 missing race;,1 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,2,testRace3,total 5 races;,0 right race;,5 missing race;,0 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,3. ,CASE3,is not in benchmarks;
+,,4. ,CASE4,is not in benchmarks;
+,,5. ,CASE5,is not in benchmarks;
+,,6. ,CASE6,is not in benchmarks;
+,,7. ,CASE7,is not in benchmarks;
+,,8. ,CASE8,is not in benchmarks;
+,,9. ,CASE9,is not in benchmarks;
+,,10. ,CASE10,is not in benchmarks;
+,,11. ,CASE11,is not in benchmarks;
+,,,Races details:
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace1,1,missing,null,111,1111,null,null,
+,,,,2,missing,null,22,22,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,1,2,null,null,
+,,,,5,additional,null,41,47,null,null,
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace3,1,missing,null,22,22,null,null,
+,,,,2,missing,null,44,44,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,33,33,null,null,
+,,,,5,missing,null,11,11,null,null,
+
+DATE:,2017-03-22 22:05:48
+TOOL:,CalFuzzer
+,,No.,USECASE NAME,IS IN BENCHMARKS,IS IN SCRIPTFILE,TOTAL RACES,FOUNDED RACES,MISSING RACES,EXTRA RACES,PRECISION,FNR,FPR,
+,,1,testRace1,TRUE,TRUE,4,0,4,1,0%,100%,误报率是100%,
+,,2,testRace3,TRUE,TRUE,5,0,5,0,0%,100%,误报率是100%,
+,,3,CASE3,FALSE,TRUE,--,--,--,--,--,--,--,
+,,4,CASE4,FALSE,TRUE,--,--,--,--,--,--,--,
+,,5,CASE5,FALSE,TRUE,--,--,--,--,--,--,--,
+,,6,CASE6,FALSE,TRUE,--,--,--,--,--,--,--,
+,,7,CASE7,FALSE,TRUE,--,--,--,--,--,--,--,
+,,8,CASE8,FALSE,TRUE,--,--,--,--,--,--,--,
+,,9,CASE9,FALSE,TRUE,--,--,--,--,--,--,--,
+,,10,CASE10,FALSE,TRUE,--,--,--,--,--,--,--,
+,,11,CASE11,FALSE,TRUE,--,--,--,--,--,--,--,
+,,,Statistic description:
+,,1,testRace1,total 4 races;,0 right race;,4 missing race;,1 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,2,testRace3,total 5 races;,0 right race;,5 missing race;,0 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,3. ,CASE3,is not in benchmarks;
+,,4. ,CASE4,is not in benchmarks;
+,,5. ,CASE5,is not in benchmarks;
+,,6. ,CASE6,is not in benchmarks;
+,,7. ,CASE7,is not in benchmarks;
+,,8. ,CASE8,is not in benchmarks;
+,,9. ,CASE9,is not in benchmarks;
+,,10. ,CASE10,is not in benchmarks;
+,,11. ,CASE11,is not in benchmarks;
+,,,Races details:
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace1,1,missing,null,111,1111,null,null,
+,,,,2,missing,null,22,22,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,1,2,null,null,
+,,,,5,additional,null,41,47,null,null,
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace3,1,missing,null,22,22,null,null,
+,,,,2,missing,null,44,44,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,33,33,null,null,
+,,,,5,missing,null,11,11,null,null,
+
+DATE:,2017-03-22 22:07:09
+TOOL:,CalFuzzer
+,,No.,USECASE NAME,IS IN BENCHMARKS,IS IN SCRIPTFILE,TOTAL RACES,FOUNDED RACES,MISSING RACES,EXTRA RACES,PRECISION,FNR,FPR,
+,,1,testRace1,TRUE,TRUE,4,0,4,1,0%,100%,误报率是100%,
+,,2,testRace3,TRUE,TRUE,5,0,5,0,0%,100%,误报率是100%,
+,,3,CASE3,FALSE,TRUE,--,--,--,--,--,--,--,
+,,4,CASE4,FALSE,TRUE,--,--,--,--,--,--,--,
+,,5,CASE5,FALSE,TRUE,--,--,--,--,--,--,--,
+,,6,CASE6,FALSE,TRUE,--,--,--,--,--,--,--,
+,,7,CASE7,FALSE,TRUE,--,--,--,--,--,--,--,
+,,8,CASE8,FALSE,TRUE,--,--,--,--,--,--,--,
+,,9,CASE9,FALSE,TRUE,--,--,--,--,--,--,--,
+,,10,CASE10,FALSE,TRUE,--,--,--,--,--,--,--,
+,,11,CASE11,FALSE,TRUE,--,--,--,--,--,--,--,
+,,,Statistic description:
+,,1,testRace1,total 4 races;,0 right race;,4 missing race;,1 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,2,testRace3,total 5 races;,0 right race;,5 missing race;,0 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,3. ,CASE3,is not in benchmarks;
+,,4. ,CASE4,is not in benchmarks;
+,,5. ,CASE5,is not in benchmarks;
+,,6. ,CASE6,is not in benchmarks;
+,,7. ,CASE7,is not in benchmarks;
+,,8. ,CASE8,is not in benchmarks;
+,,9. ,CASE9,is not in benchmarks;
+,,10. ,CASE10,is not in benchmarks;
+,,11. ,CASE11,is not in benchmarks;
+,,,Races details:
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace1,1,missing,null,111,1111,null,null,
+,,,,2,missing,null,22,22,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,1,2,null,null,
+,,,,5,additional,null,41,47,null,null,
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace3,1,missing,null,22,22,null,null,
+,,,,2,missing,null,44,44,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,33,33,null,null,
+,,,,5,missing,null,11,11,null,null,
+
+DATE:,2017-03-22 22:07:51
+TOOL:,CalFuzzer
+,,No.,USECASE NAME,IS IN BENCHMARKS,IS IN SCRIPTFILE,TOTAL RACES,FOUNDED RACES,MISSING RACES,EXTRA RACES,PRECISION,FNR,FPR,
+,,1,testRace1,TRUE,TRUE,4,0,4,1,0%,100%,误报率是100%,
+,,2,testRace3,TRUE,TRUE,5,0,5,0,0%,100%,误报率是100%,
+,,3,CASE3,FALSE,TRUE,--,--,--,--,--,--,--,
+,,4,CASE4,FALSE,TRUE,--,--,--,--,--,--,--,
+,,5,CASE5,FALSE,TRUE,--,--,--,--,--,--,--,
+,,6,CASE6,FALSE,TRUE,--,--,--,--,--,--,--,
+,,7,CASE7,FALSE,TRUE,--,--,--,--,--,--,--,
+,,8,CASE8,FALSE,TRUE,--,--,--,--,--,--,--,
+,,9,CASE9,FALSE,TRUE,--,--,--,--,--,--,--,
+,,10,CASE10,FALSE,TRUE,--,--,--,--,--,--,--,
+,,11,CASE11,FALSE,TRUE,--,--,--,--,--,--,--,
+,,,Statistic description:
+,,1,testRace1,total 4 races;,0 right race;,4 missing race;,1 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,2,testRace3,total 5 races;,0 right race;,5 missing race;,0 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,3. ,CASE3,is not in benchmarks;
+,,4. ,CASE4,is not in benchmarks;
+,,5. ,CASE5,is not in benchmarks;
+,,6. ,CASE6,is not in benchmarks;
+,,7. ,CASE7,is not in benchmarks;
+,,8. ,CASE8,is not in benchmarks;
+,,9. ,CASE9,is not in benchmarks;
+,,10. ,CASE10,is not in benchmarks;
+,,11. ,CASE11,is not in benchmarks;
+,,,Races details:
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace1,1,missing,null,111,1111,null,null,
+,,,,2,missing,null,22,22,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,1,2,null,null,
+,,,,5,additional,null,41,47,null,null,
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace3,1,missing,null,22,22,null,null,
+,,,,2,missing,null,44,44,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,33,33,null,null,
+,,,,5,missing,null,11,11,null,null,
+
+DATE:,2017-03-22 22:08:02
+TOOL:,CalFuzzer
+,,No.,USECASE NAME,IS IN BENCHMARKS,IS IN SCRIPTFILE,TOTAL RACES,FOUNDED RACES,MISSING RACES,EXTRA RACES,PRECISION,FNR,FPR,
+,,1,testRace1,TRUE,TRUE,4,0,4,1,0%,100%,误报率是100%,
+,,2,testRace3,TRUE,TRUE,5,0,5,0,0%,100%,误报率是100%,
+,,3,CASE3,FALSE,TRUE,--,--,--,--,--,--,--,
+,,4,CASE4,FALSE,TRUE,--,--,--,--,--,--,--,
+,,5,CASE5,FALSE,TRUE,--,--,--,--,--,--,--,
+,,6,CASE6,FALSE,TRUE,--,--,--,--,--,--,--,
+,,7,CASE7,FALSE,TRUE,--,--,--,--,--,--,--,
+,,8,CASE8,FALSE,TRUE,--,--,--,--,--,--,--,
+,,9,CASE9,FALSE,TRUE,--,--,--,--,--,--,--,
+,,10,CASE10,FALSE,TRUE,--,--,--,--,--,--,--,
+,,11,CASE11,FALSE,TRUE,--,--,--,--,--,--,--,
+,,,Statistic description:
+,,1,testRace1,total 4 races;,0 right race;,4 missing race;,1 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,2,testRace3,total 5 races;,0 right race;,5 missing race;,0 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,3. ,CASE3,is not in benchmarks;
+,,4. ,CASE4,is not in benchmarks;
+,,5. ,CASE5,is not in benchmarks;
+,,6. ,CASE6,is not in benchmarks;
+,,7. ,CASE7,is not in benchmarks;
+,,8. ,CASE8,is not in benchmarks;
+,,9. ,CASE9,is not in benchmarks;
+,,10. ,CASE10,is not in benchmarks;
+,,11. ,CASE11,is not in benchmarks;
+,,,Races details:
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace1,1,missing,null,111,1111,null,null,
+,,,,2,missing,null,22,22,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,1,2,null,null,
+,,,,5,additional,null,41,47,null,null,
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace3,1,missing,null,22,22,null,null,
+,,,,2,missing,null,44,44,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,33,33,null,null,
+,,,,5,missing,null,11,11,null,null,
+
+DATE:,2017-03-22 22:08:31
+TOOL:,CalFuzzer
+,,No.,USECASE NAME,IS IN BENCHMARKS,IS IN SCRIPTFILE,TOTAL RACES,FOUNDED RACES,MISSING RACES,EXTRA RACES,PRECISION,FNR,FPR,
+,,1,testRace1,TRUE,TRUE,4,0,4,1,0%,100%,误报率是100%,
+,,2,testRace3,TRUE,TRUE,5,0,5,0,0%,100%,误报率是100%,
+,,3,CASE3,FALSE,TRUE,--,--,--,--,--,--,--,
+,,4,CASE4,FALSE,TRUE,--,--,--,--,--,--,--,
+,,5,CASE5,FALSE,TRUE,--,--,--,--,--,--,--,
+,,6,CASE6,FALSE,TRUE,--,--,--,--,--,--,--,
+,,7,CASE7,FALSE,TRUE,--,--,--,--,--,--,--,
+,,8,CASE8,FALSE,TRUE,--,--,--,--,--,--,--,
+,,9,CASE9,FALSE,TRUE,--,--,--,--,--,--,--,
+,,10,CASE10,FALSE,TRUE,--,--,--,--,--,--,--,
+,,11,CASE11,FALSE,TRUE,--,--,--,--,--,--,--,
+,,,Statistic description:
+,,1,testRace1,total 4 races;,0 right race;,4 missing race;,1 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,2,testRace3,total 5 races;,0 right race;,5 missing race;,0 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,3. ,CASE3,is not in benchmarks;
+,,4. ,CASE4,is not in benchmarks;
+,,5. ,CASE5,is not in benchmarks;
+,,6. ,CASE6,is not in benchmarks;
+,,7. ,CASE7,is not in benchmarks;
+,,8. ,CASE8,is not in benchmarks;
+,,9. ,CASE9,is not in benchmarks;
+,,10. ,CASE10,is not in benchmarks;
+,,11. ,CASE11,is not in benchmarks;
+,,,Races details:
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace1,1,missing,null,111,1111,null,null,
+,,,,2,missing,null,22,22,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,1,2,null,null,
+,,,,5,additional,null,41,47,null,null,
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace3,1,missing,null,22,22,null,null,
+,,,,2,missing,null,44,44,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,33,33,null,null,
+,,,,5,missing,null,11,11,null,null,
+
+DATE:,2017-03-22 22:08:55
+TOOL:,CalFuzzer
+,,No.,USECASE NAME,IS IN BENCHMARKS,IS IN SCRIPTFILE,TOTAL RACES,FOUNDED RACES,MISSING RACES,EXTRA RACES,PRECISION,FNR,FPR,
+,,1,testRace1,TRUE,TRUE,4,0,4,1,0%,100%,误报率是100%,
+,,2,testRace3,TRUE,TRUE,5,0,5,0,0%,100%,误报率是100%,
+,,3,CASE3,FALSE,TRUE,--,--,--,--,--,--,--,
+,,4,CASE4,FALSE,TRUE,--,--,--,--,--,--,--,
+,,5,CASE5,FALSE,TRUE,--,--,--,--,--,--,--,
+,,6,CASE6,FALSE,TRUE,--,--,--,--,--,--,--,
+,,7,CASE7,FALSE,TRUE,--,--,--,--,--,--,--,
+,,8,CASE8,FALSE,TRUE,--,--,--,--,--,--,--,
+,,9,CASE9,FALSE,TRUE,--,--,--,--,--,--,--,
+,,10,CASE10,FALSE,TRUE,--,--,--,--,--,--,--,
+,,11,CASE11,FALSE,TRUE,--,--,--,--,--,--,--,
+,,,Statistic description:
+,,1,testRace1,total 4 races;,0 right race;,4 missing race;,1 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,2,testRace3,total 5 races;,0 right race;,5 missing race;,0 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,3. ,CASE3,is not in benchmarks;
+,,4. ,CASE4,is not in benchmarks;
+,,5. ,CASE5,is not in benchmarks;
+,,6. ,CASE6,is not in benchmarks;
+,,7. ,CASE7,is not in benchmarks;
+,,8. ,CASE8,is not in benchmarks;
+,,9. ,CASE9,is not in benchmarks;
+,,10. ,CASE10,is not in benchmarks;
+,,11. ,CASE11,is not in benchmarks;
+,,,Races details:
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace1,1,missing,null,111,1111,null,null,
+,,,,2,missing,null,22,22,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,1,2,null,null,
+,,,,5,additional,null,41,47,null,null,
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace3,1,missing,null,22,22,null,null,
+,,,,2,missing,null,44,44,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,33,33,null,null,
+,,,,5,missing,null,11,11,null,null,
+
+DATE:,2017-03-22 22:09:14
+TOOL:,CalFuzzer
+,,No.,USECASE NAME,IS IN BENCHMARKS,IS IN SCRIPTFILE,TOTAL RACES,FOUNDED RACES,MISSING RACES,EXTRA RACES,PRECISION,FNR,FPR,
+,,1,testRace1,TRUE,TRUE,4,0,4,1,0%,100%,误报率是100%,
+,,2,testRace3,TRUE,TRUE,5,0,5,0,0%,100%,误报率是100%,
+,,3,CASE3,FALSE,TRUE,--,--,--,--,--,--,--,
+,,4,CASE4,FALSE,TRUE,--,--,--,--,--,--,--,
+,,5,CASE5,FALSE,TRUE,--,--,--,--,--,--,--,
+,,6,CASE6,FALSE,TRUE,--,--,--,--,--,--,--,
+,,7,CASE7,FALSE,TRUE,--,--,--,--,--,--,--,
+,,8,CASE8,FALSE,TRUE,--,--,--,--,--,--,--,
+,,9,CASE9,FALSE,TRUE,--,--,--,--,--,--,--,
+,,10,CASE10,FALSE,TRUE,--,--,--,--,--,--,--,
+,,11,CASE11,FALSE,TRUE,--,--,--,--,--,--,--,
+,,,Statistic description:
+,,1,testRace1,total 4 races;,0 right race;,4 missing race;,1 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,2,testRace3,total 5 races;,0 right race;,5 missing race;,0 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,3. ,CASE3,is not in benchmarks;
+,,4. ,CASE4,is not in benchmarks;
+,,5. ,CASE5,is not in benchmarks;
+,,6. ,CASE6,is not in benchmarks;
+,,7. ,CASE7,is not in benchmarks;
+,,8. ,CASE8,is not in benchmarks;
+,,9. ,CASE9,is not in benchmarks;
+,,10. ,CASE10,is not in benchmarks;
+,,11. ,CASE11,is not in benchmarks;
+,,,Races details:
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace1,1,missing,null,111,1111,null,null,
+,,,,2,missing,null,22,22,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,1,2,null,null,
+,,,,5,additional,null,41,47,null,null,
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace3,1,missing,null,22,22,null,null,
+,,,,2,missing,null,44,44,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,33,33,null,null,
+,,,,5,missing,null,11,11,null,null,
+
+DATE:,2017-03-22 22:09:28
+TOOL:,CalFuzzer
+,,No.,USECASE NAME,IS IN BENCHMARKS,IS IN SCRIPTFILE,TOTAL RACES,FOUNDED RACES,MISSING RACES,EXTRA RACES,PRECISION,FNR,FPR,
+,,1,testRace1,TRUE,TRUE,4,0,4,1,0%,100%,误报率是100%,
+,,2,testRace3,TRUE,TRUE,5,0,5,0,0%,100%,误报率是100%,
+,,3,CASE3,FALSE,TRUE,--,--,--,--,--,--,--,
+,,4,CASE4,FALSE,TRUE,--,--,--,--,--,--,--,
+,,5,CASE5,FALSE,TRUE,--,--,--,--,--,--,--,
+,,6,CASE6,FALSE,TRUE,--,--,--,--,--,--,--,
+,,7,CASE7,FALSE,TRUE,--,--,--,--,--,--,--,
+,,8,CASE8,FALSE,TRUE,--,--,--,--,--,--,--,
+,,9,CASE9,FALSE,TRUE,--,--,--,--,--,--,--,
+,,10,CASE10,FALSE,TRUE,--,--,--,--,--,--,--,
+,,11,CASE11,FALSE,TRUE,--,--,--,--,--,--,--,
+,,,Statistic description:
+,,1,testRace1,total 4 races;,0 right race;,4 missing race;,1 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,2,testRace3,total 5 races;,0 right race;,5 missing race;,0 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,3. ,CASE3,is not in benchmarks;
+,,4. ,CASE4,is not in benchmarks;
+,,5. ,CASE5,is not in benchmarks;
+,,6. ,CASE6,is not in benchmarks;
+,,7. ,CASE7,is not in benchmarks;
+,,8. ,CASE8,is not in benchmarks;
+,,9. ,CASE9,is not in benchmarks;
+,,10. ,CASE10,is not in benchmarks;
+,,11. ,CASE11,is not in benchmarks;
+,,,Races details:
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace1,1,missing,null,111,1111,null,null,
+,,,,2,missing,null,22,22,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,1,2,null,null,
+,,,,5,additional,null,41,47,null,null,
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace3,1,missing,null,22,22,null,null,
+,,,,2,missing,null,44,44,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,33,33,null,null,
+,,,,5,missing,null,11,11,null,null,
+
+DATE:,2017-03-22 22:11:46
+TOOL:,CalFuzzer
+,,No.,USECASE NAME,IS IN BENCHMARKS,IS IN SCRIPTFILE,TOTAL RACES,FOUNDED RACES,MISSING RACES,EXTRA RACES,PRECISION,FNR,FPR,
+,,1,testRace1,TRUE,TRUE,4,0,4,1,0%,100%,误报率是100%,
+,,2,testRace3,TRUE,TRUE,5,0,5,0,0%,100%,误报率是100%,
+,,3,CASE3,FALSE,TRUE,--,--,--,--,--,--,--,
+,,4,CASE4,FALSE,TRUE,--,--,--,--,--,--,--,
+,,5,CASE5,FALSE,TRUE,--,--,--,--,--,--,--,
+,,6,CASE6,FALSE,TRUE,--,--,--,--,--,--,--,
+,,7,CASE7,FALSE,TRUE,--,--,--,--,--,--,--,
+,,8,CASE8,FALSE,TRUE,--,--,--,--,--,--,--,
+,,9,CASE9,FALSE,TRUE,--,--,--,--,--,--,--,
+,,10,CASE10,FALSE,TRUE,--,--,--,--,--,--,--,
+,,11,CASE11,FALSE,TRUE,--,--,--,--,--,--,--,
+,,,Statistic description:
+,,1,testRace1,total 4 races;,0 right race;,4 missing race;,1 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,2,testRace3,total 5 races;,0 right race;,5 missing race;,0 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,3. ,CASE3,is not in benchmarks;
+,,4. ,CASE4,is not in benchmarks;
+,,5. ,CASE5,is not in benchmarks;
+,,6. ,CASE6,is not in benchmarks;
+,,7. ,CASE7,is not in benchmarks;
+,,8. ,CASE8,is not in benchmarks;
+,,9. ,CASE9,is not in benchmarks;
+,,10. ,CASE10,is not in benchmarks;
+,,11. ,CASE11,is not in benchmarks;
+,,,Races details:
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace1,1,missing,null,111,1111,null,null,
+,,,,2,missing,null,22,22,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,1,2,null,null,
+,,,,5,additional,null,41,47,null,null,
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace3,1,missing,null,22,22,null,null,
+,,,,2,missing,null,44,44,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,33,33,null,null,
+,,,,5,missing,null,11,11,null,null,
+
+DATE:,2017-03-22 22:13:06
+TOOL:,CalFuzzer
+,,No.,USECASE NAME,IS IN BENCHMARKS,IS IN SCRIPTFILE,TOTAL RACES,FOUNDED RACES,MISSING RACES,EXTRA RACES,PRECISION,FNR,FPR,
+,,1,testRace1,TRUE,TRUE,4,0,4,1,0%,100%,误报率是100%,
+,,2,testRace3,TRUE,TRUE,5,0,5,0,0%,100%,误报率是100%,
+,,3,CASE3,FALSE,TRUE,--,--,--,--,--,--,--,
+,,4,CASE4,FALSE,TRUE,--,--,--,--,--,--,--,
+,,5,CASE5,FALSE,TRUE,--,--,--,--,--,--,--,
+,,6,CASE6,FALSE,TRUE,--,--,--,--,--,--,--,
+,,7,CASE7,FALSE,TRUE,--,--,--,--,--,--,--,
+,,8,CASE8,FALSE,TRUE,--,--,--,--,--,--,--,
+,,9,CASE9,FALSE,TRUE,--,--,--,--,--,--,--,
+,,10,CASE10,FALSE,TRUE,--,--,--,--,--,--,--,
+,,11,CASE11,FALSE,TRUE,--,--,--,--,--,--,--,
+,,,Statistic description:
+,,1,testRace1,total 4 races;,0 right race;,4 missing race;,1 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,2,testRace3,total 5 races;,0 right race;,5 missing race;,0 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,3. ,CASE3,is not in benchmarks;
+,,4. ,CASE4,is not in benchmarks;
+,,5. ,CASE5,is not in benchmarks;
+,,6. ,CASE6,is not in benchmarks;
+,,7. ,CASE7,is not in benchmarks;
+,,8. ,CASE8,is not in benchmarks;
+,,9. ,CASE9,is not in benchmarks;
+,,10. ,CASE10,is not in benchmarks;
+,,11. ,CASE11,is not in benchmarks;
+,,,Races details:
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace1,1,missing,null,111,1111,null,null,
+,,,,2,missing,null,22,22,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,1,2,null,null,
+,,,,5,additional,null,41,47,null,null,
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace3,1,missing,null,22,22,null,null,
+,,,,2,missing,null,44,44,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,33,33,null,null,
+,,,,5,missing,null,11,11,null,null,
+
+DATE:,2017-03-22 22:13:19
+TOOL:,CalFuzzer
+,,No.,USECASE NAME,IS IN BENCHMARKS,IS IN SCRIPTFILE,TOTAL RACES,FOUNDED RACES,MISSING RACES,EXTRA RACES,PRECISION,FNR,FPR,
+,,1,testRace1,TRUE,TRUE,4,0,4,1,0%,100%,误报率是100%,
+,,2,testRace3,TRUE,TRUE,5,0,5,0,0%,100%,误报率是100%,
+,,3,CASE3,FALSE,TRUE,--,--,--,--,--,--,--,
+,,4,CASE4,FALSE,TRUE,--,--,--,--,--,--,--,
+,,5,CASE5,FALSE,TRUE,--,--,--,--,--,--,--,
+,,6,CASE6,FALSE,TRUE,--,--,--,--,--,--,--,
+,,7,CASE7,FALSE,TRUE,--,--,--,--,--,--,--,
+,,8,CASE8,FALSE,TRUE,--,--,--,--,--,--,--,
+,,9,CASE9,FALSE,TRUE,--,--,--,--,--,--,--,
+,,10,CASE10,FALSE,TRUE,--,--,--,--,--,--,--,
+,,11,CASE11,FALSE,TRUE,--,--,--,--,--,--,--,
+,,,Statistic description:
+,,1,testRace1,total 4 races;,0 right race;,4 missing race;,1 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,2,testRace3,total 5 races;,0 right race;,5 missing race;,0 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,3. ,CASE3,is not in benchmarks;
+,,4. ,CASE4,is not in benchmarks;
+,,5. ,CASE5,is not in benchmarks;
+,,6. ,CASE6,is not in benchmarks;
+,,7. ,CASE7,is not in benchmarks;
+,,8. ,CASE8,is not in benchmarks;
+,,9. ,CASE9,is not in benchmarks;
+,,10. ,CASE10,is not in benchmarks;
+,,11. ,CASE11,is not in benchmarks;
+,,,Races details:
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace1,1,missing,null,111,1111,null,null,
+,,,,2,missing,null,22,22,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,1,2,null,null,
+,,,,5,additional,null,41,47,null,null,
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace3,1,missing,null,22,22,null,null,
+,,,,2,missing,null,44,44,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,33,33,null,null,
+,,,,5,missing,null,11,11,null,null,
+
+DATE:,2017-03-22 22:14:54
+TOOL:,CalFuzzer
+,,No.,USECASE NAME,IS IN BENCHMARKS,IS IN SCRIPTFILE,TOTAL RACES,FOUNDED RACES,MISSING RACES,EXTRA RACES,PRECISION,FNR,FPR,
+,,1,testRace1,TRUE,TRUE,4,0,4,1,0%,100%,误报率是100%,
+,,2,testRace3,TRUE,TRUE,5,0,5,0,0%,100%,误报率是100%,
+,,3,CASE3,FALSE,TRUE,--,--,--,--,--,--,--,
+,,4,CASE4,FALSE,TRUE,--,--,--,--,--,--,--,
+,,5,CASE5,FALSE,TRUE,--,--,--,--,--,--,--,
+,,6,CASE6,FALSE,TRUE,--,--,--,--,--,--,--,
+,,7,CASE7,FALSE,TRUE,--,--,--,--,--,--,--,
+,,8,CASE8,FALSE,TRUE,--,--,--,--,--,--,--,
+,,9,CASE9,FALSE,TRUE,--,--,--,--,--,--,--,
+,,10,CASE10,FALSE,TRUE,--,--,--,--,--,--,--,
+,,11,CASE11,FALSE,TRUE,--,--,--,--,--,--,--,
+,,,Statistic description:
+,,1,testRace1,total 4 races;,0 right race;,4 missing race;,1 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,2,testRace3,total 5 races;,0 right race;,5 missing race;,0 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,3. ,CASE3,is not in benchmarks;
+,,4. ,CASE4,is not in benchmarks;
+,,5. ,CASE5,is not in benchmarks;
+,,6. ,CASE6,is not in benchmarks;
+,,7. ,CASE7,is not in benchmarks;
+,,8. ,CASE8,is not in benchmarks;
+,,9. ,CASE9,is not in benchmarks;
+,,10. ,CASE10,is not in benchmarks;
+,,11. ,CASE11,is not in benchmarks;
+,,,Races details:
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace1,1,missing,null,111,1111,null,null,
+,,,,2,missing,null,22,22,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,1,2,null,null,
+,,,,5,additional,null,41,47,null,null,
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace3,1,missing,null,22,22,null,null,
+,,,,2,missing,null,44,44,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,33,33,null,null,
+,,,,5,missing,null,11,11,null,null,
+
+DATE:,2017-03-22 22:17:26
+TOOL:,CalFuzzer
+,,No.,USECASE NAME,IS IN BENCHMARKS,IS IN SCRIPTFILE,TOTAL RACES,FOUNDED RACES,MISSING RACES,EXTRA RACES,PRECISION,FNR,FPR,
+,,1,testRace1,TRUE,TRUE,4,0,4,1,0%,100%,误报率是100%,
+,,2,testRace3,TRUE,TRUE,5,0,5,0,0%,100%,误报率是100%,
+,,3,CASE3,FALSE,TRUE,--,--,--,--,--,--,--,
+,,4,CASE4,FALSE,TRUE,--,--,--,--,--,--,--,
+,,5,CASE5,FALSE,TRUE,--,--,--,--,--,--,--,
+,,6,CASE6,FALSE,TRUE,--,--,--,--,--,--,--,
+,,7,CASE7,FALSE,TRUE,--,--,--,--,--,--,--,
+,,8,CASE8,FALSE,TRUE,--,--,--,--,--,--,--,
+,,9,CASE9,FALSE,TRUE,--,--,--,--,--,--,--,
+,,10,CASE10,FALSE,TRUE,--,--,--,--,--,--,--,
+,,11,CASE11,FALSE,TRUE,--,--,--,--,--,--,--,
+,,,Statistic description:
+,,1,testRace1,total 4 races;,0 right race;,4 missing race;,1 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,2,testRace3,total 5 races;,0 right race;,5 missing race;,0 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,3. ,CASE3,is not in benchmarks;
+,,4. ,CASE4,is not in benchmarks;
+,,5. ,CASE5,is not in benchmarks;
+,,6. ,CASE6,is not in benchmarks;
+,,7. ,CASE7,is not in benchmarks;
+,,8. ,CASE8,is not in benchmarks;
+,,9. ,CASE9,is not in benchmarks;
+,,10. ,CASE10,is not in benchmarks;
+,,11. ,CASE11,is not in benchmarks;
+,,,Races details:
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace1,1,missing,null,111,1111,null,null,
+,,,,2,missing,null,22,22,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,1,2,null,null,
+,,,,5,additional,null,41,47,null,null,
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace3,1,missing,null,22,22,null,null,
+,,,,2,missing,null,44,44,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,33,33,null,null,
+,,,,5,missing,null,11,11,null,null,
+
+DATE:,2017-03-22 22:18:06
+TOOL:,CalFuzzer
+,,No.,USECASE NAME,IS IN BENCHMARKS,IS IN SCRIPTFILE,TOTAL RACES,FOUNDED RACES,MISSING RACES,EXTRA RACES,PRECISION,FNR,FPR,
+,,1,testRace1,TRUE,TRUE,4,0,4,1,0%,100%,误报率是100%,
+,,2,testRace3,TRUE,TRUE,5,0,5,0,0%,100%,误报率是100%,
+,,3,CASE3,FALSE,TRUE,--,--,--,--,--,--,--,
+,,4,CASE4,FALSE,TRUE,--,--,--,--,--,--,--,
+,,5,CASE5,FALSE,TRUE,--,--,--,--,--,--,--,
+,,6,CASE6,FALSE,TRUE,--,--,--,--,--,--,--,
+,,7,CASE7,FALSE,TRUE,--,--,--,--,--,--,--,
+,,8,CASE8,FALSE,TRUE,--,--,--,--,--,--,--,
+,,9,CASE9,FALSE,TRUE,--,--,--,--,--,--,--,
+,,10,CASE10,FALSE,TRUE,--,--,--,--,--,--,--,
+,,11,CASE11,FALSE,TRUE,--,--,--,--,--,--,--,
+,,,Statistic description:
+,,1,testRace1,total 4 races;,0 right race;,4 missing race;,1 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,2,testRace3,total 5 races;,0 right race;,5 missing race;,0 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,3. ,CASE3,is not in benchmarks;
+,,4. ,CASE4,is not in benchmarks;
+,,5. ,CASE5,is not in benchmarks;
+,,6. ,CASE6,is not in benchmarks;
+,,7. ,CASE7,is not in benchmarks;
+,,8. ,CASE8,is not in benchmarks;
+,,9. ,CASE9,is not in benchmarks;
+,,10. ,CASE10,is not in benchmarks;
+,,11. ,CASE11,is not in benchmarks;
+,,,Races details:
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace1,1,missing,null,111,1111,null,null,
+,,,,2,missing,null,22,22,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,1,2,null,null,
+,,,,5,additional,null,41,47,null,null,
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace3,1,missing,null,22,22,null,null,
+,,,,2,missing,null,44,44,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,33,33,null,null,
+,,,,5,missing,null,11,11,null,null,
+
+DATE:,2017-03-22 22:19:09
+TOOL:,CalFuzzer
+,,No.,USECASE NAME,IS IN BENCHMARKS,IS IN SCRIPTFILE,TOTAL RACES,FOUNDED RACES,MISSING RACES,EXTRA RACES,PRECISION,FNR,FPR,
+,,1,testRace1,TRUE,TRUE,4,0,4,1,0%,100%,误报率是100%,
+,,2,testRace3,TRUE,TRUE,5,0,5,0,0%,100%,误报率是100%,
+,,3,CASE3,FALSE,TRUE,--,--,--,--,--,--,--,
+,,4,CASE4,FALSE,TRUE,--,--,--,--,--,--,--,
+,,5,CASE5,FALSE,TRUE,--,--,--,--,--,--,--,
+,,6,CASE6,FALSE,TRUE,--,--,--,--,--,--,--,
+,,7,CASE7,FALSE,TRUE,--,--,--,--,--,--,--,
+,,8,CASE8,FALSE,TRUE,--,--,--,--,--,--,--,
+,,9,CASE9,FALSE,TRUE,--,--,--,--,--,--,--,
+,,10,CASE10,FALSE,TRUE,--,--,--,--,--,--,--,
+,,11,CASE11,FALSE,TRUE,--,--,--,--,--,--,--,
+,,,Statistic description:
+,,1,testRace1,total 4 races;,0 right race;,4 missing race;,1 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,2,testRace3,total 5 races;,0 right race;,5 missing race;,0 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,3. ,CASE3,is not in benchmarks;
+,,4. ,CASE4,is not in benchmarks;
+,,5. ,CASE5,is not in benchmarks;
+,,6. ,CASE6,is not in benchmarks;
+,,7. ,CASE7,is not in benchmarks;
+,,8. ,CASE8,is not in benchmarks;
+,,9. ,CASE9,is not in benchmarks;
+,,10. ,CASE10,is not in benchmarks;
+,,11. ,CASE11,is not in benchmarks;
+,,,Races details:
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace1,1,missing,null,111,1111,null,null,
+,,,,2,missing,null,22,22,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,1,2,null,null,
+,,,,5,additional,null,41,47,null,null,
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace3,1,missing,null,22,22,null,null,
+,,,,2,missing,null,44,44,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,33,33,null,null,
+,,,,5,missing,null,11,11,null,null,
+
+DATE:,2017-03-22 22:19:31
+TOOL:,CalFuzzer
+,,No.,USECASE NAME,IS IN BENCHMARKS,IS IN SCRIPTFILE,TOTAL RACES,FOUNDED RACES,MISSING RACES,EXTRA RACES,PRECISION,FNR,FPR,
+,,1,testRace1,TRUE,TRUE,4,0,4,1,0%,100%,误报率是100%,
+,,2,testRace3,TRUE,TRUE,5,0,5,0,0%,100%,误报率是100%,
+,,3,CASE3,FALSE,TRUE,--,--,--,--,--,--,--,
+,,4,CASE4,FALSE,TRUE,--,--,--,--,--,--,--,
+,,5,CASE5,FALSE,TRUE,--,--,--,--,--,--,--,
+,,6,CASE6,FALSE,TRUE,--,--,--,--,--,--,--,
+,,7,CASE7,FALSE,TRUE,--,--,--,--,--,--,--,
+,,8,CASE8,FALSE,TRUE,--,--,--,--,--,--,--,
+,,9,CASE9,FALSE,TRUE,--,--,--,--,--,--,--,
+,,10,CASE10,FALSE,TRUE,--,--,--,--,--,--,--,
+,,11,CASE11,FALSE,TRUE,--,--,--,--,--,--,--,
+,,,Statistic description:
+,,1,testRace1,total 4 races;,0 right race;,4 missing race;,1 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,2,testRace3,total 5 races;,0 right race;,5 missing race;,0 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,3. ,CASE3,is not in benchmarks;
+,,4. ,CASE4,is not in benchmarks;
+,,5. ,CASE5,is not in benchmarks;
+,,6. ,CASE6,is not in benchmarks;
+,,7. ,CASE7,is not in benchmarks;
+,,8. ,CASE8,is not in benchmarks;
+,,9. ,CASE9,is not in benchmarks;
+,,10. ,CASE10,is not in benchmarks;
+,,11. ,CASE11,is not in benchmarks;
+,,,Races details:
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace1,1,missing,null,111,1111,null,null,
+,,,,2,missing,null,22,22,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,1,2,null,null,
+,,,,5,additional,null,41,47,null,null,
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace3,1,missing,null,22,22,null,null,
+,,,,2,missing,null,44,44,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,33,33,null,null,
+,,,,5,missing,null,11,11,null,null,
+
+DATE:,2017-03-22 22:19:41
+TOOL:,CalFuzzer
+,,No.,USECASE NAME,IS IN BENCHMARKS,IS IN SCRIPTFILE,TOTAL RACES,FOUNDED RACES,MISSING RACES,EXTRA RACES,PRECISION,FNR,FPR,
+,,1,testRace1,TRUE,TRUE,4,0,4,1,0%,100%,误报率是100%,
+,,2,testRace3,TRUE,TRUE,5,0,5,0,0%,100%,误报率是100%,
+,,3,CASE3,FALSE,TRUE,--,--,--,--,--,--,--,
+,,4,CASE4,FALSE,TRUE,--,--,--,--,--,--,--,
+,,5,CASE5,FALSE,TRUE,--,--,--,--,--,--,--,
+,,6,CASE6,FALSE,TRUE,--,--,--,--,--,--,--,
+,,7,CASE7,FALSE,TRUE,--,--,--,--,--,--,--,
+,,8,CASE8,FALSE,TRUE,--,--,--,--,--,--,--,
+,,9,CASE9,FALSE,TRUE,--,--,--,--,--,--,--,
+,,10,CASE10,FALSE,TRUE,--,--,--,--,--,--,--,
+,,11,CASE11,FALSE,TRUE,--,--,--,--,--,--,--,
+,,,Statistic description:
+,,1,testRace1,total 4 races;,0 right race;,4 missing race;,1 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,2,testRace3,total 5 races;,0 right race;,5 missing race;,0 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,3. ,CASE3,is not in benchmarks;
+,,4. ,CASE4,is not in benchmarks;
+,,5. ,CASE5,is not in benchmarks;
+,,6. ,CASE6,is not in benchmarks;
+,,7. ,CASE7,is not in benchmarks;
+,,8. ,CASE8,is not in benchmarks;
+,,9. ,CASE9,is not in benchmarks;
+,,10. ,CASE10,is not in benchmarks;
+,,11. ,CASE11,is not in benchmarks;
+,,,Races details:
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace1,1,missing,null,111,1111,null,null,
+,,,,2,missing,null,22,22,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,1,2,null,null,
+,,,,5,additional,null,41,47,null,null,
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace3,1,missing,null,22,22,null,null,
+,,,,2,missing,null,44,44,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,33,33,null,null,
+,,,,5,missing,null,11,11,null,null,
+
+DATE:,2017-03-22 22:19:53
+TOOL:,CalFuzzer
+,,No.,USECASE NAME,IS IN BENCHMARKS,IS IN SCRIPTFILE,TOTAL RACES,FOUNDED RACES,MISSING RACES,EXTRA RACES,PRECISION,FNR,FPR,
+,,1,testRace1,TRUE,TRUE,4,0,4,1,0%,100%,误报率是100%,
+,,2,testRace3,TRUE,TRUE,5,0,5,0,0%,100%,误报率是100%,
+,,3,CASE3,FALSE,TRUE,--,--,--,--,--,--,--,
+,,4,CASE4,FALSE,TRUE,--,--,--,--,--,--,--,
+,,5,CASE5,FALSE,TRUE,--,--,--,--,--,--,--,
+,,6,CASE6,FALSE,TRUE,--,--,--,--,--,--,--,
+,,7,CASE7,FALSE,TRUE,--,--,--,--,--,--,--,
+,,8,CASE8,FALSE,TRUE,--,--,--,--,--,--,--,
+,,9,CASE9,FALSE,TRUE,--,--,--,--,--,--,--,
+,,10,CASE10,FALSE,TRUE,--,--,--,--,--,--,--,
+,,11,CASE11,FALSE,TRUE,--,--,--,--,--,--,--,
+,,,Statistic description:
+,,1,testRace1,total 4 races;,0 right race;,4 missing race;,1 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,2,testRace3,total 5 races;,0 right race;,5 missing race;,0 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,3. ,CASE3,is not in benchmarks;
+,,4. ,CASE4,is not in benchmarks;
+,,5. ,CASE5,is not in benchmarks;
+,,6. ,CASE6,is not in benchmarks;
+,,7. ,CASE7,is not in benchmarks;
+,,8. ,CASE8,is not in benchmarks;
+,,9. ,CASE9,is not in benchmarks;
+,,10. ,CASE10,is not in benchmarks;
+,,11. ,CASE11,is not in benchmarks;
+,,,Races details:
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace1,1,missing,null,111,1111,null,null,
+,,,,2,missing,null,22,22,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,1,2,null,null,
+,,,,5,additional,null,41,47,null,null,
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace3,1,missing,null,22,22,null,null,
+,,,,2,missing,null,44,44,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,33,33,null,null,
+,,,,5,missing,null,11,11,null,null,
+
+DATE:,2017-03-22 22:20:07
+TOOL:,CalFuzzer
+,,No.,USECASE NAME,IS IN BENCHMARKS,IS IN SCRIPTFILE,TOTAL RACES,FOUNDED RACES,MISSING RACES,EXTRA RACES,PRECISION,FNR,FPR,
+,,1,testRace1,TRUE,TRUE,4,0,4,1,0%,100%,误报率是100%,
+,,2,testRace3,TRUE,TRUE,5,0,5,0,0%,100%,误报率是100%,
+,,3,CASE3,FALSE,TRUE,--,--,--,--,--,--,--,
+,,4,CASE4,FALSE,TRUE,--,--,--,--,--,--,--,
+,,5,CASE5,FALSE,TRUE,--,--,--,--,--,--,--,
+,,6,CASE6,FALSE,TRUE,--,--,--,--,--,--,--,
+,,7,CASE7,FALSE,TRUE,--,--,--,--,--,--,--,
+,,8,CASE8,FALSE,TRUE,--,--,--,--,--,--,--,
+,,9,CASE9,FALSE,TRUE,--,--,--,--,--,--,--,
+,,10,CASE10,FALSE,TRUE,--,--,--,--,--,--,--,
+,,11,CASE11,FALSE,TRUE,--,--,--,--,--,--,--,
+,,,Statistic description:
+,,1,testRace1,total 4 races;,0 right race;,4 missing race;,1 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,2,testRace3,total 5 races;,0 right race;,5 missing race;,0 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,3. ,CASE3,is not in benchmarks;
+,,4. ,CASE4,is not in benchmarks;
+,,5. ,CASE5,is not in benchmarks;
+,,6. ,CASE6,is not in benchmarks;
+,,7. ,CASE7,is not in benchmarks;
+,,8. ,CASE8,is not in benchmarks;
+,,9. ,CASE9,is not in benchmarks;
+,,10. ,CASE10,is not in benchmarks;
+,,11. ,CASE11,is not in benchmarks;
+,,,Races details:
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace1,1,missing,null,111,1111,null,null,
+,,,,2,missing,null,22,22,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,1,2,null,null,
+,,,,5,additional,null,41,47,null,null,
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace3,1,missing,null,22,22,null,null,
+,,,,2,missing,null,44,44,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,33,33,null,null,
+,,,,5,missing,null,11,11,null,null,
+
+DATE:,2017-03-22 22:20:18
+TOOL:,CalFuzzer
+,,No.,USECASE NAME,IS IN BENCHMARKS,IS IN SCRIPTFILE,TOTAL RACES,FOUNDED RACES,MISSING RACES,EXTRA RACES,PRECISION,FNR,FPR,
+,,1,testRace1,TRUE,TRUE,4,0,4,1,0%,100%,误报率是100%,
+,,2,testRace3,TRUE,TRUE,5,0,5,0,0%,100%,误报率是100%,
+,,3,CASE3,FALSE,TRUE,--,--,--,--,--,--,--,
+,,4,CASE4,FALSE,TRUE,--,--,--,--,--,--,--,
+,,5,CASE5,FALSE,TRUE,--,--,--,--,--,--,--,
+,,6,CASE6,FALSE,TRUE,--,--,--,--,--,--,--,
+,,7,CASE7,FALSE,TRUE,--,--,--,--,--,--,--,
+,,8,CASE8,FALSE,TRUE,--,--,--,--,--,--,--,
+,,9,CASE9,FALSE,TRUE,--,--,--,--,--,--,--,
+,,10,CASE10,FALSE,TRUE,--,--,--,--,--,--,--,
+,,11,CASE11,FALSE,TRUE,--,--,--,--,--,--,--,
+,,,Statistic description:
+,,1,testRace1,total 4 races;,0 right race;,4 missing race;,1 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,2,testRace3,total 5 races;,0 right race;,5 missing race;,0 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,3. ,CASE3,is not in benchmarks;
+,,4. ,CASE4,is not in benchmarks;
+,,5. ,CASE5,is not in benchmarks;
+,,6. ,CASE6,is not in benchmarks;
+,,7. ,CASE7,is not in benchmarks;
+,,8. ,CASE8,is not in benchmarks;
+,,9. ,CASE9,is not in benchmarks;
+,,10. ,CASE10,is not in benchmarks;
+,,11. ,CASE11,is not in benchmarks;
+,,,Races details:
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace1,1,missing,null,111,1111,null,null,
+,,,,2,missing,null,22,22,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,1,2,null,null,
+,,,,5,additional,null,41,47,null,null,
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace3,1,missing,null,22,22,null,null,
+,,,,2,missing,null,44,44,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,33,33,null,null,
+,,,,5,missing,null,11,11,null,null,
+
+DATE:,2017-03-22 22:20:59
+TOOL:,CalFuzzer
+,,No.,USECASE NAME,IS IN BENCHMARKS,IS IN SCRIPTFILE,TOTAL RACES,FOUNDED RACES,MISSING RACES,EXTRA RACES,PRECISION,FNR,FPR,
+,,1,testRace1,TRUE,TRUE,4,0,4,1,0%,100%,误报率是100%,
+,,2,testRace3,TRUE,TRUE,5,0,5,0,0%,100%,误报率是100%,
+,,3,CASE3,FALSE,TRUE,--,--,--,--,--,--,--,
+,,4,CASE4,FALSE,TRUE,--,--,--,--,--,--,--,
+,,5,CASE5,FALSE,TRUE,--,--,--,--,--,--,--,
+,,6,CASE6,FALSE,TRUE,--,--,--,--,--,--,--,
+,,7,CASE7,FALSE,TRUE,--,--,--,--,--,--,--,
+,,8,CASE8,FALSE,TRUE,--,--,--,--,--,--,--,
+,,9,CASE9,FALSE,TRUE,--,--,--,--,--,--,--,
+,,10,CASE10,FALSE,TRUE,--,--,--,--,--,--,--,
+,,11,CASE11,FALSE,TRUE,--,--,--,--,--,--,--,
+,,,Statistic description:
+,,1,testRace1,total 4 races;,0 right race;,4 missing race;,1 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,2,testRace3,total 5 races;,0 right race;,5 missing race;,0 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,3. ,CASE3,is not in benchmarks;
+,,4. ,CASE4,is not in benchmarks;
+,,5. ,CASE5,is not in benchmarks;
+,,6. ,CASE6,is not in benchmarks;
+,,7. ,CASE7,is not in benchmarks;
+,,8. ,CASE8,is not in benchmarks;
+,,9. ,CASE9,is not in benchmarks;
+,,10. ,CASE10,is not in benchmarks;
+,,11. ,CASE11,is not in benchmarks;
+,,,Races details:
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace1,1,missing,null,111,1111,null,null,
+,,,,2,missing,null,22,22,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,1,2,null,null,
+,,,,5,additional,null,41,47,null,null,
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace3,1,missing,null,22,22,null,null,
+,,,,2,missing,null,44,44,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,33,33,null,null,
+,,,,5,missing,null,11,11,null,null,
+
+DATE:,2017-03-22 22:21:15
+TOOL:,CalFuzzer
+,,No.,USECASE NAME,IS IN BENCHMARKS,IS IN SCRIPTFILE,TOTAL RACES,FOUNDED RACES,MISSING RACES,EXTRA RACES,PRECISION,FNR,FPR,
+,,1,testRace1,TRUE,TRUE,4,0,4,1,0%,100%,误报率是100%,
+,,2,testRace3,TRUE,TRUE,5,0,5,0,0%,100%,误报率是100%,
+,,3,CASE3,FALSE,TRUE,--,--,--,--,--,--,--,
+,,4,CASE4,FALSE,TRUE,--,--,--,--,--,--,--,
+,,5,CASE5,FALSE,TRUE,--,--,--,--,--,--,--,
+,,6,CASE6,FALSE,TRUE,--,--,--,--,--,--,--,
+,,7,CASE7,FALSE,TRUE,--,--,--,--,--,--,--,
+,,8,CASE8,FALSE,TRUE,--,--,--,--,--,--,--,
+,,9,CASE9,FALSE,TRUE,--,--,--,--,--,--,--,
+,,10,CASE10,FALSE,TRUE,--,--,--,--,--,--,--,
+,,11,CASE11,FALSE,TRUE,--,--,--,--,--,--,--,
+,,,Statistic description:
+,,1,testRace1,total 4 races;,0 right race;,4 missing race;,1 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,2,testRace3,total 5 races;,0 right race;,5 missing race;,0 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,3. ,CASE3,is not in benchmarks;
+,,4. ,CASE4,is not in benchmarks;
+,,5. ,CASE5,is not in benchmarks;
+,,6. ,CASE6,is not in benchmarks;
+,,7. ,CASE7,is not in benchmarks;
+,,8. ,CASE8,is not in benchmarks;
+,,9. ,CASE9,is not in benchmarks;
+,,10. ,CASE10,is not in benchmarks;
+,,11. ,CASE11,is not in benchmarks;
+,,,Races details:
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace1,1,missing,null,111,1111,null,null,
+,,,,2,missing,null,22,22,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,1,2,null,null,
+,,,,5,additional,null,41,47,null,null,
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace3,1,missing,null,22,22,null,null,
+,,,,2,missing,null,44,44,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,33,33,null,null,
+,,,,5,missing,null,11,11,null,null,
+
+DATE:,2017-03-22 22:22:59
+TOOL:,CalFuzzer
+,,No.,USECASE NAME,IS IN BENCHMARKS,IS IN SCRIPTFILE,TOTAL RACES,FOUNDED RACES,MISSING RACES,EXTRA RACES,PRECISION,FNR,FPR,
+,,1,testRace1,TRUE,TRUE,4,0,4,1,0%,100%,误报率是100%,
+,,2,testRace3,TRUE,TRUE,5,0,5,0,0%,100%,误报率是100%,
+,,3,CASE3,FALSE,TRUE,--,--,--,--,--,--,--,
+,,4,CASE4,FALSE,TRUE,--,--,--,--,--,--,--,
+,,5,CASE5,FALSE,TRUE,--,--,--,--,--,--,--,
+,,6,CASE6,FALSE,TRUE,--,--,--,--,--,--,--,
+,,7,CASE7,FALSE,TRUE,--,--,--,--,--,--,--,
+,,8,CASE8,FALSE,TRUE,--,--,--,--,--,--,--,
+,,9,CASE9,FALSE,TRUE,--,--,--,--,--,--,--,
+,,10,CASE10,FALSE,TRUE,--,--,--,--,--,--,--,
+,,11,CASE11,FALSE,TRUE,--,--,--,--,--,--,--,
+,,,Statistic description:
+,,1,testRace1,total 4 races;,0 right race;,4 missing race;,1 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,2,testRace3,total 5 races;,0 right race;,5 missing race;,0 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,3. ,CASE3,is not in benchmarks;
+,,4. ,CASE4,is not in benchmarks;
+,,5. ,CASE5,is not in benchmarks;
+,,6. ,CASE6,is not in benchmarks;
+,,7. ,CASE7,is not in benchmarks;
+,,8. ,CASE8,is not in benchmarks;
+,,9. ,CASE9,is not in benchmarks;
+,,10. ,CASE10,is not in benchmarks;
+,,11. ,CASE11,is not in benchmarks;
+,,,Races details:
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace1,1,missing,null,111,1111,null,null,
+,,,,2,missing,null,22,22,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,1,2,null,null,
+,,,,5,additional,null,41,47,null,null,
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace3,1,missing,null,22,22,null,null,
+,,,,2,missing,null,44,44,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,33,33,null,null,
+,,,,5,missing,null,11,11,null,null,
+
+DATE:,2017-03-22 22:23:21
+TOOL:,CalFuzzer
+,,No.,USECASE NAME,IS IN BENCHMARKS,IS IN SCRIPTFILE,TOTAL RACES,FOUNDED RACES,MISSING RACES,EXTRA RACES,PRECISION,FNR,FPR,
+,,1,testRace1,TRUE,TRUE,4,0,4,1,0%,100%,误报率是100%,
+,,2,testRace3,TRUE,TRUE,5,0,5,0,0%,100%,误报率是100%,
+,,3,CASE3,FALSE,TRUE,--,--,--,--,--,--,--,
+,,4,CASE4,FALSE,TRUE,--,--,--,--,--,--,--,
+,,5,CASE5,FALSE,TRUE,--,--,--,--,--,--,--,
+,,6,CASE6,FALSE,TRUE,--,--,--,--,--,--,--,
+,,7,CASE7,FALSE,TRUE,--,--,--,--,--,--,--,
+,,8,CASE8,FALSE,TRUE,--,--,--,--,--,--,--,
+,,9,CASE9,FALSE,TRUE,--,--,--,--,--,--,--,
+,,10,CASE10,FALSE,TRUE,--,--,--,--,--,--,--,
+,,11,CASE11,FALSE,TRUE,--,--,--,--,--,--,--,
+,,,Statistic description:
+,,1,testRace1,total 4 races;,0 right race;,4 missing race;,1 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,2,testRace3,total 5 races;,0 right race;,5 missing race;,0 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,3. ,CASE3,is not in benchmarks;
+,,4. ,CASE4,is not in benchmarks;
+,,5. ,CASE5,is not in benchmarks;
+,,6. ,CASE6,is not in benchmarks;
+,,7. ,CASE7,is not in benchmarks;
+,,8. ,CASE8,is not in benchmarks;
+,,9. ,CASE9,is not in benchmarks;
+,,10. ,CASE10,is not in benchmarks;
+,,11. ,CASE11,is not in benchmarks;
+,,,Races details:
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace1,1,missing,null,111,1111,null,null,
+,,,,2,missing,null,22,22,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,1,2,null,null,
+,,,,5,additional,null,41,47,null,null,
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace3,1,missing,null,22,22,null,null,
+,,,,2,missing,null,44,44,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,33,33,null,null,
+,,,,5,missing,null,11,11,null,null,
+
+DATE:,2017-03-22 22:23:45
+TOOL:,CalFuzzer
+,,No.,USECASE NAME,IS IN BENCHMARKS,IS IN SCRIPTFILE,TOTAL RACES,FOUNDED RACES,MISSING RACES,EXTRA RACES,PRECISION,FNR,FPR,
+,,1,testRace1,TRUE,TRUE,4,0,4,1,0%,100%,误报率是100%,
+,,2,testRace3,TRUE,TRUE,5,0,5,0,0%,100%,误报率是100%,
+,,3,CASE3,FALSE,TRUE,--,--,--,--,--,--,--,
+,,4,CASE4,FALSE,TRUE,--,--,--,--,--,--,--,
+,,5,CASE5,FALSE,TRUE,--,--,--,--,--,--,--,
+,,6,CASE6,FALSE,TRUE,--,--,--,--,--,--,--,
+,,7,CASE7,FALSE,TRUE,--,--,--,--,--,--,--,
+,,8,CASE8,FALSE,TRUE,--,--,--,--,--,--,--,
+,,9,CASE9,FALSE,TRUE,--,--,--,--,--,--,--,
+,,10,CASE10,FALSE,TRUE,--,--,--,--,--,--,--,
+,,11,CASE11,FALSE,TRUE,--,--,--,--,--,--,--,
+,,,Statistic description:
+,,1,testRace1,total 4 races;,0 right race;,4 missing race;,1 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,2,testRace3,total 5 races;,0 right race;,5 missing race;,0 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,3. ,CASE3,is not in benchmarks;
+,,4. ,CASE4,is not in benchmarks;
+,,5. ,CASE5,is not in benchmarks;
+,,6. ,CASE6,is not in benchmarks;
+,,7. ,CASE7,is not in benchmarks;
+,,8. ,CASE8,is not in benchmarks;
+,,9. ,CASE9,is not in benchmarks;
+,,10. ,CASE10,is not in benchmarks;
+,,11. ,CASE11,is not in benchmarks;
+,,,Races details:
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace1,1,missing,null,111,1111,null,null,
+,,,,2,missing,null,22,22,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,1,2,null,null,
+,,,,5,additional,null,41,47,null,null,
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace3,1,missing,null,22,22,null,null,
+,,,,2,missing,null,44,44,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,33,33,null,null,
+,,,,5,missing,null,11,11,null,null,
+
+DATE:,2017-03-22 22:26:11
+TOOL:,CalFuzzer
+,,No.,USECASE NAME,IS IN BENCHMARKS,IS IN SCRIPTFILE,TOTAL RACES,FOUNDED RACES,MISSING RACES,EXTRA RACES,PRECISION,FNR,FPR,
+,,1,testRace1,TRUE,TRUE,4,0,4,1,0%,100%,误报率是100%,
+,,2,testRace3,TRUE,TRUE,5,0,5,0,0%,100%,误报率是100%,
+,,3,CASE3,FALSE,TRUE,--,--,--,--,--,--,--,
+,,4,CASE4,FALSE,TRUE,--,--,--,--,--,--,--,
+,,5,CASE5,FALSE,TRUE,--,--,--,--,--,--,--,
+,,6,CASE6,FALSE,TRUE,--,--,--,--,--,--,--,
+,,7,CASE7,FALSE,TRUE,--,--,--,--,--,--,--,
+,,8,CASE8,FALSE,TRUE,--,--,--,--,--,--,--,
+,,9,CASE9,FALSE,TRUE,--,--,--,--,--,--,--,
+,,10,CASE10,FALSE,TRUE,--,--,--,--,--,--,--,
+,,11,CASE11,FALSE,TRUE,--,--,--,--,--,--,--,
+,,,Statistic description:
+,,1,testRace1,total 4 races;,0 right race;,4 missing race;,1 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,2,testRace3,total 5 races;,0 right race;,5 missing race;,0 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,3. ,CASE3,is not in benchmarks;
+,,4. ,CASE4,is not in benchmarks;
+,,5. ,CASE5,is not in benchmarks;
+,,6. ,CASE6,is not in benchmarks;
+,,7. ,CASE7,is not in benchmarks;
+,,8. ,CASE8,is not in benchmarks;
+,,9. ,CASE9,is not in benchmarks;
+,,10. ,CASE10,is not in benchmarks;
+,,11. ,CASE11,is not in benchmarks;
+,,,Races details:
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace1,1,missing,null,111,1111,null,null,
+,,,,2,missing,null,22,22,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,1,2,null,null,
+,,,,5,additional,null,41,47,null,null,
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace3,1,missing,null,22,22,null,null,
+,,,,2,missing,null,44,44,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,33,33,null,null,
+,,,,5,missing,null,11,11,null,null,
+
+DATE:,2017-03-22 22:27:05
+TOOL:,CalFuzzer
+,,No.,USECASE NAME,IS IN BENCHMARKS,IS IN SCRIPTFILE,TOTAL RACES,FOUNDED RACES,MISSING RACES,EXTRA RACES,PRECISION,FNR,FPR,
+,,1,testRace1,TRUE,TRUE,4,0,4,1,0%,100%,误报率是100%,
+,,2,testRace3,TRUE,TRUE,5,0,5,0,0%,100%,误报率是100%,
+,,3,CASE3,FALSE,TRUE,--,--,--,--,--,--,--,
+,,4,CASE4,FALSE,TRUE,--,--,--,--,--,--,--,
+,,5,CASE5,FALSE,TRUE,--,--,--,--,--,--,--,
+,,6,CASE6,FALSE,TRUE,--,--,--,--,--,--,--,
+,,7,CASE7,FALSE,TRUE,--,--,--,--,--,--,--,
+,,8,CASE8,FALSE,TRUE,--,--,--,--,--,--,--,
+,,9,CASE9,FALSE,TRUE,--,--,--,--,--,--,--,
+,,10,CASE10,FALSE,TRUE,--,--,--,--,--,--,--,
+,,11,CASE11,FALSE,TRUE,--,--,--,--,--,--,--,
+,,,Statistic description:
+,,1,testRace1,total 4 races;,0 right race;,4 missing race;,1 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,2,testRace3,total 5 races;,0 right race;,5 missing race;,0 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,3. ,CASE3,is not in benchmarks;
+,,4. ,CASE4,is not in benchmarks;
+,,5. ,CASE5,is not in benchmarks;
+,,6. ,CASE6,is not in benchmarks;
+,,7. ,CASE7,is not in benchmarks;
+,,8. ,CASE8,is not in benchmarks;
+,,9. ,CASE9,is not in benchmarks;
+,,10. ,CASE10,is not in benchmarks;
+,,11. ,CASE11,is not in benchmarks;
+,,,Races details:
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace1,1,missing,null,111,1111,null,null,
+,,,,2,missing,null,22,22,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,1,2,null,null,
+,,,,5,additional,null,41,47,null,null,
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace3,1,missing,null,22,22,null,null,
+,,,,2,missing,null,44,44,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,33,33,null,null,
+,,,,5,missing,null,11,11,null,null,
+
+DATE:,2017-03-22 22:28:16
+TOOL:,CalFuzzer
+,,No.,USECASE NAME,IS IN BENCHMARKS,IS IN SCRIPTFILE,TOTAL RACES,FOUNDED RACES,MISSING RACES,EXTRA RACES,PRECISION,FNR,FPR,
+,,1,testRace1,TRUE,TRUE,4,0,4,1,0%,100%,误报率是100%,
+,,2,testRace3,TRUE,TRUE,5,0,5,0,0%,100%,误报率是100%,
+,,3,CASE3,FALSE,TRUE,--,--,--,--,--,--,--,
+,,4,CASE4,FALSE,TRUE,--,--,--,--,--,--,--,
+,,5,CASE5,FALSE,TRUE,--,--,--,--,--,--,--,
+,,6,CASE6,FALSE,TRUE,--,--,--,--,--,--,--,
+,,7,CASE7,FALSE,TRUE,--,--,--,--,--,--,--,
+,,8,CASE8,FALSE,TRUE,--,--,--,--,--,--,--,
+,,9,CASE9,FALSE,TRUE,--,--,--,--,--,--,--,
+,,10,CASE10,FALSE,TRUE,--,--,--,--,--,--,--,
+,,11,CASE11,FALSE,TRUE,--,--,--,--,--,--,--,
+,,,Statistic description:
+,,1,testRace1,total 4 races;,0 right race;,4 missing race;,1 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,2,testRace3,total 5 races;,0 right race;,5 missing race;,0 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,3. ,CASE3,is not in benchmarks;
+,,4. ,CASE4,is not in benchmarks;
+,,5. ,CASE5,is not in benchmarks;
+,,6. ,CASE6,is not in benchmarks;
+,,7. ,CASE7,is not in benchmarks;
+,,8. ,CASE8,is not in benchmarks;
+,,9. ,CASE9,is not in benchmarks;
+,,10. ,CASE10,is not in benchmarks;
+,,11. ,CASE11,is not in benchmarks;
+,,,Races details:
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace1,1,missing,null,111,1111,null,null,
+,,,,2,missing,null,22,22,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,1,2,null,null,
+,,,,5,additional,null,41,47,null,null,
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace3,1,missing,null,22,22,null,null,
+,,,,2,missing,null,44,44,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,33,33,null,null,
+,,,,5,missing,null,11,11,null,null,
+
+DATE:,2017-03-22 22:28:33
+TOOL:,CalFuzzer
+,,No.,USECASE NAME,IS IN BENCHMARKS,IS IN SCRIPTFILE,TOTAL RACES,FOUNDED RACES,MISSING RACES,EXTRA RACES,PRECISION,FNR,FPR,
+,,1,testRace1,TRUE,TRUE,4,0,4,1,0%,100%,误报率是100%,
+,,2,testRace3,TRUE,TRUE,5,0,5,0,0%,100%,误报率是100%,
+,,3,CASE3,FALSE,TRUE,--,--,--,--,--,--,--,
+,,4,CASE4,FALSE,TRUE,--,--,--,--,--,--,--,
+,,5,CASE5,FALSE,TRUE,--,--,--,--,--,--,--,
+,,6,CASE6,FALSE,TRUE,--,--,--,--,--,--,--,
+,,7,CASE7,FALSE,TRUE,--,--,--,--,--,--,--,
+,,8,CASE8,FALSE,TRUE,--,--,--,--,--,--,--,
+,,9,CASE9,FALSE,TRUE,--,--,--,--,--,--,--,
+,,10,CASE10,FALSE,TRUE,--,--,--,--,--,--,--,
+,,11,CASE11,FALSE,TRUE,--,--,--,--,--,--,--,
+,,,Statistic description:
+,,1,testRace1,total 4 races;,0 right race;,4 missing race;,1 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,2,testRace3,total 5 races;,0 right race;,5 missing race;,0 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,3. ,CASE3,is not in benchmarks;
+,,4. ,CASE4,is not in benchmarks;
+,,5. ,CASE5,is not in benchmarks;
+,,6. ,CASE6,is not in benchmarks;
+,,7. ,CASE7,is not in benchmarks;
+,,8. ,CASE8,is not in benchmarks;
+,,9. ,CASE9,is not in benchmarks;
+,,10. ,CASE10,is not in benchmarks;
+,,11. ,CASE11,is not in benchmarks;
+,,,Races details:
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace1,1,missing,null,111,1111,null,null,
+,,,,2,missing,null,22,22,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,1,2,null,null,
+,,,,5,additional,null,41,47,null,null,
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace3,1,missing,null,22,22,null,null,
+,,,,2,missing,null,44,44,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,33,33,null,null,
+,,,,5,missing,null,11,11,null,null,
+
+DATE:,2017-03-22 22:30:34
+TOOL:,CalFuzzer
+,,No.,USECASE NAME,IS IN BENCHMARKS,IS IN SCRIPTFILE,TOTAL RACES,FOUNDED RACES,MISSING RACES,EXTRA RACES,PRECISION,FNR,FPR,
+,,1,testRace1,TRUE,TRUE,4,0,4,1,0%,100%,误报率是100%,
+,,2,testRace3,TRUE,TRUE,5,0,5,0,0%,100%,误报率是100%,
+,,3,CASE3,FALSE,TRUE,--,--,--,--,--,--,--,
+,,4,CASE4,FALSE,TRUE,--,--,--,--,--,--,--,
+,,5,CASE5,FALSE,TRUE,--,--,--,--,--,--,--,
+,,6,CASE6,FALSE,TRUE,--,--,--,--,--,--,--,
+,,7,CASE7,FALSE,TRUE,--,--,--,--,--,--,--,
+,,8,CASE8,FALSE,TRUE,--,--,--,--,--,--,--,
+,,9,CASE9,FALSE,TRUE,--,--,--,--,--,--,--,
+,,10,CASE10,FALSE,TRUE,--,--,--,--,--,--,--,
+,,11,CASE11,FALSE,TRUE,--,--,--,--,--,--,--,
+,,,Statistic description:
+,,1,testRace1,total 4 races;,0 right race;,4 missing race;,1 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,2,testRace3,total 5 races;,0 right race;,5 missing race;,0 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,3. ,CASE3,is not in benchmarks;
+,,4. ,CASE4,is not in benchmarks;
+,,5. ,CASE5,is not in benchmarks;
+,,6. ,CASE6,is not in benchmarks;
+,,7. ,CASE7,is not in benchmarks;
+,,8. ,CASE8,is not in benchmarks;
+,,9. ,CASE9,is not in benchmarks;
+,,10. ,CASE10,is not in benchmarks;
+,,11. ,CASE11,is not in benchmarks;
+,,,Races details:
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace1,1,missing,null,111,1111,null,null,
+,,,,2,missing,null,22,22,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,1,2,null,null,
+,,,,5,additional,null,41,47,null,null,
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace3,1,missing,null,22,22,null,null,
+,,,,2,missing,null,44,44,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,33,33,null,null,
+,,,,5,missing,null,11,11,null,null,
+
+DATE:,2017-03-22 22:31:00
+TOOL:,CalFuzzer
+,,No.,USECASE NAME,IS IN BENCHMARKS,IS IN SCRIPTFILE,TOTAL RACES,FOUNDED RACES,MISSING RACES,EXTRA RACES,PRECISION,FNR,FPR,
+,,1,testRace1,TRUE,TRUE,4,0,4,1,0%,100%,误报率是100%,
+,,2,testRace3,TRUE,TRUE,5,0,5,0,0%,100%,误报率是100%,
+,,3,CASE3,FALSE,TRUE,--,--,--,--,--,--,--,
+,,4,CASE4,FALSE,TRUE,--,--,--,--,--,--,--,
+,,5,CASE5,FALSE,TRUE,--,--,--,--,--,--,--,
+,,6,CASE6,FALSE,TRUE,--,--,--,--,--,--,--,
+,,7,CASE7,FALSE,TRUE,--,--,--,--,--,--,--,
+,,8,CASE8,FALSE,TRUE,--,--,--,--,--,--,--,
+,,9,CASE9,FALSE,TRUE,--,--,--,--,--,--,--,
+,,10,CASE10,FALSE,TRUE,--,--,--,--,--,--,--,
+,,11,CASE11,FALSE,TRUE,--,--,--,--,--,--,--,
+,,,Statistic description:
+,,1,testRace1,total 4 races;,0 right race;,4 missing race;,1 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,2,testRace3,total 5 races;,0 right race;,5 missing race;,0 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,3. ,CASE3,is not in benchmarks;
+,,4. ,CASE4,is not in benchmarks;
+,,5. ,CASE5,is not in benchmarks;
+,,6. ,CASE6,is not in benchmarks;
+,,7. ,CASE7,is not in benchmarks;
+,,8. ,CASE8,is not in benchmarks;
+,,9. ,CASE9,is not in benchmarks;
+,,10. ,CASE10,is not in benchmarks;
+,,11. ,CASE11,is not in benchmarks;
+,,,Races details:
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace1,1,missing,null,111,1111,null,null,
+,,,,2,missing,null,22,22,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,1,2,null,null,
+,,,,5,additional,null,41,47,null,null,
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace3,1,missing,null,22,22,null,null,
+,,,,2,missing,null,44,44,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,33,33,null,null,
+,,,,5,missing,null,11,11,null,null,
+
+DATE:,2017-03-22 22:31:10
+TOOL:,CalFuzzer
+,,No.,USECASE NAME,IS IN BENCHMARKS,IS IN SCRIPTFILE,TOTAL RACES,FOUNDED RACES,MISSING RACES,EXTRA RACES,PRECISION,FNR,FPR,
+,,1,testRace1,TRUE,TRUE,4,0,4,1,0%,100%,误报率是100%,
+,,2,testRace3,TRUE,TRUE,5,0,5,0,0%,100%,误报率是100%,
+,,3,CASE3,FALSE,TRUE,--,--,--,--,--,--,--,
+,,4,CASE4,FALSE,TRUE,--,--,--,--,--,--,--,
+,,5,CASE5,FALSE,TRUE,--,--,--,--,--,--,--,
+,,6,CASE6,FALSE,TRUE,--,--,--,--,--,--,--,
+,,7,CASE7,FALSE,TRUE,--,--,--,--,--,--,--,
+,,8,CASE8,FALSE,TRUE,--,--,--,--,--,--,--,
+,,9,CASE9,FALSE,TRUE,--,--,--,--,--,--,--,
+,,10,CASE10,FALSE,TRUE,--,--,--,--,--,--,--,
+,,11,CASE11,FALSE,TRUE,--,--,--,--,--,--,--,
+,,,Statistic description:
+,,1,testRace1,total 4 races;,0 right race;,4 missing race;,1 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,2,testRace3,total 5 races;,0 right race;,5 missing race;,0 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,3. ,CASE3,is not in benchmarks;
+,,4. ,CASE4,is not in benchmarks;
+,,5. ,CASE5,is not in benchmarks;
+,,6. ,CASE6,is not in benchmarks;
+,,7. ,CASE7,is not in benchmarks;
+,,8. ,CASE8,is not in benchmarks;
+,,9. ,CASE9,is not in benchmarks;
+,,10. ,CASE10,is not in benchmarks;
+,,11. ,CASE11,is not in benchmarks;
+,,,Races details:
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace1,1,missing,null,111,1111,null,null,
+,,,,2,missing,null,22,22,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,1,2,null,null,
+,,,,5,additional,null,41,47,null,null,
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace3,1,missing,null,22,22,null,null,
+,,,,2,missing,null,44,44,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,33,33,null,null,
+,,,,5,missing,null,11,11,null,null,
+
+DATE:,2017-03-22 22:32:06
+TOOL:,CalFuzzer
+,,No.,USECASE NAME,IS IN BENCHMARKS,IS IN SCRIPTFILE,TOTAL RACES,FOUNDED RACES,MISSING RACES,EXTRA RACES,PRECISION,FNR,FPR,
+,,1,testRace1,TRUE,TRUE,4,0,4,1,0%,100%,误报率是100%,
+,,2,testRace3,TRUE,TRUE,5,0,5,0,0%,100%,误报率是100%,
+,,3,CASE3,FALSE,TRUE,--,--,--,--,--,--,--,
+,,4,CASE4,FALSE,TRUE,--,--,--,--,--,--,--,
+,,5,CASE5,FALSE,TRUE,--,--,--,--,--,--,--,
+,,6,CASE6,FALSE,TRUE,--,--,--,--,--,--,--,
+,,7,CASE7,FALSE,TRUE,--,--,--,--,--,--,--,
+,,8,CASE8,FALSE,TRUE,--,--,--,--,--,--,--,
+,,9,CASE9,FALSE,TRUE,--,--,--,--,--,--,--,
+,,10,CASE10,FALSE,TRUE,--,--,--,--,--,--,--,
+,,11,CASE11,FALSE,TRUE,--,--,--,--,--,--,--,
+,,,Statistic description:
+,,1,testRace1,total 4 races;,0 right race;,4 missing race;,1 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,2,testRace3,total 5 races;,0 right race;,5 missing race;,0 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,3. ,CASE3,is not in benchmarks;
+,,4. ,CASE4,is not in benchmarks;
+,,5. ,CASE5,is not in benchmarks;
+,,6. ,CASE6,is not in benchmarks;
+,,7. ,CASE7,is not in benchmarks;
+,,8. ,CASE8,is not in benchmarks;
+,,9. ,CASE9,is not in benchmarks;
+,,10. ,CASE10,is not in benchmarks;
+,,11. ,CASE11,is not in benchmarks;
+,,,Races details:
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace1,1,missing,null,111,1111,null,null,
+,,,,2,missing,null,22,22,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,1,2,null,null,
+,,,,5,additional,null,41,47,null,null,
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace3,1,missing,null,22,22,null,null,
+,,,,2,missing,null,44,44,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,33,33,null,null,
+,,,,5,missing,null,11,11,null,null,
+
+DATE:,2017-03-22 23:22:39
+TOOL:,CalFuzzer
+,,No.,USECASE NAME,IS IN BENCHMARKS,IS IN SCRIPTFILE,TOTAL RACES,FOUNDED RACES,MISSING RACES,EXTRA RACES,PRECISION,FNR,FPR,
+,,1,testRace1,TRUE,FALSE,,--,--,--,--,--,--,--,
+,,2,testRace3,TRUE,FALSE,,--,--,--,--,--,--,--,
+,,,Statistic description:
+,,1. ,testRace1,in scriptfile,not in benchmarks;
+,,2. ,testRace3,in scriptfile,not in benchmarks;
+,,,Races details:
+
+DATE:,2017-03-22 23:29:48
+TOOL:,CalFuzzer
+,,No.,USECASE NAME,IS IN BENCHMARKS,IS IN SCRIPTFILE,TOTAL RACES,FOUNDED RACES,MISSING RACES,EXTRA RACES,PRECISION,FNR,FPR,
+,,1,testRace1,TRUE,FALSE,,--,--,--,--,--,--,--,
+,,2,testRace3,TRUE,FALSE,,--,--,--,--,--,--,--,
+,,,Statistic description:
+,,1. ,testRace1,in scriptfile,not in benchmarks;
+,,2. ,testRace3,in scriptfile,not in benchmarks;
+,,,Races details:
+
+DATE:,2017-03-22 23:29:57
+TOOL:,CalFuzzer
+,,No.,USECASE NAME,IS IN BENCHMARKS,IS IN SCRIPTFILE,TOTAL RACES,FOUNDED RACES,MISSING RACES,EXTRA RACES,PRECISION,FNR,FPR,
+,,1,testRace1,TRUE,FALSE,,--,--,--,--,--,--,--,
+,,2,testRace3,TRUE,FALSE,,--,--,--,--,--,--,--,
+,,,Statistic description:
+,,1. ,testRace1,in scriptfile,not in benchmarks;
+,,2. ,testRace3,in scriptfile,not in benchmarks;
+,,,Races details:
+
+DATE:,2017-03-22 23:32:31
+TOOL:,CalFuzzer
+,,No.,USECASE NAME,IS IN BENCHMARKS,IS IN SCRIPTFILE,TOTAL RACES,FOUNDED RACES,MISSING RACES,EXTRA RACES,PRECISION,FNR,FPR,
+,,1,testRace1,TRUE,FALSE,,--,--,--,--,--,--,--,
+,,2,testRace3,TRUE,FALSE,,--,--,--,--,--,--,--,
+,,,Statistic description:
+,,1. ,testRace1,in scriptfile,not in benchmarks;
+,,2. ,testRace3,in scriptfile,not in benchmarks;
+,,,Races details:
+
+DATE:,2017-03-22 23:33:40
+TOOL:,CalFuzzer
+,,No.,USECASE NAME,IS IN BENCHMARKS,IS IN SCRIPTFILE,TOTAL RACES,FOUNDED RACES,MISSING RACES,EXTRA RACES,PRECISION,FNR,FPR,
+,,1,testRace1,TRUE,FALSE,,--,--,--,--,--,--,--,
+,,2,testRace3,TRUE,FALSE,,--,--,--,--,--,--,--,
+,,,Statistic description:
+,,1. ,testRace1,in scriptfile,not in benchmarks;
+,,2. ,testRace3,in scriptfile,not in benchmarks;
+,,,Races details:
+
+DATE:,2017-03-22 23:34:32
+TOOL:,CalFuzzer
+,,No.,USECASE NAME,IS IN BENCHMARKS,IS IN SCRIPTFILE,TOTAL RACES,FOUNDED RACES,MISSING RACES,EXTRA RACES,PRECISION,FNR,FPR,
+,,1,testRace1,TRUE,FALSE,,--,--,--,--,--,--,--,
+,,2,testRace3,TRUE,FALSE,,--,--,--,--,--,--,--,
+,,,Statistic description:
+,,1. ,testRace1,in scriptfile,not in benchmarks;
+,,2. ,testRace3,in scriptfile,not in benchmarks;
+,,,Races details:
+
+DATE:,2017-03-22 23:34:50
+TOOL:,CalFuzzer
+,,No.,USECASE NAME,IS IN BENCHMARKS,IS IN SCRIPTFILE,TOTAL RACES,FOUNDED RACES,MISSING RACES,EXTRA RACES,PRECISION,FNR,FPR,
+,,1,testRace1,TRUE,FALSE,,--,--,--,--,--,--,--,
+,,2,testRace3,TRUE,FALSE,,--,--,--,--,--,--,--,
+,,,Statistic description:
+,,1. ,testRace1,in scriptfile,not in benchmarks;
+,,2. ,testRace3,in scriptfile,not in benchmarks;
+,,,Races details:
+
+DATE:,2017-03-22 23:35:12
+TOOL:,CalFuzzer
+,,No.,USECASE NAME,IS IN BENCHMARKS,IS IN SCRIPTFILE,TOTAL RACES,FOUNDED RACES,MISSING RACES,EXTRA RACES,PRECISION,FNR,FPR,
+,,1,testRace1,TRUE,FALSE,,--,--,--,--,--,--,--,
+,,2,testRace3,TRUE,FALSE,,--,--,--,--,--,--,--,
+,,,Statistic description:
+,,1. ,testRace1,in scriptfile,not in benchmarks;
+,,2. ,testRace3,in scriptfile,not in benchmarks;
+,,,Races details:
+
+DATE:,2017-03-22 23:42:03
+TOOL:,CalFuzzer
+,,No.,USECASE NAME,IS IN BENCHMARKS,IS IN SCRIPTFILE,TOTAL RACES,FOUNDED RACES,MISSING RACES,EXTRA RACES,PRECISION,FNR,FPR,
+,,1,testRace1,TRUE,TRUE,4,0,4,1,0%,100%,误报率是100%,
+,,2,testRace3,TRUE,TRUE,5,0,5,0,0%,100%,误报率是100%,
+,,3,CASE3,FALSE,TRUE,--,--,--,--,--,--,--,
+,,4,CASE4,FALSE,TRUE,--,--,--,--,--,--,--,
+,,5,CASE5,FALSE,TRUE,--,--,--,--,--,--,--,
+,,6,CASE6,FALSE,TRUE,--,--,--,--,--,--,--,
+,,7,CASE7,FALSE,TRUE,--,--,--,--,--,--,--,
+,,8,CASE8,FALSE,TRUE,--,--,--,--,--,--,--,
+,,9,CASE9,FALSE,TRUE,--,--,--,--,--,--,--,
+,,10,CASE10,FALSE,TRUE,--,--,--,--,--,--,--,
+,,11,CASE11,FALSE,TRUE,--,--,--,--,--,--,--,
+,,,Statistic description:
+,,1,testRace1,total 4 races;,0 right race;,4 missing race;,1 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,2,testRace3,total 5 races;,0 right race;,5 missing race;,0 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,3. ,CASE3,is not in benchmarks;
+,,4. ,CASE4,is not in benchmarks;
+,,5. ,CASE5,is not in benchmarks;
+,,6. ,CASE6,is not in benchmarks;
+,,7. ,CASE7,is not in benchmarks;
+,,8. ,CASE8,is not in benchmarks;
+,,9. ,CASE9,is not in benchmarks;
+,,10. ,CASE10,is not in benchmarks;
+,,11. ,CASE11,is not in benchmarks;
+,,,Races details:
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace1,1,missing,null,111,1111,null,null,
+,,,,2,missing,null,22,22,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,1,2,null,null,
+,,,,5,additional,null,41,47,null,null,
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace3,1,missing,null,22,22,null,null,
+,,,,2,missing,null,44,44,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,33,33,null,null,
+,,,,5,missing,null,11,11,null,null,
+
+DATE:,2017-03-22 23:56:55
+TOOL:,CalFuzzer
+,,No.,USECASE NAME,IS IN BENCHMARKS,IS IN SCRIPTFILE,TOTAL RACES,FOUNDED RACES,MISSING RACES,EXTRA RACES,PRECISION,FNR,FPR,
+,,1,testRace1,TRUE,TRUE,4,0,4,1,0%,100%,误报率是100%,
+,,2,testRace3,TRUE,TRUE,5,0,5,0,0%,100%,误报率是100%,
+,,3,CASE3,FALSE,TRUE,--,--,--,--,--,--,--,
+,,4,CASE4,FALSE,TRUE,--,--,--,--,--,--,--,
+,,5,CASE5,FALSE,TRUE,--,--,--,--,--,--,--,
+,,6,CASE6,FALSE,TRUE,--,--,--,--,--,--,--,
+,,7,CASE7,FALSE,TRUE,--,--,--,--,--,--,--,
+,,8,CASE8,FALSE,TRUE,--,--,--,--,--,--,--,
+,,9,CASE9,FALSE,TRUE,--,--,--,--,--,--,--,
+,,10,CASE10,FALSE,TRUE,--,--,--,--,--,--,--,
+,,11,CASE11,FALSE,TRUE,--,--,--,--,--,--,--,
+,,,Statistic description:
+,,1,testRace1,total 4 races;,0 right race;,4 missing race;,1 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,2,testRace3,total 5 races;,0 right race;,5 missing race;,0 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,3. ,CASE3,is not in benchmarks;
+,,4. ,CASE4,is not in benchmarks;
+,,5. ,CASE5,is not in benchmarks;
+,,6. ,CASE6,is not in benchmarks;
+,,7. ,CASE7,is not in benchmarks;
+,,8. ,CASE8,is not in benchmarks;
+,,9. ,CASE9,is not in benchmarks;
+,,10. ,CASE10,is not in benchmarks;
+,,11. ,CASE11,is not in benchmarks;
+,,,Races details:
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace1,1,missing,null,111,1111,null,null,
+,,,,2,missing,null,22,22,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,1,2,null,null,
+,,,,5,additional,null,41,47,null,null,
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace3,1,missing,null,22,22,null,null,
+,,,,2,missing,null,44,44,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,33,33,null,null,
+,,,,5,missing,null,11,11,null,null,
+
+DATE:,2017-03-22 23:57:29
+TOOL:,CalFuzzer
+,,No.,USECASE NAME,IS IN BENCHMARKS,IS IN SCRIPTFILE,TOTAL RACES,FOUNDED RACES,MISSING RACES,EXTRA RACES,PRECISION,FNR,FPR,
+,,1,testRace1,TRUE,TRUE,4,0,4,1,0%,100%,误报率是100%,
+,,2,testRace3,TRUE,TRUE,5,0,5,0,0%,100%,误报率是100%,
+,,3,CASE3,FALSE,TRUE,--,--,--,--,--,--,--,
+,,4,CASE4,FALSE,TRUE,--,--,--,--,--,--,--,
+,,5,CASE5,FALSE,TRUE,--,--,--,--,--,--,--,
+,,6,CASE6,FALSE,TRUE,--,--,--,--,--,--,--,
+,,7,CASE7,FALSE,TRUE,--,--,--,--,--,--,--,
+,,8,CASE8,FALSE,TRUE,--,--,--,--,--,--,--,
+,,9,CASE9,FALSE,TRUE,--,--,--,--,--,--,--,
+,,10,CASE10,FALSE,TRUE,--,--,--,--,--,--,--,
+,,11,CASE11,FALSE,TRUE,--,--,--,--,--,--,--,
+,,,Statistic description:
+,,1,testRace1,total 4 races;,0 right race;,4 missing race;,1 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,2,testRace3,total 5 races;,0 right race;,5 missing race;,0 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,3. ,CASE3,is not in benchmarks;
+,,4. ,CASE4,is not in benchmarks;
+,,5. ,CASE5,is not in benchmarks;
+,,6. ,CASE6,is not in benchmarks;
+,,7. ,CASE7,is not in benchmarks;
+,,8. ,CASE8,is not in benchmarks;
+,,9. ,CASE9,is not in benchmarks;
+,,10. ,CASE10,is not in benchmarks;
+,,11. ,CASE11,is not in benchmarks;
+,,,Races details:
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace1,1,missing,null,111,1111,null,null,
+,,,,2,missing,null,22,22,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,1,2,null,null,
+,,,,5,additional,null,41,47,null,null,
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace3,1,missing,null,22,22,null,null,
+,,,,2,missing,null,44,44,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,33,33,null,null,
+,,,,5,missing,null,11,11,null,null,
+
+DATE:,2017-03-22 23:57:32
+TOOL:,CalFuzzer
+,,No.,USECASE NAME,IS IN BENCHMARKS,IS IN SCRIPTFILE,TOTAL RACES,FOUNDED RACES,MISSING RACES,EXTRA RACES,PRECISION,FNR,FPR,
+,,1,testRace1,TRUE,TRUE,4,0,4,1,0%,100%,误报率是100%,
+,,2,testRace3,TRUE,TRUE,5,0,5,0,0%,100%,误报率是100%,
+,,3,CASE3,FALSE,TRUE,--,--,--,--,--,--,--,
+,,4,CASE4,FALSE,TRUE,--,--,--,--,--,--,--,
+,,5,CASE5,FALSE,TRUE,--,--,--,--,--,--,--,
+,,6,CASE6,FALSE,TRUE,--,--,--,--,--,--,--,
+,,7,CASE7,FALSE,TRUE,--,--,--,--,--,--,--,
+,,8,CASE8,FALSE,TRUE,--,--,--,--,--,--,--,
+,,9,CASE9,FALSE,TRUE,--,--,--,--,--,--,--,
+,,10,CASE10,FALSE,TRUE,--,--,--,--,--,--,--,
+,,11,CASE11,FALSE,TRUE,--,--,--,--,--,--,--,
+,,,Statistic description:
+,,1,testRace1,total 4 races;,0 right race;,4 missing race;,1 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,2,testRace3,total 5 races;,0 right race;,5 missing race;,0 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,3. ,CASE3,is not in benchmarks;
+,,4. ,CASE4,is not in benchmarks;
+,,5. ,CASE5,is not in benchmarks;
+,,6. ,CASE6,is not in benchmarks;
+,,7. ,CASE7,is not in benchmarks;
+,,8. ,CASE8,is not in benchmarks;
+,,9. ,CASE9,is not in benchmarks;
+,,10. ,CASE10,is not in benchmarks;
+,,11. ,CASE11,is not in benchmarks;
+,,,Races details:
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace1,1,missing,null,111,1111,null,null,
+,,,,2,missing,null,22,22,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,1,2,null,null,
+,,,,5,additional,null,41,47,null,null,
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace3,1,missing,null,22,22,null,null,
+,,,,2,missing,null,44,44,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,33,33,null,null,
+,,,,5,missing,null,11,11,null,null,
+
+DATE:,2017-03-22 23:58:12
+TOOL:,CalFuzzer
+,,No.,USECASE NAME,IS IN BENCHMARKS,IS IN SCRIPTFILE,TOTAL RACES,FOUNDED RACES,MISSING RACES,EXTRA RACES,PRECISION,FNR,FPR,
+,,1,testRace1,TRUE,TRUE,4,0,4,1,0%,100%,误报率是100%,
+,,2,testRace3,TRUE,TRUE,5,0,5,0,0%,100%,误报率是100%,
+,,3,CASE3,FALSE,TRUE,--,--,--,--,--,--,--,
+,,4,CASE4,FALSE,TRUE,--,--,--,--,--,--,--,
+,,5,CASE5,FALSE,TRUE,--,--,--,--,--,--,--,
+,,6,CASE6,FALSE,TRUE,--,--,--,--,--,--,--,
+,,7,CASE7,FALSE,TRUE,--,--,--,--,--,--,--,
+,,8,CASE8,FALSE,TRUE,--,--,--,--,--,--,--,
+,,9,CASE9,FALSE,TRUE,--,--,--,--,--,--,--,
+,,10,CASE10,FALSE,TRUE,--,--,--,--,--,--,--,
+,,11,CASE11,FALSE,TRUE,--,--,--,--,--,--,--,
+,,,Statistic description:
+,,1,testRace1,total 4 races;,0 right race;,4 missing race;,1 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,2,testRace3,total 5 races;,0 right race;,5 missing race;,0 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,3. ,CASE3,is not in benchmarks;
+,,4. ,CASE4,is not in benchmarks;
+,,5. ,CASE5,is not in benchmarks;
+,,6. ,CASE6,is not in benchmarks;
+,,7. ,CASE7,is not in benchmarks;
+,,8. ,CASE8,is not in benchmarks;
+,,9. ,CASE9,is not in benchmarks;
+,,10. ,CASE10,is not in benchmarks;
+,,11. ,CASE11,is not in benchmarks;
+,,,Races details:
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace1,1,missing,null,111,1111,null,null,
+,,,,2,missing,null,22,22,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,1,2,null,null,
+,,,,5,additional,null,41,47,null,null,
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace3,1,missing,null,22,22,null,null,
+,,,,2,missing,null,44,44,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,33,33,null,null,
+,,,,5,missing,null,11,11,null,null,
+
+DATE:,2017-03-22 23:58:41
+TOOL:,CalFuzzer
+,,No.,USECASE NAME,IS IN BENCHMARKS,IS IN SCRIPTFILE,TOTAL RACES,FOUNDED RACES,MISSING RACES,EXTRA RACES,PRECISION,FNR,FPR,
+,,1,testRace1,TRUE,TRUE,4,0,4,1,0%,100%,误报率是100%,
+,,2,testRace3,TRUE,TRUE,5,0,5,0,0%,100%,误报率是100%,
+,,3,CASE3,FALSE,TRUE,--,--,--,--,--,--,--,
+,,4,CASE4,FALSE,TRUE,--,--,--,--,--,--,--,
+,,5,CASE5,FALSE,TRUE,--,--,--,--,--,--,--,
+,,6,CASE6,FALSE,TRUE,--,--,--,--,--,--,--,
+,,7,CASE7,FALSE,TRUE,--,--,--,--,--,--,--,
+,,8,CASE8,FALSE,TRUE,--,--,--,--,--,--,--,
+,,9,CASE9,FALSE,TRUE,--,--,--,--,--,--,--,
+,,10,CASE10,FALSE,TRUE,--,--,--,--,--,--,--,
+,,11,CASE11,FALSE,TRUE,--,--,--,--,--,--,--,
+,,,Statistic description:
+,,1,testRace1,total 4 races;,0 right race;,4 missing race;,1 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,2,testRace3,total 5 races;,0 right race;,5 missing race;,0 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,3. ,CASE3,is not in benchmarks;
+,,4. ,CASE4,is not in benchmarks;
+,,5. ,CASE5,is not in benchmarks;
+,,6. ,CASE6,is not in benchmarks;
+,,7. ,CASE7,is not in benchmarks;
+,,8. ,CASE8,is not in benchmarks;
+,,9. ,CASE9,is not in benchmarks;
+,,10. ,CASE10,is not in benchmarks;
+,,11. ,CASE11,is not in benchmarks;
+,,,Races details:
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace1,1,missing,null,111,1111,null,null,
+,,,,2,missing,null,22,22,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,1,2,null,null,
+,,,,5,additional,null,41,47,null,null,
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace3,1,missing,null,22,22,null,null,
+,,,,2,missing,null,44,44,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,33,33,null,null,
+,,,,5,missing,null,11,11,null,null,
+
+DATE:,2017-03-22 23:59:03
+TOOL:,CalFuzzer
+,,No.,USECASE NAME,IS IN BENCHMARKS,IS IN SCRIPTFILE,TOTAL RACES,FOUNDED RACES,MISSING RACES,EXTRA RACES,PRECISION,FNR,FPR,
+,,1,testRace1,TRUE,TRUE,4,0,4,1,0%,100%,误报率是100%,
+,,2,testRace3,TRUE,TRUE,5,0,5,0,0%,100%,误报率是100%,
+,,3,CASE3,FALSE,TRUE,--,--,--,--,--,--,--,
+,,4,CASE4,FALSE,TRUE,--,--,--,--,--,--,--,
+,,5,CASE5,FALSE,TRUE,--,--,--,--,--,--,--,
+,,6,CASE6,FALSE,TRUE,--,--,--,--,--,--,--,
+,,7,CASE7,FALSE,TRUE,--,--,--,--,--,--,--,
+,,8,CASE8,FALSE,TRUE,--,--,--,--,--,--,--,
+,,9,CASE9,FALSE,TRUE,--,--,--,--,--,--,--,
+,,10,CASE10,FALSE,TRUE,--,--,--,--,--,--,--,
+,,11,CASE11,FALSE,TRUE,--,--,--,--,--,--,--,
+,,,Statistic description:
+,,1,testRace1,total 4 races;,0 right race;,4 missing race;,1 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,2,testRace3,total 5 races;,0 right race;,5 missing race;,0 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,3. ,CASE3,is not in benchmarks;
+,,4. ,CASE4,is not in benchmarks;
+,,5. ,CASE5,is not in benchmarks;
+,,6. ,CASE6,is not in benchmarks;
+,,7. ,CASE7,is not in benchmarks;
+,,8. ,CASE8,is not in benchmarks;
+,,9. ,CASE9,is not in benchmarks;
+,,10. ,CASE10,is not in benchmarks;
+,,11. ,CASE11,is not in benchmarks;
+,,,Races details:
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace1,1,missing,null,111,1111,null,null,
+,,,,2,missing,null,22,22,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,1,2,null,null,
+,,,,5,additional,null,41,47,null,null,
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace3,1,missing,null,22,22,null,null,
+,,,,2,missing,null,44,44,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,33,33,null,null,
+,,,,5,missing,null,11,11,null,null,
+
+DATE:,2017-03-22 23:59:33
+TOOL:,CalFuzzer
+,,No.,USECASE NAME,IS IN BENCHMARKS,IS IN SCRIPTFILE,TOTAL RACES,FOUNDED RACES,MISSING RACES,EXTRA RACES,PRECISION,FNR,FPR,
+,,1,testRace1,TRUE,TRUE,4,0,4,1,0%,100%,误报率是100%,
+,,2,testRace3,TRUE,TRUE,5,0,5,0,0%,100%,误报率是100%,
+,,3,CASE3,FALSE,TRUE,--,--,--,--,--,--,--,
+,,4,CASE4,FALSE,TRUE,--,--,--,--,--,--,--,
+,,5,CASE5,FALSE,TRUE,--,--,--,--,--,--,--,
+,,6,CASE6,FALSE,TRUE,--,--,--,--,--,--,--,
+,,7,CASE7,FALSE,TRUE,--,--,--,--,--,--,--,
+,,8,CASE8,FALSE,TRUE,--,--,--,--,--,--,--,
+,,9,CASE9,FALSE,TRUE,--,--,--,--,--,--,--,
+,,10,CASE10,FALSE,TRUE,--,--,--,--,--,--,--,
+,,11,CASE11,FALSE,TRUE,--,--,--,--,--,--,--,
+,,,Statistic description:
+,,1,testRace1,total 4 races;,0 right race;,4 missing race;,1 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,2,testRace3,total 5 races;,0 right race;,5 missing race;,0 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,3. ,CASE3,is not in benchmarks;
+,,4. ,CASE4,is not in benchmarks;
+,,5. ,CASE5,is not in benchmarks;
+,,6. ,CASE6,is not in benchmarks;
+,,7. ,CASE7,is not in benchmarks;
+,,8. ,CASE8,is not in benchmarks;
+,,9. ,CASE9,is not in benchmarks;
+,,10. ,CASE10,is not in benchmarks;
+,,11. ,CASE11,is not in benchmarks;
+,,,Races details:
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace1,1,missing,null,111,1111,null,null,
+,,,,2,missing,null,22,22,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,1,2,null,null,
+,,,,5,additional,null,41,47,null,null,
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace3,1,missing,null,22,22,null,null,
+,,,,2,missing,null,44,44,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,33,33,null,null,
+,,,,5,missing,null,11,11,null,null,
+
+DATE:,2017-03-23 00:00:48
+TOOL:,CalFuzzer
+,,No.,USECASE NAME,IS IN BENCHMARKS,IS IN SCRIPTFILE,TOTAL RACES,FOUNDED RACES,MISSING RACES,EXTRA RACES,PRECISION,FNR,FPR,
+,,1,testRace1,TRUE,TRUE,4,0,4,1,0%,100%,误报率是100%,
+,,2,testRace3,TRUE,TRUE,5,0,5,0,0%,100%,误报率是100%,
+,,3,CASE3,FALSE,TRUE,--,--,--,--,--,--,--,
+,,4,CASE4,FALSE,TRUE,--,--,--,--,--,--,--,
+,,5,CASE5,FALSE,TRUE,--,--,--,--,--,--,--,
+,,6,CASE6,FALSE,TRUE,--,--,--,--,--,--,--,
+,,7,CASE7,FALSE,TRUE,--,--,--,--,--,--,--,
+,,8,CASE8,FALSE,TRUE,--,--,--,--,--,--,--,
+,,9,CASE9,FALSE,TRUE,--,--,--,--,--,--,--,
+,,10,CASE10,FALSE,TRUE,--,--,--,--,--,--,--,
+,,11,CASE11,FALSE,TRUE,--,--,--,--,--,--,--,
+,,,Statistic description:
+,,1,testRace1,total 4 races;,0 right race;,4 missing race;,1 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,2,testRace3,total 5 races;,0 right race;,5 missing race;,0 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,3. ,CASE3,is not in benchmarks;
+,,4. ,CASE4,is not in benchmarks;
+,,5. ,CASE5,is not in benchmarks;
+,,6. ,CASE6,is not in benchmarks;
+,,7. ,CASE7,is not in benchmarks;
+,,8. ,CASE8,is not in benchmarks;
+,,9. ,CASE9,is not in benchmarks;
+,,10. ,CASE10,is not in benchmarks;
+,,11. ,CASE11,is not in benchmarks;
+,,,Races details:
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace1,1,missing,null,111,1111,null,null,
+,,,,2,missing,null,22,22,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,1,2,null,null,
+,,,,5,additional,null,41,47,null,null,
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace3,1,missing,null,22,22,null,null,
+,,,,2,missing,null,44,44,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,33,33,null,null,
+,,,,5,missing,null,11,11,null,null,
+
+DATE:,2017-03-23 00:02:14
+TOOL:,CalFuzzer
+,,No.,USECASE NAME,IS IN BENCHMARKS,IS IN SCRIPTFILE,TOTAL RACES,FOUNDED RACES,MISSING RACES,EXTRA RACES,PRECISION,FNR,FPR,
+,,1,testRace1,TRUE,TRUE,4,0,4,1,0%,100%,误报率是100%,
+,,2,testRace3,TRUE,TRUE,5,0,5,0,0%,100%,误报率是100%,
+,,3,CASE3,FALSE,TRUE,--,--,--,--,--,--,--,
+,,4,CASE4,FALSE,TRUE,--,--,--,--,--,--,--,
+,,5,CASE5,FALSE,TRUE,--,--,--,--,--,--,--,
+,,6,CASE6,FALSE,TRUE,--,--,--,--,--,--,--,
+,,7,CASE7,FALSE,TRUE,--,--,--,--,--,--,--,
+,,8,CASE8,FALSE,TRUE,--,--,--,--,--,--,--,
+,,9,CASE9,FALSE,TRUE,--,--,--,--,--,--,--,
+,,10,CASE10,FALSE,TRUE,--,--,--,--,--,--,--,
+,,11,CASE11,FALSE,TRUE,--,--,--,--,--,--,--,
+,,,Statistic description:
+,,1,testRace1,total 4 races;,0 right race;,4 missing race;,1 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,2,testRace3,total 5 races;,0 right race;,5 missing race;,0 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,3. ,CASE3,is not in benchmarks;
+,,4. ,CASE4,is not in benchmarks;
+,,5. ,CASE5,is not in benchmarks;
+,,6. ,CASE6,is not in benchmarks;
+,,7. ,CASE7,is not in benchmarks;
+,,8. ,CASE8,is not in benchmarks;
+,,9. ,CASE9,is not in benchmarks;
+,,10. ,CASE10,is not in benchmarks;
+,,11. ,CASE11,is not in benchmarks;
+,,,Races details:
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace1,1,missing,null,111,1111,null,null,
+,,,,2,missing,null,22,22,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,1,2,null,null,
+,,,,5,additional,null,41,47,null,null,
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace3,1,missing,null,22,22,null,null,
+,,,,2,missing,null,44,44,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,33,33,null,null,
+,,,,5,missing,null,11,11,null,null,
+
+DATE:,2017-03-23 00:02:37
+TOOL:,CalFuzzer
+,,No.,USECASE NAME,IS IN BENCHMARKS,IS IN SCRIPTFILE,TOTAL RACES,FOUNDED RACES,MISSING RACES,EXTRA RACES,PRECISION,FNR,FPR,
+,,1,testRace1,TRUE,TRUE,4,0,4,1,0%,100%,误报率是100%,
+,,2,testRace3,TRUE,TRUE,5,0,5,0,0%,100%,误报率是100%,
+,,3,CASE3,FALSE,TRUE,--,--,--,--,--,--,--,
+,,4,CASE4,FALSE,TRUE,--,--,--,--,--,--,--,
+,,5,CASE5,FALSE,TRUE,--,--,--,--,--,--,--,
+,,6,CASE6,FALSE,TRUE,--,--,--,--,--,--,--,
+,,7,CASE7,FALSE,TRUE,--,--,--,--,--,--,--,
+,,8,CASE8,FALSE,TRUE,--,--,--,--,--,--,--,
+,,9,CASE9,FALSE,TRUE,--,--,--,--,--,--,--,
+,,10,CASE10,FALSE,TRUE,--,--,--,--,--,--,--,
+,,11,CASE11,FALSE,TRUE,--,--,--,--,--,--,--,
+,,,Statistic description:
+,,1,testRace1,total 4 races;,0 right race;,4 missing race;,1 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,2,testRace3,total 5 races;,0 right race;,5 missing race;,0 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,3. ,CASE3,is not in benchmarks;
+,,4. ,CASE4,is not in benchmarks;
+,,5. ,CASE5,is not in benchmarks;
+,,6. ,CASE6,is not in benchmarks;
+,,7. ,CASE7,is not in benchmarks;
+,,8. ,CASE8,is not in benchmarks;
+,,9. ,CASE9,is not in benchmarks;
+,,10. ,CASE10,is not in benchmarks;
+,,11. ,CASE11,is not in benchmarks;
+,,,Races details:
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace1,1,missing,null,111,1111,null,null,
+,,,,2,missing,null,22,22,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,1,2,null,null,
+,,,,5,additional,null,41,47,null,null,
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace3,1,missing,null,22,22,null,null,
+,,,,2,missing,null,44,44,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,33,33,null,null,
+,,,,5,missing,null,11,11,null,null,
+
+DATE:,2017-03-23 00:02:53
+TOOL:,CalFuzzer
+,,No.,USECASE NAME,IS IN BENCHMARKS,IS IN SCRIPTFILE,TOTAL RACES,FOUNDED RACES,MISSING RACES,EXTRA RACES,PRECISION,FNR,FPR,
+,,1,testRace1,TRUE,TRUE,4,0,4,1,0%,100%,误报率是100%,
+,,2,testRace3,TRUE,TRUE,5,0,5,0,0%,100%,误报率是100%,
+,,3,CASE3,FALSE,TRUE,--,--,--,--,--,--,--,
+,,4,CASE4,FALSE,TRUE,--,--,--,--,--,--,--,
+,,5,CASE5,FALSE,TRUE,--,--,--,--,--,--,--,
+,,6,CASE6,FALSE,TRUE,--,--,--,--,--,--,--,
+,,7,CASE7,FALSE,TRUE,--,--,--,--,--,--,--,
+,,8,CASE8,FALSE,TRUE,--,--,--,--,--,--,--,
+,,9,CASE9,FALSE,TRUE,--,--,--,--,--,--,--,
+,,10,CASE10,FALSE,TRUE,--,--,--,--,--,--,--,
+,,11,CASE11,FALSE,TRUE,--,--,--,--,--,--,--,
+,,,Statistic description:
+,,1,testRace1,total 4 races;,0 right race;,4 missing race;,1 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,2,testRace3,total 5 races;,0 right race;,5 missing race;,0 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,3. ,CASE3,is not in benchmarks;
+,,4. ,CASE4,is not in benchmarks;
+,,5. ,CASE5,is not in benchmarks;
+,,6. ,CASE6,is not in benchmarks;
+,,7. ,CASE7,is not in benchmarks;
+,,8. ,CASE8,is not in benchmarks;
+,,9. ,CASE9,is not in benchmarks;
+,,10. ,CASE10,is not in benchmarks;
+,,11. ,CASE11,is not in benchmarks;
+,,,Races details:
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace1,1,missing,null,111,1111,null,null,
+,,,,2,missing,null,22,22,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,1,2,null,null,
+,,,,5,additional,null,41,47,null,null,
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace3,1,missing,null,22,22,null,null,
+,,,,2,missing,null,44,44,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,33,33,null,null,
+,,,,5,missing,null,11,11,null,null,
+
+DATE:,2017-03-23 00:03:46
+TOOL:,CalFuzzer
+,,No.,USECASE NAME,IS IN BENCHMARKS,IS IN SCRIPTFILE,TOTAL RACES,FOUNDED RACES,MISSING RACES,EXTRA RACES,PRECISION,FNR,FPR,
+,,1,testRace1,TRUE,TRUE,4,0,4,1,0%,100%,误报率是100%,
+,,2,testRace3,TRUE,TRUE,5,0,5,0,0%,100%,误报率是100%,
+,,3,CASE3,FALSE,TRUE,--,--,--,--,--,--,--,
+,,4,CASE4,FALSE,TRUE,--,--,--,--,--,--,--,
+,,5,CASE5,FALSE,TRUE,--,--,--,--,--,--,--,
+,,6,CASE6,FALSE,TRUE,--,--,--,--,--,--,--,
+,,7,CASE7,FALSE,TRUE,--,--,--,--,--,--,--,
+,,8,CASE8,FALSE,TRUE,--,--,--,--,--,--,--,
+,,9,CASE9,FALSE,TRUE,--,--,--,--,--,--,--,
+,,10,CASE10,FALSE,TRUE,--,--,--,--,--,--,--,
+,,11,CASE11,FALSE,TRUE,--,--,--,--,--,--,--,
+,,,Statistic description:
+,,1,testRace1,total 4 races;,0 right race;,4 missing race;,1 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,2,testRace3,total 5 races;,0 right race;,5 missing race;,0 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,3. ,CASE3,is not in benchmarks;
+,,4. ,CASE4,is not in benchmarks;
+,,5. ,CASE5,is not in benchmarks;
+,,6. ,CASE6,is not in benchmarks;
+,,7. ,CASE7,is not in benchmarks;
+,,8. ,CASE8,is not in benchmarks;
+,,9. ,CASE9,is not in benchmarks;
+,,10. ,CASE10,is not in benchmarks;
+,,11. ,CASE11,is not in benchmarks;
+,,,Races details:
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace1,1,missing,null,111,1111,null,null,
+,,,,2,missing,null,22,22,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,1,2,null,null,
+,,,,5,additional,null,41,47,null,null,
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace3,1,missing,null,22,22,null,null,
+,,,,2,missing,null,44,44,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,33,33,null,null,
+,,,,5,missing,null,11,11,null,null,
+
+DATE:,2017-03-23 00:06:45
+TOOL:,CalFuzzer
+,,No.,USECASE NAME,IS IN BENCHMARKS,IS IN SCRIPTFILE,TOTAL RACES,FOUNDED RACES,MISSING RACES,EXTRA RACES,PRECISION,FNR,FPR,
+,,1,testRace1,TRUE,TRUE,4,0,4,1,0%,100%,误报率是100%,
+,,2,testRace3,TRUE,TRUE,5,0,5,0,0%,100%,误报率是100%,
+,,3,CASE3,FALSE,TRUE,--,--,--,--,--,--,--,
+,,4,CASE4,FALSE,TRUE,--,--,--,--,--,--,--,
+,,5,CASE5,FALSE,TRUE,--,--,--,--,--,--,--,
+,,6,CASE6,FALSE,TRUE,--,--,--,--,--,--,--,
+,,7,CASE7,FALSE,TRUE,--,--,--,--,--,--,--,
+,,8,CASE8,FALSE,TRUE,--,--,--,--,--,--,--,
+,,9,CASE9,FALSE,TRUE,--,--,--,--,--,--,--,
+,,10,CASE10,FALSE,TRUE,--,--,--,--,--,--,--,
+,,11,CASE11,FALSE,TRUE,--,--,--,--,--,--,--,
+,,,Statistic description:
+,,1,testRace1,total 4 races;,0 right race;,4 missing race;,1 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,2,testRace3,total 5 races;,0 right race;,5 missing race;,0 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,3. ,CASE3,is not in benchmarks;
+,,4. ,CASE4,is not in benchmarks;
+,,5. ,CASE5,is not in benchmarks;
+,,6. ,CASE6,is not in benchmarks;
+,,7. ,CASE7,is not in benchmarks;
+,,8. ,CASE8,is not in benchmarks;
+,,9. ,CASE9,is not in benchmarks;
+,,10. ,CASE10,is not in benchmarks;
+,,11. ,CASE11,is not in benchmarks;
+,,,Races details:
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace1,1,missing,null,111,1111,null,null,
+,,,,2,missing,null,22,22,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,1,2,null,null,
+,,,,5,additional,null,41,47,null,null,
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace3,1,missing,null,22,22,null,null,
+,,,,2,missing,null,44,44,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,33,33,null,null,
+,,,,5,missing,null,11,11,null,null,
+
+DATE:,2017-03-23 00:16:42
+TOOL:,CalFuzzer
+,,No.,USECASE NAME,IS IN BENCHMARKS,IS IN SCRIPTFILE,TOTAL RACES,FOUNDED RACES,MISSING RACES,EXTRA RACES,PRECISION,FNR,FPR,
+,,1,testRace1,TRUE,TRUE,4,0,4,1,0%,100%,误报率是100%,
+,,2,testRace3,TRUE,TRUE,5,0,5,0,0%,100%,误报率是100%,
+,,3,CASE3,FALSE,TRUE,--,--,--,--,--,--,--,
+,,4,CASE4,FALSE,TRUE,--,--,--,--,--,--,--,
+,,5,CASE5,FALSE,TRUE,--,--,--,--,--,--,--,
+,,6,CASE6,FALSE,TRUE,--,--,--,--,--,--,--,
+,,7,CASE7,FALSE,TRUE,--,--,--,--,--,--,--,
+,,8,CASE8,FALSE,TRUE,--,--,--,--,--,--,--,
+,,9,CASE9,FALSE,TRUE,--,--,--,--,--,--,--,
+,,10,CASE10,FALSE,TRUE,--,--,--,--,--,--,--,
+,,11,CASE11,FALSE,TRUE,--,--,--,--,--,--,--,
+,,,Statistic description:
+,,1,testRace1,total 4 races;,0 right race;,4 missing race;,1 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,2,testRace3,total 5 races;,0 right race;,5 missing race;,0 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,3. ,CASE3,is not in benchmarks;
+,,4. ,CASE4,is not in benchmarks;
+,,5. ,CASE5,is not in benchmarks;
+,,6. ,CASE6,is not in benchmarks;
+,,7. ,CASE7,is not in benchmarks;
+,,8. ,CASE8,is not in benchmarks;
+,,9. ,CASE9,is not in benchmarks;
+,,10. ,CASE10,is not in benchmarks;
+,,11. ,CASE11,is not in benchmarks;
+,,,Races details:
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace1,1,missing,null,111,1111,null,null,
+,,,,2,missing,null,22,22,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,1,2,null,null,
+,,,,5,additional,null,41,47,null,null,
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace3,1,missing,null,22,22,null,null,
+,,,,2,missing,null,44,44,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,33,33,null,null,
+,,,,5,missing,null,11,11,null,null,
+
+DATE:,2017-03-23 00:18:33
+TOOL:,CalFuzzer
+,,No.,USECASE NAME,IS IN BENCHMARKS,IS IN SCRIPTFILE,TOTAL RACES,FOUNDED RACES,MISSING RACES,EXTRA RACES,PRECISION,FNR,FPR,
+,,1,testRace1,TRUE,TRUE,4,0,4,1,0%,100%,误报率是100%,
+,,2,testRace3,TRUE,TRUE,5,0,5,0,0%,100%,误报率是100%,
+,,3,CASE3,FALSE,TRUE,--,--,--,--,--,--,--,
+,,4,CASE4,FALSE,TRUE,--,--,--,--,--,--,--,
+,,5,CASE5,FALSE,TRUE,--,--,--,--,--,--,--,
+,,6,CASE6,FALSE,TRUE,--,--,--,--,--,--,--,
+,,7,CASE7,FALSE,TRUE,--,--,--,--,--,--,--,
+,,8,CASE8,FALSE,TRUE,--,--,--,--,--,--,--,
+,,9,CASE9,FALSE,TRUE,--,--,--,--,--,--,--,
+,,10,CASE10,FALSE,TRUE,--,--,--,--,--,--,--,
+,,11,CASE11,FALSE,TRUE,--,--,--,--,--,--,--,
+,,,Statistic description:
+,,1,testRace1,total 4 races;,0 right race;,4 missing race;,1 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,2,testRace3,total 5 races;,0 right race;,5 missing race;,0 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,3. ,CASE3,is not in benchmarks;
+,,4. ,CASE4,is not in benchmarks;
+,,5. ,CASE5,is not in benchmarks;
+,,6. ,CASE6,is not in benchmarks;
+,,7. ,CASE7,is not in benchmarks;
+,,8. ,CASE8,is not in benchmarks;
+,,9. ,CASE9,is not in benchmarks;
+,,10. ,CASE10,is not in benchmarks;
+,,11. ,CASE11,is not in benchmarks;
+,,,Races details:
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace1,1,missing,null,111,1111,null,null,
+,,,,2,missing,null,22,22,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,1,2,null,null,
+,,,,5,additional,null,41,47,null,null,
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace3,1,missing,null,22,22,null,null,
+,,,,2,missing,null,44,44,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,33,33,null,null,
+,,,,5,missing,null,11,11,null,null,
+
+DATE:,2017-03-23 00:19:16
+TOOL:,CalFuzzer
+,,No.,USECASE NAME,IS IN BENCHMARKS,IS IN SCRIPTFILE,TOTAL RACES,FOUNDED RACES,MISSING RACES,EXTRA RACES,PRECISION,FNR,FPR,
+,,1,testRace1,TRUE,TRUE,4,0,4,1,0%,100%,误报率是100%,
+,,2,testRace3,TRUE,TRUE,5,0,5,0,0%,100%,误报率是100%,
+,,3,CASE3,FALSE,TRUE,--,--,--,--,--,--,--,
+,,4,CASE4,FALSE,TRUE,--,--,--,--,--,--,--,
+,,5,CASE5,FALSE,TRUE,--,--,--,--,--,--,--,
+,,6,CASE6,FALSE,TRUE,--,--,--,--,--,--,--,
+,,7,CASE7,FALSE,TRUE,--,--,--,--,--,--,--,
+,,8,CASE8,FALSE,TRUE,--,--,--,--,--,--,--,
+,,9,CASE9,FALSE,TRUE,--,--,--,--,--,--,--,
+,,10,CASE10,FALSE,TRUE,--,--,--,--,--,--,--,
+,,11,CASE11,FALSE,TRUE,--,--,--,--,--,--,--,
+,,,Statistic description:
+,,1,testRace1,total 4 races;,0 right race;,4 missing race;,1 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,2,testRace3,total 5 races;,0 right race;,5 missing race;,0 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,3. ,CASE3,is not in benchmarks;
+,,4. ,CASE4,is not in benchmarks;
+,,5. ,CASE5,is not in benchmarks;
+,,6. ,CASE6,is not in benchmarks;
+,,7. ,CASE7,is not in benchmarks;
+,,8. ,CASE8,is not in benchmarks;
+,,9. ,CASE9,is not in benchmarks;
+,,10. ,CASE10,is not in benchmarks;
+,,11. ,CASE11,is not in benchmarks;
+,,,Races details:
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace1,1,missing,null,111,1111,null,null,
+,,,,2,missing,null,22,22,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,1,2,null,null,
+,,,,5,additional,null,41,47,null,null,
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace3,1,missing,null,22,22,null,null,
+,,,,2,missing,null,44,44,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,33,33,null,null,
+,,,,5,missing,null,11,11,null,null,
+
+DATE:,2017-03-23 00:19:36
+TOOL:,CalFuzzer
+,,No.,USECASE NAME,IS IN BENCHMARKS,IS IN SCRIPTFILE,TOTAL RACES,FOUNDED RACES,MISSING RACES,EXTRA RACES,PRECISION,FNR,FPR,
+,,1,testRace1,TRUE,TRUE,4,0,4,1,0%,100%,误报率是100%,
+,,2,testRace3,TRUE,TRUE,5,0,5,0,0%,100%,误报率是100%,
+,,3,CASE3,FALSE,TRUE,--,--,--,--,--,--,--,
+,,4,CASE4,FALSE,TRUE,--,--,--,--,--,--,--,
+,,5,CASE5,FALSE,TRUE,--,--,--,--,--,--,--,
+,,6,CASE6,FALSE,TRUE,--,--,--,--,--,--,--,
+,,7,CASE7,FALSE,TRUE,--,--,--,--,--,--,--,
+,,8,CASE8,FALSE,TRUE,--,--,--,--,--,--,--,
+,,9,CASE9,FALSE,TRUE,--,--,--,--,--,--,--,
+,,10,CASE10,FALSE,TRUE,--,--,--,--,--,--,--,
+,,11,CASE11,FALSE,TRUE,--,--,--,--,--,--,--,
+,,,Statistic description:
+,,1,testRace1,total 4 races;,0 right race;,4 missing race;,1 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,2,testRace3,total 5 races;,0 right race;,5 missing race;,0 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,3. ,CASE3,is not in benchmarks;
+,,4. ,CASE4,is not in benchmarks;
+,,5. ,CASE5,is not in benchmarks;
+,,6. ,CASE6,is not in benchmarks;
+,,7. ,CASE7,is not in benchmarks;
+,,8. ,CASE8,is not in benchmarks;
+,,9. ,CASE9,is not in benchmarks;
+,,10. ,CASE10,is not in benchmarks;
+,,11. ,CASE11,is not in benchmarks;
+,,,Races details:
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace1,1,missing,null,111,1111,null,null,
+,,,,2,missing,null,22,22,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,1,2,null,null,
+,,,,5,additional,null,41,47,null,null,
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace3,1,missing,null,22,22,null,null,
+,,,,2,missing,null,44,44,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,33,33,null,null,
+,,,,5,missing,null,11,11,null,null,
+
+DATE:,2017-03-23 00:31:54
+TOOL:,CalFuzzer
+,,No.,USECASE NAME,IS IN BENCHMARKS,IS IN SCRIPTFILE,TOTAL RACES,FOUNDED RACES,MISSING RACES,EXTRA RACES,PRECISION,FNR,FPR,
+,,1,testRace1,TRUE,TRUE,4,0,4,1,0%,100%,误报率是100%,
+,,2,testRace3,TRUE,TRUE,5,0,5,0,0%,100%,误报率是100%,
+,,3,CASE3,FALSE,TRUE,--,--,--,--,--,--,--,
+,,4,CASE4,FALSE,TRUE,--,--,--,--,--,--,--,
+,,5,CASE5,FALSE,TRUE,--,--,--,--,--,--,--,
+,,6,CASE6,FALSE,TRUE,--,--,--,--,--,--,--,
+,,7,CASE7,FALSE,TRUE,--,--,--,--,--,--,--,
+,,8,CASE8,FALSE,TRUE,--,--,--,--,--,--,--,
+,,9,CASE9,FALSE,TRUE,--,--,--,--,--,--,--,
+,,10,CASE10,FALSE,TRUE,--,--,--,--,--,--,--,
+,,11,CASE11,FALSE,TRUE,--,--,--,--,--,--,--,
+,,,Statistic description:
+,,1,testRace1,total 4 races;,0 right race;,4 missing race;,1 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,2,testRace3,total 5 races;,0 right race;,5 missing race;,0 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,3. ,CASE3,is not in benchmarks;
+,,4. ,CASE4,is not in benchmarks;
+,,5. ,CASE5,is not in benchmarks;
+,,6. ,CASE6,is not in benchmarks;
+,,7. ,CASE7,is not in benchmarks;
+,,8. ,CASE8,is not in benchmarks;
+,,9. ,CASE9,is not in benchmarks;
+,,10. ,CASE10,is not in benchmarks;
+,,11. ,CASE11,is not in benchmarks;
+,,,Races details:
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace1,1,missing,null,111,1111,null,null,
+,,,,2,missing,null,22,22,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,1,2,null,null,
+,,,,5,additional,null,41,47,null,null,
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace3,1,missing,null,22,22,null,null,
+,,,,2,missing,null,44,44,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,33,33,null,null,
+,,,,5,missing,null,11,11,null,null,
+
+DATE:,2017-03-23 00:33:18
+TOOL:,CalFuzzer
+,,No.,USECASE NAME,IS IN BENCHMARKS,IS IN SCRIPTFILE,TOTAL RACES,FOUNDED RACES,MISSING RACES,EXTRA RACES,PRECISION,FNR,FPR,
+,,1,testRace1,TRUE,TRUE,4,0,4,1,0%,100%,误报率是100%,
+,,2,testRace3,TRUE,TRUE,5,0,5,0,0%,100%,误报率是100%,
+,,3,CASE3,FALSE,TRUE,--,--,--,--,--,--,--,
+,,4,CASE4,FALSE,TRUE,--,--,--,--,--,--,--,
+,,5,CASE5,FALSE,TRUE,--,--,--,--,--,--,--,
+,,6,CASE6,FALSE,TRUE,--,--,--,--,--,--,--,
+,,7,CASE7,FALSE,TRUE,--,--,--,--,--,--,--,
+,,8,CASE8,FALSE,TRUE,--,--,--,--,--,--,--,
+,,9,CASE9,FALSE,TRUE,--,--,--,--,--,--,--,
+,,10,CASE10,FALSE,TRUE,--,--,--,--,--,--,--,
+,,11,CASE11,FALSE,TRUE,--,--,--,--,--,--,--,
+,,,Statistic description:
+,,1,testRace1,total 4 races;,0 right race;,4 missing race;,1 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,2,testRace3,total 5 races;,0 right race;,5 missing race;,0 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,3. ,CASE3,is not in benchmarks;
+,,4. ,CASE4,is not in benchmarks;
+,,5. ,CASE5,is not in benchmarks;
+,,6. ,CASE6,is not in benchmarks;
+,,7. ,CASE7,is not in benchmarks;
+,,8. ,CASE8,is not in benchmarks;
+,,9. ,CASE9,is not in benchmarks;
+,,10. ,CASE10,is not in benchmarks;
+,,11. ,CASE11,is not in benchmarks;
+,,,Races details:
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace1,1,missing,null,111,1111,null,null,
+,,,,2,missing,null,22,22,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,1,2,null,null,
+,,,,5,additional,null,41,47,null,null,
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace3,1,missing,null,22,22,null,null,
+,,,,2,missing,null,44,44,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,33,33,null,null,
+,,,,5,missing,null,11,11,null,null,
+
+DATE:,2017-03-23 00:33:30
+TOOL:,CalFuzzer
+,,No.,USECASE NAME,IS IN BENCHMARKS,IS IN SCRIPTFILE,TOTAL RACES,FOUNDED RACES,MISSING RACES,EXTRA RACES,PRECISION,FNR,FPR,
+,,1,testRace1,TRUE,TRUE,4,0,4,1,0%,100%,误报率是100%,
+,,2,testRace3,TRUE,TRUE,5,0,5,0,0%,100%,误报率是100%,
+,,3,CASE3,FALSE,TRUE,--,--,--,--,--,--,--,
+,,4,CASE4,FALSE,TRUE,--,--,--,--,--,--,--,
+,,5,CASE5,FALSE,TRUE,--,--,--,--,--,--,--,
+,,6,CASE6,FALSE,TRUE,--,--,--,--,--,--,--,
+,,7,CASE7,FALSE,TRUE,--,--,--,--,--,--,--,
+,,8,CASE8,FALSE,TRUE,--,--,--,--,--,--,--,
+,,9,CASE9,FALSE,TRUE,--,--,--,--,--,--,--,
+,,10,CASE10,FALSE,TRUE,--,--,--,--,--,--,--,
+,,11,CASE11,FALSE,TRUE,--,--,--,--,--,--,--,
+,,,Statistic description:
+,,1,testRace1,total 4 races;,0 right race;,4 missing race;,1 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,2,testRace3,total 5 races;,0 right race;,5 missing race;,0 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,3. ,CASE3,is not in benchmarks;
+,,4. ,CASE4,is not in benchmarks;
+,,5. ,CASE5,is not in benchmarks;
+,,6. ,CASE6,is not in benchmarks;
+,,7. ,CASE7,is not in benchmarks;
+,,8. ,CASE8,is not in benchmarks;
+,,9. ,CASE9,is not in benchmarks;
+,,10. ,CASE10,is not in benchmarks;
+,,11. ,CASE11,is not in benchmarks;
+,,,Races details:
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace1,1,missing,null,111,1111,null,null,
+,,,,2,missing,null,22,22,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,1,2,null,null,
+,,,,5,additional,null,41,47,null,null,
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace3,1,missing,null,22,22,null,null,
+,,,,2,missing,null,44,44,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,33,33,null,null,
+,,,,5,missing,null,11,11,null,null,
+
+DATE:,2017-03-23 00:34:08
+TOOL:,CalFuzzer
+,,No.,USECASE NAME,IS IN BENCHMARKS,IS IN SCRIPTFILE,TOTAL RACES,FOUNDED RACES,MISSING RACES,EXTRA RACES,PRECISION,FNR,FPR,
+,,1,testRace1,TRUE,TRUE,4,0,4,1,0%,100%,误报率是100%,
+,,2,testRace3,TRUE,TRUE,5,0,5,0,0%,100%,误报率是100%,
+,,3,CASE3,FALSE,TRUE,--,--,--,--,--,--,--,
+,,4,CASE4,FALSE,TRUE,--,--,--,--,--,--,--,
+,,5,CASE5,FALSE,TRUE,--,--,--,--,--,--,--,
+,,6,CASE6,FALSE,TRUE,--,--,--,--,--,--,--,
+,,7,CASE7,FALSE,TRUE,--,--,--,--,--,--,--,
+,,8,CASE8,FALSE,TRUE,--,--,--,--,--,--,--,
+,,9,CASE9,FALSE,TRUE,--,--,--,--,--,--,--,
+,,10,CASE10,FALSE,TRUE,--,--,--,--,--,--,--,
+,,11,CASE11,FALSE,TRUE,--,--,--,--,--,--,--,
+,,,Statistic description:
+,,1,testRace1,total 4 races;,0 right race;,4 missing race;,1 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,2,testRace3,total 5 races;,0 right race;,5 missing race;,0 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,3. ,CASE3,is not in benchmarks;
+,,4. ,CASE4,is not in benchmarks;
+,,5. ,CASE5,is not in benchmarks;
+,,6. ,CASE6,is not in benchmarks;
+,,7. ,CASE7,is not in benchmarks;
+,,8. ,CASE8,is not in benchmarks;
+,,9. ,CASE9,is not in benchmarks;
+,,10. ,CASE10,is not in benchmarks;
+,,11. ,CASE11,is not in benchmarks;
+,,,Races details:
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace1,1,missing,null,111,1111,null,null,
+,,,,2,missing,null,22,22,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,1,2,null,null,
+,,,,5,additional,null,41,47,null,null,
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace3,1,missing,null,22,22,null,null,
+,,,,2,missing,null,44,44,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,33,33,null,null,
+,,,,5,missing,null,11,11,null,null,
+
+DATE:,2017-03-23 00:34:45
+TOOL:,CalFuzzer
+,,No.,USECASE NAME,IS IN BENCHMARKS,IS IN SCRIPTFILE,TOTAL RACES,FOUNDED RACES,MISSING RACES,EXTRA RACES,PRECISION,FNR,FPR,
+,,1,testRace1,TRUE,TRUE,4,0,4,1,0%,100%,误报率是100%,
+,,2,testRace3,TRUE,TRUE,5,0,5,0,0%,100%,误报率是100%,
+,,3,CASE3,FALSE,TRUE,--,--,--,--,--,--,--,
+,,4,CASE4,FALSE,TRUE,--,--,--,--,--,--,--,
+,,5,CASE5,FALSE,TRUE,--,--,--,--,--,--,--,
+,,6,CASE6,FALSE,TRUE,--,--,--,--,--,--,--,
+,,7,CASE7,FALSE,TRUE,--,--,--,--,--,--,--,
+,,8,CASE8,FALSE,TRUE,--,--,--,--,--,--,--,
+,,9,CASE9,FALSE,TRUE,--,--,--,--,--,--,--,
+,,10,CASE10,FALSE,TRUE,--,--,--,--,--,--,--,
+,,11,CASE11,FALSE,TRUE,--,--,--,--,--,--,--,
+,,,Statistic description:
+,,1,testRace1,total 4 races;,0 right race;,4 missing race;,1 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,2,testRace3,total 5 races;,0 right race;,5 missing race;,0 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,3. ,CASE3,is not in benchmarks;
+,,4. ,CASE4,is not in benchmarks;
+,,5. ,CASE5,is not in benchmarks;
+,,6. ,CASE6,is not in benchmarks;
+,,7. ,CASE7,is not in benchmarks;
+,,8. ,CASE8,is not in benchmarks;
+,,9. ,CASE9,is not in benchmarks;
+,,10. ,CASE10,is not in benchmarks;
+,,11. ,CASE11,is not in benchmarks;
+,,,Races details:
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace1,1,missing,null,111,1111,null,null,
+,,,,2,missing,null,22,22,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,1,2,null,null,
+,,,,5,additional,null,41,47,null,null,
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace3,1,missing,null,22,22,null,null,
+,,,,2,missing,null,44,44,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,33,33,null,null,
+,,,,5,missing,null,11,11,null,null,
+
+DATE:,2017-03-23 00:35:28
+TOOL:,CalFuzzer
+,,No.,USECASE NAME,IS IN BENCHMARKS,IS IN SCRIPTFILE,TOTAL RACES,FOUNDED RACES,MISSING RACES,EXTRA RACES,PRECISION,FNR,FPR,
+,,1,testRace1,TRUE,TRUE,4,0,4,1,0%,100%,误报率是100%,
+,,2,testRace3,TRUE,TRUE,5,0,5,0,0%,100%,误报率是100%,
+,,3,CASE3,FALSE,TRUE,--,--,--,--,--,--,--,
+,,4,CASE4,FALSE,TRUE,--,--,--,--,--,--,--,
+,,5,CASE5,FALSE,TRUE,--,--,--,--,--,--,--,
+,,6,CASE6,FALSE,TRUE,--,--,--,--,--,--,--,
+,,7,CASE7,FALSE,TRUE,--,--,--,--,--,--,--,
+,,8,CASE8,FALSE,TRUE,--,--,--,--,--,--,--,
+,,9,CASE9,FALSE,TRUE,--,--,--,--,--,--,--,
+,,10,CASE10,FALSE,TRUE,--,--,--,--,--,--,--,
+,,11,CASE11,FALSE,TRUE,--,--,--,--,--,--,--,
+,,,Statistic description:
+,,1,testRace1,total 4 races;,0 right race;,4 missing race;,1 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,2,testRace3,total 5 races;,0 right race;,5 missing race;,0 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,3. ,CASE3,is not in benchmarks;
+,,4. ,CASE4,is not in benchmarks;
+,,5. ,CASE5,is not in benchmarks;
+,,6. ,CASE6,is not in benchmarks;
+,,7. ,CASE7,is not in benchmarks;
+,,8. ,CASE8,is not in benchmarks;
+,,9. ,CASE9,is not in benchmarks;
+,,10. ,CASE10,is not in benchmarks;
+,,11. ,CASE11,is not in benchmarks;
+,,,Races details:
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace1,1,missing,null,111,1111,null,null,
+,,,,2,missing,null,22,22,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,1,2,null,null,
+,,,,5,additional,null,41,47,null,null,
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace3,1,missing,null,22,22,null,null,
+,,,,2,missing,null,44,44,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,33,33,null,null,
+,,,,5,missing,null,11,11,null,null,
+
+DATE:,2017-03-23 00:36:34
+TOOL:,CalFuzzer
+,,No.,USECASE NAME,IS IN BENCHMARKS,IS IN SCRIPTFILE,TOTAL RACES,FOUNDED RACES,MISSING RACES,EXTRA RACES,PRECISION,FNR,FPR,
+,,1,testRace1,TRUE,TRUE,4,0,4,1,0%,100%,误报率是100%,
+,,2,testRace3,TRUE,TRUE,5,0,5,0,0%,100%,误报率是100%,
+,,3,CASE3,FALSE,TRUE,--,--,--,--,--,--,--,
+,,4,CASE4,FALSE,TRUE,--,--,--,--,--,--,--,
+,,5,CASE5,FALSE,TRUE,--,--,--,--,--,--,--,
+,,6,CASE6,FALSE,TRUE,--,--,--,--,--,--,--,
+,,7,CASE7,FALSE,TRUE,--,--,--,--,--,--,--,
+,,8,CASE8,FALSE,TRUE,--,--,--,--,--,--,--,
+,,9,CASE9,FALSE,TRUE,--,--,--,--,--,--,--,
+,,10,CASE10,FALSE,TRUE,--,--,--,--,--,--,--,
+,,11,CASE11,FALSE,TRUE,--,--,--,--,--,--,--,
+,,,Statistic description:
+,,1,testRace1,total 4 races;,0 right race;,4 missing race;,1 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,2,testRace3,total 5 races;,0 right race;,5 missing race;,0 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,3. ,CASE3,is not in benchmarks;
+,,4. ,CASE4,is not in benchmarks;
+,,5. ,CASE5,is not in benchmarks;
+,,6. ,CASE6,is not in benchmarks;
+,,7. ,CASE7,is not in benchmarks;
+,,8. ,CASE8,is not in benchmarks;
+,,9. ,CASE9,is not in benchmarks;
+,,10. ,CASE10,is not in benchmarks;
+,,11. ,CASE11,is not in benchmarks;
+,,,Races details:
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace1,1,missing,null,111,1111,null,null,
+,,,,2,missing,null,22,22,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,1,2,null,null,
+,,,,5,additional,null,41,47,null,null,
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace3,1,missing,null,22,22,null,null,
+,,,,2,missing,null,44,44,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,33,33,null,null,
+,,,,5,missing,null,11,11,null,null,
+
+DATE:,2017-03-23 00:36:59
+TOOL:,CalFuzzer
+,,No.,USECASE NAME,IS IN BENCHMARKS,IS IN SCRIPTFILE,TOTAL RACES,FOUNDED RACES,MISSING RACES,EXTRA RACES,PRECISION,FNR,FPR,
+,,1,testRace1,TRUE,FALSE,,--,--,--,--,--,--,--,
+,,2,testRace3,TRUE,FALSE,,--,--,--,--,--,--,--,
+,,,Statistic description:
+,,1. ,testRace1,in scriptfile,not in benchmarks;
+,,2. ,testRace3,in scriptfile,not in benchmarks;
+,,,Races details:
+
+DATE:,2017-03-23 00:37:39
+TOOL:,CalFuzzer
+,,No.,USECASE NAME,IS IN BENCHMARKS,IS IN SCRIPTFILE,TOTAL RACES,FOUNDED RACES,MISSING RACES,EXTRA RACES,PRECISION,FNR,FPR,
+,,1,testRace1,TRUE,FALSE,,--,--,--,--,--,--,--,
+,,2,testRace3,TRUE,FALSE,,--,--,--,--,--,--,--,
+,,,Statistic description:
+,,1. ,testRace1,in scriptfile,not in benchmarks;
+,,2. ,testRace3,in scriptfile,not in benchmarks;
+,,,Races details:
+
+DATE:,2017-03-23 00:39:25
+TOOL:,CalFuzzer
+,,No.,USECASE NAME,IS IN BENCHMARKS,IS IN SCRIPTFILE,TOTAL RACES,FOUNDED RACES,MISSING RACES,EXTRA RACES,PRECISION,FNR,FPR,
+,,1,testRace1,TRUE,FALSE,,--,--,--,--,--,--,--,
+,,2,testRace3,TRUE,FALSE,,--,--,--,--,--,--,--,
+,,,Statistic description:
+,,1. ,testRace1,in scriptfile,not in benchmarks;
+,,2. ,testRace3,in scriptfile,not in benchmarks;
+,,,Races details:
+
+DATE:,2017-03-23 00:40:50
+TOOL:,CalFuzzer
+,,No.,USECASE NAME,IS IN BENCHMARKS,IS IN SCRIPTFILE,TOTAL RACES,FOUNDED RACES,MISSING RACES,EXTRA RACES,PRECISION,FNR,FPR,
+,,1,testRace1,TRUE,FALSE,,--,--,--,--,--,--,--,
+,,2,testRace3,TRUE,FALSE,,--,--,--,--,--,--,--,
+,,,Statistic description:
+,,1. ,testRace1,in scriptfile,not in benchmarks;
+,,2. ,testRace3,in scriptfile,not in benchmarks;
+,,,Races details:
+
+DATE:,2017-03-23 00:41:17
+TOOL:,CalFuzzer
+,,No.,USECASE NAME,IS IN BENCHMARKS,IS IN SCRIPTFILE,TOTAL RACES,FOUNDED RACES,MISSING RACES,EXTRA RACES,PRECISION,FNR,FPR,
+,,1,testRace1,TRUE,FALSE,,--,--,--,--,--,--,--,
+,,2,testRace3,TRUE,FALSE,,--,--,--,--,--,--,--,
+,,,Statistic description:
+,,1. ,testRace1,in scriptfile,not in benchmarks;
+,,2. ,testRace3,in scriptfile,not in benchmarks;
+,,,Races details:
+
+DATE:,2017-03-23 00:41:41
+TOOL:,CalFuzzer
+,,No.,USECASE NAME,IS IN BENCHMARKS,IS IN SCRIPTFILE,TOTAL RACES,FOUNDED RACES,MISSING RACES,EXTRA RACES,PRECISION,FNR,FPR,
+,,1,testRace1,TRUE,FALSE,,--,--,--,--,--,--,--,
+,,2,testRace3,TRUE,FALSE,,--,--,--,--,--,--,--,
+,,,Statistic description:
+,,1. ,testRace1,in scriptfile,not in benchmarks;
+,,2. ,testRace3,in scriptfile,not in benchmarks;
+,,,Races details:
+
+DATE:,2017-03-23 00:42:04
+TOOL:,CalFuzzer
+,,No.,USECASE NAME,IS IN BENCHMARKS,IS IN SCRIPTFILE,TOTAL RACES,FOUNDED RACES,MISSING RACES,EXTRA RACES,PRECISION,FNR,FPR,
+,,1,testRace1,TRUE,FALSE,,--,--,--,--,--,--,--,
+,,2,testRace3,TRUE,FALSE,,--,--,--,--,--,--,--,
+,,,Statistic description:
+,,1. ,testRace1,in scriptfile,not in benchmarks;
+,,2. ,testRace3,in scriptfile,not in benchmarks;
+,,,Races details:
+
+DATE:,2017-03-23 00:42:56
+TOOL:,CalFuzzer
+,,No.,USECASE NAME,IS IN BENCHMARKS,IS IN SCRIPTFILE,TOTAL RACES,FOUNDED RACES,MISSING RACES,EXTRA RACES,PRECISION,FNR,FPR,
+,,1,testRace1,TRUE,FALSE,,--,--,--,--,--,--,--,
+,,2,testRace3,TRUE,FALSE,,--,--,--,--,--,--,--,
+,,,Statistic description:
+,,1. ,testRace1,in scriptfile,not in benchmarks;
+,,2. ,testRace3,in scriptfile,not in benchmarks;
+,,,Races details:
+
+DATE:,2017-03-23 00:43:22
+TOOL:,CalFuzzer
+,,No.,USECASE NAME,IS IN BENCHMARKS,IS IN SCRIPTFILE,TOTAL RACES,FOUNDED RACES,MISSING RACES,EXTRA RACES,PRECISION,FNR,FPR,
+,,1,testRace1,TRUE,TRUE,4,0,4,1,0%,100%,误报率是100%,
+,,2,testRace3,TRUE,TRUE,5,0,5,0,0%,100%,误报率是100%,
+,,3,CASE3,FALSE,TRUE,--,--,--,--,--,--,--,
+,,4,CASE4,FALSE,TRUE,--,--,--,--,--,--,--,
+,,5,CASE5,FALSE,TRUE,--,--,--,--,--,--,--,
+,,6,CASE6,FALSE,TRUE,--,--,--,--,--,--,--,
+,,7,CASE7,FALSE,TRUE,--,--,--,--,--,--,--,
+,,8,CASE8,FALSE,TRUE,--,--,--,--,--,--,--,
+,,9,CASE9,FALSE,TRUE,--,--,--,--,--,--,--,
+,,10,CASE10,FALSE,TRUE,--,--,--,--,--,--,--,
+,,11,CASE11,FALSE,TRUE,--,--,--,--,--,--,--,
+,,,Statistic description:
+,,1,testRace1,total 4 races;,0 right race;,4 missing race;,1 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,2,testRace3,total 5 races;,0 right race;,5 missing race;,0 extra race;,precision is 0%;,FNR is 100%;,FPR is100%;,
+,,3. ,CASE3,is not in benchmarks;
+,,4. ,CASE4,is not in benchmarks;
+,,5. ,CASE5,is not in benchmarks;
+,,6. ,CASE6,is not in benchmarks;
+,,7. ,CASE7,is not in benchmarks;
+,,8. ,CASE8,is not in benchmarks;
+,,9. ,CASE9,is not in benchmarks;
+,,10. ,CASE10,is not in benchmarks;
+,,11. ,CASE11,is not in benchmarks;
+,,,Races details:
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace1,1,missing,null,111,1111,null,null,
+,,,,2,missing,null,22,22,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,1,2,null,null,
+,,,,5,additional,null,41,47,null,null,
+,,,NAME,No.,STATE,CLASS,Line1,Line2,VARIABLE,DETAILs,
+,,,testRace3,1,missing,null,22,22,null,null,
+,,,,2,missing,null,44,44,null,null,
+,,,,3,missing,null,42,46,null,null,
+,,,,4,missing,null,33,33,null,null,
+,,,,5,missing,null,11,11,null,null,
+

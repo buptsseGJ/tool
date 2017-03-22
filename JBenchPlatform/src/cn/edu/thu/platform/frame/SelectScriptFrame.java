@@ -215,9 +215,8 @@ public class SelectScriptFrame extends JFrame implements ChangeListener {
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				RoughResultFrame rrf = new RoughResultFrame();
-				;
 				System.out.println("开始查看粗糙的结果展示");
-				rrf.setSize(1500, 1000);
+				rrf.setSize(1200, 1000);
 				rrf.setLocationRelativeTo(null);
 				rrf.setVisible(true);
 				rrf.setTitle("结果展现");

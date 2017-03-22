@@ -14,5 +14,6 @@ public class ComparisonResult {
 	public static Map<String, Report> missRace = new HashMap<String, Report>();
 	public static Map<String, Report> additianalRace = new HashMap<String, Report>();
 	public static Map<String, String> summary = new HashMap<String, String>();
+	public static Map<String,Result> resultsMap = new HashMap<String,Result>();
 	public static List<Result> results = new ArrayList<Result>();
 }
