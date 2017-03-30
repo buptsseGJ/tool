@@ -237,6 +237,7 @@ public class SelectScriptFrame extends JFrame implements ChangeListener {
 				jfc.setBounds(750, 50, 100, 50);
 				File file = jfc.getSelectedFile();
 				if (file != null) {
+					Script.scripts.clear();
 					fileAbsolutePath = file.getAbsolutePath();
 					System.out.println("脚本路径：" + file.getAbsolutePath());
 					commands = "\n    =====================   COMMANDS IN SCRIPTFILE  =====================\n\n";				
@@ -326,13 +327,13 @@ public class SelectScriptFrame extends JFrame implements ChangeListener {
 				System.out.println("时间1;" + (tempTime - startTime)/1000);
 				// Rv-Predict的输出走的是错误输出流，Calfuzzer的输出走的是标准输出流
 				 BufferedInputStream in = null;
-				 if(ComparisonResult.tool.equals("Rv-Predict")) {
-				 in = new BufferedInputStream(proc.getErrorStream());
-				 }else {
-				 in = new BufferedInputStream(proc.getInputStream());
-				 }
-				
-				 final BufferedReader brRead = new BufferedReader(new	 InputStreamReader(in));
+//				 if(ComparisonResult.tool.equals("Rv-Predict")) {
+//				 in = new BufferedInputStream(proc.getErrorStream());
+//				 }else {
+//				 in = new BufferedInputStream(proc.getInputStream());
+//				 }
+//				
+//				 final BufferedReader brRead = new BufferedReader(new	 InputStreamReader(in));
 				// 获取标准输出
 				readStdout = new BufferedReader(new InputStreamReader(proc.getInputStream()));
 				// 获取错误输出
@@ -343,7 +344,7 @@ public class SelectScriptFrame extends JFrame implements ChangeListener {
 					public void run() {
 						try {
 							// 逐行读取
-							while ((tmp1 = brRead.readLine()) != null
+							while ((tmp1 = readStdout.readLine()) != null
 									|| (tmp2 = readStderr.readLine()) != null) {
 								if (tmp1 != null) {
 									System.out.println(tmp1);

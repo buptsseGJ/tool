@@ -1,148 +1,38 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE reports SYSTEM "standard.dtd">
 <reports>
-	<report name="testRace1">
-
-		
-		
-		
-		
-	
+<report name="yusfyuds">
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<race>
-<line1>111</line1>
-<line2>1111</line2>
-<variable/>
-<packageClass>1111</packageClass>
-<detail/>
-</race>
-<race>
-<line1>22</line1>
-<line2>22</line2>
-<variable>222</variable>
-<packageClass>22</packageClass>
-<detail/>
-</race>
-<race>
-<line1>42</line1>
-<line2>46</line2>
-<variable>x</variable>
-<packageClass>testRace.TestRace3</packageClass>
-<detail><![CDATA[
-修改Race: <testRace.TestRace3: void main(java.lang.String[])>|$i0 = <testRace.TestRace3: int x>|46 - <testRace.TestRace3$1: void run()>|<testRace.TestRace3: int x> = $i1|42
-Race: <testRace.TestRace3: void main(java.lang.String[])>|<testRace.TestRace3: int x> = $i1|46 - <testRace.TestRace3$1: void run()>|<testRace.TestRace3: int x> = $i1|42
-Race: <testRace.TestRace3$1: void run()>|$i0 = <testRace.TestRace3: int x>|42 - <testRace.TestRace3: void main(java.lang.String[])>|<testRace.TestRace3: int x> = $i1|46
-				]]></detail>
-</race>
-<race>
-<line1>1</line1>
-<line2>2</line2>
-<variable>y</variable>
-<packageClass>x</packageClass>
-<detail><![CDATA[xxxxxxx]]></detail>
-</race>
-</report>
-	<report name="testRace3">
-		
-	
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<race>
-<line1>22</line1>
-<line2>22</line2>
-<variable>22</variable>
-<packageClass>222</packageClass>
-<detail><![CDATA[2222]]></detail>
-</race>
-<race>
-<line1>44</line1>
-<line2>44</line2>
-<variable>44</variable>
-<packageClass>444</packageClass>
-<detail><![CDATA[4444]]></detail>
-</race>
-<race>
-<line1>42</line1>
-<line2>46</line2>
-<variable>x</variable>
-<packageClass>testRace.TestRace3</packageClass>
-<detail><![CDATA[
-					Race: <testRace.TestRace3: void main(java.lang.String[])>|$i0 = <testRace.TestRace3: int x>|46 - <testRace.TestRace3$1: void run()>|<testRace.TestRace3: int x> = $i1|42
-					Race: <testRace.TestRace3: void main(java.lang.String[])>|<testRace.TestRace3: int x> = $i1|46 - <testRace.TestRace3$1: void run()>|<testRace.TestRace3: int x> = $i1|42
-					Race: <testRace.TestRace3$1: void run()>|$i0 = <testRace.TestRace3: int x>|42 - <testRace.TestRace3: void main(java.lang.String[])>|<testRace.TestRace3: int x> = $i1|46
-				]]></detail>
-</race>
 <race>
 <line1>33</line1>
-<line2>33</line2>
-<variable>33</variable>
-<packageClass>3333</packageClass>
-<detail><![CDATA[33333]]></detail>
+<line2>132</line2>
+<variable/>
+<packageClass>sdfdsf</packageClass>
+<detail/>
 </race>
 <race>
-<line1>11</line1>
-<line2>11</line2>
+<line1>22</line1>
+<line2>212</line2>
 <variable/>
-<packageClass>111123132</packageClass>
+<packageClass>wqeqw</packageClass>
+<detail/>
+</race>
+</report>
+<report name="sdsd">
+<race>
+<line1>223</line1>
+<line2>1232</line2>
+<variable/>
+<packageClass>sd</packageClass>
+<detail/>
+</race>
+<race>
+<line1>2</line1>
+<line2>222</line2>
+<variable/>
+<packageClass>sdfs</packageClass>
 <detail/>
 </race>
 </report>

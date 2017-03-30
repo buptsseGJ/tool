@@ -10,18 +10,20 @@ public class Race {
 	public Race(String line1, String line2, String variable,
 			String packageClass, String detail) {
 		super();
-		if(Integer.parseInt(line1)>Integer.parseInt(line2)) {
-			this.line1 = line2;
-			this.line2 = line1;
-		}else {
-			this.line1 = line1;
-			this.line2 = line2;
-		}
+		this.line1 = line1;
+		this.line2 = line2;
 		this.variable = variable;
 		this.packageClass = packageClass;
 		this.detail = detail;
 	}
 
+	public void Update(){
+		if(Integer.parseInt(this.line1)>Integer.parseInt(this.line2)) {
+			String temp = this.line1;
+			this.line1 = this.line2;
+			this.line2 = temp;
+		}
+	}
 	public Race(String line1, String line2) {
 		this.line1 = line1;
 		this.line2 = line2;

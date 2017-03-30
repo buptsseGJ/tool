@@ -78,7 +78,7 @@ public class ParseXml {
 		return doc;
 	}
     public void addElement(Document doc, String id, Race race) {
-    	deleteElement(doc, id, race);
+//    	deleteElement(doc, id, race);
     	Element report = doc.getElementById(id);    	
     	Element raceElement = doc.createElement("race");
     	Element line1Element = doc.createElement("line1");
@@ -96,6 +96,13 @@ public class ParseXml {
     	raceElement.appendChild(variableElement);
     	raceElement.appendChild(packageClassElement);
     	raceElement.appendChild(detailElement);
+    	if(report == null){
+    		report = doc.createElement("report");
+    		report.setAttribute("name", id);
+    		report.setIdAttribute("name", true);
+    		Element root = doc.getDocumentElement();
+    		root.appendChild(report);
+    	}
     	report.appendChild(raceElement);
     }
     

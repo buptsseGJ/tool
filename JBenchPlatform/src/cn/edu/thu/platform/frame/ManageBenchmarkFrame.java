@@ -27,6 +27,8 @@ import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Set;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 import javax.swing.Icon;
 import javax.swing.JButton;
@@ -218,14 +220,15 @@ public class ManageBenchmarkFrame extends JFrame  implements MouseListener,Actio
 				if(curClick_X>0&&curClick_Y>0) {
 					TreePath path = treetable.getPathForLocation(curClick_X,curClick_Y);
 					DefaultMutableTreeTableNode curNode = (DefaultMutableTreeTableNode) path.getLastPathComponent();
-					if(!curNode.isLeaf()) {
+					String name = ((MyTreeTableNode)curNode.getUserObject()).getName();
+					if(name.indexOf("UseCase")>=0) {
 						int nodeNum = curNode.getParent().getChildCount();
-						MyTreeTableNode leaf = new MyTreeTableNode("UseCase"+(nodeNum));
+						MyTreeTableNode leaf = new MyTreeTableNode("UseCase_"+(nodeNum));
 						DefaultMutableTreeTableNode tmp = new DefaultMutableTreeTableNode(leaf);
 						((DefaultMutableTreeTableNode) path.getParentPath().getLastPathComponent()).add(tmp);
 					}else {
 						int nodeNum = curNode.getParent().getParent().getChildCount();
-						MyTreeTableNode leaf = new MyTreeTableNode("UseCase"+(nodeNum));
+						MyTreeTableNode leaf = new MyTreeTableNode("UseCase_"+(nodeNum));
 						DefaultMutableTreeTableNode tmp = new DefaultMutableTreeTableNode(leaf);
 						((DefaultMutableTreeTableNode) path.getParentPath().getParentPath().getLastPathComponent()).add(tmp);
 					}
@@ -242,7 +245,8 @@ public class ManageBenchmarkFrame extends JFrame  implements MouseListener,Actio
 				if(curClick_X>0&&curClick_Y>0) {
 					TreePath path = treetable.getPathForLocation(curClick_X,curClick_Y);
 					DefaultMutableTreeTableNode curNode = (DefaultMutableTreeTableNode) path.getLastPathComponent();
-					if(!curNode.isLeaf()) {
+					String name = ((MyTreeTableNode)curNode.getUserObject()).getName();
+					if(name.indexOf("UseCase")>=0) {
 						int nodeNum = curNode.getChildCount();
 						String parentID = ((MyTreeTableNode)curNode.getUserObject()).getName();
 						MyTreeTableNode leaf = new MyTreeTableNode("race"+(parentID.substring(8,9))+"_"+(nodeNum+1));
@@ -310,6 +314,9 @@ public class ManageBenchmarkFrame extends JFrame  implements MouseListener,Actio
 		Map<String,Set<Race>> reports = new HashMap<String,Set<Race>>();
 		TreePath rootPath = treetable.getPathForLocation(0, 0).getParentPath();
 		DefaultMutableTreeTableNode rootNode = (DefaultMutableTreeTableNode)rootPath.getLastPathComponent();
+
+		treetable.expandAll();
+		
 		int caseNum = rootNode.getChildCount();
 		for(int i=0;i<caseNum;i++) {
 			pathIndex++;
@@ -329,6 +336,7 @@ public class ManageBenchmarkFrame extends JFrame  implements MouseListener,Actio
 				break;
 			}else {
 				Set<Race> races = new HashSet<Race>();
+				System.out.println(((DefaultMutableTreeTableNode)  treetable.getPathForRow(pathIndex-1).getLastPathComponent()).getUserObject());
 				DefaultMutableTreeTableNode curUseCaseNode = (DefaultMutableTreeTableNode)  treetable.getPathForRow(pathIndex-1).getLastPathComponent();
 				for(int j=0;j<curUseCaseNode.getChildCount();j++) {
 					pathIndex++;
@@ -344,6 +352,7 @@ public class ManageBenchmarkFrame extends JFrame  implements MouseListener,Actio
 						isSave = false;
 						break;
 					}else {
+						newRace.Update();//调整race的行号，让小的在前面
 						//判断是否与已确认的Race重复
 						Iterator it = races.iterator();
 						while(it.hasNext()){
@@ -378,7 +387,6 @@ public class ManageBenchmarkFrame extends JFrame  implements MouseListener,Actio
 //				((DefaultMutableTreeTableNode)rootNode.getChildAt(i)).removeFromParent();
 //			}
 //			treetable.updateUI();
-			
 			//从内存中将所有的Element删除
 			ParseXml parse = new ParseXml();
 			DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
@@ -400,6 +408,7 @@ public class ManageBenchmarkFrame extends JFrame  implements MouseListener,Actio
 					}
 				}
 			}
+			
 			Iterator<Entry<String, Set<Race>>> iter = reports.entrySet().iterator();
 			while (iter.hasNext()) {	
 //				try {
@@ -412,8 +421,8 @@ public class ManageBenchmarkFrame extends JFrame  implements MouseListener,Actio
 				String tmpCaseName = entry.getKey();
 				Iterator<Race> it = tmpRaces.iterator();
 				while (it.hasNext()) {
+					parse.addElement(doc,tmpCaseName, it.next());
 					try {
-						parse.addElement(doc, tmpCaseName, it.next());
 						parse.writeDomToXml(doc);
 					} catch (TransformerException e) {//| SAXException | IOException e) {
 						e.printStackTrace();
@@ -445,6 +454,18 @@ public class ManageBenchmarkFrame extends JFrame  implements MouseListener,Actio
 		String line2 = race.getLine2();
 		String variable = race.getVariable();
 		String packageClass = race.getPackageClass();
+		Pattern pattern = Pattern.compile("[0-9]*");
+        Matcher isNum = pattern.matcher(line1);
+        if( !isNum.matches() ){
+        	JOptionPane.showMessageDialog(null, "line1必须是整数，不能包含字母、汉字等字符！");
+            return false;
+        }
+        isNum = pattern.matcher(line2);
+        if( !isNum.matches() ){
+        	JOptionPane.showMessageDialog(null, "line2必须是整数，不能包含字母、汉字等字符！");
+            return false;
+        }
+
 		if(line1.contains("<")||line1.contains(">")||line1.contains("&")||line1.contains("'")||line1.contains("\"")){
 			JOptionPane.showMessageDialog(null, "line1不能包含'<','>','&',''','\"'");
 			return false;
